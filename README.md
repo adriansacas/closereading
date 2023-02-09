@@ -25,28 +25,28 @@ Our website will aim to connect people of all ages and interests with their loca
 ## 3 Models
 
 - [ ] Books
-- - Instances: 25,000
-- - Attributes: name, author, number of pages, publisher, NYT best-seller status, award winner
-- - Media: Cover page, book reviews, purchase link, similar books
-- - Connection to other models: have an author; located in libraries
+    - Instances: 25,000
+    - Attributes: name, author, number of pages, publisher, NYT best-seller status, award winner
+    - Media: Cover page, book reviews, purchase link, similar books
+    - Connection to other models: have an author; located in libraries
 - [ ] Authors
-- - Instances: 5,000
-- - Attributes: Name, age, gender, ethnicity, number of publications
-- - Media: Profile photo, authors in the same genre, author bio, average rating for the author
-- - Connection to other models: have written books; have their books located in libraries
+    - Instances: 5,000
+    - Attributes: Name, age, gender, ethnicity, number of publications
+    - Media: Profile photo, authors in the same genre, author bio, average rating for the author
+    - Connection to other models: have written books; have their books located in libraries
 - [ ] Libraries
-- - Instances: 1,000
-- - Attributes: Location, name, size of collection, rating, university library
-- - Media: map, image of library, nearby libraries
-- - Connection to other models: have books; have authors who house multiple books
+    - Instances: 1,000
+    - Attributes: Location, name, size of collection, rating, university library
+    - Media: map, image of library, nearby libraries
+    - Connection to other models: have books; have authors who house multiple books
 
 
 # Organizational Techqnique
 - [ ] Traditional organization: one page per model
 
 ## Questions our Site will Answer
-- 1.  Which library collections near me contain the book I’m interested in?
-- 2. What are the reviews for a book I am interested in?
-- 3. What are all of the other books this author has written?
-- 4. What books and authors are similar to what I’m reading?
+1. Which library collections near me contain the book I’m interested in?
+2. What are the reviews for a book I am interested in?
+3. What are all of the other books this author has written?
+4. What books and authors are similar to what I’m reading?
 
