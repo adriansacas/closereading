@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "d0935071-f4e2-4785-aabb-5167b22112a0",
+		"name": "CloseReading API",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests a user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25779056"
+	},
+	"item": [
+		{
+			"name": "All books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/books",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"books"
+					]
+				},
+				"description": "Get all books"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/books",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "All books",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "books: [\n    {\n        \"name\":,\n        \"author\": ,\n        \"pages\": ,\n        \"publisher\": ,\n        \"NYT Best-seller\": ,\n    }\n]"
+						},
+						"url": {
+							"raw": "https://api.closereading.me/books",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"books"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "All authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/authors",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"authors"
+					]
+				},
+				"description": "Get all authors"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/authors",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"authors"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "All libraries",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/libraries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"libraries"
+					]
+				},
+				"description": "Get all libraries"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/libraries",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"libraries"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Books filtered by Column",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/books?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Books filtered by column "
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/books?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Authors filtered by Column",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/authors?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"authors"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Authors filtered by column "
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/authors?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"authors"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Libraries filtered by Column",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.closereading.me/libraries?filter_name=filter_value",
+					"protocol": "https",
+					"host": [
+						"api",
+						"closereading",
+						"me"
+					],
+					"path": [
+						"libraries"
+					],
+					"query": [
+						{
+							"key": "filter_name",
+							"value": "filter_value"
+						}
+					]
+				},
+				"description": "Libraries filtered by column "
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.closereading.me/libraries?filter_name=filter_value",
+							"protocol": "https",
+							"host": [
+								"api",
+								"closereading",
+								"me"
+							],
+							"path": [
+								"libraries"
+							],
+							"query": [
+								{
+									"key": "filter_name",
+									"value": "filter_value"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	]
+}
