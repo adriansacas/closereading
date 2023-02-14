@@ -2,11 +2,13 @@ import './App.css';
 
 import React from "react";
 import RouteSwitch from "./RouteSwitch";
+import GlobalNavBar from "./components/GlobalNavBar/GlobalNavBar";
 
 function App() {
   return (
       <div>
-        <RouteSwitch></RouteSwitch>
+          <RouteSwitch></RouteSwitch>
+          <GlobalNavBar></GlobalNavBar>
       </div>
   );
 
