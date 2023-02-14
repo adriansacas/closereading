@@ -1,0 +1,29 @@
+[
+    {
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "number_of_pages": "281",
+        "publisher": "J. B. Lippincott & Co.",
+        "NYT_best_seller": "yes",
+        "award_winner": "yes"
+    },
+  
+    {
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "number_of_pages": "208",
+        "publisher": "Charles Scribner's Sons",
+        "NYT_best_seller": "no",
+        "award_winner": "no"
+    },
+  
+    {
+        "name": "Frankenstein",
+        "author": "Mary Shelley",
+        "number_of_pages": "280",
+        "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+        "NYT_best_seller": "no",
+        "award_winner": "no"
+    }
+  ]
+  
