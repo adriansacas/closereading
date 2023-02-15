@@ -1,18 +1,18 @@
-// import SumayaAvatar from "../assets/avatars/sumaya.png";
+import SumayaAvatar from "../assets/avatars/sumaya.jpg";
 // import PeterAvatar from "../assets/avatars/peter.png";
 // import NiyatiAvatar from "../assets/avatars/niyati.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
-import NiyatiAvatar from "../assets/avatars/Niyati.png";
+import NiyatiAvatar from "../assets/avatars/Niyati.jpg";
 
 const teamInfo = [
   {
     name: "Sumaya Al-Bedaiwi",
     gitlab_username: "salbedaiwi",
     email: "email",
-    // image: SumayaAvatar,
+    image: SumayaAvatar,
     role: "Fullstack",
-    bio: "My bio.",
+    bio: "I'm a third-year computer science major with an education certificate. I love embroidery, hanging out with my friends, trying new foods, and all things Star Wars.",
     commits: 0,
     issues: 0,
     unit_tests: 0,
