@@ -1,10 +1,13 @@
 import React from "react";
+import BookCard from "../components/Cards/BookCard";
+import Stack from "react-bootstrap/Stack";
+
 
 const Books = () => {
     return (
-        <div>
-            <h1>Books Page</h1>
-        </div>
+        <Stack>
+            <BookCard />
+        </Stack>
     );
 };
 

@@ -1,10 +1,13 @@
 import React from "react";
+import AuthorCard from "../components/Cards/AuthorCard";
+import Stack from "react-bootstrap/Stack";
+
 
 const Authors = () => {
     return (
-        <div>
-            <h1>Authors Page</h1>
-        </div>
+        <Stack>
+            <AuthorCard />
+        </Stack>
     );
 };
 
