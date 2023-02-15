@@ -5,7 +5,8 @@
         "collection_size": "8 million",
         "facility": "University",
         "rating": "4.5",
-        "id": 1
+        "id": 1,
+        "picture": "https://lh3.googleusercontent.com/p/AF1QipO8mWsk3u86XMGYGued6yUzgTB1MtkwvDTRlw3N=s0"
     },
   
     {
@@ -14,7 +15,8 @@
         "collection_size": "49,029",
         "facility": "Public",
         "rating": "4.8",
-        "id": 2
+        "id": 2,
+        "picture": "https://lh3.googleusercontent.com/p/AF1QipNqnO47FO8BgZritOUTjJ35kAnax-9DhfbARg2V=s0"
     },
   
     {
@@ -23,7 +25,8 @@
         "collection_size": "n/a",
         "facility": "Hospital",
         "rating": "3.0",
-        "id": 3
+        "id": 3,
+        "picture": "https://lh5.googleusercontent.com/p/AF1QipPsz24O2FLmBINEOhjnZDDNGjau7n4OS6rb-tv0=s0"
     }
   ]
   

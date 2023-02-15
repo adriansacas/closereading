@@ -11,7 +11,7 @@ const Books = () => {
     return (
         <Stack>
             <Container className="p-4">
-                <h1 className="d-flex justify-content-center p-4 ">Books</h1>
+                <h1 className="d-flex justify-content-center p-4 ">Libraries</h1>
                 <Row md={10} className="p-4 g-4 justify-content-center">
                     {libraryData.map((library) => {
                         return (
