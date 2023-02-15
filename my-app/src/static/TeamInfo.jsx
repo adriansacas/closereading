@@ -1,8 +1,8 @@
 // import SumayaAvatar from "../assets/avatars/sumaya.png";
-// import PeytonAvatar from "../assets/avatars/peyton.png";
 // import PeterAvatar from "../assets/avatars/peter.png";
 // import NiyatiAvatar from "../assets/avatars/niyati.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
+import PeytonAvatar from "../assets/avatars/peyton.jpeg";
 
 const teamInfo = [
   {
@@ -19,10 +19,10 @@ const teamInfo = [
   {
     name: "Peyton Ausburn",
     gitlab_username: "peausburn",
-    email: "email",
-    // image: PeytonAvatar,
+    email: "peausburn@gmail.com",
+    image: PeytonAvatar,
     role: "Fullstack",
-    bio: "My bio.",
+    bio: "I am a third-year computer science major. In my free time, I enjoy baking, working out, and spending time outdoors.",
     commits: 0,
     issues: 0,
     unit_tests: 0,
