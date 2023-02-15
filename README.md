@@ -12,7 +12,7 @@ Peyton Ausburn, Adrian Sanchez Castaneda, Niyati Prabhu, Peter Hwang, Sumaya Al-
 
 ## APIs
 
-- [ ] [Overdrive](https://developer.overdrive.com/apis)
+- [ ] [WorldCat](https://developer.api.oclc.org/library-profiles-api#/)
 - [ ] [NYT Books](https://developer.nytimes.com/docs/books-product/1/overview)
 - [ ] [Google Books](https://developers.google.com/books)
 - [ ] [Wikipedia](https://en.wikipedia.org/api/rest_v1/#/)
@@ -26,17 +26,17 @@ Our website will aim to connect people of all ages and interests with their loca
 
 - [ ] Books
     - Instances: 25,000
-    - Attributes: name, author, number of pages, publisher, NYT best-seller status, award winner
+    - Attributes: name, author, number of pages, publisher, NYT best-seller status, publishing year
     - Media: Cover page, book reviews, purchase link, similar books
     - Connection to other models: have an author; located in libraries
 - [ ] Authors
     - Instances: 5,000
-    - Attributes: Name, age, gender, ethnicity, number of publications
+    - Attributes: Name, age, gender, nationality, number of publications
     - Media: Profile photo, authors in the same genre, author bio, average rating for the author
     - Connection to other models: have written books; have their books located in libraries
 - [ ] Libraries
     - Instances: 1,000
-    - Attributes: Location, name, size of collection, rating, university library
+    - Attributes: Location, name, size of collection, rating, facility type
     - Media: map, image of library, nearby libraries
     - Connection to other models: have books; have authors who house multiple books
 
