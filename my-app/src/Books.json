@@ -3,27 +3,36 @@
         "name": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "number_of_pages": "281",
-        "publising_year": "1960",
+        "publishing_year": "1960",
         "publisher": "J. B. Lippincott & Co.",
-        "NYT_best_seller": "yes"
+        "NYT_best_seller": "yes",
+        "id": 1,
+        "description": "One of the most cherished stories of all time, To Kill a Mockingbird has been translated into more than forty languages, sold more than forty million copies worldwide, served as the basis for an enormously popular motion picture, and was voted one of the best novels of the twentieth century by librarians across the country. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father—a crusading local lawyer—risks everything to defend a black man unjustly accused of a terrible crime.",
+        "cover": "https://img1.od-cdn.com/ImageType-100/0293-1/%7B7734E6F7-90B5-4940-8CE4-5FE2D80DB821%7DImg100.jpg"
     },
   
     {
         "name": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "number_of_pages": "208",
-        "publising_year": "1925",
+        "publishing_year": "1925",
         "publisher": "Charles Scribner's Sons",
-        "NYT_best_seller": "no"
+        "NYT_best_seller": "no",
+        "id": 2,
+        "description": "A true classic of twentieth-century literature, this edition has been updated to include the author's final revisions and features a new introduction by two-time National Book Award winner Jesmyn Ward.\nThe Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. First published in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted \"gin was the national drink and sex the national obsession,\" it is an exquisitely crafted tale of America in the 1920s.",
+        "cover": "https://img1.od-cdn.com/ImageType-100/0439-1/%7BF25FDF56-2D4D-4BAE-9E98-224B4886805F%7DImg100.jpg"
     },
   
     {
         "name": "Frankenstein",
         "author": "Mary Shelley",
         "number_of_pages": "280",
-        "publising_year": "1818",
+        "publishing_year": "1818",
         "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
-        "NYT_best_seller": "no"
+        "NYT_best_seller": "no",
+        "id": 3,
+        "description": "Frankenstein or The Modern Prometheus, was completed by Mary Shelley at the age of 19. She infused this original novel with Gothic and Romantic elements. Scientist Victor Frankenstein creates a large and powerful creature in the likeness of man, but is disgusted by his own creation and he abandons the being to fend for itself. Spawning generations of horror stories in the genre, Frankenstein is a gruesome warning against playing God and attempting the engineering of life.",
+        "cover": "https://img1.od-cdn.com/ImageType-100/2389-1/%7BF54F014B-A64E-4F89-8916-4B5CDE384E80%7DImg100.jpg"
     }
   ]
   
