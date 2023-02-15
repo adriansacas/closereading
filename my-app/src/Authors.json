@@ -4,7 +4,8 @@
         "age": "89",
         "nationality": "American",
         "gender": "Female",
-        "number_of_publications": "2"
+        "number_of_publications": "2",
+        "id": 1
     },
   
     {
@@ -12,7 +13,8 @@
         "age": "44",
         "nationality": "American",
         "gender": "Male",
-        "number_of_publications": "172"
+        "number_of_publications": "172",
+        "id":  2
     },
   
     {
@@ -20,7 +22,8 @@
         "age": "53",
         "nationality": "English",
         "gender": "Female",
-        "number_of_publications": "8"
+        "number_of_publications": "8",
+        "id":  3
     }
   ]
   
