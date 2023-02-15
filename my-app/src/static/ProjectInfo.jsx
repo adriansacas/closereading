@@ -1,6 +1,6 @@
 import ReactLogo from "../assets/logos/react-logo.png";
 import ReactBootstrapLogo from "../assets/logos/react-bootstrap-logo.png";
-import MUILogo from "../assets/logos/mui-logo.png";
+// import MUILogo from "../assets/logos/mui-logo.png";
 import PostmanLogo from "../assets/logos/postman-logo.png";
 import AmplifyLogo from "../assets/logos/amplify-logo.png";
 import GitLabLogo from "../assets/logos/gitlab-logo.png";
