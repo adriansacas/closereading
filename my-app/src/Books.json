@@ -3,27 +3,27 @@
         "name": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "number_of_pages": "281",
+        "publising_year": "1960",
         "publisher": "J. B. Lippincott & Co.",
-        "NYT_best_seller": "yes",
-        "award_winner": "yes"
+        "NYT_best_seller": "yes"
     },
   
     {
         "name": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "number_of_pages": "208",
+        "publising_year": "1925",
         "publisher": "Charles Scribner's Sons",
-        "NYT_best_seller": "no",
-        "award_winner": "no"
+        "NYT_best_seller": "no"
     },
   
     {
         "name": "Frankenstein",
         "author": "Mary Shelley",
         "number_of_pages": "280",
+        "publising_year": "1818",
         "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
-        "NYT_best_seller": "no",
-        "award_winner": "no"
+        "NYT_best_seller": "no"
     }
   ]
   

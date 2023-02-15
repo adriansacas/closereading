@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Perry-Castañeda Library",
+        "location": " 101 E 21st St, Austin, TX 78712",
+        "collection_size": "8 million",
+        "facility": "University",
+        "rating": "4.5"
+    },
+  
+    {
+        "name": "Pflugerville Library",
+        "location": "1008 Pfluger St W, Pflugerville, TX 78660",
+        "collection_size": "49,029",
+        "facility": "Public",
+        "rating": "4.8"
+    },
+  
+    {
+        "name": "Advocate Children's Hospital Library",
+        "location": "1775 Dempster St, Park Ridge, IL 60068",
+        "collection_size": "n/a",
+        "facility": "Hospital",
+        "rating": "3.0"
+    }
+  ]
+  

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Harper Lee",
+        "age": "89",
+        "nationality": "American",
+        "gender": "Female",
+        "number_of_publications": "2"
+    },
+  
+    {
+        "name": "F. Scott Fitzgerlad",
+        "age": "44",
+        "nationality": "American",
+        "gender": "Male",
+        "number_of_publications": "172"
+    },
+  
+    {
+        "name": "Mary Shelley",
+        "age": "53",
+        "nationality": "English",
+        "gender": "Female",
+        "number_of_publications": "8"
+    }
+  ]
+  
