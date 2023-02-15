@@ -15,10 +15,9 @@ const DeveloperCard = (props) => {
     } = props.devInfo;
     return (
         <Card>
-            <Card.Img variant="top" src={image} />
+            <Card.Img variant="top" src={image} alt="Developer's portrait."/>
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
-
                 <Card.Subtitle>@{gitlab_username}</Card.Subtitle>
                 <Card.Text>Role: {role}</Card.Text>
                 <Card.Text>{bio}</Card.Text>
