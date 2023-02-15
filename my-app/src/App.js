@@ -7,8 +7,8 @@ import GlobalNavBar from "./components/GlobalNavBar/GlobalNavBar";
 function App() {
   return (
       <div>
-          <RouteSwitch></RouteSwitch>
           <GlobalNavBar></GlobalNavBar>
+          <RouteSwitch></RouteSwitch>
       </div>
   );
 
