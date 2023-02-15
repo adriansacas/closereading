@@ -3,6 +3,7 @@
 // import NiyatiAvatar from "../assets/avatars/niyati.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
+import NiyatiAvatar from "../assets/avatars/Niyati.HEIC";
 
 const teamInfo = [
   {
@@ -42,9 +43,9 @@ const teamInfo = [
     name: "Niyati Prabhu",
     gitlab_username: "niyatiprabhu",
     email: "email",
-    // image: NiyatiAvatar,
+    image: NiyatiAvatar,
     role: "Fullstack",
-    bio: "My bio.",
+    bio: "I'm a third-year computer science major and art history minor. I love traveling, weight-lifting, drawing, playing French horn.",
     commits: 0,
     issues: 0,
     unit_tests: 0,
