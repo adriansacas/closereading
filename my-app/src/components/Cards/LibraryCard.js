@@ -7,7 +7,7 @@ const LibraryCard = (props) => {
   return (
       <Card border="dark">
         <Card.Body>
-          <Card.Title>Title: {name}</Card.Title>
+          <Card.Title>{name}</Card.Title>
           <Card.Text>Location: {location}</Card.Text>
           <Card.Text>Collection Size: {collection_size}</Card.Text>
           <Card.Text>Facility: {facility}</Card.Text>
