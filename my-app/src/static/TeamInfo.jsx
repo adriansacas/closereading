@@ -2,7 +2,7 @@
 // import PeytonAvatar from "../assets/avatars/peyton.png";
 // import PeterAvatar from "../assets/avatars/peter.png";
 // import NiyatiAvatar from "../assets/avatars/niyati.png";
-// import AdrianAvatar from "../assets/avatars/adrian.png";
+import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 
 const teamInfo = [
   {
@@ -53,9 +53,9 @@ const teamInfo = [
     name: "Adrian Sanchez",
     gitlab_username: "adriansacas",
     email: "adriansc91@utexas.edu",
-    // image: AdrianAvatar,
+    image: AdrianAvatar,
     role: "Fullstack",
-    bio: "My bio.",
+    bio: "I'm a junior computer science student. I like tennis, soccer, baking, and I am learning how to swim.",
     commits: 0,
     issues: 0,
     unit_tests: 0,
