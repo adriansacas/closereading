@@ -105,7 +105,7 @@ const About = () => {
             <Container className="p-4">
                 <h1 className="d-flex justify-content-center p-4 ">What is CloseReading?</h1>
                 <p className="mx-auto">
-                    CloseReading is uh... something for books and libraries.
+                    CloseReading is a website that aims to boost people’s utilization of local libraries by connecting them with libraries which contain the books they seek. People of all ages and walks of life can benefit from this resource - lending books from libraries is a sustainable, affordable practice that should be encouraged.
                 </p>
             </Container>
             <Container className="p-4 bg-dark text-light">
@@ -113,7 +113,7 @@ const About = () => {
                     How It Works
                 </h1>
                 <p className="mx-auto">
-                    We took some stuff and integrated it with other stuff to make a bigger stuff.
+                    CloseReading integrates data from pubic libraries, bookstores, and wikipedia to present avid readers with information on where to find their favorite books.
                 </p>
             </Container>
             <Container className="p-4">
