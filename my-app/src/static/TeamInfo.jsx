@@ -1,9 +1,8 @@
 import SumayaAvatar from "../assets/avatars/sumaya.jpg";
 // import PeterAvatar from "../assets/avatars/peter.png";
-// import NiyatiAvatar from "../assets/avatars/niyati.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
-import NiyatiAvatar from "../assets/avatars/Niyati.jpg";
+import NiyatiAvatar from "../assets/avatars/niyati.jpg";
 
 const teamInfo = [
   {
