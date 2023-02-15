@@ -1,0 +1,11 @@
+image: node:node:18.14.0
+
+stages:
+  - build
+
+build-code-job:
+  stage: build
+  script:
+    - cd my-app
+    - yarn install
+    - yarn run build
