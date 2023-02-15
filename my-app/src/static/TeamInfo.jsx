@@ -3,7 +3,7 @@
 // import NiyatiAvatar from "../assets/avatars/niyati.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
-import NiyatiAvatar from "../assets/avatars/Niyati.HEIC";
+import NiyatiAvatar from "../assets/avatars/Niyati.png";
 
 const teamInfo = [
   {
