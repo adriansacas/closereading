@@ -1,3 +1,4 @@
+// Code pulled from: GeoJobs https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/main/front-end/src/components/Cards/PageCard.jsx
 import React from "react";
 import Button from "react-bootstrap/Button";
 
