@@ -11,6 +11,7 @@ import Books from "./views/Books";
 import Book from "./views/Book";
 import Libraries from "./views/Libraries";
 import Authors from "./views/Authors";
+import Author from "./views/Author";
 
 const RouteSwitch = () => {
   return (
@@ -22,6 +23,7 @@ const RouteSwitch = () => {
           <Route path = '/book/:id' element={<Book />} />
           <Route path = '/libraries' element={<Libraries />} />
           <Route path = '/authors' element={<Authors />} />
+          <Route path = '/author/:id' element={<Author />} />
         </Routes>
       </Router>
   );
