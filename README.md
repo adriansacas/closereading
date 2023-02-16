@@ -42,6 +42,6 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 | Adrian Sanchez | 5 | 10 |
 
 ### Comments
-no comments 
+Some structure and code was based on https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/
 
 
