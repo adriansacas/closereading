@@ -36,7 +36,7 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 |----------------|-----------|--------|
 | Sumaya Al-Bedaiwi | 5 | 7 |
 | Peyton Ausburn | 5 | 7 |
-| Peter Hwang    | @petersh0317 | --- |
+| Peter Hwang    | 5 | 8 |
 | Niyati Prabhu  | 5 | 10 |
 | Adrian Sanchez | 5 | 10 |
 
