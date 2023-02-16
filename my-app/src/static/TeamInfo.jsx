@@ -1,8 +1,11 @@
+// Based on: https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/front-end/src/static/TeamInfo.jsx
 import SumayaAvatar from "../assets/avatars/sumaya.jpg";
 // import PeterAvatar from "../assets/avatars/peter.png";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
 import NiyatiAvatar from "../assets/avatars/niyati.jpg";
+
+// inspired by TexasVotes project. https://gitlab.com/forbesye/fitsbits/-/blob/master/front-end/src/views/About/AboutInfo.js
 
 const teamInfo = [
   {
