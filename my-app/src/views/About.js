@@ -12,6 +12,7 @@ import Container from "react-bootstrap/Container";
 import Stack from "react-bootstrap/Stack";
 import ToolCard from "../components/Cards/ToolCard";
 import APICard from "../components/Cards/APICard";
+import {Link} from "react-router-dom";
 
 const client = axios.create({
     baseURL: "https://gitlab.com/api/v4/",
@@ -157,6 +158,9 @@ const About = () => {
                         <h2>Total Tests: {totalTests}</h2>
                     </Col>
                 </Row>
+                <h3 className="d-flex justify-content-center p-4">
+                    <Link to={"https://documenter.getpostman.com/view/25779056/2s93CExciw"}>Postman Documentation</Link>
+                </h3>
             </Container>
             <Container className="p-4">
                 <h1 className="d-flex justify-content-center p-4 ">Tools</h1>

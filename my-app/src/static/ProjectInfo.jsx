@@ -7,8 +7,7 @@ import GitLabLogo from "../assets/logos/gitlab-logo.png";
 import ZoomLogo from "../assets/logos/zoom-logo.png";
 import NamecheapLogo from "../assets/logos/namecheap-logo.png";
 import WebstormLogo from "../assets/logos/webstorm-logo.png";
-
-import GoogleMapsLogo from "../assets/logos/googlemaps-logo.png";
+// import GoogleMapsLogo from "../assets/logos/googlemaps-logo.png";
 
 const toolInfo = [
   {
@@ -68,13 +67,13 @@ const toolInfo = [
 ];
 
 const apiInfo = [
-  {
-    title: "Google Maps API",
-    image: GoogleMapsLogo,
-    description:
-      "Google Maps API is a geographic interface with transportation route times and apartment address information.",
-    link: "https://developers.google.com/maps",
-  },
+  // {
+  //   title: "Google Maps API",
+  //   image: GoogleMapsLogo,
+  //   description:
+  //     "Google Maps API is a geographic interface with transportation route times and apartment address information.",
+  //   link: "https://developers.google.com/maps",
+  // },
   {
     title: "GitLab API",
     image: GitLabLogo,
