@@ -50,4 +50,6 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 ### Comments
 Some structure and code was based on https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/
 
+Unfortunately, customer user stories were not submitted to our issue board in time. Therefore, we were unable to complete that part of the project.
+
 
