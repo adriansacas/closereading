@@ -30,8 +30,7 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 ## Phase I
 
 ### Git SHA
-f92313d1288311a60e382259b378edd61c8fdf29
-
+af74a7f3a5ba4364977dc7dc4a9981905dc26430
 
 ### Completion Time
 | Name           | Est Completion Time | Actual Completion Time |
