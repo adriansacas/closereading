@@ -1,3 +1,4 @@
+// Based on https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/front-end/src/views/About.jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
