@@ -32,13 +32,13 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 ### Git SHA
 
 ### Completion Time
-| Name | Est Completion Time | Actual Completion Time |
-|------|-----------|--------|
+| Name           | Est Completion Time | Actual Completion Time |
+|----------------|-----------|--------|
 | Sumaya Al-Bedaiwi | 5 | 7 |
 | Peyton Ausburn | 5 | 7 |
-| Peter Hwang | @petersh0317 | --- |
-| Niyati Prabhu | 5 | 10 |
-| Adrian Sanchez | --- | --- |
+| Peter Hwang    | @petersh0317 | --- |
+| Niyati Prabhu  | 5 | 10 |
+| Adrian Sanchez | 5 | 10 |
 
 ### Comments
 no comments 
