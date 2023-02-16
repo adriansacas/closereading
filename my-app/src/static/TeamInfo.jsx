@@ -1,6 +1,6 @@
 // Based on: https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/front-end/src/static/TeamInfo.jsx
 import SumayaAvatar from "../assets/avatars/sumaya.jpg";
-// import PeterAvatar from "../assets/avatars/peter.png";
+import PeterAvatar from "../assets/avatars/peter.jpeg";
 import AdrianAvatar from "../assets/avatars/adrian.jpeg";
 import PeytonAvatar from "../assets/avatars/peyton.jpeg";
 import NiyatiAvatar from "../assets/avatars/niyati.jpg";
@@ -34,9 +34,9 @@ const teamInfo = [
     name: "Peter Hwang",
     gitlab_username: "petersh0317",
     email: "petersh0317@utexas.edu",
-    // image: PeterAvatar,
+    image: PeterAvatar,
     role: "Fullstack",
-    bio: "My bio.",
+    bio: "I am a third-year Computer Science major. I enjoy practicing judo and working out. I am currently also developing a 3D game.",
     commits: 0,
     issues: 0,
     unit_tests: 0,
