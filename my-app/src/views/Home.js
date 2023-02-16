@@ -1,7 +1,6 @@
 // Code pulled from: GeoJobs https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/main/front-end/src/views/Home.jsx
 
 import React from "react";
-import Image from "react-bootstrap/Image";
 import Background from "../assets/home-page.jpeg";
 import Container from "react-bootstrap/Container";
 import { pageInfo } from "../static/PageInfo";
