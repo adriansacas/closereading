@@ -1,1 +1,1020 @@
-{"kind": "books#volumes", "totalItems": 7940, "items": [{"kind": "books#volume", "id": "p5qar3j-cx4C", "etag": "O0GXO1Hxx5o", "selfLink": "https://www.googleapis.com/books/v1/volumes/p5qar3j-cx4C", "volumeInfo": {"title": "The Musicalization of Fiction", "subtitle": "A Study in the Theory and History of Intermediality", "authors": ["Werner Wolf"], "publisher": "Rodopi", "publishedDate": "1999", "description": "This volume is a pioneering study in the theory and history of the imitation of music in fiction and constitutes an important contribution to current intermediality research. Starting with a comparison of basic similarities and differences between literature and music, the study goes on to provide outlines of a general theory of intermediality and its fundamental forms, in which a more specialized theory of the musicalization of (narrative) literature based on contemporary narratology and a typology of the forms of musico-literary intermediality are embedded. It also addresses the question of how to recognize a musicalized fiction when reading one and why Sterne's Tristram Shandy, contrary to what has been previously said, is not to be regarded as a musicalized fiction. In its historical part, the study explores forms and functions of experiments with the musicalization of fiction in English literature. After a survey of the major preconditions for musicalization - the increasing appreciation of music in 18th and 19th-century aesthetics and its main causes - exemplary fictional texts from romanticism to postmodernism are analyzed. Authors interpreted are De Quincey, Joyce, Woolf, A. Huxley, Beckett, Burgess and Josipovici. Whilst the limitations of a transposition of music into fiction remain apparent, experiments in this field yield valuable insights into mainly a-mimetic and formalist aesthetic tendencies in the development of more recent fiction as a whole and also show to what extent traditional conceptions of music continue to influence the use of this medium in literature. The volume is of relevance for students and scholars of English, comparative and general literature as well as for readers who take an interest in intermediality or interart research.", "industryIdentifiers": [{"type": "ISBN_10", "identifier": "9042004576"}, {"type": "ISBN_13", "identifier": "9789042004573"}], "readingModes": {"text": false, "image": true}, "pageCount": 292, "printType": "BOOK", "categories": ["Literary Criticism"], "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "1.3.5.0.preview.1", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=p5qar3j-cx4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=p5qar3j-cx4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=p5qar3j-cx4C&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=1&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 10.63, "currencyCode": "USD"}, "retailPrice": {"amount": 8.5, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C&rdid=book-p5qar3j-cx4C&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 10630000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 8500000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": false}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/The_Musicalization_of_Fiction-sample-pdf.acsm?id=p5qar3j-cx4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=p5qar3j-cx4C&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "This volume is a pioneering study in the theory and history of the imitation of music in fiction and constitutes an important contribution to current intermediality research."}}, {"kind": "books#volume", "id": "CK-K28AUwr8C", "etag": "55mgxDGtbMo", "selfLink": "https://www.googleapis.com/books/v1/volumes/CK-K28AUwr8C", "volumeInfo": {"title": "How Fiction Works", "authors": ["James Wood"], "publisher": "Farrar, Straus and Giroux", "publishedDate": "2008-07-22", "description": "What makes a story a story? What is style? What's the connection between realism and real life? These are some of the questions James Wood answers in How Fiction Works, the first book-length essay by the preeminent critic of his generation. Ranging widely\u2014from Homer to David Foster Wallace, from What Maisie Knew to Make Way for Ducklings\u2014Wood takes the reader through the basic elements of the art, step by step. The result is nothing less than a philosophy of the novel\u2014plainspoken, funny, blunt\u2014in the traditions of E. M. Forster's Aspects of the Novel and Strunk and White's The Elements of Style. It sums up two decades of insight with wit and concision. It will change the way you read.", "industryIdentifiers": [{"type": "ISBN_10", "identifier": "1429908653"}, {"type": "ISBN_13", "identifier": "9781429908658"}], "readingModes": {"text": true, "image": false}, "pageCount": 288, "printType": "BOOK", "categories": ["Language Arts & Disciplines"], "averageRating": 3.5, "ratingsCount": 27, "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "1.8.9.0.preview.2", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=CK-K28AUwr8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=CK-K28AUwr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=CK-K28AUwr8C&pg=PP1&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=2&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 11.99, "currencyCode": "USD"}, "retailPrice": {"amount": 11.99, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C&rdid=book-CK-K28AUwr8C&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 11990000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 11990000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/How_Fiction_Works-sample-epub.acsm?id=CK-K28AUwr8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=CK-K28AUwr8C&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "In the tradition of E. M. Forster&#39;s Aspects of the Novel and Milan Kundera&#39;s The Art of the Novel, James Wood&#39;s How Fiction Works is a scintillating study of the magic of fiction--an analysis of its main elements and a celebration of its ..."}}, {"kind": "books#volume", "id": "AqgTPo_L9OwC", "etag": "cqI2DsAyHmM", "selfLink": "https://www.googleapis.com/books/v1/volumes/AqgTPo_L9OwC", "volumeInfo": {"title": "University Fiction", "authors": ["David Bevan"], "publisher": "Rodopi", "publishedDate": "1990", "industryIdentifiers": [{"type": "ISBN_10", "identifier": "9051832346"}, {"type": "ISBN_13", "identifier": "9789051832341"}], "readingModes": {"text": false, "image": true}, "pageCount": 180, "printType": "BOOK", "categories": ["Social Science"], "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "0.2.5.0.preview.1", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=AqgTPo_L9OwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=AqgTPo_L9OwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=AqgTPo_L9OwC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=3&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 10.63, "currencyCode": "USD"}, "retailPrice": {"amount": 8.5, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC&rdid=book-AqgTPo_L9OwC&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 10630000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 8500000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": false}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/University_Fiction-sample-pdf.acsm?id=AqgTPo_L9OwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=AqgTPo_L9OwC&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}}, {"kind": "books#volume", "id": "DcnxgVf-Q5QC", "etag": "1g8tMhfE6yI", "selfLink": "https://www.googleapis.com/books/v1/volumes/DcnxgVf-Q5QC", "volumeInfo": {"title": "Such Stuff as Dreams", "subtitle": "The Psychology of Fiction", "authors": ["Keith Oatley"], "publisher": "John Wiley & Sons", "publishedDate": "2011-07-05", "description": "Such Stuff as Dreams: The Psychology of Fiction explores how fiction works in the brains and imagination of both readers and writers. Demonstrates how reading fiction can contribute to a greater understanding of, and the ability to change, ourselves Informed by the latest psychological research which focuses on, for example, how identification with fictional characters occurs, and how literature can improve social abilities Explores traditional aspects of fiction, including character, plot, setting, and theme, as well as a number of classic techniques, such as metaphor, metonymy, defamiliarization, and cues Includes extensive end-notes, which ground the work in psychological studies Features excerpts from fiction which are discussed throughout the text, including works by William Shakespeare, Jane Austen, Kate Chopin, Anton Chekhov, James Baldwin, and others", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9781119973539"}, {"type": "ISBN_10", "identifier": "1119973538"}], "readingModes": {"text": true, "image": true}, "pageCount": 290, "printType": "BOOK", "categories": ["Psychology"], "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "0.6.5.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=DcnxgVf-Q5QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=DcnxgVf-Q5QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=DcnxgVf-Q5QC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=4&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 25, "currencyCode": "USD"}, "retailPrice": {"amount": 25, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC&rdid=book-DcnxgVf-Q5QC&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 25000000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 25000000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Such_Stuff_as_Dreams-sample-epub.acsm?id=DcnxgVf-Q5QC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Such_Stuff_as_Dreams-sample-pdf.acsm?id=DcnxgVf-Q5QC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=DcnxgVf-Q5QC&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Drawing on an idea originally developed by a variety of historical literary figures including William Shakespeare, in this ground-breaking work Oatley richly illustrates how fiction is not simply a slice of life, pure entertainment, or an ..."}}, {"kind": "books#volume", "id": "2ARGkva5UskC", "etag": "vFH3HXoZBC0", "selfLink": "https://www.googleapis.com/books/v1/volumes/2ARGkva5UskC", "volumeInfo": {"title": "Essentials of the Theory of Fiction", "authors": ["Michael J. Hoffman", "Patrick D. Murphy"], "publisher": "Duke University Press", "publishedDate": "2005-06-15", "description": "What accounts for the power of stories to both entertain and illuminate? This question has long compelled the attention of storytellers and students of literature alike, and over the past several decades it has opened up broader dialogues about the nature of culture and interpretation. This third edition of the bestselling Essentials of the Theory of Fiction provides a comprehensive view of the theory of fiction from the nineteenth century through modernism and postmodernism to the present. It offers a sample of major theories of fictional technique while emphasizing recent developments in literary criticism. The essays cover a variety of topics, including voice, point of view, narration, sequencing, gender, and race. Ten new selections address issues such as oral memory in African American fiction, temporality, queer theory, magical realism, interactive narratives, and the effect of virtual technologies on literature. For students and generalists alike, Essentials of the Theory of Fiction is an invaluable resource for understanding how fiction works. Contributors. M. M. Bakhtin, John Barth, Roland Barthes, Wayne Booth, John Brenkman, Peter Brooks, Catherine Burgass, Seymour Chatman, J. Yellowlees Douglas, Rachel Blau DuPlessis, Wendy B. Faris, Barbara Foley, E. M. Forster, Joseph Frank, Joanne S. Frye, William H. Gass, Henry Louis Gates Jr., G\u00e9rard Genette, Ursula K. Heise, Michael J. Hoffman, Linda Hutcheon, Henry James, Susan S. Lanser, Helen Lock, Georg Luk\u00e1cs, Patrick D. Murphy, Ruth Ronen, Joseph Tabbi, Jon Thiem, Tzvetan Todorov, Virginia Woolf", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780822386599"}, {"type": "ISBN_10", "identifier": "0822386593"}], "readingModes": {"text": true, "image": true}, "pageCount": 520, "printType": "BOOK", "categories": ["Literary Criticism"], "averageRating": 5, "ratingsCount": 1, "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "0.0.3.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=2ARGkva5UskC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=2ARGkva5UskC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=2ARGkva5UskC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=5&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 33.95, "currencyCode": "USD"}, "retailPrice": {"amount": 18.33, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC&rdid=book-2ARGkva5UskC&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 33950000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 18330000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Essentials_of_the_Theory_of_Fiction-sample-epub.acsm?id=2ARGkva5UskC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Essentials_of_the_Theory_of_Fiction-sample-pdf.acsm?id=2ARGkva5UskC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=2ARGkva5UskC&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "This third edition of the bestselling Essentials of the Theory of Fiction provides a comprehensive view of the theory of fiction from the nineteenth century through modernism and postmodernism to the present."}}, {"kind": "books#volume", "id": "ODt1FIL2lrwC", "etag": "pHhpgk7B7hI", "selfLink": "https://www.googleapis.com/books/v1/volumes/ODt1FIL2lrwC", "volumeInfo": {"title": "Speaking in the Past Tense", "subtitle": "Canadian Novelists on Writing Historical Fiction", "authors": ["Herb Wyile"], "publisher": "Wilfrid Laurier Univ. Press", "publishedDate": "2007", "description": "Consists of interviews with eleven Canadian historical novelists.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780889205116"}, {"type": "ISBN_10", "identifier": "0889205116"}], "readingModes": {"text": true, "image": true}, "pageCount": 327, "printType": "BOOK", "categories": ["History"], "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "0.3.3.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=ODt1FIL2lrwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=ODt1FIL2lrwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=ODt1FIL2lrwC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=6&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE_AND_RENTAL", "isEbook": true, "listPrice": {"amount": 20.5, "currencyCode": "USD"}, "retailPrice": {"amount": 20.5, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC&rdid=book-ODt1FIL2lrwC&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 20500000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 20500000, "currencyCode": "USD"}, "giftable": true}, {"finskyOfferType": 3, "listPrice": {"amountInMicros": 9220000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 8300000, "currencyCode": "USD"}, "rentalDuration": {"unit": "DAY", "count": 90}}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Speaking_in_the_Past_Tense-sample-epub.acsm?id=ODt1FIL2lrwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Speaking_in_the_Past_Tense-sample-pdf.acsm?id=ODt1FIL2lrwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=ODt1FIL2lrwC&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Consists of interviews with eleven Canadian historical novelists."}}, {"kind": "books#volume", "id": "boJmStOAikoC", "etag": "GYniE4RLVVI", "selfLink": "https://www.googleapis.com/books/v1/volumes/boJmStOAikoC", "volumeInfo": {"title": "Making Shapely Fiction", "authors": ["Jerome Stern"], "publisher": "W. W. Norton & Company", "publishedDate": "2011-04-11", "description": "A deft analysis and appreciation of fiction\u2014what makes it work and what can make it fail. Here is a book about the craft of writing fiction that is thoroughly useful from the first to the last page\u2014whether the reader is a beginner, a seasoned writer, or a teacher of writing. You will see how a work takes form and shape once you grasp the principles of momentum, tension, and immediacy. \"Tension,\" Stern says, \"is the mother of fiction. When tension and immediacy combine, the story begins.\" Dialogue and action, beginnings and endings, the true meaning of \"write what you know,\" and a memorable listing of don'ts for fiction writers are all covered. A special section features an Alphabet for Writers: entries range from Accuracy to Zigzag, with enlightening comments about such matters as Cliffhangers, Point of View, Irony, and Transitions.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780393077698"}, {"type": "ISBN_10", "identifier": "0393077691"}], "readingModes": {"text": true, "image": false}, "pageCount": 288, "printType": "BOOK", "categories": ["Language Arts & Disciplines"], "averageRating": 5, "ratingsCount": 1, "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "2.2.4.0.preview.2", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=boJmStOAikoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=boJmStOAikoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=boJmStOAikoC&pg=PP1&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=7&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=boJmStOAikoC&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=boJmStOAikoC"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 15.95, "currencyCode": "USD"}, "retailPrice": {"amount": 9.99, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=boJmStOAikoC&rdid=book-boJmStOAikoC&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 15950000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 9990000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Making_Shapely_Fiction-sample-epub.acsm?id=boJmStOAikoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=boJmStOAikoC&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Here is a book about the craft of writing fiction that is thoroughly useful from the first to the last page\u2014whether the reader is a beginner, a seasoned writer, or a teacher of writing."}}, {"kind": "books#volume", "id": "BkdmAwAAQBAJ", "etag": "5wFemEs0XMI", "selfLink": "https://www.googleapis.com/books/v1/volumes/BkdmAwAAQBAJ", "volumeInfo": {"title": "Fiction and Narrative", "authors": ["Derek Matravers"], "publisher": "OUP Oxford", "publishedDate": "2014-04-24", "description": "For the past twenty years there has been a virtual consensus in philosophy that there is a special link between fiction and the imagination. In particular, fiction has been defined in terms of the imagination: what it is for something to be fictional is that there is some requirement that a reader imagine it. Derek Matravers argues that this rests on a mistake; the proffered definitions of 'the imagination' do not link it with fiction but with representations more generally. In place of the flawed consensus, he offers an account of what it is to read, listen to, or watch a narrative whether that narrative is fictional or non-fictional. The view that emerges, which draws extensively on work in psychology, downgrades the divide between fiction and non-fiction and largely dispenses with the imagination. In the process, he casts new light on a succession of issues: on the 'paradox of fiction', on the issue of fictional narrators, on the problem of 'imaginative resistance', and on the nature of our engagement with film.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780191018060"}, {"type": "ISBN_10", "identifier": "0191018066"}], "readingModes": {"text": true, "image": true}, "pageCount": 176, "printType": "BOOK", "categories": ["Philosophy"], "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "1.4.5.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=BkdmAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=BkdmAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=BkdmAwAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=8&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 34.99, "currencyCode": "USD"}, "retailPrice": {"amount": 19.24, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ&rdid=book-BkdmAwAAQBAJ&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 34990000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 19240000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Fiction_and_Narrative-sample-epub.acsm?id=BkdmAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Fiction_and_Narrative-sample-pdf.acsm?id=BkdmAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=BkdmAwAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Derek Matravers argues that this rests on a mistake; the proffered definitions of &#39;the imagination&#39; do not link it with fiction but with representations more generally."}}, {"kind": "books#volume", "id": "a2CBAgAAQBAJ", "etag": "2QqK/3i/W5I", "selfLink": "https://www.googleapis.com/books/v1/volumes/a2CBAgAAQBAJ", "volumeInfo": {"title": "Narrative Fiction", "subtitle": "Contemporary Poetics", "authors": ["Shlomith Rimmon-Kenan"], "publisher": "Routledge", "publishedDate": "2003-12-16", "description": "What is a narrative? What is narrative fiction? How does it differ from other kinds of narrative? What featuers turn a discourse into a narrative text? Now widely acknowledged as one of the most significant volumes in its field, Narrative Fiction turns its attention to these and other questions. In contrast to many other studies, Narrative Fiction is organized arround issues - such as events, time, focalization, characterization, narration, the text and its reading - rather than individual theorists or approaches. Within this structure, Shlomith Rimmon-Kenan addresses key approaches to narrative fiction, including New Criticism, formlaism, structuralism and phenomenology, but also offers views of the modifications to these theroies. While presenting an analysis of the system governing all fictional narratives, whether in the form of novel, short story or narrative poem, she also suggests how individual narratives can be studied against the background of this general system. A broad range of literary examples illustrate key aspects of the study. This edition is brought fully up-to-date with an invaluable new chapter, reflecting on recent developments in narratology. Readers are also directed to key recent works in the field. These additions to a classic text ensure that Narrative Fiction will remain the ideal starting point for anyone new to narrative theory.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9781134464975"}, {"type": "ISBN_10", "identifier": "1134464975"}], "readingModes": {"text": true, "image": true}, "pageCount": 208, "printType": "BOOK", "categories": ["Literary Criticism"], "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "1.3.3.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=a2CBAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=a2CBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=a2CBAgAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=9&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE_AND_RENTAL", "isEbook": true, "listPrice": {"amount": 46.95, "currencyCode": "USD"}, "retailPrice": {"amount": 37.09, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ&rdid=book-a2CBAgAAQBAJ&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 46950000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 37090000, "currencyCode": "USD"}, "giftable": true}, {"finskyOfferType": 3, "listPrice": {"amountInMicros": 23480000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 20660000, "currencyCode": "USD"}, "rentalDuration": {"unit": "DAY", "count": 180}}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Narrative_Fiction-sample-epub.acsm?id=a2CBAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Narrative_Fiction-sample-pdf.acsm?id=a2CBAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=a2CBAgAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "A broad range of literary examples illustrate key aspects of the study. This edition is brought fully up-to-date with an invaluable new chapter, reflecting on recent developments in narratology."}}, {"kind": "books#volume", "id": "2qnDDwAAQBAJ", "etag": "TNBprB70f2M", "selfLink": "https://www.googleapis.com/books/v1/volumes/2qnDDwAAQBAJ", "volumeInfo": {"title": "Why Women Read Fiction", "subtitle": "The Stories of Our Lives", "authors": ["Helen Taylor"], "publisher": "Oxford University Press", "publishedDate": "2019-12-05", "description": "Ian McEwan once said, 'When women stop reading, the novel will be dead.' This book explains how precious fiction is to contemporary women readers, and how they draw on it to tell the stories of their lives. Female readers are key to the future of fiction and\u2014as parents, teachers, and librarians\u2014the glue for a literate society. Women treasure the chance to read alone, but have also gregariously shared reading experiences and memories with mothers, daughters, grandchildren, and female friends. For so many, reading novels and short stories enables them to escape and to spread their wings intellectually and emotionally. This book, written by an experienced teacher, scholar of women's writing, and literature festival director, draws on over 500 interviews with and questionnaires from women readers and writers. It describes how, where, and when British women read fiction, and examines why stories and writers influence the way female readers understand and shape their own life stories. Taylor explores why women are the main buyers and readers of fiction, members of book clubs, attendees at literary festivals, and organisers of days out to fictional sites and writers' homes. The book analyses the special appeal and changing readership of the genres of romance, erotica, and crime. It also illuminates the reasons for British women's abiding love of two favourite novels, Pride and Prejudice and Jane Eyre. Taylor offers a cornucopia of witty and wise women's voices, of both readers themselves and also writers such as Hilary Mantel, Helen Dunmore, Katie Fforde, and Sarah Dunant. The book helps us understand why\u2014in Jackie Kay's words\u2014'our lives are mapped by books.'", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780192562678"}, {"type": "ISBN_10", "identifier": "0192562673"}], "readingModes": {"text": true, "image": true}, "pageCount": 224, "printType": "BOOK", "categories": ["Literary Criticism"], "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "1.3.1.0.preview.3", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=2qnDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=2qnDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.com/books?id=2qnDDwAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=10&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ"}, "saleInfo": {"country": "US", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 13.99, "currencyCode": "USD"}, "retailPrice": {"amount": 9.99, "currencyCode": "USD"}, "buyLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ&rdid=book-2qnDDwAAQBAJ&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 13990000, "currencyCode": "USD"}, "retailPrice": {"amountInMicros": 9990000, "currencyCode": "USD"}, "giftable": true}]}, "accessInfo": {"country": "US", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Why_Women_Read_Fiction-sample-epub.acsm?id=2qnDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.com/books/download/Why_Women_Read_Fiction-sample-pdf.acsm?id=2qnDDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=2qnDDwAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Ian McEwan once said, &#39;When women stop reading, the novel will be dead.&#39; This book explains how precious fiction is to contemporary women readers, and how they draw on it to tell the stories of their lives."}}]}
+{
+    "kind": "books#volumes",
+    "totalItems": 7940,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "p5qar3j-cx4C",
+            "etag": "O0GXO1Hxx5o",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/p5qar3j-cx4C",
+            "volumeInfo": {
+                "title": "The Musicalization of Fiction",
+                "subtitle": "A Study in the Theory and History of Intermediality",
+                "authors": [
+                    "Werner Wolf"
+                ],
+                "publisher": "Rodopi",
+                "publishedDate": "1999",
+                "description": "This volume is a pioneering study in the theory and history of the imitation of music in fiction and constitutes an important contribution to current intermediality research. Starting with a comparison of basic similarities and differences between literature and music, the study goes on to provide outlines of a general theory of intermediality and its fundamental forms, in which a more specialized theory of the musicalization of (narrative) literature based on contemporary narratology and a typology of the forms of musico-literary intermediality are embedded. It also addresses the question of how to recognize a musicalized fiction when reading one and why Sterne's Tristram Shandy, contrary to what has been previously said, is not to be regarded as a musicalized fiction. In its historical part, the study explores forms and functions of experiments with the musicalization of fiction in English literature. After a survey of the major preconditions for musicalization - the increasing appreciation of music in 18th and 19th-century aesthetics and its main causes - exemplary fictional texts from romanticism to postmodernism are analyzed. Authors interpreted are De Quincey, Joyce, Woolf, A. Huxley, Beckett, Burgess and Josipovici. Whilst the limitations of a transposition of music into fiction remain apparent, experiments in this field yield valuable insights into mainly a-mimetic and formalist aesthetic tendencies in the development of more recent fiction as a whole and also show to what extent traditional conceptions of music continue to influence the use of this medium in literature. The volume is of relevance for students and scholars of English, comparative and general literature as well as for readers who take an interest in intermediality or interart research.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9042004576"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789042004573"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 292,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.3.5.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=p5qar3j-cx4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=p5qar3j-cx4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=p5qar3j-cx4C&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 10.63,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 8.5,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=p5qar3j-cx4C&rdid=book-p5qar3j-cx4C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 10630000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8500000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/The_Musicalization_of_Fiction-sample-pdf.acsm?id=p5qar3j-cx4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=p5qar3j-cx4C&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This volume is a pioneering study in the theory and history of the imitation of music in fiction and constitutes an important contribution to current intermediality research."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "CK-K28AUwr8C",
+            "etag": "55mgxDGtbMo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/CK-K28AUwr8C",
+            "volumeInfo": {
+                "title": "How Fiction Works",
+                "authors": [
+                    "James Wood"
+                ],
+                "publisher": "Farrar, Straus and Giroux",
+                "publishedDate": "2008-07-22",
+                "description": "What makes a story a story? What is style? What's the connection between realism and real life? These are some of the questions James Wood answers in How Fiction Works, the first book-length essay by the preeminent critic of his generation. Ranging widely\u2014from Homer to David Foster Wallace, from What Maisie Knew to Make Way for Ducklings\u2014Wood takes the reader through the basic elements of the art, step by step. The result is nothing less than a philosophy of the novel\u2014plainspoken, funny, blunt\u2014in the traditions of E. M. Forster's Aspects of the Novel and Strunk and White's The Elements of Style. It sums up two decades of insight with wit and concision. It will change the way you read.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429908653"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429908658"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 288,
+                "printType": "BOOK",
+                "categories": [
+                    "Language Arts & Disciplines"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 27,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.8.9.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=CK-K28AUwr8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=CK-K28AUwr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=CK-K28AUwr8C&pg=PP1&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 11.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 11.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=CK-K28AUwr8C&rdid=book-CK-K28AUwr8C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 11990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 11990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/How_Fiction_Works-sample-epub.acsm?id=CK-K28AUwr8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=CK-K28AUwr8C&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In the tradition of E. M. Forster&#39;s Aspects of the Novel and Milan Kundera&#39;s The Art of the Novel, James Wood&#39;s How Fiction Works is a scintillating study of the magic of fiction--an analysis of its main elements and a celebration of its ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "AqgTPo_L9OwC",
+            "etag": "cqI2DsAyHmM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/AqgTPo_L9OwC",
+            "volumeInfo": {
+                "title": "University Fiction",
+                "authors": [
+                    "David Bevan"
+                ],
+                "publisher": "Rodopi",
+                "publishedDate": "1990",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9051832346"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789051832341"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 180,
+                "printType": "BOOK",
+                "categories": [
+                    "Social Science"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.2.5.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=AqgTPo_L9OwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=AqgTPo_L9OwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=AqgTPo_L9OwC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 10.63,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 8.5,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=AqgTPo_L9OwC&rdid=book-AqgTPo_L9OwC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 10630000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8500000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/University_Fiction-sample-pdf.acsm?id=AqgTPo_L9OwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=AqgTPo_L9OwC&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "DcnxgVf-Q5QC",
+            "etag": "1g8tMhfE6yI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DcnxgVf-Q5QC",
+            "volumeInfo": {
+                "title": "Such Stuff as Dreams",
+                "subtitle": "The Psychology of Fiction",
+                "authors": [
+                    "Keith Oatley"
+                ],
+                "publisher": "John Wiley & Sons",
+                "publishedDate": "2011-07-05",
+                "description": "Such Stuff as Dreams: The Psychology of Fiction explores how fiction works in the brains and imagination of both readers and writers. Demonstrates how reading fiction can contribute to a greater understanding of, and the ability to change, ourselves Informed by the latest psychological research which focuses on, for example, how identification with fictional characters occurs, and how literature can improve social abilities Explores traditional aspects of fiction, including character, plot, setting, and theme, as well as a number of classic techniques, such as metaphor, metonymy, defamiliarization, and cues Includes extensive end-notes, which ground the work in psychological studies Features excerpts from fiction which are discussed throughout the text, including works by William Shakespeare, Jane Austen, Kate Chopin, Anton Chekhov, James Baldwin, and others",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781119973539"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1119973538"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 290,
+                "printType": "BOOK",
+                "categories": [
+                    "Psychology"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.6.5.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DcnxgVf-Q5QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DcnxgVf-Q5QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=DcnxgVf-Q5QC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 25,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 25,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=DcnxgVf-Q5QC&rdid=book-DcnxgVf-Q5QC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 25000000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 25000000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Such_Stuff_as_Dreams-sample-epub.acsm?id=DcnxgVf-Q5QC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Such_Stuff_as_Dreams-sample-pdf.acsm?id=DcnxgVf-Q5QC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=DcnxgVf-Q5QC&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Drawing on an idea originally developed by a variety of historical literary figures including William Shakespeare, in this ground-breaking work Oatley richly illustrates how fiction is not simply a slice of life, pure entertainment, or an ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2ARGkva5UskC",
+            "etag": "vFH3HXoZBC0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2ARGkva5UskC",
+            "volumeInfo": {
+                "title": "Essentials of the Theory of Fiction",
+                "authors": [
+                    "Michael J. Hoffman",
+                    "Patrick D. Murphy"
+                ],
+                "publisher": "Duke University Press",
+                "publishedDate": "2005-06-15",
+                "description": "What accounts for the power of stories to both entertain and illuminate? This question has long compelled the attention of storytellers and students of literature alike, and over the past several decades it has opened up broader dialogues about the nature of culture and interpretation. This third edition of the bestselling Essentials of the Theory of Fiction provides a comprehensive view of the theory of fiction from the nineteenth century through modernism and postmodernism to the present. It offers a sample of major theories of fictional technique while emphasizing recent developments in literary criticism. The essays cover a variety of topics, including voice, point of view, narration, sequencing, gender, and race. Ten new selections address issues such as oral memory in African American fiction, temporality, queer theory, magical realism, interactive narratives, and the effect of virtual technologies on literature. For students and generalists alike, Essentials of the Theory of Fiction is an invaluable resource for understanding how fiction works. Contributors. M. M. Bakhtin, John Barth, Roland Barthes, Wayne Booth, John Brenkman, Peter Brooks, Catherine Burgass, Seymour Chatman, J. Yellowlees Douglas, Rachel Blau DuPlessis, Wendy B. Faris, Barbara Foley, E. M. Forster, Joseph Frank, Joanne S. Frye, William H. Gass, Henry Louis Gates Jr., G\u00e9rard Genette, Ursula K. Heise, Michael J. Hoffman, Linda Hutcheon, Henry James, Susan S. Lanser, Helen Lock, Georg Luk\u00e1cs, Patrick D. Murphy, Ruth Ronen, Joseph Tabbi, Jon Thiem, Tzvetan Todorov, Virginia Woolf",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780822386599"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0822386593"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 520,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.0.3.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2ARGkva5UskC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2ARGkva5UskC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=2ARGkva5UskC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 33.95,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 18.33,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=2ARGkva5UskC&rdid=book-2ARGkva5UskC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 33950000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 18330000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Essentials_of_the_Theory_of_Fiction-sample-epub.acsm?id=2ARGkva5UskC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Essentials_of_the_Theory_of_Fiction-sample-pdf.acsm?id=2ARGkva5UskC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2ARGkva5UskC&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This third edition of the bestselling Essentials of the Theory of Fiction provides a comprehensive view of the theory of fiction from the nineteenth century through modernism and postmodernism to the present."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ODt1FIL2lrwC",
+            "etag": "pHhpgk7B7hI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ODt1FIL2lrwC",
+            "volumeInfo": {
+                "title": "Speaking in the Past Tense",
+                "subtitle": "Canadian Novelists on Writing Historical Fiction",
+                "authors": [
+                    "Herb Wyile"
+                ],
+                "publisher": "Wilfrid Laurier Univ. Press",
+                "publishedDate": "2007",
+                "description": "Consists of interviews with eleven Canadian historical novelists.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780889205116"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0889205116"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 327,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.3.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ODt1FIL2lrwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ODt1FIL2lrwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=ODt1FIL2lrwC&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE_AND_RENTAL",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 20.5,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 20.5,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ODt1FIL2lrwC&rdid=book-ODt1FIL2lrwC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 20500000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 20500000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    },
+                    {
+                        "finskyOfferType": 3,
+                        "listPrice": {
+                            "amountInMicros": 9220000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8300000,
+                            "currencyCode": "USD"
+                        },
+                        "rentalDuration": {
+                            "unit": "DAY",
+                            "count": 90
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Speaking_in_the_Past_Tense-sample-epub.acsm?id=ODt1FIL2lrwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Speaking_in_the_Past_Tense-sample-pdf.acsm?id=ODt1FIL2lrwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ODt1FIL2lrwC&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Consists of interviews with eleven Canadian historical novelists."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "boJmStOAikoC",
+            "etag": "GYniE4RLVVI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/boJmStOAikoC",
+            "volumeInfo": {
+                "title": "Making Shapely Fiction",
+                "authors": [
+                    "Jerome Stern"
+                ],
+                "publisher": "W. W. Norton & Company",
+                "publishedDate": "2011-04-11",
+                "description": "A deft analysis and appreciation of fiction\u2014what makes it work and what can make it fail. Here is a book about the craft of writing fiction that is thoroughly useful from the first to the last page\u2014whether the reader is a beginner, a seasoned writer, or a teacher of writing. You will see how a work takes form and shape once you grasp the principles of momentum, tension, and immediacy. \"Tension,\" Stern says, \"is the mother of fiction. When tension and immediacy combine, the story begins.\" Dialogue and action, beginnings and endings, the true meaning of \"write what you know,\" and a memorable listing of don'ts for fiction writers are all covered. A special section features an Alphabet for Writers: entries range from Accuracy to Zigzag, with enlightening comments about such matters as Cliffhangers, Point of View, Irony, and Transitions.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780393077698"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0393077691"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 288,
+                "printType": "BOOK",
+                "categories": [
+                    "Language Arts & Disciplines"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.2.4.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=boJmStOAikoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=boJmStOAikoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=boJmStOAikoC&pg=PP1&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=boJmStOAikoC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=boJmStOAikoC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 15.95,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=boJmStOAikoC&rdid=book-boJmStOAikoC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 15950000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Making_Shapely_Fiction-sample-epub.acsm?id=boJmStOAikoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=boJmStOAikoC&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Here is a book about the craft of writing fiction that is thoroughly useful from the first to the last page\u2014whether the reader is a beginner, a seasoned writer, or a teacher of writing."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "BkdmAwAAQBAJ",
+            "etag": "5wFemEs0XMI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BkdmAwAAQBAJ",
+            "volumeInfo": {
+                "title": "Fiction and Narrative",
+                "authors": [
+                    "Derek Matravers"
+                ],
+                "publisher": "OUP Oxford",
+                "publishedDate": "2014-04-24",
+                "description": "For the past twenty years there has been a virtual consensus in philosophy that there is a special link between fiction and the imagination. In particular, fiction has been defined in terms of the imagination: what it is for something to be fictional is that there is some requirement that a reader imagine it. Derek Matravers argues that this rests on a mistake; the proffered definitions of 'the imagination' do not link it with fiction but with representations more generally. In place of the flawed consensus, he offers an account of what it is to read, listen to, or watch a narrative whether that narrative is fictional or non-fictional. The view that emerges, which draws extensively on work in psychology, downgrades the divide between fiction and non-fiction and largely dispenses with the imagination. In the process, he casts new light on a succession of issues: on the 'paradox of fiction', on the issue of fictional narrators, on the problem of 'imaginative resistance', and on the nature of our engagement with film.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780191018060"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0191018066"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 176,
+                "printType": "BOOK",
+                "categories": [
+                    "Philosophy"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.4.5.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BkdmAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BkdmAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=BkdmAwAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 34.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 19.24,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=BkdmAwAAQBAJ&rdid=book-BkdmAwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 34990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 19240000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Fiction_and_Narrative-sample-epub.acsm?id=BkdmAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Fiction_and_Narrative-sample-pdf.acsm?id=BkdmAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BkdmAwAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Derek Matravers argues that this rests on a mistake; the proffered definitions of &#39;the imagination&#39; do not link it with fiction but with representations more generally."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "a2CBAgAAQBAJ",
+            "etag": "2QqK/3i/W5I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/a2CBAgAAQBAJ",
+            "volumeInfo": {
+                "title": "Narrative Fiction",
+                "subtitle": "Contemporary Poetics",
+                "authors": [
+                    "Shlomith Rimmon-Kenan"
+                ],
+                "publisher": "Routledge",
+                "publishedDate": "2003-12-16",
+                "description": "What is a narrative? What is narrative fiction? How does it differ from other kinds of narrative? What featuers turn a discourse into a narrative text? Now widely acknowledged as one of the most significant volumes in its field, Narrative Fiction turns its attention to these and other questions. In contrast to many other studies, Narrative Fiction is organized arround issues - such as events, time, focalization, characterization, narration, the text and its reading - rather than individual theorists or approaches. Within this structure, Shlomith Rimmon-Kenan addresses key approaches to narrative fiction, including New Criticism, formlaism, structuralism and phenomenology, but also offers views of the modifications to these theroies. While presenting an analysis of the system governing all fictional narratives, whether in the form of novel, short story or narrative poem, she also suggests how individual narratives can be studied against the background of this general system. A broad range of literary examples illustrate key aspects of the study. This edition is brought fully up-to-date with an invaluable new chapter, reflecting on recent developments in narratology. Readers are also directed to key recent works in the field. These additions to a classic text ensure that Narrative Fiction will remain the ideal starting point for anyone new to narrative theory.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781134464975"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1134464975"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 208,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.3.3.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=a2CBAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=a2CBAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=a2CBAgAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE_AND_RENTAL",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 46.95,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 37.09,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=a2CBAgAAQBAJ&rdid=book-a2CBAgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 46950000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 37090000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    },
+                    {
+                        "finskyOfferType": 3,
+                        "listPrice": {
+                            "amountInMicros": 23480000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 20660000,
+                            "currencyCode": "USD"
+                        },
+                        "rentalDuration": {
+                            "unit": "DAY",
+                            "count": 180
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Narrative_Fiction-sample-epub.acsm?id=a2CBAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Narrative_Fiction-sample-pdf.acsm?id=a2CBAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=a2CBAgAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "A broad range of literary examples illustrate key aspects of the study. This edition is brought fully up-to-date with an invaluable new chapter, reflecting on recent developments in narratology."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2qnDDwAAQBAJ",
+            "etag": "TNBprB70f2M",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2qnDDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Why Women Read Fiction",
+                "subtitle": "The Stories of Our Lives",
+                "authors": [
+                    "Helen Taylor"
+                ],
+                "publisher": "Oxford University Press",
+                "publishedDate": "2019-12-05",
+                "description": "Ian McEwan once said, 'When women stop reading, the novel will be dead.' This book explains how precious fiction is to contemporary women readers, and how they draw on it to tell the stories of their lives. Female readers are key to the future of fiction and\u2014as parents, teachers, and librarians\u2014the glue for a literate society. Women treasure the chance to read alone, but have also gregariously shared reading experiences and memories with mothers, daughters, grandchildren, and female friends. For so many, reading novels and short stories enables them to escape and to spread their wings intellectually and emotionally. This book, written by an experienced teacher, scholar of women's writing, and literature festival director, draws on over 500 interviews with and questionnaires from women readers and writers. It describes how, where, and when British women read fiction, and examines why stories and writers influence the way female readers understand and shape their own life stories. Taylor explores why women are the main buyers and readers of fiction, members of book clubs, attendees at literary festivals, and organisers of days out to fictional sites and writers' homes. The book analyses the special appeal and changing readership of the genres of romance, erotica, and crime. It also illuminates the reasons for British women's abiding love of two favourite novels, Pride and Prejudice and Jane Eyre. Taylor offers a cornucopia of witty and wise women's voices, of both readers themselves and also writers such as Hilary Mantel, Helen Dunmore, Katie Fforde, and Sarah Dunant. The book helps us understand why\u2014in Jackie Kay's words\u2014'our lives are mapped by books.'",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780192562678"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0192562673"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 224,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2qnDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2qnDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=2qnDDwAAQBAJ&printsec=frontcover&dq=fiction&hl=&as_brr=5&as_ebook=1&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 13.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=2qnDDwAAQBAJ&rdid=book-2qnDDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 13990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Why_Women_Read_Fiction-sample-epub.acsm?id=2qnDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Why_Women_Read_Fiction-sample-pdf.acsm?id=2qnDDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2qnDDwAAQBAJ&hl=&as_brr=5&as_ebook=1&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Ian McEwan once said, &#39;When women stop reading, the novel will be dead.&#39; This book explains how precious fiction is to contemporary women readers, and how they draw on it to tell the stories of their lives."
+            }
+        }
+    ]
+}
