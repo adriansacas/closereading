@@ -8,7 +8,7 @@ import time
 
 logging.captureWarnings(True)
 
-api_url = "https://www.googleapis.com/books/v1/volumes?q=fiction&download=epub&filter=ebooks&key=" + google_books_key
+api_url = "https://www.googleapis.com/books/v1/volumes?q=fiction&download=epub&filter=ebooks&maxResults=40&key=" + google_books_key
 
 ##
 ##    function to obtain a new OAuth 2.0 token from the authentication server
@@ -45,9 +45,16 @@ def get_new_token():
 # 	pets_list.append(api_call_response_dict)
 
 
-response = requests.get(api_url)
-response_dict = response.json()
+# response = requests.get(api_url)
+# response_dict = response.json()
+response_list = []
+# response_list.append(response_dict)
+
+for i in range(1, 5):
+	api_call_response = requests.get(api_url+"&page="+str(i))
+	api_call_response_dict = api_call_response.json()
+	response_list.append(api_call_response_dict)
 	
-with open('./books.json', 'w') as openfile:
-	json.dump(response_dict, openfile)
+with open('./books_list.json', 'w') as openfile:
+	json.dump(response_list, openfile)
 		
