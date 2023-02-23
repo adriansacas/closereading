@@ -50,11 +50,11 @@ def get_new_token():
 response_list = []
 # response_list.append(response_dict)
 
-for i in range(1, 5):
+for i in range(1, 100):
 	api_call_response = requests.get(api_url+"&page="+str(i))
 	api_call_response_dict = api_call_response.json()
 	response_list.append(api_call_response_dict)
 	
-with open('./books_list.json', 'w') as openfile:
+with open('./books.json', 'w') as openfile:
 	json.dump(response_list, openfile)
 		
