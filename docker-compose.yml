@@ -10,7 +10,30 @@ services:
       - ./my-app/src:/app/src:ro
   backend:
     build: ./backend
+    depends_on:
+      - postgres
     ports:
       - "4000:5000"
     volumes:
-      - ./backend:/backend
+      - ./backend:/backend:ro
+    environment:
+      DATABASE_HOSTNAME: postgres  # Name of database service in docker
+      DATABASE_PORT: 5432
+      DATABASE_PASSWORD: password123
+      DATABASE_NAME: closereading_api
+      DATABASE_USERNAME: postgres
+#      SECRET_KEY:
+#      ALGORITHM:
+#      ACCESS_TOKEN_EXPIRE_MINUTES: 30
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: closereading_api
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+volumes:
+  postgres-db:

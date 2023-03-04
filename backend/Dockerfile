@@ -3,6 +3,9 @@ FROM python:3
 # update Linux package manager
 RUN apt-get update
 
+# install postgresql
+RUN apt-get install -y postgresql
+
 # update Python package manager
 RUN pip install --upgrade pip
 
