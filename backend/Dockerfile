@@ -24,3 +24,6 @@ EXPOSE 5000
 
 # start the backend dev server
 CMD ["flask", "run", "--host=0.0.0.0", "--debug"]
+
+# init the database
+CMD ["python", "populate.py"]

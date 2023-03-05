@@ -9,6 +9,7 @@ services:
     volumes:
       - ./my-app/src:/app/src:ro
   backend:
+    restart: always
     build: ./backend
     depends_on:
       - postgres
