@@ -37,8 +37,9 @@ author = ""
 params = {
         'action': 'query',
         'format': 'json',
+        'formatversion' : '2',
         'titles': author,
-        'prop': 'extracts',
+        'prop': 'extracts|pageimages|pageterms',
         'exintro': True,
         'explaintext': True,
     }
