@@ -40,6 +40,7 @@ params = {
         'formatversion' : '2',
         'titles': author,
         'prop': 'extracts|pageimages|pageterms',
+        'piprop': 'original',
         'exintro': True,
         'explaintext': True,
     }
