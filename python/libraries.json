@@ -8,7 +8,7 @@
                 "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1uF3Jm8_JbXYcea8KqGaDQ/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/austin-central-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 154,
+                "review_count": 155,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -302,43 +302,6 @@
                 "distance": 6496.565260460218
             },
             {
-                "id": "lWSNrgQHNB9OnMpPUq01Rw",
-                "alias": "willie-mae-kirk-branch-austin-public-library-austin",
-                "name": "Willie Mae Kirk Branch - Austin Public Library",
-                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uuYH4HJSYGBFGaXLGMzy3Q/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/willie-mae-kirk-branch-austin-public-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 6,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.5,
-                "coordinates": {
-                    "latitude": 30.2729469329874,
-                    "longitude": -97.6997944148835
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "3101 Oak Springs Dr",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Austin",
-                    "zip_code": "78702",
-                    "country": "US",
-                    "state": "TX",
-                    "display_address": [
-                        "3101 Oak Springs Dr",
-                        "Austin, TX 78702"
-                    ]
-                },
-                "phone": "+15129749920",
-                "display_phone": "(512) 974-9920",
-                "distance": 6615.253444933383
-            },
-            {
                 "id": "wxl3HsT6GcoM2by_uX6aYQ",
                 "alias": "austin-public-library-howson-austin",
                 "name": "Austin Public Library - Howson",
@@ -374,6 +337,43 @@
                 "phone": "+15129748800",
                 "display_phone": "(512) 974-8800",
                 "distance": 1221.5892196888856
+            },
+            {
+                "id": "lWSNrgQHNB9OnMpPUq01Rw",
+                "alias": "willie-mae-kirk-branch-austin-public-library-austin",
+                "name": "Willie Mae Kirk Branch - Austin Public Library",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uuYH4HJSYGBFGaXLGMzy3Q/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/willie-mae-kirk-branch-austin-public-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 6,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.5,
+                "coordinates": {
+                    "latitude": 30.2729469329874,
+                    "longitude": -97.6997944148835
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "3101 Oak Springs Dr",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Austin",
+                    "zip_code": "78702",
+                    "country": "US",
+                    "state": "TX",
+                    "display_address": [
+                        "3101 Oak Springs Dr",
+                        "Austin, TX 78702"
+                    ]
+                },
+                "phone": "+15129749920",
+                "display_phone": "(512) 974-9920",
+                "distance": 6615.253444933383
             }
         ],
         "total": 84,
@@ -609,43 +609,6 @@
                 "distance": 19568.104639431316
             },
             {
-                "id": "yLlfcRTube9fpiZcnHF3Gw",
-                "alias": "dallas-public-library-fretz-park-branch-dallas",
-                "name": "Dallas Public Library - Fretz Park Branch",
-                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xKdCYBfbkm9FXjPAi-osqg/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/dallas-public-library-fretz-park-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 18,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 3.5,
-                "coordinates": {
-                    "latitude": 32.949836,
-                    "longitude": -96.783033
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "6990 Belt Line Rd",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Dallas",
-                    "zip_code": "75254",
-                    "country": "US",
-                    "state": "TX",
-                    "display_address": [
-                        "6990 Belt Line Rd",
-                        "Dallas, TX 75254"
-                    ]
-                },
-                "phone": "+12146706421",
-                "display_phone": "(214) 670-6421",
-                "distance": 12427.48302253392
-            },
-            {
                 "id": "iCY1R4C6O1OXcyNtUIXRkA",
                 "alias": "dallas-public-library-preston-royal-branch-dallas",
                 "name": "Dallas Public Library - Preston Royal Branch",
@@ -681,6 +644,43 @@
                 "phone": "+12146707128",
                 "display_phone": "(214) 670-7128",
                 "distance": 6276.665053129352
+            },
+            {
+                "id": "yLlfcRTube9fpiZcnHF3Gw",
+                "alias": "dallas-public-library-fretz-park-branch-dallas",
+                "name": "Dallas Public Library - Fretz Park Branch",
+                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xKdCYBfbkm9FXjPAi-osqg/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/dallas-public-library-fretz-park-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 18,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 3.5,
+                "coordinates": {
+                    "latitude": 32.949836,
+                    "longitude": -96.783033
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "6990 Belt Line Rd",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Dallas",
+                    "zip_code": "75254",
+                    "country": "US",
+                    "state": "TX",
+                    "display_address": [
+                        "6990 Belt Line Rd",
+                        "Dallas, TX 75254"
+                    ]
+                },
+                "phone": "+12146706421",
+                "display_phone": "(214) 670-6421",
+                "distance": 12427.48302253392
             },
             {
                 "id": "kXdq_tyzV1RbgsjRLyy_yA",
@@ -1302,45 +1302,41 @@
                 "distance": 2923.940618991624
             },
             {
-                "id": "Uplh1HiI1wOc6p8DR7O3QA",
-                "alias": "the-morgan-library-and-museum-new-york-4",
-                "name": "The Morgan Library & Museum",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sT-PqhtI3vzqroVbf9WxMA/o.jpg",
+                "id": "4lA820FuOtuWHZjVtcn3Zw",
+                "alias": "brooklyn-public-library-adams-street-brooklyn",
+                "name": "Brooklyn Public Library- Adams Street",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tU2q93IgrGvcq-x9TEsyWQ/o.jpg",
                 "is_closed": false,
-                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 326,
+                "url": "https://www.yelp.com/biz/brooklyn-public-library-adams-street-brooklyn?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 1,
                 "categories": [
                     {
                         "alias": "libraries",
                         "title": "Libraries"
-                    },
-                    {
-                        "alias": "artmuseums",
-                        "title": "Art Museums"
                     }
                 ],
-                "rating": 4.5,
+                "rating": 5.0,
                 "coordinates": {
-                    "latitude": 40.749242,
-                    "longitude": -73.981397
+                    "latitude": 40.70405534,
+                    "longitude": -73.98840721
                 },
                 "transactions": [],
                 "location": {
-                    "address1": "225 Madison Ave",
+                    "address1": "9 Adams St",
                     "address2": "",
-                    "address3": "",
-                    "city": "New York",
-                    "zip_code": "10016",
+                    "address3": null,
+                    "city": "Brooklyn",
+                    "zip_code": "11201",
                     "country": "US",
                     "state": "NY",
                     "display_address": [
-                        "225 Madison Ave",
-                        "New York, NY 10016"
+                        "9 Adams St",
+                        "Brooklyn, NY 11201"
                     ]
                 },
-                "phone": "+12126850008",
-                "display_phone": "(212) 685-0008",
-                "distance": 4703.257562293701
+                "phone": "+17182302264",
+                "display_phone": "(718) 230-2264",
+                "distance": 840.7292058630409
             },
             {
                 "id": "NG_3NoVajWsbSPdz_ndLJg",
@@ -1417,41 +1413,41 @@
                 "distance": 1621.792411199681
             },
             {
-                "id": "4lA820FuOtuWHZjVtcn3Zw",
-                "alias": "brooklyn-public-library-adams-street-brooklyn",
-                "name": "Brooklyn Public Library- Adams Street",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tU2q93IgrGvcq-x9TEsyWQ/o.jpg",
+                "id": "nGVcaCQySGR3NgtJqSFdxg",
+                "alias": "seward-park-library-new-york-public-library-new-york",
+                "name": "Seward Park Library - New York Public Library",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZL5ORJ_Nuz__OB5t2ATjig/o.jpg",
                 "is_closed": false,
-                "url": "https://www.yelp.com/biz/brooklyn-public-library-adams-street-brooklyn?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 1,
+                "url": "https://www.yelp.com/biz/seward-park-library-new-york-public-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 24,
                 "categories": [
                     {
                         "alias": "libraries",
                         "title": "Libraries"
                     }
                 ],
-                "rating": 5.0,
+                "rating": 3.5,
                 "coordinates": {
-                    "latitude": 40.70405534,
-                    "longitude": -73.98840721
+                    "latitude": 40.71445,
+                    "longitude": -73.988543
                 },
                 "transactions": [],
                 "location": {
-                    "address1": "9 Adams St",
+                    "address1": "192 E Broadway",
                     "address2": "",
-                    "address3": null,
-                    "city": "Brooklyn",
-                    "zip_code": "11201",
+                    "address3": "",
+                    "city": "New York",
+                    "zip_code": "10002",
                     "country": "US",
                     "state": "NY",
                     "display_address": [
-                        "9 Adams St",
-                        "Brooklyn, NY 11201"
+                        "192 E Broadway",
+                        "New York, NY 10002"
                     ]
                 },
-                "phone": "+17182302264",
-                "display_phone": "(718) 230-2264",
-                "distance": 840.7292058630409
+                "phone": "+12124776770",
+                "display_phone": "(212) 477-6770",
+                "distance": 1145.5274095049642
             },
             {
                 "id": "fTbSyt3K3p2vITsoIf8eZg",
@@ -1491,41 +1487,45 @@
                 "distance": 2262.6455237114365
             },
             {
-                "id": "nGVcaCQySGR3NgtJqSFdxg",
-                "alias": "seward-park-library-new-york-public-library-new-york",
-                "name": "Seward Park Library - New York Public Library",
-                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZL5ORJ_Nuz__OB5t2ATjig/o.jpg",
+                "id": "Uplh1HiI1wOc6p8DR7O3QA",
+                "alias": "the-morgan-library-and-museum-new-york-4",
+                "name": "The Morgan Library & Museum",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sT-PqhtI3vzqroVbf9WxMA/o.jpg",
                 "is_closed": false,
-                "url": "https://www.yelp.com/biz/seward-park-library-new-york-public-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 24,
+                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 326,
                 "categories": [
                     {
                         "alias": "libraries",
                         "title": "Libraries"
+                    },
+                    {
+                        "alias": "artmuseums",
+                        "title": "Art Museums"
                     }
                 ],
-                "rating": 3.5,
+                "rating": 4.5,
                 "coordinates": {
-                    "latitude": 40.71445,
-                    "longitude": -73.988543
+                    "latitude": 40.749242,
+                    "longitude": -73.981397
                 },
                 "transactions": [],
                 "location": {
-                    "address1": "192 E Broadway",
+                    "address1": "225 Madison Ave",
                     "address2": "",
                     "address3": "",
                     "city": "New York",
-                    "zip_code": "10002",
+                    "zip_code": "10016",
                     "country": "US",
                     "state": "NY",
                     "display_address": [
-                        "192 E Broadway",
-                        "New York, NY 10002"
+                        "225 Madison Ave",
+                        "New York, NY 10016"
                     ]
                 },
-                "phone": "+12124776770",
-                "display_phone": "(212) 477-6770",
-                "distance": 1145.5274095049642
+                "phone": "+12126850008",
+                "display_phone": "(212) 685-0008",
+                "distance": 4703.257562293701
             }
         ],
         "total": 850,
@@ -1844,43 +1844,6 @@
                 "distance": 8333.588690604909
             },
             {
-                "id": "-oN-ydPwgFGTiJNwtPz6Ow",
-                "alias": "skokie-public-library-skokie",
-                "name": "Skokie Public Library",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WUMPE3b98vxv8-bcj6oSnA/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/skokie-public-library-skokie?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 73,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.5,
-                "coordinates": {
-                    "latitude": 42.025732,
-                    "longitude": -87.757701
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "5215 Oakton St",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Skokie",
-                    "zip_code": "60077",
-                    "country": "US",
-                    "state": "IL",
-                    "display_address": [
-                        "5215 Oakton St",
-                        "Skokie, IL 60077"
-                    ]
-                },
-                "phone": "+18476737774",
-                "display_phone": "(847) 673-7774",
-                "distance": 21652.34225803035
-            },
-            {
                 "id": "sLtItItozNnyqY6l0vMycg",
                 "alias": "chicago-public-library-west-loop-chicago-2",
                 "name": "Chicago Public Library - West Loop",
@@ -1916,6 +1879,43 @@
                 "phone": "+13127442995",
                 "display_phone": "(312) 744-2995",
                 "distance": 8569.699315888773
+            },
+            {
+                "id": "yHx-IHENW-xWAuCGOAsjSw",
+                "alias": "evergreen-park-public-library-evergreen-park",
+                "name": "Evergreen Park Public Library",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/3sqTLruPo3yqJm_jV9v1dQ/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/evergreen-park-public-library-evergreen-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 7,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.5,
+                "coordinates": {
+                    "latitude": 41.722164,
+                    "longitude": -87.701049
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "9400 South Troy Ave",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Evergreen Park",
+                    "zip_code": "60805",
+                    "country": "US",
+                    "state": "IL",
+                    "display_address": [
+                        "9400 South Troy Ave",
+                        "Evergreen Park, IL 60805"
+                    ]
+                },
+                "phone": "+17084228522",
+                "display_phone": "(708) 422-8522",
+                "distance": 12459.047298811289
             }
         ],
         "total": 449,
@@ -2329,7 +2329,7 @@
                 "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/kJkT_N5kKp_4BbM9sKYypw/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/seattle-public-library-central-library-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 567,
+                "review_count": 566,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -2434,43 +2434,6 @@
                 "distance": 935.6945754270885
             },
             {
-                "id": "KJ6Z8mrw_ZwhGJ0X2-XZBg",
-                "alias": "seattle-public-library-capitol-hill-branch-seattle",
-                "name": "Seattle Public Library - Capitol Hill Branch",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ztIUDOKOowqsu5kQe5LMjQ/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/seattle-public-library-capitol-hill-branch-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 41,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.0,
-                "coordinates": {
-                    "latitude": 47.622935,
-                    "longitude": -122.322321
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "425 Harvard Ave E",
-                    "address2": null,
-                    "address3": "",
-                    "city": "Seattle",
-                    "zip_code": "98102",
-                    "country": "US",
-                    "state": "WA",
-                    "display_address": [
-                        "425 Harvard Ave E",
-                        "Seattle, WA 98102"
-                    ]
-                },
-                "phone": "+12066844715",
-                "display_phone": "(206) 684-4715",
-                "distance": 1119.0563813456188
-            },
-            {
                 "id": "BbC6nc9_FsxpPoqJacLgYQ",
                 "alias": "bellevue-library-bellevue-2",
                 "name": "Bellevue Library",
@@ -2506,6 +2469,43 @@
                 "phone": "+14254501765",
                 "display_phone": "(425) 450-1765",
                 "distance": 10196.476386912924
+            },
+            {
+                "id": "KJ6Z8mrw_ZwhGJ0X2-XZBg",
+                "alias": "seattle-public-library-capitol-hill-branch-seattle",
+                "name": "Seattle Public Library - Capitol Hill Branch",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ztIUDOKOowqsu5kQe5LMjQ/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/seattle-public-library-capitol-hill-branch-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 41,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.0,
+                "coordinates": {
+                    "latitude": 47.622935,
+                    "longitude": -122.322321
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "425 Harvard Ave E",
+                    "address2": null,
+                    "address3": "",
+                    "city": "Seattle",
+                    "zip_code": "98102",
+                    "country": "US",
+                    "state": "WA",
+                    "display_address": [
+                        "425 Harvard Ave E",
+                        "Seattle, WA 98102"
+                    ]
+                },
+                "phone": "+12066844715",
+                "display_phone": "(206) 684-4715",
+                "distance": 1119.0563813456188
             },
             {
                 "id": "VASXN2ZrxYpYdtdzqRbPAg",
@@ -2619,43 +2619,6 @@
                 "distance": 5735.235086107704
             },
             {
-                "id": "Dh_Yh9Mw4quFVEztV3qg8w",
-                "alias": "seattle-public-library-montlake-branch-seattle-2",
-                "name": "Seattle Public Library - Montlake Branch",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9O6ilWK2ScBh65jS5vtIoA/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/seattle-public-library-montlake-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 13,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 3.5,
-                "coordinates": {
-                    "latitude": 47.6405196,
-                    "longitude": -122.3024015
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "2401 24th Ave E",
-                    "address2": null,
-                    "address3": "",
-                    "city": "Seattle",
-                    "zip_code": "98112",
-                    "country": "US",
-                    "state": "WA",
-                    "display_address": [
-                        "2401 24th Ave E",
-                        "Seattle, WA 98112"
-                    ]
-                },
-                "phone": "+12066844720",
-                "display_phone": "(206) 684-4720",
-                "distance": 3574.3054540852863
-            },
-            {
                 "id": "e3iHmMNCiCGQSZlYes8KVg",
                 "alias": "odegaard-undergraduate-library-seattle",
                 "name": "Odegaard Undergraduate Library",
@@ -2691,6 +2654,43 @@
                 "phone": "+12065432990",
                 "display_phone": "(206) 543-2990",
                 "distance": 4914.822817395907
+            },
+            {
+                "id": "Dh_Yh9Mw4quFVEztV3qg8w",
+                "alias": "seattle-public-library-montlake-branch-seattle-2",
+                "name": "Seattle Public Library - Montlake Branch",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9O6ilWK2ScBh65jS5vtIoA/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/seattle-public-library-montlake-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 13,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 3.5,
+                "coordinates": {
+                    "latitude": 47.6405196,
+                    "longitude": -122.3024015
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "2401 24th Ave E",
+                    "address2": null,
+                    "address3": "",
+                    "city": "Seattle",
+                    "zip_code": "98112",
+                    "country": "US",
+                    "state": "WA",
+                    "display_address": [
+                        "2401 24th Ave E",
+                        "Seattle, WA 98112"
+                    ]
+                },
+                "phone": "+12066844720",
+                "display_phone": "(206) 684-4720",
+                "distance": 3574.3054540852863
             }
         ],
         "total": 157,

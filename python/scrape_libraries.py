@@ -25,3 +25,23 @@ for loc in locations:
 
 with open('./libraries.json', 'w') as openfile:
 	json.dump(response_list, openfile)    
+
+reviews_response_list = []
+for response in response_list:
+    libraries = response['businesses']
+    for library in libraries:
+        id = library['id']
+        url = "https://api.yelp.com/v3/businesses/" + id + "/reviews?limit=20&sort_by=yelp_sort"
+        headers = {
+            "accept": "application/json",
+            "Authorization": "Bearer " + yelp_api_key
+        }
+        review_response = requests.get(url, headers=headers)
+        review_response_dict = review_response.json()
+        reviews_response_list.append(review_response_dict)
+
+with open('./library_reviews.json', 'w') as openfile:
+    json.dump(reviews_response_list, openfile)
+
+
+
