@@ -26,4 +26,8 @@ EXPOSE 5000
 CMD ["flask", "run", "--host=0.0.0.0", "--debug"]
 
 # init the database
-CMD ["python", "populate.py"]
+# Commented this line because there is a race condition between the databse
+# service and the backend service. The database service is not ready by the
+# this command is run :/ so we gotta run it manually after everything is up
+# and running.
+#CMD ["python", "populate.py"]
