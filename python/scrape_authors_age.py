@@ -99,3 +99,39 @@
 #         person = wikiAge(name, function=_parseInfobox)
 #         for key in person:
 #             print ('Key:%s  Value: %s'%(key,person[key]))
+
+
+# importing modules
+# import requests
+# import scrape_authors
+# from lxml import etree
+
+# author_detail_list = []
+ 
+# # manually storing desired URL
+# for author in scrape_authors.authors_list:
+#     author_name = author.replace(" ", "_")
+#     url='https://en.wikipedia.org/wiki/' + author_name
+ 
+#     # fetching its url through requests module 
+#     req = requests.get(url)
+ 
+#     store = etree.fromstring(req.text)
+ 
+#     # this will give Motto portion of above
+#     # URL's info box of Wikipedia's page
+
+#     author_details = []
+#     output_birth = store.xpath('//table[@class="infobox vcard"]/tr[th/text()="Born"]/td/i')
+#     output_death = store.xpath('//table[@class="infobox vcard"]/tr[th/text()="Died"]/td/i')
+#     output_genre = store.xpath('//table[@class="infobox vcard"]/tr[th/text()="Genre"]/td/i')
+#     output_literary_movement = store.xpath('//table[@class="infobox vcard"]/tr[th/text()="Literary movement"]/td/i')
+#     author_details.append(output_birth)
+#     author_details.append(output_death)
+#     author_details.append(output_genre)
+#     author_details.append(output_literary_movement)
+#     author_detail_list.append(author_details)
+ 
+# # printing the text portion
+# with open('./author_details.json', 'w') as openfile:
+# 	json.dump(author_detail_list, openfile)
