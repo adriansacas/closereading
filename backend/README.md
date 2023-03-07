@@ -28,3 +28,12 @@ Run this command if rebuilding the image is needed. For example when dependencie
 
 `docker exec -it <container_name> bash`
 
+
+# Database
+
+## Populate
+
+Run the following command in the backend terminal
+
+`python populate.py`
+
