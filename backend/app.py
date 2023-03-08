@@ -77,3 +77,25 @@ def get_libraries():
     mapping = {"libraries": result}
 
     return jsonify(mapping)
+
+@app.route("/books/<id>")
+def get_books_by_id(id):
+    query = db.session.query(Book).filter_by(id=id)
+    result = book_schema.dump(query, many=True)
+    return jsonify({"data": result})
+
+@app.route("/authors/<id>")
+def get_authors_by_id(id):
+    query = db.session.query(Author).filter_by(id=id)
+    result = author_schema.dump(query, many=True)
+    return jsonify({"data": result})
+
+@app.route("/libraries/<id>")
+def get_libraries_by_id(id):
+    query = db.session.query(Library).filter_by(id=id)
+    result = library_schema.dump(query, many=True)
+    return jsonify({"data": result})
+
+
+if __name__ == '__main__':
+    app.run()
