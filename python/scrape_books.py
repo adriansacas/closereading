@@ -5,10 +5,22 @@ import requests
 import json
 import logging
 import time
+import copy
+
+import scrape_authors
 
 logging.captureWarnings(True)
 
-api_url = "https://www.googleapis.com/books/v1/volumes?q=fiction&download=epub&filter=ebooks&maxResults=40&key=" + google_books_key
+# api_url = "https://www.googleapis.com/books/v1/volumes?q=inauthor:\"" + author + "\"" + google_books_key
+
+authors_list = copy.deepcopy(scrape_authors.authors_list)
+for i in range(len(authors_list)):
+	name = authors_list[i]
+	name = name.replace("_", "%20")
+	# name = name.replace("%27", "\'")
+	authors_list[i] = name
+# print(authors_list)
+
 
 ##
 ##    function to obtain a new OAuth 2.0 token from the authentication server
@@ -50,11 +62,17 @@ def get_new_token():
 response_list = []
 # response_list.append(response_dict)
 
-for i in range(1, 100):
-	api_call_response = requests.get(api_url+"&page="+str(i))
+for name in authors_list:
+	api_url = "https://www.googleapis.com/books/v1/volumes?langRestrict=en&maxResults=5&q=inauthor:\"" + name + "\""
+	api_call_response = requests.get(api_url)
 	api_call_response_dict = api_call_response.json()
 	response_list.append(api_call_response_dict)
+
+# for i in range(1, 100):
+# 	api_call_response = requests.get(api_url+"&page="+str(i))
+# 	api_call_response_dict = api_call_response.json()
+# 	response_list.append(api_call_response_dict)
 	
-with open('./books.json', 'w') as openfile:
+with open('./new_books.json', 'w') as openfile:
 	json.dump(response_list, openfile)
 		
