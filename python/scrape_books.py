@@ -75,4 +75,20 @@ for name in authors_list:
 	
 with open('./new_books.json', 'w') as openfile:
 	json.dump(response_list, openfile)
+
+publish_location_list = []
+for response in response_list:
+	if 'items' in response:
+		items = response['items']
+		for item in items:
+			info = item['volumeInfo']
+			if 'industryIdentifiers' in info:
+				isbn = info['industryIdentifiers'][0]['identifier']
+				open_library_url = "https://openlibrary.org/api/books?bibkeys=ISBN:" + isbn + "&format=json&jscmd=data"
+				open_library_response = requests.get(open_library_url)
+				open_library_response_dict = open_library_response.json()
+				publish_location_list.append(open_library_response_dict)
+
+with open('./new_book_details.json', 'w') as openfile:
+	json.dump(publish_location_list, openfile)
 		
