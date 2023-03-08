@@ -15,7 +15,7 @@ const AuthorCard = (props) => {
         </Card.Body>
         <Card.Footer className="text-muted">
           <li>
-            <Link to={`/author/`+id}>More info</Link>
+            <Link to={`/authors/`+id}>More info</Link>
           </li>
         </Card.Footer>
       </Card>
