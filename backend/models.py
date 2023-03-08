@@ -1,6 +1,11 @@
-from app import db
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from config import SQLALCHEMY_DATABASE_URI
 
-
+app = Flask(__name__)
+app.debug=True
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
+db = SQLAlchemy(app)
 # Declare a many-to-many relationship between libraries and books
 # library_book = db.Table(
 #     'library_book',
