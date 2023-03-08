@@ -23,9 +23,14 @@ def get_books():
     description = request.args.get("description")
 
     query = db.session.query(Book)
-    count = query.count()
-    result = book_schema.dump(query, many=True)
-    return jsonify({"data": result, "meta": {"count": count}})
+    if page != None:
+        query = query.paginate(page=page, per_page=perPage, error_out=False).items #Should be based off of routing paramets for how much per page
+    else:
+        query = query.all()
+    result = book_schema.dump(query, many = True)
+    mapping = {"books": result}
+
+    return jsonify(mapping)
 
 @app.route("/authors")
 def get_authors():
@@ -36,11 +41,15 @@ def get_authors():
     description = request.args.get("description")
     image_url = request.args.get("image_url")
     books = request.args.get("books")
-
     query = db.session.query(Author)
-    count = query.count()
-    result = author_schema.dump(query, many=True)
-    return jsonify({"data": result, "meta": {"count": count}})
+    if page != None:
+        query = query.paginate(page=page, per_page=perPage, error_out=False).items #Should be based off of routing paramets for how much per page
+    else:
+        query = query.all()
+    result = author_schema.dump(query, many = True)
+    mapping = {"authors": result}
+
+    return jsonify(mapping)
 
 @app.route("/libraries")
 def get_libraries():
@@ -60,6 +69,11 @@ def get_libraries():
     phone = request.args.get("phone")
 
     query = db.session.query(Library)
-    count = query.count()
-    result = library_schema.dump(query, many=True)
-    return jsonify({"data": result, "meta": {"count": count}})
+    if page != None:
+        query = query.paginate(page=page, per_page=perPage, error_out=False).items #Should be based off of routing paramets for how much per page
+    else:
+        query = query.all()
+    result = library_schema.dump(query, many = True)
+    mapping = {"libraries": result}
+
+    return jsonify(mapping)
