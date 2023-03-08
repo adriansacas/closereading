@@ -2,8 +2,9 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, jsonify, request
 from models import app, db, Book, Author, Library
+from flask_cors import CORS
 from schema import book_schema, author_schema, library_schema
-
+CORS(app)
 
 @app.route("/")
 def hello_world():
@@ -63,3 +64,21 @@ def get_libraries():
     count = query.count()
     result = library_schema.dump(query, many=True)
     return jsonify({"data": result, "meta": {"count": count}})
+
+@app.route("/books/<id>")
+def get_books_by_id(id):
+    query = db.session.query(Book).filter_by(id=id)
+    result = book_schema.dump(query, many=True)
+    return jsonify({"data": result})
+
+@app.route("/authors/<id>")
+def get_authors_by_id(id):
+    query = db.session.query(Author).filter_by(id=id)
+    result = author_schema.dump(query, many=True)
+    return jsonify({"data": result})
+
+@app.route("/libraries/<id>")
+def get_libraries_by_id(id):
+    query = db.session.query(Library).filter_by(id=id)
+    result = library_schema.dump(query, many=True)
+    return jsonify({"data": result})
