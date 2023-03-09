@@ -1,8 +1,8 @@
 import renderer from "react-test-renderer";
 
-import JobCard from "../components/Cards/JobCard";
-import ApartmentCard from "../components/Cards/ApartmentCard";
-import CityCard from "../components/Cards/CityCard";
+import AuthorCard from "../components/Cards/AuthorCard";
+import BookCard from "../components/Cards/BookCard";
+import LibraryCard from "../components/Cards/LibraryCard";
 import APICard from "../components/Cards/APICard";
 import DeveloperCard from "../components/Cards/DeveloperCard";
 import PageCard from "../components/Cards/PageCard";
@@ -14,46 +14,48 @@ import placeholder from "../assets/placeholder/avatar.png";
 import App from "../App";
 import RouteSwitch from "../RouteSwitch";
 
-it("JobCard Initial correctly", () => {
-  const job = {
-    title: "Title",
-    city: "City",
-    state: "State",
-    salary: 100,
-    ContractType: "Full Time",
+
+it("AuthorCard initializes correctly", () => {
+  const author = {
+    name: "Name",
+    age: 100,
+    nationality: "Nationality",
+    gender: "Gender",
+    publications: 100,
     key: 1,
   };
-  const component = renderer.create(<JobCard job={job} />);
+  const component = renderer.create(<AuthorCard author={author} />);
 
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-it("ApartmentCard initializes correctly", () => {
-  const apartment = {
+it("BookCard Initial correctly", () => {
+    const book = {
+      title: "Title",
+      author: "Author",
+      number_of_pages: 100,
+      publishing_year: 2000,
+      publisher: "Publisher",
+      NYT_Best_Seller: "Yes",
+      key: 1,
+    };
+    const component = renderer.create(<BookCard book={book} />);
+  
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+it("LibraryCard initializes correctly", () => {
+  const library = {
     name: "Name",
-    city: "City",
-    price: 1000,
-    type: "Apartment",
-    buildYear: 1998,
+    location: "Location",
+    collection_size: 123356,
+    facility: "Facility",
+    rating: 5,
     key: 1,
   };
-  const component = renderer.create(<ApartmentCard apartment={apartment} />);
-
-  let tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-it("CityCard initializes correctly", () => {
-  const city = {
-    name: "Name",
-    state: "State",
-    Population: 123356,
-    rating: 100,
-    budget: 1000,
-    key: 1,
-  };
-  const component = renderer.create(<CityCard city={city} />);
+  const component = renderer.create(<LibraryCard library={library} />);
 
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
