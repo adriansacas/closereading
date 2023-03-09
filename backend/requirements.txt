@@ -1,0 +1,4 @@
+Flask==2.2.3
+SQLAlchemy==1.4.46
+flask_sqlalchemy==3.0.3
+psycopg2
