@@ -21,11 +21,11 @@ const RouteSwitch = () => {
           <Route path = '/' element={<Home/>} />
           <Route path = '/about' element={<About />} />
           <Route path = '/books' element={<Books />} />
-          <Route path = '/book/:id' element={<Book />} />
+          <Route path = '/books/:id' element={<Book />} />
           <Route path = '/libraries' element={<Libraries />} />
-          <Route path = '/library/:id' element={<Library />} />
+          <Route path = '/libraries/:id' element={<Library />} />
           <Route path = '/authors' element={<Authors />} />
-          <Route path = '/author/:id' element={<Author />} />
+          <Route path = '/authors/:id' element={<Author />} />
         </Routes>
       </Router>
   );
