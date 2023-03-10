@@ -103,11 +103,11 @@ def populate_books():
                     else:
                         page_count = None
                     db.session.add(Book(
-                        title=book['title'],
+                        title= book['title'] ,
+                        author_id = author.id, # author.id value is correct, but author_id doesnt work
                         genre=genre,
                         pub_year=pub_year,
                         page_count=page_count,
-                        author=author,
                         image_url=book['imageLinks']['thumbnail'].replace('zoom=1', 'zoom=0'),
                         # pub_location=,
                         description=book['description']

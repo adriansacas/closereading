@@ -18,7 +18,7 @@ def get_books():
     pub_year = request.args.get("pub_year")
     page_count = request.args.get("page_count")
     author_id = request.args.get("author_id")
-    image_url = request.args.get("author_id")
+    image_url = request.args.get("image_url")
     pub_location = request.args.get("pub_location")
     description = request.args.get("description")
 
