@@ -81,20 +81,20 @@ def get_libraries():
 @app.route("/books/<id>")
 def get_books_by_id(id):
     query = db.session.query(Book).filter_by(id=id)
-    result = book_schema.dump(query, many=True)
-    return jsonify({"data": result})
+    # result = book_schema.dump(query, many=True)
+    return jsonify(data = book_schema.dump(query, many=True))
 
 @app.route("/authors/<id>")
 def get_authors_by_id(id):
     query = db.session.query(Author).filter_by(id=id)
-    result = author_schema.dump(query, many=True)
-    return jsonify({"data": result})
+    # result = author_schema.dump(query, many=True)
+    return jsonify(author_schema.dump(query, many=True))
 
 @app.route("/libraries/<id>")
 def get_libraries_by_id(id):
     query = db.session.query(Library).filter_by(id=id)
-    result = library_schema.dump(query, many=True)
-    return jsonify({"data": result})
+    # result = library_schema.dump(query, many=True)
+    return jsonify(library_schema.dump(query, many=True))
 
 
 if __name__ == '__main__':
