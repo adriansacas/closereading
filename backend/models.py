@@ -1,6 +1,10 @@
-from app import db
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from config import SQLALCHEMY_DATABASE_URI
 
-
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
+db = SQLAlchemy(app)
 # Declare a many-to-many relationship between libraries and books
 # library_book = db.Table(
 #     'library_book',
@@ -19,9 +23,9 @@ from app import db
 class Book(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
-    genre = db.Column(db.String(30), nullable=False)
+    genre = db.Column(db.String(30), nullable=True)
     pub_year = db.Column(db.Integer, nullable=False)
-    page_count = db.Column(db.Integer, nullable=False)
+    page_count = db.Column(db.Integer, nullable=True)
     author_id = db.Column(db.Integer, db.ForeignKey('author.id'))
     image_url = db.Column(db.String(500), nullable=False)
     # pub_location = db.Column(db.String(20), nullable=False)
@@ -63,6 +67,5 @@ class Review(db.Model):
     rating = db.Column(db.Integer, nullable=False)
     username = db.Column(db.String(100), nullable=False)
     time_created = db.Column(db.String(100), nullable=False)
-    image_url = db.Column(db.String(500), nullable=False)
     url = db.Column(db.String(500), nullable=False)
     library_id = db.Column(db.Integer, db.ForeignKey('library.id'))

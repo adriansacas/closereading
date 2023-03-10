@@ -14,7 +14,7 @@ const Book = () => {
             <Row>
                 <Col>
                     <h1 className="d-flex justify-content-center p-4 ">{bookData[id - 1].name}</h1>
-                    <div>Author: <Link to={`/author/`+id}>{bookData[id - 1].author}</Link></div>
+                    <div>Author: <Link to={`/authors/`+id}>{bookData[id - 1].author}</Link></div>
                     <div>Pages: {bookData[id - 1].number_of_pages}</div>
                     <div>Year: {bookData[id - 1].publishing_year}</div>
                     <div>Publisher: {bookData[id - 1].publisher}</div>

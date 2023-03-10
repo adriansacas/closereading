@@ -41,17 +41,20 @@ def populate_authors_dummy():
 
 def populate_authors():
     # This dataset contains 100 unique authors
-    with open('data/small_authors.json') as data:
+    with open('data/new_authors.json') as data:
         authors = json.load(data)
         for author_data in authors:
             author = author_data['query']['pages'][0]
+            # Skip authors without a bio
+            if 'extract' not in author or not author['extract']:
+                continue
             # Check that data has image url
             if 'original' in author:
                 image_url = author['original']['source']
             else:
                 image_url = None
             # Check that data has description
-            if 'terms' in author:
+            if 'terms' in author or author['terms'] == 'Wikimedia disambiguation page':
                 description = author['terms']['description'][0]
             else:
                 description = None
@@ -67,20 +70,43 @@ def populate_authors():
 
 def populate_books():
     # books in this dataset have a total of 45 unique authors
-    with open('data/small_books.json') as data:
+    with open('data/new_books.json') as data:
         books = json.load(data)
         for cluster in books:
+            # skip clusters with no books in them
+            if 'items' not in cluster:
+                continue
+
             for book_data in cluster['items']:
                 book = book_data['volumeInfo']
+                # Skip books without picture, description, or published date
+                if 'imageLinks' not in book or 'description' not in book or 'publishedDate' not in book:
+                    continue
+
                 # Only add the first author
                 author = Author.query.filter_by(name=book['authors'][0]).first()
                 # Only add the book if its author is in the database
                 if author:
+                    # Parse published year if date is string
+                    if isinstance(book['publishedDate'], str):
+                        pub_year = int(book['publishedDate'][:4])
+                    else:
+                        pub_year = book['publishedDate']
+                    # Check book has a genre
+                    if 'categories' in book:
+                        genre = book['categories'][0]
+                    else:
+                        genre = None
+                    # Check page count
+                    if 'pageCount' in book:
+                        page_count = book['pageCount']
+                    else:
+                        page_count = None
                     db.session.add(Book(
                         title=book['title'],
-                        genre=book['categories'][0],
-                        pub_year=book['publishedDate'],
-                        page_count=book['pageCount'],
+                        genre=genre,
+                        pub_year=pub_year,
+                        page_count=page_count,
                         author=author,
                         image_url=book['imageLinks']['thumbnail'].replace('zoom=1', 'zoom=0'),
                         # pub_location=,
@@ -118,10 +144,10 @@ def populate_libraries():
                         rating=review['rating'],
                         username=review['user']['name'],
                         time_created=review['time_created'],
-                        image_url=review['user']['image_url'],
                         url=review['url'],
                         library=library
                     ))
+                i += 1
         db.session.commit()
 
 
