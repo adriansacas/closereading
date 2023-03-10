@@ -52,7 +52,7 @@ const Library = () => {
             console.log(getPage(1, 24));
         };
         getLibrary();
-    }, []);
+    });
 
     return (
         <Container fluid>

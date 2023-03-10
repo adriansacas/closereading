@@ -42,7 +42,7 @@ const Author = () => {
             setLoaded(true);
         };
         getAuthor();
-    }, []);
+    });
 
     return (
         <Container fluid>
