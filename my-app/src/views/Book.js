@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {Link, useParams} from "react-router-dom";
-// import book from "../Books.json"
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-// import libraryData from "../Libraries.json";
-// import LibraryCard from "../components/Cards/LibraryCard";
+import LibraryCard from "../components/Cards/LibraryCard";
 import Spinner from "react-bootstrap/Spinner";
+import {getPage} from "../tools"
 
 
 const client = axios.create({
@@ -18,6 +17,7 @@ const client = axios.create({
 const Book = () => {
     const { id } = useParams();
     const [book, setBook] = useState();
+    const [libraries, setLibraries] = useState();
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
@@ -30,8 +30,15 @@ const Book = () => {
                     })
                     .catch((err) => console.log(err));
             }
+            if (libraries === undefined) {
+                await client
+                    .get(`libraries`, {params: {page: getPage(1, 26), perPage: 3}})
+                    .then((response) => {
+                        setLibraries(response.data["libraries"]);
+                    })
+                    .catch((err) => console.log(err));
+            }
             setLoaded(true);
-            console.log(book);
         };
         getBook();
     }, [book]);
@@ -51,15 +58,15 @@ const Book = () => {
                         <h5>Description:</h5>
                         <div>{book.description}</div>
                         <h5>Libraries</h5>
-                        {/*<Row md={3} className="p-4 g-4 justify-content-center">*/}
-                        {/*    {libraryData.map((library) => {*/}
-                        {/*        return (*/}
-                        {/*            <Col>*/}
-                        {/*                <LibraryCard libraryData={library} />*/}
-                        {/*            </Col>*/}
-                        {/*        );*/}
-                        {/*    })}*/}
-                        {/*</Row>*/}
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            {libraries.map((library) => {
+                                return (
+                                    <Col>
+                                        <LibraryCard libraryData={library} />
+                                    </Col>
+                                );
+                            })}
+                        </Row>
                     </Col>
                     <Col>
                         <img src={book.image_url} alt="Book cover."/>

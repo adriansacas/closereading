@@ -7,17 +7,12 @@ import BookCard from "../components/Cards/BookCard";
 import AuthorCard from "../components/Cards/AuthorCard";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
+import {getPage} from "../tools"
 
 
 const client = axios.create({
     baseURL: "http://localhost:4000",
 });
-
-function getAuthorPage(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min);
-}
 
 
 const Library = () => {
@@ -47,13 +42,14 @@ const Library = () => {
             }
             if (authors === undefined) {
                 await client
-                    .get(`authors`, {params: {page: getAuthorPage(1, 24), perPage: 3}})
+                    .get(`authors`, {params: {page: getPage(1, 24), perPage: 3}})
                     .then((response) => {
                         setAuthors(response.data["authors"]);
                     })
                     .catch((err) => console.log(err));
             }
             setLoaded(true);
+            console.log(getPage(1, 24));
         };
         getLibrary();
     }, [library, books, authors]);
