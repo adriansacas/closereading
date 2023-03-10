@@ -18,10 +18,10 @@ import RouteSwitch from "../RouteSwitch";
 it("AuthorCard initializes correctly", () => {
   const author = {
     name: "Name",
-    age: 100,
+    age: 0,
     nationality: "Nationality",
     gender: "Gender",
-    publications: 100,
+    publications: 0,
     key: 1,
   };
   const component = renderer.create(<AuthorCard author={author} />);
@@ -34,8 +34,8 @@ it("BookCard Initial correctly", () => {
     const book = {
       title: "Title",
       author: "Author",
-      number_of_pages: 100,
-      publishing_year: 2000,
+      number_of_pages: 0,
+      publishing_year: 0,
       publisher: "Publisher",
       NYT_Best_Seller: "Yes",
       key: 1,
@@ -50,9 +50,9 @@ it("LibraryCard initializes correctly", () => {
   const library = {
     name: "Name",
     location: "Location",
-    collection_size: 123356,
+    collection_size: 0,
     facility: "Facility",
-    rating: 5,
+    rating: 0.0,
     key: 1,
   };
   const component = renderer.create(<LibraryCard library={library} />);
