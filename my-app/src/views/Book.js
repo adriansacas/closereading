@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 // import libraryData from "../Libraries.json";
-import LibraryCard from "../components/Cards/LibraryCard";
+// import LibraryCard from "../components/Cards/LibraryCard";
 import Spinner from "react-bootstrap/Spinner";
 
 
