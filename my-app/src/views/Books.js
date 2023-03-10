@@ -1,10 +1,9 @@
 import React from "react";
 import BookCard from "../components/Cards/BookCard";
-import Stack from "react-bootstrap/Stack";
+// import Stack from "react-bootstrap/Stack";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-// import bookData from "../Books.json"
 import Pagination from "react-bootstrap/Pagination";
 import axios from "axios"
 import { useState, useEffect } from "react"
@@ -13,9 +12,10 @@ import Spinner from "react-bootstrap/Spinner";
 const client = axios.create({
     baseURL: "http://localhost:4000/",
   });
-  
-  const PER_PAGE = 20
-  const NUM_BOOKS = 304
+
+
+const PER_PAGE = 20
+const NUM_BOOKS = 304
     
 
 const Books = () => {
@@ -34,13 +34,13 @@ const Books = () => {
             if (!loaded) {
                 await client
                   .get(`books?page=${activePage}`)
-                  .then((response) => {setBooks(response.data["data"])})
+                  .then((response) => {setBooks(response.data["books"])})
                   .catch((err) => console.log(err));
                 setLoaded(true);
             }
         };
         fetchBooks();
-    }, [books, loaded]);
+    });
 
     let numPages = Math.ceil(NUM_BOOKS / PER_PAGE)
     let items = []
@@ -88,7 +88,7 @@ const Books = () => {
             </Pagination>
 
             {/* Card Grid */}
-            {/* <p>Showing {books.length} out of 282 instances</p> */}
+             <p>Showing {books.length} out of 282 instances</p>
 
             <Container style={{display: 'flex'}}>
                 <Row
@@ -99,7 +99,7 @@ const Books = () => {
                 xs={1}
                 className="d-flex g-0 p-0 justify-content-center">
                     { loaded ? (
-                        books["data"].map((bookData) => {
+                        books.map((bookData) => {
                             return ( 
                                 <Col key={bookData.id} className = "d-flex align-self-stretch">
                                     <BookCard bookData={bookData}/>
