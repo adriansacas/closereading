@@ -9,13 +9,14 @@ import axios from "axios"
 import { useState, useEffect } from "react"
 import Spinner from "react-bootstrap/Spinner";
 
+
 const client = axios.create({
     baseURL: "http://localhost:4000/",
   });
 
 
 const PER_PAGE = 20
-const NUM_BOOKS = 304
+const NUM_ITEMS = 304
     
 
 const Books = () => {
@@ -30,7 +31,7 @@ const Books = () => {
     }
 
       useEffect(() => {
-        const fetchBooks = async() => {
+        const getBooks = async() => {
             if (!loaded) {
                 await client
                   .get(`books?page=${activePage}`)
@@ -39,10 +40,10 @@ const Books = () => {
                 setLoaded(true);
             }
         };
-        fetchBooks();
+        getBooks();
     });
 
-    let numPages = Math.ceil(NUM_BOOKS / PER_PAGE)
+    let numPages = Math.ceil(NUM_ITEMS / PER_PAGE)
     let items = []
     for (let num = activePage - 2; num <= activePage + 2; num++) {
         if (num > 0 && num <= numPages) {
@@ -62,7 +63,8 @@ const Books = () => {
     return (
 
         <Container className="p-4">
-            <h1 className="d-flex justify-content-center p-4 ">Books</h1>
+            <h1 className="d-flex justify-content-center p-4">Books</h1>
+            <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of 304</Container>
 
             {/* Pagination */}
             <Pagination className="justify-content-center">
@@ -88,7 +90,6 @@ const Books = () => {
             </Pagination>
 
             {/* Card Grid */}
-             <p>Showing {books.length} out of 282 instances</p>
 
             <Container style={{display: 'flex'}}>
                 <Row
