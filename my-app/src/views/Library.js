@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-// import BookCard from "../components/Cards/BookCard";
-// import AuthorCard from "../components/Cards/AuthorCard";
+import BookCard from "../components/Cards/BookCard";
+import AuthorCard from "../components/Cards/AuthorCard";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
 
@@ -13,10 +13,18 @@ const client = axios.create({
     baseURL: "http://localhost:4000",
 });
 
+function getAuthorPage(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
 
 const Library = () => {
     const { id } = useParams();
     const [library, setLibrary] = useState();
+    const [books, setBooks] = useState();
+    const [authors, setAuthors] = useState();
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
@@ -29,48 +37,64 @@ const Library = () => {
                     })
                     .catch((err) => console.log(err));
             }
+            if (books === undefined) {
+                await client
+                    .get(`books`, {params: {page: id, perPage: 3}})
+                    .then((response) => {
+                        setBooks(response.data["books"]);
+                    })
+                    .catch((err) => console.log(err));
+            }
+            if (authors === undefined) {
+                await client
+                    .get(`authors`, {params: {page: getAuthorPage(1, 24), perPage: 3}})
+                    .then((response) => {
+                        setAuthors(response.data["authors"]);
+                    })
+                    .catch((err) => console.log(err));
+            }
             setLoaded(true);
         };
         getLibrary();
-    }, [library]);
+    }, [library, books, authors]);
 
     return (
         <Container fluid>
             {loaded ? (
                 <Row>
                     <Col>
-                        <h1 className="d-flex justify-content-center p-4 ">{library[0].name}</h1>
-                        <div>Location: {library[0].address}, {library[0].zip_code} {library[0].city}, {library[0].state}, {library[0].country}
+                        <h1 className="d-flex justify-content-center p-4 ">{library.name}</h1>
+                        <div>Location: {library.address}, {library.zip_code} {library.city}, {library.state}, {library.country}
                         </div>
-                        <div>Phone: {library[0].phone}</div>
+                        <div>Phone: {library.phone}</div>
                         {/*<div>Collection Size: {libraryData[0].collection_size}</div>*/}
                         {/*<div>Facility: {libraryData[0].facility}</div>*/}
-                        <div>Rating: {library[0].rating}</div>
+                        <div>Rating: {library.rating}</div>
                         {/*<h5>Description:</h5>*/}
-                        {/*<div>{libraryData[id -1].description}</div>*/}
+                        {/*<div>{libraryData[0].description}</div>*/}
                         <h5>Books</h5>
-                        {/*<Row md={3} className="p-4 g-4 justify-content-center">*/}
-                        {/*    {bookData.map((book) => {*/}
-                        {/*        return (*/}
-                        {/*            <Col>*/}
-                        {/*                <BookCard bookData={book} />*/}
-                        {/*            </Col>*/}
-                        {/*        );*/}
-                        {/*    })}*/}
-                        {/*</Row>*/}
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            {books.map((book) => {
+                                return (
+                                    <Col>
+                                        <BookCard bookData={book} />
+                                    </Col>
+                                );
+                            })}
+                        </Row>
                         <h5>Authors</h5>
-                        {/*<Row md={3} className="p-4 g-4 justify-content-center">*/}
-                        {/*    {authorData.map((author) => {*/}
-                        {/*        return (*/}
-                        {/*            <Col>*/}
-                        {/*                <AuthorCard authorData={author} />*/}
-                        {/*            </Col>*/}
-                        {/*        );*/}
-                        {/*    })}*/}
-                        {/*</Row>*/}
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            {authors.map((author) => {
+                                return (
+                                    <Col>
+                                        <AuthorCard authorData={author} />
+                                    </Col>
+                                );
+                            })}
+                        </Row>
                     </Col>
                     <Col>
-                        <img src={library[0].image_url} alt="Library entrance." height="500"/>
+                        <img src={library.image_url} alt="Library entrance." height="500"/>
                     </Col>
                 </Row>
             ) : (
