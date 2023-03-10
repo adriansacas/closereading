@@ -6,6 +6,8 @@ import Row from "react-bootstrap/Row";
 import BookCard from "../components/Cards/BookCard";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
+import {getPage} from "../tools";
+import LibraryCard from "../components/Cards/LibraryCard";
 
 
 const client = axios.create({
@@ -16,6 +18,7 @@ const client = axios.create({
 const Author = () => {
     const { id } = useParams();
     const [author, setAuthor] = useState();
+    const [libraries, setLibraries] = useState();
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
@@ -25,6 +28,14 @@ const Author = () => {
                     .get(`authors/${id}`)
                     .then((response) => {
                         setAuthor(response.data["data"]);
+                    })
+                    .catch((err) => console.log(err));
+            }
+            if (libraries === undefined) {
+                await client
+                    .get(`libraries`, {params: {page: getPage(1, 26), perPage: 3}})
+                    .then((response) => {
+                        setLibraries(response.data["libraries"]);
                     })
                     .catch((err) => console.log(err));
             }
@@ -56,6 +67,16 @@ const Author = () => {
                                             <BookCard bookData={book}/>
                                         </Col>
                                     );
+                            })}
+                        </Row>
+                        <h5>Libraries</h5>
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            {libraries.map((library) => {
+                                return (
+                                    <Col>
+                                        <LibraryCard libraryData={library} />
+                                    </Col>
+                                );
                             })}
                         </Row>
                     </Col>
