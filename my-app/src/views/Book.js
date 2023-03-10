@@ -41,7 +41,7 @@ const Book = () => {
             setLoaded(true);
         };
         getBook();
-    }, [book]);
+    }, [book, libraries]);
 
     return (
         <Container fluid>
