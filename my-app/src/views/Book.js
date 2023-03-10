@@ -41,15 +41,15 @@ const Book = () => {
         {loaded ? (
                 <Row>
                     <Col>
-                        <h1 className="d-flex justify-content-center p-4 ">{book[0].title}</h1>
-                        {/*<div>Author: <Link to={`/authors/`+id}>{book[id - 1].author}</Link></div>*/}
-                        <div>Pages: {book[0].page_count}</div>
-                        <div>Year: {book[0].pub_year}</div>
-                        <div>Genre: {book[0].genre}</div>
-                        {/*<div>Publisher: {book[0].publisher}</div>*/}
+                        <h1 className="d-flex justify-content-center p-4 ">{book.title}</h1>
+                        <div>Author: <Link to={`/authors/`+ book.author.id}>{book.author.name}</Link></div>
+                        <div>Pages: {book.page_count}</div>
+                        <div>Year: {book.pub_year}</div>
+                        <div>Genre: {book.genre}</div>
+                        {/*<div>Publisher: {book.publisher}</div>*/}
                         {/*<div>NYT Best-Seller: {book[id - 1].NYT_best_seller}</div>*/}
                         <h5>Description:</h5>
-                        <div>{book[0].description}</div>
+                        <div>{book.description}</div>
                         <h5>Libraries</h5>
                         {/*<Row md={3} className="p-4 g-4 justify-content-center">*/}
                         {/*    {libraryData.map((library) => {*/}
@@ -62,7 +62,7 @@ const Book = () => {
                         {/*</Row>*/}
                     </Col>
                     <Col>
-                        <img src={book[0].image_url} alt="Book cover."/>
+                        <img src={book.image_url} alt="Book cover."/>
                     </Col>
                 </Row>
             ) : (
