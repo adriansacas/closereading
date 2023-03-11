@@ -8,6 +8,7 @@ import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools";
 import LibraryCard from "../components/Cards/LibraryCard";
+import {Image} from "react-bootstrap";
 
 
 const client = axios.create({
@@ -49,7 +50,7 @@ const Author = () => {
             {loaded ? (
                 <Row>
                     <Col>
-                        <img src={author.image_url} alt="Author's portrait"/>
+                        <Image fluid src={author.image_url} alt="Author's portrait"></Image>
                     </Col>
                     <Col>
                         <h1 className="d-flex justify-content-center p-4 ">{author.name}</h1>

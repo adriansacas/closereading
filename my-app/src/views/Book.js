@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import LibraryCard from "../components/Cards/LibraryCard";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
+import {Image} from "react-bootstrap";
 
 
 const client = axios.create({
@@ -69,7 +70,7 @@ const Book = () => {
                         </Row>
                     </Col>
                     <Col>
-                        <img src={book.image_url} alt="Book cover."/>
+                        <Image fluid src={book.image_url} alt="Book cover."></Image>
                     </Col>
                 </Row>
             ) : (
