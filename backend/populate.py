@@ -108,7 +108,7 @@ def populate_books():
                         pub_year=pub_year,
                         page_count=page_count,
                         author=author,
-                        image_url=book['imageLinks']['thumbnail'].replace('zoom=1', 'zoom=0'),
+                        image_url=book['imageLinks']['thumbnail'].replace('http', 'https'),
                         # pub_location=,
                         description=book['description']
                     ))
