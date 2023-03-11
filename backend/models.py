@@ -6,6 +6,7 @@ from config import SQLALCHEMY_DATABASE_URI
 app = Flask(__name__)
 # CORS(app)  # Comment this on deployment
 app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
+app.config['SQLALCHEMCY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 # Declare a many-to-many relationship between libraries and books
 # library_book = db.Table(
