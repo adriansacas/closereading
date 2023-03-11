@@ -8,6 +8,7 @@ import AuthorCard from "../components/Cards/AuthorCard";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
+import {Image} from "react-bootstrap";
 
 
 const client = axios.create({
@@ -90,7 +91,7 @@ const Library = () => {
                         </Row>
                     </Col>
                     <Col>
-                        <img src={library.image_url} alt="Library entrance." height="500"/>
+                        <Image fluid src={library.image_url} alt="User submitted picture"></Image>
                     </Col>
                 </Row>
             ) : (
