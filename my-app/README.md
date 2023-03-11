@@ -68,34 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-# Docker
-
-### Run the container and bind mount the volumes
-
-This allows us to sync our project directory `/my-app/src` with the `/app/src` directory in our docker container. Therefore, any changes we make in our project directories will be reflected in our docker container without having to rebuild the image.
-
-`docker run -it -v <path to project src>:/app/src:ro -d -p 3000:3000 --name frontend idb/react`
-
-## Docker Compose
-
-### Run the containers (backend, frontend)
-
-Run this command from the project root directory.
-
-`docker-compose up -d`
-
-Access through http://localhost:3000/
-
-### Stop the containers
-
-`docker-compose down`
-
-### Build image
-
-When running docker-compose for the first time, it will build an image. However, docker-compose does not know when it needs to rebuild the image. All it does is check that the images with the correct name is there.
-
-Run this command if rebuilding the image is needed. For example when dependencies change, or the dockerfile has been modified.
-
-`docker-compose up -d --build`

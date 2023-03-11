@@ -3,14 +3,13 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
 const LibraryCard = (props) => {
-  const { name, location, collection_size, facility, rating, id } = props.libraryData;
+  const { name, address, zip_code, city, state, country, rating, id } = props.libraryData;
   return (
       <Card border="dark">
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text>Location: {location}</Card.Text>
-          <Card.Text>Collection Size: {collection_size}</Card.Text>
-          <Card.Text>Facility: {facility}</Card.Text>
+          <Card.Text>{address}, {zip_code} {city}, {state}, {country}</Card.Text>
+          {/*<Card.Text>Collection Size: {collection_size}</Card.Text>*/}
           <Card.Text>Rating: {rating}</Card.Text>
         </Card.Body>
         <Card.Footer className="text-muted">
