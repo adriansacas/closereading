@@ -11,7 +11,7 @@ import Spinner from "react-bootstrap/Spinner";
 
 
 const client = axios.create({
-    baseURL: "http://localhost:4000/",
+    baseURL: "https://api.closereading.me",
   });
 
 

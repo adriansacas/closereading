@@ -11,7 +11,7 @@ import {Image} from "react-bootstrap";
 
 
 const client = axios.create({
-    baseURL: "http://localhost:4000",
+    baseURL: "https://api.closereading.me",
 });
 
 
