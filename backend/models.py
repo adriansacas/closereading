@@ -1,10 +1,10 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-# from flask_cors import CORS #comment this on deployment
+from flask_cors import CORS #comment this on deployment
 from config import SQLALCHEMY_DATABASE_URI
 
 app = Flask(__name__)
-# CORS(app)  # Comment this on deployment
+CORS(app)  # Comment this on deployment
 app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
 app.config['SQLALCHEMCY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
