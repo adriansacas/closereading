@@ -8,5 +8,4 @@
 .env.production.local
 
 *.tmp
-backend/__pycache__/
 /node_modules/
