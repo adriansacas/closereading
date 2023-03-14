@@ -4,14 +4,9 @@ import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import axios from "axios";
 import Pagination from "react-bootstrap/Pagination";
 import Spinner from "react-bootstrap/Spinner";
-
-
-const client = axios.create({
-    baseURL: "https://api.closereading.me",
-});
+import apiClient from '../apiClient';
 
 
 const PER_PAGE = 20
@@ -31,7 +26,7 @@ const Authors = () => {
     useEffect(() => {
         const getAuthors = async() => {
             if (!loaded) {
-                await client
+                await apiClient
                     .get(`authors?page=${activePage}`)
                     .then((response) => {setAuthors(response.data["authors"])})
                     .catch((err) => console.log(err));

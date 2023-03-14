@@ -3,14 +3,9 @@ import LibraryCard from "../components/Cards/LibraryCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import axios from "axios";
 import Pagination from "react-bootstrap/Pagination";
 import Spinner from "react-bootstrap/Spinner";
-
-
-const client = axios.create({
-    baseURL: "https://api.closereading.me",
-});
+import apiClient from '../apiClient';
 
 
 const PER_PAGE = 20
@@ -30,7 +25,7 @@ const Libraries = () => {
     useEffect(() => {
         const getLibraries = async() => {
             if (!loaded) {
-                await client
+                await apiClient
                     .get(`libraries?page=${activePage}`)
                     .then((response) => {setLibraries(response.data["libraries"])})
                     .catch((err) => console.log(err));

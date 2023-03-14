@@ -5,14 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Pagination from "react-bootstrap/Pagination";
-import axios from "axios"
 import { useState, useEffect } from "react"
 import Spinner from "react-bootstrap/Spinner";
-
-
-const client = axios.create({
-    baseURL: "https://api.closereading.me",
-  });
+import apiClient from '../apiClient';
 
 
 const PER_PAGE = 20
@@ -33,7 +28,7 @@ const Books = () => {
       useEffect(() => {
         const getBooks = async() => {
             if (!loaded) {
-                await client
+                await apiClient
                   .get(`books?page=${activePage}`)
                   .then((response) => {setBooks(response.data["books"])})
                   .catch((err) => console.log(err));
