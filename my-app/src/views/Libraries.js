@@ -3,9 +3,9 @@ import LibraryCard from "../components/Cards/LibraryCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Pagination from "react-bootstrap/Pagination";
 import Spinner from "react-bootstrap/Spinner";
 import apiClient from '../apiClient';
+import PaginationComponent from "../components/navigation/PaginationComponent";
 
 
 const PER_PAGE = 20
@@ -17,7 +17,6 @@ const Libraries = () => {
     const [activePage, setActivePage] = useState(1);
 
     function handleClick(num) {
-        console.log("clicked page", num)
         setActivePage(num)
         setLoaded(false)
     }
@@ -26,7 +25,7 @@ const Libraries = () => {
         const getLibraries = async() => {
             if (!loaded) {
                 await apiClient
-                    .get(`libraries?page=${activePage}`)
+                    .get(`libraries`, {params: {page: activePage}})
                     .then((response) => {setLibraries(response.data["libraries"])})
                     .catch((err) => console.log(err));
                 setLoaded(true);
@@ -35,68 +34,26 @@ const Libraries = () => {
         getLibraries();
     });
 
-    let numPages = Math.ceil(NUM_ITEMS / PER_PAGE)
-    let items = []
-    for (let num = activePage - 2; num <= activePage + 2; num++) {
-        if (num > 0 && num <= numPages) {
-            items.push(
-                <Pagination.Item
-                    key={num}
-                    onClick={() => handleClick(num)}
-                    active={num === activePage}>
-                    {num}
-                </Pagination.Item>
-            )
-        }
-    }
+    let pageCount = Math.ceil(NUM_ITEMS / PER_PAGE)
 
 
 
     return (
-
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Libraries</h1>
-            <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of 80</Container>
+            <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {NUM_ITEMS}</Container>
 
             {/* Pagination */}
-            <Pagination className="justify-content-center">
-                {activePage > 3 && (
-                    <Pagination.First
-                        key={1}
-                        onClick={() => handleClick(1)}
-                        active={1 === activePage}>
-                        1
-                    </Pagination.First>
-                )}
-                {activePage > 4 && <Pagination.Ellipsis/>}
-                {items}
-                {activePage < numPages - 3 && <Pagination.Ellipsis />}
-                {activePage < numPages - 2 && (
-                    <Pagination.Last
-                        key={numPages}
-                        onClick={() => handleClick(numPages)}
-                        active={numPages === activePage}>
-                        {numPages}
-                    </Pagination.Last>
-                )}
-            </Pagination>
+            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
 
             {/* Card Grid */}
-
-            <Container style={{display: 'flex'}}>
-                <Row
-                    xl={5}
-                    lg={4}
-                    md={3}
-                    sm={2}
-                    xs={1}
-                    className="d-flex g-0 p-0 justify-content-center">
+            <Container fluid>
+                <Row xl={5} lg={4} md={3} sm={2} xs={1}>
                     { loaded ? (
-                        libraries.map((library) => {
+                        libraries.map((libraryData) => {
                             return (
-                                <Col key={library.id} className = "d-flex align-self-stretch">
-                                    <LibraryCard libraryData={library}/>
-
+                                <Col key={libraryData.id} className="flex-grow-0">
+                                    <LibraryCard libraryData={libraryData}/>
                                 </Col>
                             )
                         })) : (<Spinner animation="grow"/>)}
@@ -104,28 +61,7 @@ const Libraries = () => {
             </Container>
 
             {/* Pagination */}
-            <Pagination className="justify-content-center py-3">
-                {activePage > 3 && (
-                    <Pagination.First
-                        key={1}
-                        onClick={() => handleClick(1)}
-                        active={1 === activePage}>
-                        1
-                    </Pagination.First>
-                )}
-                {activePage > 4 && <Pagination.Ellipsis/>}
-                {items}
-                {activePage < numPages - 3 && <Pagination.Ellipsis />}
-                {activePage < numPages - 2 && (
-                    <Pagination.Last
-                        key={numPages}
-                        onClick={() => handleClick(numPages)}
-                        active={numPages === activePage}>
-                        {numPages}
-                    </Pagination.Last>
-                )}
-            </Pagination>
-
+            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
         </Container>
     );
 };
