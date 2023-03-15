@@ -8,11 +8,9 @@ import apiClient from '../apiClient';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 
 
-const PER_PAGE = 20
-const NUM_ITEMS = 69
-
 const Authors = () => {
     const [authors, setAuthors] = useState([])
+    const [pagination, setPagination] = useState([])
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
 
@@ -26,7 +24,10 @@ const Authors = () => {
             if (!loaded) {
                 await apiClient
                     .get(`authors`, {params: {page: activePage}})
-                    .then((response) => {setAuthors(response.data["authors"])})
+                    .then((response) => {
+                        setAuthors(response.data["authors"]);
+                        setPagination(response.data['pagination']);
+                    })
                     .catch((err) => console.log(err));
                 setLoaded(true);
             }
@@ -34,15 +35,13 @@ const Authors = () => {
         getAuthors();
     });
 
-    let pageCount = Math.ceil(NUM_ITEMS / PER_PAGE)
-
     return (
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Authors</h1>
-            <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {NUM_ITEMS}</Container>
+            <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}
-            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
+            <PaginationComponent activePage={activePage} pageCount={pagination.total_pages} onPageChange={handleClick} />
 
             {/* Card Grid */}
             <Container fluid>
@@ -59,7 +58,7 @@ const Authors = () => {
             </Container>
 
             {/* Pagination */}
-            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
+            <PaginationComponent activePage={activePage} pageCount={pagination.total_pages} onPageChange={handleClick} />
         </Container>
     );
 };

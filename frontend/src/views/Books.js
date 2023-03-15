@@ -8,12 +8,9 @@ import apiClient from '../apiClient';
 import PaginationComponent from '../components/navigation/PaginationComponent';
 
 
-const PER_PAGE = 20
-const NUM_ITEMS = 304
-    
-
 const Books = () => {
     const [books, setBooks] = useState([])
+    const [pagination, setPagination] = useState([])
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
 
@@ -27,7 +24,10 @@ const Books = () => {
             if (!loaded) {
                 await apiClient
                   .get(`books`, {params: {page: activePage}})
-                  .then((response) => {setBooks(response.data["books"])})
+                  .then((response) => {
+                      setBooks(response.data["books"]);
+                      setPagination(response.data["pagination"]);
+                  })
                   .catch((err) => console.log(err));
                 setLoaded(true);
             }
@@ -35,16 +35,14 @@ const Books = () => {
         getBooks();
     });
 
-    let pageCount = Math.ceil(NUM_ITEMS / PER_PAGE)
-
     return (
 
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Books</h1>
-            <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {NUM_ITEMS}</Container>
+            <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}
-            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
+            <PaginationComponent activePage={activePage} pageCount={pagination.total_pages} onPageChange={handleClick} />
 
             {/* Card Grid */}
             <Container fluid>
@@ -61,7 +59,7 @@ const Books = () => {
             </Container>
 
             {/* Pagination */}
-            <PaginationComponent activePage={activePage} pageCount={pageCount} onPageChange={handleClick} />
+            <PaginationComponent activePage={activePage} pageCount={pagination.total_pages} onPageChange={handleClick} />
         </Container>
     );
 };
