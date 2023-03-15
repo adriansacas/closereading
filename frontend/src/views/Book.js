@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import {Link, useParams} from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -8,11 +7,7 @@ import LibraryCard from "../components/Cards/LibraryCard";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
 import {Image} from "react-bootstrap";
-
-
-const client = axios.create({
-    baseURL: "https://api.closereading.me",
-});
+import apiClient from '../apiClient';
 
 
 const Book = () => {
@@ -24,7 +19,7 @@ const Book = () => {
     useEffect(() => {
         const getBook = async () => {
             if (book === undefined) {
-                await client
+                await apiClient
                     .get(`books/${id}`)
                     .then((response) => {
                         setBook(response.data["data"]);
@@ -32,7 +27,7 @@ const Book = () => {
                     .catch((err) => console.log(err));
             }
             if (libraries === undefined) {
-                await client
+                await apiClient
                     .get(`libraries`, {params: {page: getPage(1, 26), perPage: 3}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);

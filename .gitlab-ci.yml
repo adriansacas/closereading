@@ -6,6 +6,6 @@ stages:
 build-code-job:
   stage: build
   script:
-    - cd my-app
+    - cd frontend
     - yarn install
     - yarn run build
