@@ -8,4 +8,5 @@
 .env.production.local
 
 *.tmp
-backend/__pycache__/app.cpython-311.pyc
+node_modules/
+__pycache__/
