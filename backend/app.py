@@ -123,5 +123,11 @@ def get_libraries_by_id(id):
     return jsonify({"data": result})
 
 
+@app.route("/search")
+def get_search_results():
+    search_term = request.args.get("search_term")
+    return jsonify({"data": search_term, "books": [], "authors": [], "libraries": []})
+
+
 if __name__ == '__main__':
     app.run()
