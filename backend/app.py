@@ -102,16 +102,24 @@ def get_libraries_by_id(id):
 
 @app.route("/search")
 def get_search_results():
+    page = request.args.get("page", type=int)
+    per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term").split()
-    books = search_books(search_terms)
-    authors = search_authors(search_terms)
-    libraries = search_libraries(search_terms)
-    return jsonify({"data": search_terms, "books": books, "authors": authors, "libraries": libraries})
+
+    books, books_pagination = search_books(search_terms, book_schema, page, per_page)
+    authors, authors_pagination = search_authors(search_terms, author_schema, page, per_page)
+    libraries, libraries_pagination = search_libraries(search_terms, library_schema, page, per_page)
+    result = {
+        "books_data": {"books": books, "pagination": books_pagination},
+        "authors_data": {"authors": authors, "pagination": authors_pagination},
+        "libraries_data": {"libraries": libraries, "pagination": libraries_pagination}
+    }
+    return jsonify(result)
 
 
 def get_pagination_data(query, schema, page, per_page):
     query = query.paginate(page=page, per_page=per_page, error_out=False)
-    result = schema.dump(query.items, many=True)
+    result = schema.dump(query, many=True)
     pagination_data = {
         'page': page,
         'per_page': per_page,
@@ -121,8 +129,7 @@ def get_pagination_data(query, schema, page, per_page):
     return result, pagination_data
 
 
-
-def search_books(search_terms):
+def search_books(search_terms, schema, page, per_page):
     query = db.session.query(Book).filter(
         or_(
             *[Book.title.ilike(f'%{term}%') for term in search_terms],
@@ -130,30 +137,33 @@ def search_books(search_terms):
             # *[Book.genre.ilike(f'%{term}%') for term in search_terms],
             *[Book.author.has(Author.name.ilike(f'%{term}%')) for term in search_terms]
         )
-    ).all()
-    result = book_schema.dump(query, many=True)
-    return result
+    )
+    # result, pagination_data = get_pagination_data(query, schema, page, per_page)
+    result, pagination_data = schema.dump(query, many=True), {}
+    return result, pagination_data
 
 
-def search_authors(search_terms):
+def search_authors(search_terms, schema, page, per_page):
     query = db.session.query(Author).filter(
         or_(
             *[Author.name.ilike(f'%{term}%') for term in search_terms],
             *[Author.books.any(Book.title.ilike(f'%{term}%')) for term in search_terms]
         )
-    ).all()
-    result = author_schema.dump(query, many=True)
-    return result
+    )
+    # result, pagination_data = get_pagination_data(query, schema, page, per_page)
+    result, pagination_data = schema.dump(query, many=True), {}
+    return result, pagination_data
 
 
-def search_libraries(search_terms):
+def search_libraries(search_terms, schema, page, per_page):
     query = db.session.query(Library).filter(
         or_(
             *[Library.name.ilike(f'%{term}%') for term in search_terms]
         )
-    ).all()
-    result = library_schema.dump(query, many=True)
-    return result
+    )
+    # result, pagination_data = get_pagination_data(query, schema, page, per_page)
+    result, pagination_data = schema.dump(query, many=True), {}
+    return result, pagination_data
 
 
 if __name__ == '__main__':

@@ -12,6 +12,7 @@ const ResultsPage = () => {
     const searchTerm = searchParams.get('q');
     const [results, setResults] = useState([]);
     const [loaded, setLoaded] = useState(false);
+    const [activeTab, setActiveTab] = useState('');
 
     useEffect(() => {
         const getResults = async () => {
@@ -28,16 +29,25 @@ const ResultsPage = () => {
         getResults();
     },[searchTerm]);
 
+    useEffect(() => {
+        // TODO: query API according to the current tab
+    }, [activeTab]);
+
+    const handleTabChange = (eventKey) => {
+        setActiveTab(eventKey);
+        console.log(`Tab: ${eventKey}`);
+    };
+
 
     // Tabbed results based off https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/main/front-end/src/views/Search.jsx
     return (
         <Container>
             <h1>Search Results for "{searchTerm}"</h1>
-            <Tabs defaultActiveKey="Books">
-                <Tab eventKey="Books" title="Books">
+            <Tabs defaultActiveKey="books" onSelect={handleTabChange}>
+                <Tab eventKey="books" title="Books">
                     <Row xl={5} lg={4} md={3} sm={2} xs={1}>
                         { loaded ? (
-                            results["books"].map((bookData) => {
+                            results["books_data"]["books"].map((bookData) => {
                                 return (
                                     <Col key={bookData.id} className="flex-grow-0">
                                         <BookCard bookData={bookData}/>
@@ -48,10 +58,10 @@ const ResultsPage = () => {
                         )}
                     </Row>
                 </Tab>
-                <Tab eventKey="Authors" title="Authors">
+                <Tab eventKey="authors" title="Authors">
                     <Row xl={5} lg={4} md={3} sm={2} xs={1}>
                         { loaded ? (
-                            results["authors"].map((authorData) => {
+                            results["authors_data"]["authors"].map((authorData) => {
                                 return (
                                     <Col key={authorData.id} className="flex-grow-0">
                                         <AuthorCard authorData={authorData}/>
@@ -62,10 +72,10 @@ const ResultsPage = () => {
                         )}
                     </Row>
                 </Tab>
-                <Tab eventKey="Libraries" title="Libraries">
+                <Tab eventKey="libraries" title="Libraries">
                     <Row xl={5} lg={4} md={3} sm={2} xs={1}>
                         { loaded ? (
-                            results["libraries"].map((libraryData) => {
+                            results["libraries_data"]["libraries"].map((libraryData) => {
                                 return (
                                     <Col key={libraryData.id} className="flex-grow-0">
                                         <LibraryCard libraryData={libraryData}/>
