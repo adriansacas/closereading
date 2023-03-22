@@ -25,15 +25,7 @@ def get_books():
     query = db.session.query(Book)
 
     if page is not None:
-        query = query.paginate(page=page, per_page=per_page,
-                               error_out=False)  # Should be based off of routing parameters for how much per page
-        result = book_schema.dump(query.items, many=True)
-        pagination_data = {
-            'page': page,
-            'per_page': per_page,
-            'total_pages': query.pages,
-            'total_items': query.total
-        }
+        result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
         return jsonify({'books': result, 'pagination': pagination_data})
     else:
         result = book_schema.dump(query.all(), many=True)
@@ -53,15 +45,7 @@ def get_authors():
     query = db.session.query(Author)
 
     if page is not None:
-        query = query.paginate(page=page, per_page=per_page,
-                               error_out=False)  # Should be based off of routing parameters for how much per page
-        result = author_schema.dump(query.items, many=True)
-        pagination_data = {
-            'page': page,
-            'per_page': per_page,
-            'total_pages': query.pages,
-            'total_items': query.total
-        }
+        result, pagination_data = get_pagination_data(query, author_schema, page, per_page)
         return jsonify({'authors': result, 'pagination': pagination_data})
     else:
         result = author_schema.dump(query.all(), many=True)
@@ -88,15 +72,7 @@ def get_libraries():
     query = db.session.query(Library)
 
     if page is not None:
-        query = query.paginate(page=page, per_page=per_page,
-                               error_out=False)  # Should be based off of routing parameters for how much per page
-        result = library_schema.dump(query.items, many=True)
-        pagination_data = {
-            'page': page,
-            'per_page': per_page,
-            'total_pages': query.pages,
-            'total_items': query.total
-        }
+        result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
         return jsonify({'libraries': result, 'pagination': pagination_data})
     else:
         result = library_schema.dump(query.all(), many=True)
@@ -131,6 +107,19 @@ def get_search_results():
     authors = search_authors(search_terms)
     libraries = search_libraries(search_terms)
     return jsonify({"data": search_terms, "books": books, "authors": authors, "libraries": libraries})
+
+
+def get_pagination_data(query, schema, page, per_page):
+    query = query.paginate(page=page, per_page=per_page, error_out=False)
+    result = schema.dump(query.items, many=True)
+    pagination_data = {
+        'page': page,
+        'per_page': per_page,
+        'total_pages': query.pages,
+        'total_items': query.total
+    }
+    return result, pagination_data
+
 
 
 def search_books(search_terms):

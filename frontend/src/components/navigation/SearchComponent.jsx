@@ -7,7 +7,7 @@ const SearchComponent = () => {
     const navigate = useNavigate();
 
     const handleSubmit = (event) => {
-        console.log(searchTerm);
+        console.log(`Search term: ${searchTerm}`);
         event.preventDefault();
         navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
     };
