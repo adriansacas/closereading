@@ -12,20 +12,18 @@ const ResultsPage = () => {
     const searchTerm = searchParams.get('q');
     const [results, setResults] = useState([]);
     const [loaded, setLoaded] = useState(false);
-    console.log(`loaded: ${loaded}`);
 
     useEffect(() => {
         const getResults = async () => {
-            // if (!loaded) {
-                await apiClient
-                    .get('search', {params: {search_term: searchTerm}})
-                    .then((response) => {
-                        setResults(response.data);
-                        setLoaded(true);
-                        console.log('api call');
-                    })
-                    .catch((err) => console.log(err));
-            // }
+            await apiClient
+                .get('search', {params: {search_term: searchTerm}})
+                .then((response) => {
+                    setResults(response.data);
+                    setLoaded(true);
+                    console.log('api call');
+                    console.log(response.data);
+                })
+                .catch((err) => console.log(err));
         };
         getResults();
     },[searchTerm]);

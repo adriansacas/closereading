@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from models import app, db, Book, Author, Library
 from schema import book_schema, author_schema, library_schema
+from sqlalchemy import or_
 
 
 @app.route("/")
@@ -125,8 +126,45 @@ def get_libraries_by_id(id):
 
 @app.route("/search")
 def get_search_results():
-    search_term = request.args.get("search_term")
-    return jsonify({"data": search_term, "books": [], "authors": [], "libraries": []})
+    search_terms = request.args.get("search_term").split()
+    books = search_books(search_terms)
+    authors = search_authors(search_terms)
+    libraries = search_libraries(search_terms)
+    return jsonify({"data": search_terms, "books": books, "authors": authors, "libraries": libraries})
+
+
+def search_books(search_terms):
+    query = db.session.query(Book).filter(
+        or_(
+            *[Book.title.ilike(f'%{term}%') for term in search_terms],
+            # *[Book.description.ilike(f'%{term}%') for term in search_terms],
+            # *[Book.genre.ilike(f'%{term}%') for term in search_terms],
+            *[Book.author.has(Author.name.ilike(f'%{term}%')) for term in search_terms]
+        )
+    ).all()
+    result = book_schema.dump(query, many=True)
+    return result
+
+
+def search_authors(search_terms):
+    query = db.session.query(Author).filter(
+        or_(
+            *[Author.name.ilike(f'%{term}%') for term in search_terms],
+            *[Author.books.any(Book.title.ilike(f'%{term}%')) for term in search_terms]
+        )
+    ).all()
+    result = author_schema.dump(query, many=True)
+    return result
+
+
+def search_libraries(search_terms):
+    query = db.session.query(Library).filter(
+        or_(
+            *[Library.name.ilike(f'%{term}%') for term in search_terms]
+        )
+    ).all()
+    result = library_schema.dump(query, many=True)
+    return result
 
 
 if __name__ == '__main__':
