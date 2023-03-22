@@ -12,19 +12,24 @@ const ResultsPage = () => {
     const searchTerm = searchParams.get('q');
     const [results, setResults] = useState([]);
     const [loaded, setLoaded] = useState(false);
+    console.log(`loaded: ${loaded}`);
 
     useEffect(() => {
         const getResults = async () => {
-            await apiClient
-                .get('search', {params: {search_term: searchTerm}})
-                .then((response) => {
-                    setResults(response.data);
-                    setLoaded(true);
-                })
-                .catch((err) => console.log(err));
+            // if (!loaded) {
+                await apiClient
+                    .get('search', {params: {search_term: searchTerm}})
+                    .then((response) => {
+                        setResults(response.data);
+                        setLoaded(true);
+                        console.log('api call');
+                    })
+                    .catch((err) => console.log(err));
+            // }
         };
         getResults();
-    });
+    },[searchTerm]);
+
 
     // Tabbed results based off https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/main/front-end/src/views/Search.jsx
     return (
