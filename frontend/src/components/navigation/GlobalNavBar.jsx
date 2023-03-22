@@ -4,8 +4,14 @@ import SearchComponent from './SearchComponent';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { useNavigate } from 'react-router-dom';
 
 const GlobalNavBar = () => {
+  const navigate = useNavigate();
+  const handleSearch = (searchTerm) => {
+    navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
+  };
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -20,7 +26,7 @@ const GlobalNavBar = () => {
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <Container className="d-flex justify-content-end">
-            <SearchComponent />
+            <SearchComponent handleSearch={handleSearch} />
           </Container>
         </Navbar.Collapse>
       </Container>
