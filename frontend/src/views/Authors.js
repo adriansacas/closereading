@@ -5,7 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Spinner from "react-bootstrap/Spinner";
 import apiClient from '../apiClient';
+import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
+import SearchComponent from "../components/navigation/SearchComponent";
 
 
 const Authors = () => {
@@ -13,31 +15,40 @@ const Authors = () => {
     const [pagination, setPagination] = useState([])
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
+    const [searchTerm, setSearchTerm] = useState('');
 
     function handleClick(num) {
-        setActivePage(num)
-        setLoaded(false)
+        setActivePage(num);
+        setLoaded(false);
     }
 
     useEffect(() => {
         const getAuthors = async() => {
-            if (!loaded) {
-                await apiClient
-                    .get(`authors`, {params: {page: activePage}})
-                    .then((response) => {
-                        setAuthors(response.data["authors"]);
-                        setPagination(response.data['pagination']);
-                    })
-                    .catch((err) => console.log(err));
-                setLoaded(true);
-            }
+            await apiClient
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm}})
+                .then((response) => {
+                    setAuthors(response.data["authors"]);
+                    setPagination(response.data['pagination']);
+                })
+                .catch((err) => console.log(err));
+            setLoaded(true);
         };
         getAuthors();
-    });
+    }, [searchTerm, activePage]);
+
+    const handleSearch = (searchTerm) => {
+        setSearchTerm(searchTerm);
+    };
 
     return (
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Authors</h1>
+
+            {/* Search and filtering */}
+            <Container className="d-flex justify-content-center">
+                <SearchComponent handleSearch={handleSearch} />
+            </Container>
+
             <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}
@@ -50,7 +61,7 @@ const Authors = () => {
                         authors.map((authorData) => {
                             return (
                                 <Col key={authorData.id} className="flex-grow-0">
-                                    <AuthorCard authorData={authorData}/>
+                                    <AuthorCard authorData={authorData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )
                         })) : (<Spinner animation="grow"/>)}
