@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 const GlobalNavBar = () => {
   const navigate = useNavigate();
+
   const handleSearch = (searchTerm) => {
     navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
   };
