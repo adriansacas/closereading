@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Spinner from "react-bootstrap/Spinner";
 import apiClient from '../apiClient';
+import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
 
@@ -60,7 +61,7 @@ const Authors = () => {
                         authors.map((authorData) => {
                             return (
                                 <Col key={authorData.id} className="flex-grow-0">
-                                    <AuthorCard authorData={authorData}/>
+                                    <AuthorCard authorData={authorData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )
                         })) : (<Spinner animation="grow"/>)}

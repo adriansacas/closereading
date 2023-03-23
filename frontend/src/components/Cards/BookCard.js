@@ -1,16 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { highlightText } from "../../tools"
 
 const BookCard = (props) => {
     const { title, author, page_count, pub_year, genre, id } = props.bookData;
+
     return (
         <Card border="dark">
             <Card.Body>
-                <Card.Title>{title}</Card.Title>
+                <Card.Title>{highlightText(title, props.searchTerm)}</Card.Title>
                 {/* Render author only when there is an author. Useful for displaying the books an
                 author has written since displaying the author within the author page is redundant. */}
-                {author in props.bookData && (<Card.Text>Author: {author.name}</Card.Text>)}
+                {author && (<Card.Text>Author: {highlightText(author.name, props.searchTerm)}</Card.Text>)}
                 <Card.Text>Pages: {page_count}</Card.Text>
                 <Card.Text>Year: {pub_year}</Card.Text>
                 <Card.Text>Genre: {genre}</Card.Text>

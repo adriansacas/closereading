@@ -13,7 +13,7 @@ def hello_world():
 def get_books():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
-    search_terms = request.args.get("search_term").split()
+    search_terms = request.args.get("search_term")
     title = request.args.get("title")
     genre = request.args.get("genre")
     pub_year = request.args.get("pub_year")
@@ -27,6 +27,7 @@ def get_books():
 
     if page is not None:
         if search_terms:
+            search_terms = search_terms.split()
             result, pagination_data = search_books(search_terms, book_schema, page, per_page)
         else:
             result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
@@ -40,7 +41,7 @@ def get_books():
 def get_authors():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
-    search_terms = request.args.get("search_term").split()
+    search_terms = request.args.get("search_term")
     name = request.args.get("name")
     bio = request.args.get("bio")
     description = request.args.get("description")
@@ -51,6 +52,7 @@ def get_authors():
 
     if page is not None:
         if search_terms:
+            search_terms = search_terms.split()
             result, pagination_data = search_authors(search_terms, author_schema, page, per_page)
         else:
             result, pagination_data = get_pagination_data(query, author_schema, page, per_page)
@@ -64,7 +66,7 @@ def get_authors():
 def get_libraries():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
-    search_terms = request.args.get("search_term").split()
+    search_terms = request.args.get("search_term")
     name = request.args.get("name")
     image_url = request.args.get("image_url")
     rating = request.args.get("rating")
@@ -82,6 +84,7 @@ def get_libraries():
 
     if page is not None:
         if search_terms:
+            search_terms = search_terms.split()
             result, pagination_data = search_libraries(search_terms, library_schema, page, per_page)
         else:
             result, pagination_data = get_pagination_data(query, library_schema, page, per_page)

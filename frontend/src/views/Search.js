@@ -5,6 +5,7 @@ import { Col, Container, Row, Spinner, Tab, Tabs } from "react-bootstrap";
 import BookCard from "../components/Cards/BookCard";
 import AuthorCard from "../components/Cards/AuthorCard";
 import LibraryCard from "../components/Cards/LibraryCard";
+import {splitSearchTerms} from "../tools";
 
 const ResultsPage = () => {
     const location = useLocation();
@@ -50,7 +51,7 @@ const ResultsPage = () => {
                             results["books_data"]["books"].map((bookData) => {
                                 return (
                                     <Col key={bookData.id} className="flex-grow-0">
-                                        <BookCard bookData={bookData}/>
+                                        <BookCard bookData={bookData} searchTerm={splitSearchTerms(searchTerm)} />
                                     </Col>
                                 )
                             })) : (
@@ -64,7 +65,7 @@ const ResultsPage = () => {
                             results["authors_data"]["authors"].map((authorData) => {
                                 return (
                                     <Col key={authorData.id} className="flex-grow-0">
-                                        <AuthorCard authorData={authorData}/>
+                                        <AuthorCard authorData={authorData} searchTerm={splitSearchTerms(searchTerm)} />
                                     </Col>
                                 )
                             })) : (
@@ -78,7 +79,7 @@ const ResultsPage = () => {
                             results["libraries_data"]["libraries"].map((libraryData) => {
                                 return (
                                     <Col key={libraryData.id} className="flex-grow-0">
-                                        <LibraryCard libraryData={libraryData}/>
+                                        <LibraryCard libraryData={libraryData} searchTerm={splitSearchTerms(searchTerm)} />
                                     </Col>
                                 )
                             })) : (

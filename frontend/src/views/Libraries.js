@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
 import apiClient from '../apiClient';
+import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
 
@@ -60,7 +61,7 @@ const Libraries = () => {
                         libraries.map((libraryData) => {
                             return (
                                 <Col key={libraryData.id} className="flex-grow-0">
-                                    <LibraryCard libraryData={libraryData}/>
+                                    <LibraryCard libraryData={libraryData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )
                         })) : (<Spinner animation="grow"/>)}
