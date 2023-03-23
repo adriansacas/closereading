@@ -15,6 +15,15 @@ const ResultsPage = () => {
     const [loaded, setLoaded] = useState(false);
     const [activeTab, setActiveTab] = useState('');
 
+    // TODO: Cache and get on tab switching / pagination
+    // When activeTab changes: trigger useEffect
+    //     If the search result for the newly active tab haven't been loaded: fetch from api
+    //     Need to have a loaded per tab
+    // PAGINATION:
+    // When activePage changes: trigger useEffect
+    //     Always fetch active tab search results from api
+    //     Need to have an activePage per tab to remember the page
+
     useEffect(() => {
         const getResults = async () => {
             await apiClient
