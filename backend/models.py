@@ -59,6 +59,7 @@ class Library(db.Model):
     latitude = db.Column(db.Float, nullable=False)
     longitude = db.Column(db.Float, nullable=False)
     phone = db.Column(db.String(20), nullable=False)
+    gmap = db.Column(db.String(500), nullable=False)
     # TODO: books, authors
     # books = db.relationship('Book', secondary=library_book, backref='libraries')
     # authors = db.relationship('Author', secondary=library_author, backref='libraries')

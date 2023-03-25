@@ -116,10 +116,11 @@ def populate_books():
 
 
 def populate_libraries():
-    with open('data/libraries.json') as lib_data, open('data/library_reviews.json') as rev_data:
+    with open('data/libraries.json') as lib_data, open('data/library_reviews.json') as rev_data, open('data/libraries_gmap.json') as lib_gmaps:
         # libraries come in clusters
         libraries = json.load(lib_data)
         reviews = json.load(rev_data)
+        gmaps = json.load(lib_gmaps)
         i = 0
         for cluster in libraries:
             for library_data in cluster['businesses']:
@@ -134,7 +135,8 @@ def populate_libraries():
                     state=library_data['location']['state'],
                     phone=library_data['display_phone'],
                     latitude=library_data['coordinates']['latitude'],
-                    longitude=library_data['coordinates']['longitude']
+                    longitude=library_data['coordinates']['longitude'],
+                    gmap=gmaps[i]
                 )
                 db.session.add(library)
                 # Add reviews
