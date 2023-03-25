@@ -93,6 +93,7 @@ const Library = () => {
                         <Row md={2} className="p-4 g-4 justify-content-center">
                             <iframe
                             height="450"
+                            title="Library Google Map"
                             src={library.gmap}
                             allow="fullscreen"
                             >
