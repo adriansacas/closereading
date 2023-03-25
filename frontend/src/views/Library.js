@@ -86,7 +86,20 @@ const Library = () => {
                         </Row>
                     </Col>
                     <Col>
-                        <Image fluid src={library.image_url} alt="User submitted picture"></Image>
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            <Image fluid src={library.image_url} alt="User submitted picture"></Image>
+                        </Row>
+                        <h5>Map</h5>
+                        <Row md={3} className="p-4 g-4 justify-content-center">
+                            <iframe
+                            width="450"
+                            height="250"
+                            frameborder="0" style="border:0"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            src="https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&PARAMETERS"
+                            allowfullscreen>
+                            </iframe>
+                        </Row>
                     </Col>
                 </Row>
             ) : (

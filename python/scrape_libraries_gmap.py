@@ -39,13 +39,11 @@ for library in library_names:
     lib = library['name'].replace(" ", "+") + "," + library['city'].replace(" ", "+") + "+" + library['state'].replace(" ", "+")
     full_url = url + "&q=" + lib
     response_list.append(full_url)
-    # response = requests.get(url + "&q=" + lib)
-    # response_dict = response.json()
-    # response_list.append(response_dict)
+
 # print(response_list)
 # print(len(response_list))
-# with open('./libraries_gmap.json', 'w') as openfile:
-# 	json.dump(response_list, openfile)    
+with open('./libraries_gmap.json', 'w') as openfile:
+	json.dump(response_list, openfile)    
 
 '''
 <iframe
