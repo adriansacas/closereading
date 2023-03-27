@@ -9,7 +9,12 @@ import {getPage} from "../tools";
 import LibraryCard from "../components/Cards/LibraryCard";
 import {Image} from "react-bootstrap";
 import apiClient from '../apiClient';
+import {Timeline} from 'react-twitter-widgets'
 import {Hashtag} from 'react-twitter-widgets'
+import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
+eagerLoadTwitterLibrary();
+
+
 
 
 const Author = () => {
@@ -60,9 +65,13 @@ const Author = () => {
                         </Col>
                         <Col className='py-3' xl={{ order: 'first'}}>
                             <Timeline
-                                dataSource={{ sourceType: "url", url: "https://twitter.com/search?q=%23" + author.name.str.replace(/ /g, '') + "&src=recent_search_click" }}
+                                dataSource={{ sourceType: "url", 
+                                // url:"https://twitter.com/java"}}
+                                // url: "https://twitter.com/search?q=%28%23" + author.name.str.replace(/ /g, '') + "&src=recent_search_click" }}
+                                url: "https://https://twitter.com/search?q=%23java&f=live" }}
                                 renderError={_err =>""}
                                 options={{ height: "650" }}/>
+                            <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="true">Tweet #LoveTwitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </Col>
 
                     </Row>
