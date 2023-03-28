@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import apiClient from '../apiClient';
-import { Col, Container, Row, Spinner, Tab, Tabs } from "react-bootstrap";
+import { Col, Container, Row, Spinner, Tab, Tabs, Button } from "react-bootstrap";
 import BookCard from "../components/Cards/BookCard";
 import AuthorCard from "../components/Cards/AuthorCard";
 import LibraryCard from "../components/Cards/LibraryCard";
 import {splitSearchTerms} from "../tools";
+import {Link} from "react-router-dom";
 
 const ResultsPage = () => {
     const location = useLocation();
@@ -48,6 +49,14 @@ const ResultsPage = () => {
         console.log(`Tab: ${eventKey}`);
     };
 
+    function AllResultsButton({model}) {
+        return (
+            <Link to={`/${model}`} state={{searchTerm: searchTerm}}>
+                <Button>{`View all results for ${model}`}</Button>
+            </Link>
+        )
+    }
+
 
     // Tabbed results based off https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/main/front-end/src/views/Search.jsx
     return (
@@ -67,6 +76,9 @@ const ResultsPage = () => {
                                 <Spinner animation="grow"/>
                         )}
                     </Row>
+                    <Container className="d-flex justify-content-center">
+                        <AllResultsButton model="books" className="d-flex justify-content-center"></AllResultsButton>
+                    </Container>
                 </Tab>
                 <Tab eventKey="authors" title="Authors">
                     <Row xl={5} lg={4} md={3} sm={2} xs={1}>
@@ -81,6 +93,9 @@ const ResultsPage = () => {
                             <Spinner animation="grow"/>
                         )}
                     </Row>
+                    <Container className="d-flex justify-content-center">
+                        <AllResultsButton model="authors" className="d-flex justify-content-center"></AllResultsButton>
+                    </Container>
                 </Tab>
                 <Tab eventKey="libraries" title="Libraries">
                     <Row xl={5} lg={4} md={3} sm={2} xs={1}>
@@ -95,6 +110,9 @@ const ResultsPage = () => {
                             <Spinner animation="grow"/>
                         )}
                     </Row>
+                    <Container className="d-flex justify-content-center">
+                        <AllResultsButton model="libraries" className="d-flex justify-content-center"></AllResultsButton>
+                    </Container>
                 </Tab>
             </Tabs>
         </Container>
