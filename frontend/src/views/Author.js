@@ -9,7 +9,7 @@ import {getPage} from "../tools";
 import LibraryCard from "../components/Cards/LibraryCard";
 import {Image} from "react-bootstrap";
 import apiClient from '../apiClient';
-import {Timeline} from 'react-twitter-widgets'
+import {Timeline, Tweet} from 'react-twitter-widgets'
 import {Hashtag} from 'react-twitter-widgets'
 // import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
 // eagerLoadTwitterLibrary();
@@ -73,10 +73,15 @@ const Author = () => {
                             </iframe> */}
                             {/* <script> const myVar = "https://https://twitter.com/" + {author.twitter}</script> */}
                             {/* {author.twitter} */}
-                            <Timeline
+                            {/* { `${author.twitter}`.includes("/status") || `${author.twitter}`.includes("/i") ? */}
+                            { `${author.twitter}`.match(/^\d/) ?
+                                ( <Tweet tweetId={author.twitter} /> ) :
+                                ( <Timeline
                                 dataSource={{ sourceType: "url", url: `https://https://twitter.com/${author.twitter}` }}
+                                // dataSource={{ sourceType: "url", url: "https://https://twitter.com/nytimesbooks/status/1375470134446460931" }}
                                 renderError={_err =>""}
-                                options={{ height: "650" }}/>
+                                options={{ height: "650" }}/>)
+                            }
                             
                         </Col>
 
