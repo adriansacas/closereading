@@ -8,9 +8,9 @@ import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from '../components/navigation/PaginationComponent';
 import SearchComponent from "../components/navigation/SearchComponent";
-import { useLocation } from 'react-router-dom'
-
-
+import { useLocation } from 'react-router-dom';
+import Sorter from "./sort/Sort";
+import { BookEndpointName, BookSortOptions } from './sort/BookOptions';
 
 const Books = () => {
     const location = useLocation()
@@ -51,7 +51,7 @@ const Books = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
-
+            <Sorter api_name={BookEndpointName} sortOptions={BookSortOptions}/>
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}

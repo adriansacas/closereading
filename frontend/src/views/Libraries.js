@@ -9,6 +9,8 @@ import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
 import { useLocation } from 'react-router-dom'
+import Sorter from "./sort/Sort";
+import { LibraryEndpointName, LibrarySortOptions } from './sort/LibraryOptions';
 
 
 const Libraries = () => {
@@ -50,6 +52,7 @@ const Libraries = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
+            <Sorter api_name={LibraryEndpointName} sortOptions={LibrarySortOptions}/>
 
             <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {pagination.total_items}</Container>
 

@@ -9,7 +9,8 @@ import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
 import { useLocation } from 'react-router-dom'
-
+import Sorter from "./sort/Sort";
+import { AuthorEndpointName, AuthorSortOptions } from './sort/AuthorOptions';
 
 const Authors = () => {
     const location = useLocation()
@@ -50,6 +51,7 @@ const Authors = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
+            <Sorter api_name={AuthorEndpointName} sortOptions={AuthorSortOptions}/>
 
             <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 
