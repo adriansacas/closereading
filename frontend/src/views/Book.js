@@ -66,20 +66,24 @@ const Book = () => {
                         </Row>
                     </Col>
                     <Col>
+                        <Row> 
+                            {/* // made the books bigger */}
                         <Image fluid src={book.image_url} alt="Book cover."></Image>
+                        </Row>
+                        <Row>
+                            <Dropdown> 
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                Buy Book
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                                <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&ref=nb_sb_noss`}>Amazon</Dropdown.Item>
+                                <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&i=audible&tag=x_gr_w_bb_audible-20&ref=x_gr_w_bb_audible-20`}>Audible</Dropdown.Item>
+                                <Dropdown.Item href={`https://www.barnesandnoble.com/s/${book.title}`}>Barnes and Noble</Dropdown.Item>
+                            </Dropdown.Menu>
+                            </Dropdown>
+                        </Row>
                     </Col> 
-                    <Row>
-                    <Dropdown>
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Buy Book
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                        <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&ref=nb_sb_noss`}>Amazon</Dropdown.Item>
-                        <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&i=audible&tag=x_gr_w_bb_audible-20&ref=x_gr_w_bb_audible-20`}>Audible</Dropdown.Item>
-                        <Dropdown.Item href={`https://www.barnesandnoble.com/s/${book.title}`}>Barnes and Noble</Dropdown.Item>
-                    </Dropdown.Menu>
-                    </Dropdown>
-                    </Row>
+                    
                 </Row>
             ) : (
                 <Spinner animation="grow" />
