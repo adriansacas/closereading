@@ -10,7 +10,6 @@ import LibraryCard from "../components/Cards/LibraryCard";
 import {Image} from "react-bootstrap";
 import apiClient from '../apiClient';
 import {Timeline, Tweet} from 'react-twitter-widgets'
-import {Hashtag} from 'react-twitter-widgets'
 // import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
 // eagerLoadTwitterLibrary();
 
