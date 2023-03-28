@@ -11,8 +11,8 @@ import {Image} from "react-bootstrap";
 import apiClient from '../apiClient';
 import {Timeline} from 'react-twitter-widgets'
 import {Hashtag} from 'react-twitter-widgets'
-import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
-eagerLoadTwitterLibrary();
+// import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
+// eagerLoadTwitterLibrary();
 
 
 
@@ -22,6 +22,7 @@ const Author = () => {
     const [author, setAuthor] = useState();
     const [libraries, setLibraries] = useState();
     const [loaded, setLoaded] = useState(false);
+
 
     useEffect(() => {
         const getAuthor = async () => {
@@ -63,15 +64,20 @@ const Author = () => {
                             <h5>Biography:</h5>
                             <div>{author.bio}</div>
                         </Col>
-                        <Col className='py-3' xl={{ order: 'first'}}>
+                        {/* <Col className='py-3' xl={{ order: 'first'}}> */}
+                        <Col>
+                            {/* var twitter_info = "https://https://twitter.com/" + {author.twitter}; */}
+                            {/* <iframe
+                            
+                            >
+                            </iframe> */}
+                            {/* <script> const myVar = "https://https://twitter.com/" + {author.twitter}</script> */}
+                            {/* {author.twitter} */}
                             <Timeline
-                                dataSource={{ sourceType: "url", 
-                                // url:"https://twitter.com/java"}}
-                                // url: "https://twitter.com/search?q=%28%23" + author.name.str.replace(/ /g, '') + "&src=recent_search_click" }}
-                                url: "https://https://twitter.com/search?q=%23java&f=live" }}
+                                dataSource={{ sourceType: "url", url: `https://https://twitter.com/${author.twitter}` }}
                                 renderError={_err =>""}
                                 options={{ height: "650" }}/>
-                            <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="true">Tweet #LoveTwitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            
                         </Col>
 
                     </Row>

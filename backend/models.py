@@ -43,6 +43,7 @@ class Author(db.Model):
     description = db.Column(db.Text, nullable=True)
     image_url = db.Column(db.String(500), nullable=True)
     books = db.relationship('Book', backref='author')
+    twitter = db.Column(db.String(300), nullable=False)
 
 
 class Library(db.Model):

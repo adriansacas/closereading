@@ -41,8 +41,10 @@ def populate_authors_dummy():
 
 def populate_authors():
     # This dataset contains 100 unique authors
-    with open('data/new_authors.json') as data:
+    with open('data/new_authors.json') as data, open('data/author_twitters.json') as author_twitters:
         authors = json.load(data)
+        twitters = json.load(author_twitters)
+        i = 0
         for author_data in authors:
             author = author_data['query']['pages'][0]
             # Skip authors without a bio
@@ -59,12 +61,15 @@ def populate_authors():
             else:
                 description = None
             # Add author to database
+            
             db.session.add(Author(
                 name=author['title'],
                 bio=author['extract'],
                 description=description,
-                image_url=image_url
+                image_url=image_url,
+                twitter=twitters[i]
             ))
+            i += 1
         db.session.commit()
 
 
