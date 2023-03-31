@@ -41,8 +41,10 @@ def populate_authors_dummy():
 
 def populate_authors():
     # This dataset contains 100 unique authors
-    with open('data/new_authors.json') as data:
+    with open('data/new_authors.json') as data, open('data/author_twitters.json') as author_twitters:
         authors = json.load(data)
+        twitters = json.load(author_twitters)
+        i = 0
         for author_data in authors:
             author = author_data['query']['pages'][0]
             # Skip authors without a bio
@@ -59,19 +61,23 @@ def populate_authors():
             else:
                 description = None
             # Add author to database
+            
             db.session.add(Author(
                 name=author['title'],
                 bio=author['extract'],
                 description=description,
-                image_url=image_url
+                image_url=image_url,
+                twitter=twitters[author['title']]
             ))
+            i += 1
         db.session.commit()
 
 
 def populate_books():
     # books in this dataset have a total of 45 unique authors
-    with open('data/new_books.json') as data:
+    with open('data/new_books.json') as data, open('data/yt_book_reviews.json') as youtube:
         books = json.load(data)
+        yt_reviews = json.load(youtube)
         for cluster in books:
             # skip clusters with no books in them
             if 'items' not in cluster:
@@ -110,16 +116,18 @@ def populate_books():
                         author=author,
                         image_url=book['imageLinks']['thumbnail'].replace('http', 'https'),
                         # pub_location=,
-                        description=book['description']
+                        description=book['description'],
+                        yt_review=yt_reviews[book['title']]
                     ))
         db.session.commit()
 
 
 def populate_libraries():
-    with open('data/libraries.json') as lib_data, open('data/library_reviews.json') as rev_data:
+    with open('data/libraries.json') as lib_data, open('data/library_reviews.json') as rev_data, open('data/libraries_gmap.json') as lib_gmaps:
         # libraries come in clusters
         libraries = json.load(lib_data)
         reviews = json.load(rev_data)
+        gmaps = json.load(lib_gmaps)
         i = 0
         for cluster in libraries:
             for library_data in cluster['businesses']:
@@ -134,7 +142,8 @@ def populate_libraries():
                     state=library_data['location']['state'],
                     phone=library_data['display_phone'],
                     latitude=library_data['coordinates']['latitude'],
-                    longitude=library_data['coordinates']['longitude']
+                    longitude=library_data['coordinates']['longitude'],
+                    gmap=gmaps[i]
                 )
                 db.session.add(library)
                 # Add reviews

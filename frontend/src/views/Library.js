@@ -86,7 +86,19 @@ const Library = () => {
                         </Row>
                     </Col>
                     <Col>
-                        <Image fluid src={library.image_url} alt="User submitted picture"></Image>
+                        <Row md={2} className="p-4 g-4 justify-content-center">
+                            <Image fluid src={library.image_url} alt="User submitted picture"></Image>
+                        </Row>
+                        {/* <h5>Map</h5> */}
+                        <Row md={2} className="p-4 g-4 justify-content-center">
+                            <iframe
+                            height="450"
+                            title="Library Google Map"
+                            src={library.gmap}
+                            allow="fullscreen"
+                            >
+                            </iframe>
+                        </Row>
                     </Col>
                 </Row>
             ) : (
