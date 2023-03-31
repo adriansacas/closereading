@@ -35,6 +35,7 @@ function Sorter(props) {
     newParams.set("sort", option);
     newParams.delete("page");
     setSearchParams(newParams);
+    props.handleSort(option);
   };
 
   const handleSortDirectionChange = (sortAscending) => {
@@ -43,6 +44,7 @@ function Sorter(props) {
     setSortAscending(sortAscending)
     newParams.delete("page");
     setSearchParams(newParams);
+    props.handleAscending(sortAscending);
   };
 
   return (

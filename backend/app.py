@@ -60,15 +60,16 @@ def get_authors():
     description = request.args.get("description")
     image_url = request.args.get("image_url")
     books = request.args.get("books")
-    sort_terms = request.args.get("sort")
+    sort_terms = request.args.get("sortBy")
     ascending = request.args.get("asc")
+
     query = db.session.query(Author)
 
-    if sort_terms == 'name':
-        # if ascending == 'true':
-        query = query.order_by(Author.name.asc())
-        # else:
-        #     query = query.order_by(Author.name.desc())
+    if sort_terms:
+        if ascending == 'true':
+            query = query.order_by(getattr(Author, sort_terms))
+        else:
+            query = query.order_by(getattr(Author, sort_terms).desc())
 
     if page is not None:
         if search_terms:

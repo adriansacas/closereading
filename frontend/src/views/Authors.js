@@ -20,6 +20,7 @@ const Authors = () => {
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
+    const [ascending, setAscending] = useState(true);
 
     function handleClick(num) {
         setActivePage(num);
@@ -29,19 +30,30 @@ const Authors = () => {
     useEffect(() => {
         const getAuthors = async() => {
             await apiClient
-                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
                 .then((response) => {
                     setAuthors(response.data["authors"]);
                     setPagination(response.data['pagination']);
+                    console.log(response.data);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
         };
         getAuthors();
-    }, [searchTerm, activePage, sort]);
+        console.log(sort);
+        console.log(ascending);
+    }, [searchTerm, activePage, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
     };
 
     return (
@@ -52,7 +64,7 @@ const Authors = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
-            <Sorter api_name={AuthorEndpointName} sortOptions={AuthorSortOptions}/>
+            <Sorter api_name={AuthorEndpointName} sortOptions={AuthorSortOptions} handleSort={handleSort} handleAscending={handleAscending} />
 
             <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 
