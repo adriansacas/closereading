@@ -64,8 +64,8 @@ const Books = () => {
             <Container className="d-flex justify-content-center">
                 <FilterDropdown
                 title="Genre"
-                items={["Biography/Autobiography", "Literary Collections", "Literary Criticism",
-                "Poetry", "Comics/Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
+                items={["Biography & Autobiography", "Literary Collections", "Literary Criticism",
+                "Poetry", "Comics & Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
                 "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
                 "Philosophy", "Education", "Science", "Fiction"]}
                 onChange={handleGenreFilter}/></Container>
