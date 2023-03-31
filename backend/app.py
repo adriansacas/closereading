@@ -14,6 +14,7 @@ def get_books():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    filter_terms = request.args.get("filter_term")
     title = request.args.get("title")
     genre = request.args.get("genre")
     pub_year = request.args.get("pub_year")
@@ -22,15 +23,19 @@ def get_books():
     image_url = request.args.get("image_url")
     pub_location = request.args.get("pub_location")
     description = request.args.get("description")
+    
+    
 
     query = db.session.query(Book)
 
     if page is not None:
+        result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
         if search_terms:
             search_terms = search_terms.split()
             result, pagination_data = search_books(search_terms, book_schema, page, per_page)
         else:
-            result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
+            result, pagination_data = get_filtered_books(filter_terms, book_schema, page, per_page)
+
         return jsonify({'books': result, 'pagination': pagination_data})
     else:
         result = book_schema.dump(query.all(), many=True)
@@ -42,6 +47,7 @@ def get_authors():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    # filter_terms = request.args.get("filter_term")
     name = request.args.get("name")
     bio = request.args.get("bio")
     description = request.args.get("description")
@@ -67,6 +73,7 @@ def get_libraries():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    filter_terms = request.args.get("filter_term")
     name = request.args.get("name")
     image_url = request.args.get("image_url")
     rating = request.args.get("rating")
@@ -87,7 +94,7 @@ def get_libraries():
             search_terms = search_terms.split()
             result, pagination_data = search_libraries(search_terms, library_schema, page, per_page)
         else:
-            result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
+            result, pagination_data = get_filtered_libraries(filter_terms, library_schema, page, per_page)
         return jsonify({'libraries': result, 'pagination': pagination_data})
     else:
         result = library_schema.dump(query.all(), many=True)
@@ -182,6 +189,21 @@ def search_libraries(search_terms, schema, page, per_page):
     result, pagination_data = get_pagination_data(query, schema, page, per_page)
     return result, pagination_data
 
+def get_filtered_books(genre_filter_terms, book_schema, page, per_page):
+    query = db.session.query(Book).all()
+    if genre_filter_terms:
+        query = query.filter_by(Book.genre==genre_filter_terms)
+    result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
+    return result, pagination_data
+
+# def get_filtered_authors():
+
+def get_filtered_libraries(library_filter_terms, library_schema, page, per_page):
+    query = db.session.query(Library).all()
+    if library_filter_terms:
+        query = query.filter_by(Library.city==library_filter_terms)
+    result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
+    return result, pagination_data
 
 if __name__ == '__main__':
     app.run()
