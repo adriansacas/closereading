@@ -20,6 +20,8 @@ const Libraries = () => {
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [city, setCity] = useState("")
+    const [alpha, setAlpha] = useState("")
+    const [rating, setRating] = useState("")
 
     function handleClick(num) {
         setActivePage(num);
@@ -31,10 +33,20 @@ const Libraries = () => {
         setCity(value);
     }
 
+    function handleAlphaFilter(value) {
+        value = value === 'Name Begins With' ? '' : value;
+        setAlpha(value);
+    }
+
+    function handleRatingFilter(value) {
+        value = value === 'Rating' ? '' : value;
+        setRating(value);
+    }
+
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
-                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, filter_term: city}})
+                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, city_filter_term: city, alpha_filter_term: alpha, rating_filter_term: rating}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
@@ -43,7 +55,7 @@ const Libraries = () => {
                 setLoaded(true);
         };
         getLibraries();
-    }, [searchTerm, activePage, city]);
+    }, [searchTerm, activePage, city, alpha, rating]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
@@ -59,11 +71,28 @@ const Libraries = () => {
             </Container>
 
             <Container className="d-flex justify-content-center">
+            <Row>
+                <Col>
                 <FilterDropdown
                 title="City"
-                items={["City", "Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan",
+                items={["Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan",
                 "Chicago", "Brookline", "Boston", "Cambridge", "Seattle","Los Angeles"]}
-                onChange={handleCityFilter}/></Container>
+                onChange={handleCityFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Name Begins With"
+                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                onChange={handleAlphaFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Rating"
+                items={["< 1 star", "1 - 2 stars", "2 - 3 stars", "3 -4 stars", "4 - 5 stars"]}
+                onChange={handleAlphaFilter}/></Col>
+                
+            </Row></Container>
 
 
             <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {pagination.total_items}</Container>

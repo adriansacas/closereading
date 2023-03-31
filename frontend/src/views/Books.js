@@ -21,6 +21,8 @@ const Books = () => {
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [genre, setGenre] = useState("")
+    const [numpages, setNumpages] = useState("")
+    const [alpha, setAlpha] = useState("")
 
     function handleClick(num) {
         setActivePage(num);
@@ -31,12 +33,21 @@ const Books = () => {
         value = value === 'Genre' ? '' : value;
         setGenre(value);
     }
+
+    function handleNumpagesFilter(value) {
+        value = value === 'Numer of Pages' ? '' : value;
+        setNumpages(value);
+    }
     
+    function handleAlphaFilter(value) {
+        value = value === 'Title' ? '' : value;
+        setAlpha(value);
+    }
 
     useEffect(() => {
         const getBooks = async() => {
             await apiClient
-                .get(`books`, {params: {page: activePage, search_term: searchTerm, filter_term: genre}})
+                .get(`books`, {params: {page: activePage, search_term: searchTerm, genre_filter_term: genre, numpages_filter_term: numpages, alpha_filter_term: alpha}})
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
@@ -46,7 +57,7 @@ const Books = () => {
         };
         getBooks();
         console.log(genre);
-    }, [searchTerm, activePage, genre]);
+    }, [searchTerm, activePage, genre, numpages, alpha]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
@@ -60,15 +71,31 @@ const Books = () => {
             <Container className="d-flex justify-content-center p-4">
                 <SearchComponent handleSearch={handleSearch} /></Container>
 
-                
-            <Container className="d-flex justify-content-center">
+            <Container className="d-flex justify-content-center p-4">
+            <Row>
+                <Col>
                 <FilterDropdown
                 title="Genre"
                 items={["Biography & Autobiography", "Literary Collections", "Literary Criticism",
                 "Poetry", "Comics & Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
                 "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
                 "Philosophy", "Education", "Science", "Fiction"]}
-                onChange={handleGenreFilter}/></Container>
+                onChange={handleGenreFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Number of Pages"
+                items={["< 100 pg", "100 - 199 pg", "200 - 299 pg", "300 - 399 pg", "400 > pg"]}
+                onChange={handleNumpagesFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Title"
+                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                onChange={handleAlphaFilter}/></Col>
+            </Row></Container>
+        
 
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
