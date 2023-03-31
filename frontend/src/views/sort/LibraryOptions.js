@@ -9,6 +9,10 @@ const LibrarySortOptions = [
     label: "City",
     db_label: "city",
   },
+  {
+    label: "Name",
+    db_label: "name",
+  },
 ]
 
 export { LibraryEndpointName, LibrarySortOptions };

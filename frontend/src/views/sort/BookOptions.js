@@ -8,6 +8,10 @@ const BookSortOptions = [
   {
     label: "Publishing Year",
     db_label: "pub_year",
+  },
+  {
+    label: "Pages",
+    db_label: "page_count",
   }
 ]
 
