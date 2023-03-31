@@ -75,8 +75,9 @@ def populate_authors():
 
 def populate_books():
     # books in this dataset have a total of 45 unique authors
-    with open('data/new_books.json') as data:
+    with open('data/new_books.json') as data, open('data/yt_book_reviews.json') as youtube:
         books = json.load(data)
+        yt_reviews = json.load(youtube)
         for cluster in books:
             # skip clusters with no books in them
             if 'items' not in cluster:
@@ -115,7 +116,8 @@ def populate_books():
                         author=author,
                         image_url=book['imageLinks']['thumbnail'].replace('http', 'https'),
                         # pub_location=,
-                        description=book['description']
+                        description=book['description'],
+                        yt_review=yt_reviews[book['title']]
                     ))
         db.session.commit()
 

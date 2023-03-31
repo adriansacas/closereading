@@ -33,6 +33,7 @@ class Book(db.Model):
     image_url = db.Column(db.String(500), nullable=False)
     # pub_location = db.Column(db.String(20), nullable=False)
     description = db.Column(db.Text, nullable=False)
+    yt_review = db.Column(db.String(500), nullable=False)
 
 
 class Author(db.Model):
