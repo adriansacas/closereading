@@ -43,57 +43,61 @@ const Book = () => {
 
     return (
         <Container fluid>
-        {loaded ? (
-                <Row>
-                    <Col>
-                        <h1 className="d-flex justify-content-center p-4 ">{book.title}</h1>
-                        <div>Author: <Link to={`/authors/`+ book.author.id}>{book.author.name}</Link></div>
-                        <div>Pages: {book.page_count}</div>
-                        <div>Year: {book.pub_year}</div>
-                        <div>Genre: {book.genre}</div>
-                        {/*<div>Publisher: {book.publisher}</div>*/}
-                        {/*<div>NYT Best-Seller: {book[id - 1].NYT_best_seller}</div>*/}
-                        <h5>Description:</h5>
-                        <div>{book.description}</div>
-                        <Row>
-                            <Dropdown>
-                                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                                    Buy Book
-                                </Dropdown.Toggle>
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&ref=nb_sb_noss`}>Amazon</Dropdown.Item>
-                                    <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&i=audible&tag=x_gr_w_bb_audible-20&ref=x_gr_w_bb_audible-20`}>Audible</Dropdown.Item>
-                                    <Dropdown.Item href={`https://www.barnesandnoble.com/s/${book.title}`}>Barnes and Noble</Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown>
-                        </Row>
-                        <h5>Libraries</h5>
-                        <Row md={3} className="p-4 g-4 justify-content-center">
-                            {libraries.map((library) => {
-                                return (
-                                    <Col>
-                                        <LibraryCard libraryData={library} />
-                                    </Col>
-                                );
-                            })}
-                        </Row>
-                    </Col>
-                    <Col>
-                        <Row md={2} className="p-4 g-4 justify-content-center">
-                            <Image fluid src={book.image_url} alt="Book cover."></Image>
-                        </Row>
-                        <Row md={2} className="p-4 g-4 justify-content-center">
-                            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                <YouTubeEmbed url={book.yt_review} width={325} height={220} />
-                            </div>
-                        </Row>
-                    </Col>
+          {loaded ? (
+            <Row>
+              <Col>
+                <div className="d-flex justify-content-between align-items-center p-4 ">
+                  <h1>{book.title}</h1>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                      Buy Book
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&ref=nb_sb_noss`}>Amazon</Dropdown.Item>
+                      <Dropdown.Item href={`https://www.amazon.com/s?k=${book.title}&i=audible&tag=x_gr_w_bb_audible-20&ref=x_gr_w_bb_audible-20`}>Audible</Dropdown.Item>
+                      <Dropdown.Item href={`https://www.barnesandnoble.com/s/${book.title}`}>Barnes and Noble</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </div>
+                <div className="p-4">
+                  <div>Author: <Link to={`/authors/`+ book.author.id}>{book.author.name}</Link></div>
+                  <div>Pages: {book.page_count}</div>
+                  <div>Year: {book.pub_year}</div>
+                  <div>Genre: {book.genre}</div>
+                  {/*<div>Publisher: {book.publisher}</div>*/}
+                  {/*<div>NYT Best-Seller: {book[id - 1].NYT_best_seller}</div>*/}
+                  <h5>Description:</h5>
+                  <div>{book.description}</div>
+                </div>
+                <h5>Libraries</h5>
+                <Row md={3} className="p-4 g-4 justify-content-center">
+                  {libraries.map((library) => {
+                    return (
+                      <Col>
+                        <LibraryCard libraryData={library} />
+                      </Col>
+                    );
+                  })}
                 </Row>
-            ) : (
-                <Spinner animation="grow" />
-        )}
+              </Col>
+              <Col>
+                <Row md={2} className="p-4 g-4 justify-content-center">
+                  <Image fluid src={book.image_url} alt="Book cover." />
+                </Row>
+                <Row md={2} className="p-4 g-4 justify-content-center">
+                  <div className="d-flex justify-content-center align-items-center" style={{ height: '220px' }}>
+                    <YouTubeEmbed url={book.yt_review} width={325} height={220} />
+                  </div>
+                </Row>
+              </Col>
+            </Row>
+          ) : (
+            <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+              <Spinner animation="grow" />
+            </div>
+          )}
         </Container>
-    );
-};
+      );
+};      
 
 export default Book;
