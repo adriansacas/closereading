@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
+import FilterDropdown from "../components/navigation/FilterDropdown";
 import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
@@ -18,16 +19,21 @@ const Libraries = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
+    const [city, setCity] = useState("City")
 
     function handleClick(num) {
         setActivePage(num);
         setLoaded(false);
     }
 
+    function handleCityFilter(value) {
+        setCity(value);
+    }
+
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
-                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm}})
+                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, filter_term: city}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
@@ -47,9 +53,17 @@ const Libraries = () => {
             <h1 className="d-flex justify-content-center p-4">Libraries</h1>
 
             {/* Search and filtering */}
-            <Container className="d-flex justify-content-center">
+            <Container className="d-flex justify-content-center p-4">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
+
+            <Container className="d-flex justify-content-center">
+                <FilterDropdown
+                title="City"
+                items={["Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan", 
+                "Chicago", "Brookline", "Boston", "Cambridge", "Seattle","Los Angeles"]}
+                onChange={handleCityFilter}/></Container>
+
 
             <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {pagination.total_items}</Container>
 
