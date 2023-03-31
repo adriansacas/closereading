@@ -63,7 +63,8 @@ def populate_authors():
                 name=author['title'],
                 bio=author['extract'],
                 description=description,
-                image_url=image_url
+                image_url=image_url,
+                gender=author['gender']
             ))
         db.session.commit()
 
