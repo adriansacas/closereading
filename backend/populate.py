@@ -102,7 +102,7 @@ def populate_books():
                     if 'categories' in book:
                         genre = book['categories'][0]
                     else:
-                        genre = None
+                        genre = 'n/a'
                     # Check page count
                     if 'pageCount' in book:
                         page_count = book['pageCount']

@@ -8,14 +8,17 @@ import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from '../components/navigation/PaginationComponent';
 import SearchComponent from "../components/navigation/SearchComponent";
+import { useLocation } from 'react-router-dom'
+
 
 
 const Books = () => {
+    const location = useLocation()
     const [books, setBooks] = useState([])
     const [pagination, setPagination] = useState([])
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
 
     function handleClick(num) {
         setActivePage(num);
