@@ -19,6 +19,7 @@ const Authors = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
+    const [sort, setSort] = useState("");
 
     function handleClick(num) {
         setActivePage(num);
@@ -28,7 +29,7 @@ const Authors = () => {
     useEffect(() => {
         const getAuthors = async() => {
             await apiClient
-                .get(`authors`, {params: {page: activePage, search_term: searchTerm}})
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
                 .then((response) => {
                     setAuthors(response.data["authors"]);
                     setPagination(response.data['pagination']);
@@ -37,7 +38,7 @@ const Authors = () => {
             setLoaded(true);
         };
         getAuthors();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, sort]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);

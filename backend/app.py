@@ -22,8 +22,21 @@ def get_books():
     image_url = request.args.get("image_url")
     pub_location = request.args.get("pub_location")
     description = request.args.get("description")
+    sort_terms = request.args.get("sort")
+    ascending = request.args.get("asc")
 
     query = db.session.query(Book)
+    if sort_terms == 'title':
+        if ascending == 'true':
+            query = query.order_by(Book.title.asc())
+        else:
+            query = query.order_by(Book.title.desc())
+
+    if sort_terms == 'pub_year':
+        if ascending == 'true':
+            query = query.order_by(Book.title.asc())
+        else:
+            query = query.order_by(Book.title.desc())
 
     if page is not None:
         if search_terms:
@@ -47,8 +60,15 @@ def get_authors():
     description = request.args.get("description")
     image_url = request.args.get("image_url")
     books = request.args.get("books")
-
+    sort_terms = request.args.get("sort")
+    ascending = request.args.get("asc")
     query = db.session.query(Author)
+
+    if sort_terms == 'name':
+        # if ascending == 'true':
+        query = query.order_by(Author.name.asc())
+        # else:
+        #     query = query.order_by(Author.name.desc())
 
     if page is not None:
         if search_terms:
@@ -79,8 +99,21 @@ def get_libraries():
     latitude = request.args.get("latitude")
     longitude = request.args.get("longitude")
     phone = request.args.get("phone")
+    sort_terms = request.args.get("sort")
+    ascending = request.args.get("asc")
 
     query = db.session.query(Library)
+
+    if sort_terms == 'city':
+        if ascending == 'true':
+            query = query.order_by(Library.city.asc())
+        else:
+            query = query.order_by(Library.city.desc())
+    if sort_terms == 'rating':
+        if ascending == 'true':
+            query = query.order_by(Library.rating.asc())
+        else:
+            query = query.order_by(Library.rating.desc())           
 
     if page is not None:
         if search_terms:

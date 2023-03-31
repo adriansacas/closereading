@@ -2,7 +2,7 @@ const AuthorEndpointName = "books";
 
 const AuthorSortOptions = [
   {
-    label: "Rating",
+    label: "Name",
     db_label: "name",
   },
 ]

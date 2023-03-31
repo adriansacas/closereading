@@ -20,6 +20,7 @@ const Libraries = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
+    const [sort, setSort] = useState("");
 
     function handleClick(num) {
         setActivePage(num);
@@ -29,7 +30,7 @@ const Libraries = () => {
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
-                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm}})
+                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
@@ -38,7 +39,7 @@ const Libraries = () => {
                 setLoaded(true);
         };
         getLibraries();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, sort]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);

@@ -19,6 +19,7 @@ const Books = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
+    const [sort, setSort] = useState("");
 
     function handleClick(num) {
         setActivePage(num);
@@ -28,7 +29,7 @@ const Books = () => {
     useEffect(() => {
         const getBooks = async() => {
             await apiClient
-                .get(`books`, {params: {page: activePage, search_term: searchTerm}})
+                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
@@ -37,7 +38,7 @@ const Books = () => {
             setLoaded(true);
         };
         getBooks();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, sort]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
