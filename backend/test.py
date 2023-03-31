@@ -58,66 +58,67 @@ class Tests(unittest.TestCase):
 
     def testAllSearch(self):
         with self.client:
-            response = self.client.get("/search/austin")
+            response = self.client.get("/search/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
-            books = resp["apartments"]
-            cities = resp["cities"]
-            jobs = resp["jobs"]
-            self.assertEqual(len(apartments), 11)
-            self.assertEqual(len(cities), 1)
-            self.assertEqual(len(jobs), 22)
+            books = resp["books"]
+            authors = resp["authors"]
+            libraries = resp["libraries"]
+            self.assertEqual(len(books), 0)
+            self.assertEqual(len(authors), 0)
+            self.assertEqual(len(libraries), 0)
     
     def testModelSearch(self):
         with self.client:
-            response = self.client.get("/search/city/austin")
+            response = self.client.get("/search/book/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
             data = resp["data"]
             self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "Austin")
+            self.assertEqual(data[0]["name"], "aaaa")
 
     def testAllSort(self):
         with self.client:
-            response = self.client.get("/search/austin")
+            response = self.client.get("/sort/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
-            books = resp["apartments"]
-            cities = resp["cities"]
-            jobs = resp["jobs"]
-            self.assertEqual(len(apartments), 11)
-            self.assertEqual(len(cities), 1)
-            self.assertEqual(len(jobs), 22)
+            books = resp["books"]
+            authors = resp["authors"]
+            libraries = resp["libraries"]
+            self.assertEqual(len(books), 0)
+            self.assertEqual(len(authors), 0)
+            self.assertEqual(len(libraries), 0)
     
     def testModelSort(self):
         with self.client:
-            response = self.client.get("/search/city/austin")
+            response = self.client.get("/sort/book/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
             data = resp["data"]
             self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "Austin")
+            self.assertEqual(data[0]["name"], "aaaa")
 
     def testAllFilter(self):
         with self.client:
-            response = self.client.get("/search/austin")
+            response = self.client.get("/filter/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
-            books = resp["apartments"]
-            cities = resp["cities"]
-            jobs = resp["jobs"]
-            self.assertEqual(len(apartments), 11)
-            self.assertEqual(len(cities), 1)
-            self.assertEqual(len(jobs), 22)
+            resp = response.json
+            books = resp["books"]
+            authors = resp["authors"]
+            libraries = resp["libraries"]
+            self.assertEqual(len(books), 0)
+            self.assertEqual(len(authors), 0)
+            self.assertEqual(len(libraries), 0)
     
     def testModelFilter(self):
         with self.client:
-            response = self.client.get("/search/city/austin")
+            response = self.client.get("/filter/book/aaaa")
             self.assertEqual(response.status_code, 200)
             resp = response.json
             data = resp["data"]
             self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "Austin")
+            self.assertEqual(data[0]["name"], "aaaa")
 
 
 if __name__ == "__main__":
