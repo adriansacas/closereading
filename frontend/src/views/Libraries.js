@@ -27,6 +27,7 @@ const Libraries = () => {
     }
 
     function handleCityFilter(value) {
+        value = value === 'City' ? '' : value;
         setCity(value);
     }
 
@@ -60,7 +61,7 @@ const Libraries = () => {
             <Container className="d-flex justify-content-center">
                 <FilterDropdown
                 title="City"
-                items={["Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan", 
+                items={["City", "Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan",
                 "Chicago", "Brookline", "Boston", "Cambridge", "Seattle","Los Angeles"]}
                 onChange={handleCityFilter}/></Container>
 

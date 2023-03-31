@@ -28,6 +28,7 @@ const Books = () => {
     }
 
     function handleGenreFilter(value) {
+        value = value === 'Genre' ? '' : value;
         setGenre(value);
     }
     
@@ -44,6 +45,7 @@ const Books = () => {
             setLoaded(true);
         };
         getBooks();
+        console.log(genre);
     }, [searchTerm, activePage, genre]);
 
     const handleSearch = (searchTerm) => {
@@ -62,10 +64,10 @@ const Books = () => {
             <Container className="d-flex justify-content-center">
                 <FilterDropdown
                 title="Genre"
-                items={["Genre", "Biography/Autobiography", "Literary Collections", "Literary Criticism", 
+                items={["Biography/Autobiography", "Literary Collections", "Literary Criticism",
                 "Poetry", "Comics/Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
                 "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
-                "Philosophy", "Education", "Science"]}
+                "Philosophy", "Education", "Science", "Fiction"]}
                 onChange={handleGenreFilter}/></Container>
 
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
