@@ -8,6 +8,7 @@ import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
 import {Image} from "react-bootstrap";
 import apiClient from '../apiClient';
+// import { YouTubeEmbed } from 'react-social-media-embed';
 
 
 const Book = () => {
@@ -65,7 +66,14 @@ const Book = () => {
                         </Row>
                     </Col>
                     <Col>
-                        <Image fluid src={book.image_url} alt="Book cover."></Image>
+                        <Row>
+                            <Image fluid src={book.image_url} alt="Book cover."></Image>
+                        </Row>
+                        <Row>
+                            {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
+                                <YouTubeEmbed url="https://www.youtube.com/watch?v=HpVOs5imUN0" width={325} height={220} />
+                            </div> */}
+                        </Row>
                     </Col>
                 </Row>
             ) : (
