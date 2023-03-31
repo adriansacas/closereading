@@ -2,7 +2,7 @@ import './App.css';
 
 import React from "react";
 import RouteSwitch from "./RouteSwitch";
-import GlobalNavBar from "./components/GlobalNavBar/GlobalNavBar";
+import GlobalNavBar from "./components/navigation/GlobalNavBar";
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
           <RouteSwitch></RouteSwitch>
       </div>
   );
-
-};
+}
 
 export default App;

@@ -4,7 +4,7 @@ frontend:
     # IMPORTANT - Please verify your build commands
     preBuild:
       commands:
-        - cd my-app
+        - cd frontend
         - npm ci
         
     build:
@@ -13,7 +13,7 @@ frontend:
         
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: ./my-app/build
+    baseDirectory: ./frontend/build
     files:
       - '**/*'
       
