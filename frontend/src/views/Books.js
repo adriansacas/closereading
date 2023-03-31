@@ -20,7 +20,7 @@ const Books = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
-    const [genre, setGenre] = useState("Genre")
+    const [genre, setGenre] = useState("")
 
     function handleClick(num) {
         setActivePage(num);

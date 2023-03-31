@@ -19,7 +19,7 @@ const Libraries = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
-    const [city, setCity] = useState("City")
+    const [city, setCity] = useState("")
 
     function handleClick(num) {
         setActivePage(num);
