@@ -42,7 +42,7 @@ const Libraries = () => {
                 setLoaded(true);
         };
         getLibraries();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, city]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);

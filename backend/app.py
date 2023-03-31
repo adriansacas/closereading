@@ -23,8 +23,6 @@ def get_books():
     image_url = request.args.get("image_url")
     pub_location = request.args.get("pub_location")
     description = request.args.get("description")
-    
-    
 
     query = db.session.query(Book)
 

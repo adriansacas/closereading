@@ -44,7 +44,7 @@ const Books = () => {
             setLoaded(true);
         };
         getBooks();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, genre]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
