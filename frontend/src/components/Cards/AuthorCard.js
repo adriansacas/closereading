@@ -1,13 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { highlightText } from "../../tools"
 
 const AuthorCard = (props) => {
   const { name, description, id } = props.authorData;
+
   return (
       <Card border="dark">
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
+          <Card.Title>{highlightText(name, props.searchTerm)}</Card.Title>
           <Card.Text>{description}</Card.Text>
           {/*<Card.Text>Nationality: {nationality}</Card.Text>*/}
           {/*<Card.Text>Gender: {gender}</Card.Text>*/}

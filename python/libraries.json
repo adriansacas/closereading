@@ -8,7 +8,7 @@
                 "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1uF3Jm8_JbXYcea8KqGaDQ/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/austin-central-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 155,
+                "review_count": 153,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -119,7 +119,7 @@
                 "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7ob964rblwF_aWm7LIIc8A/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/lbj-presidential-library-austin-6?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 251,
+                "review_count": 252,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -302,43 +302,6 @@
                 "distance": 6496.565260460218
             },
             {
-                "id": "wxl3HsT6GcoM2by_uX6aYQ",
-                "alias": "austin-public-library-howson-austin",
-                "name": "Austin Public Library - Howson",
-                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/480fpuY2P6-fubCwCffC6w/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/austin-public-library-howson-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 11,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.5,
-                "coordinates": {
-                    "latitude": 30.29812,
-                    "longitude": -97.767493
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "2500 Exposition Blvd",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Austin",
-                    "zip_code": "78703",
-                    "country": "US",
-                    "state": "TX",
-                    "display_address": [
-                        "2500 Exposition Blvd",
-                        "Austin, TX 78703"
-                    ]
-                },
-                "phone": "+15129748800",
-                "display_phone": "(512) 974-8800",
-                "distance": 1221.5892196888856
-            },
-            {
                 "id": "lWSNrgQHNB9OnMpPUq01Rw",
                 "alias": "willie-mae-kirk-branch-austin-public-library-austin",
                 "name": "Willie Mae Kirk Branch - Austin Public Library",
@@ -374,9 +337,46 @@
                 "phone": "+15129749920",
                 "display_phone": "(512) 974-9920",
                 "distance": 6615.253444933383
+            },
+            {
+                "id": "nPtw_7ey2ltihg4SJafS8w",
+                "alias": "austin-public-library-austin-8",
+                "name": "Austin Public Library",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Sqt5ehj3rWTOt_eO4IVdlQ/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/austin-public-library-austin-8?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 24,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.0,
+                "coordinates": {
+                    "latitude": 30.217736,
+                    "longitude": -97.796122
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "5500 Manchaca Rd",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Austin",
+                    "zip_code": "78745",
+                    "country": "US",
+                    "state": "TX",
+                    "display_address": [
+                        "5500 Manchaca Rd",
+                        "Austin, TX 78745"
+                    ]
+                },
+                "phone": "+15129748700",
+                "display_phone": "(512) 974-8700",
+                "distance": 10396.832527905479
             }
         ],
-        "total": 84,
+        "total": 95,
         "region": {
             "center": {
                 "longitude": -97.75772094726562,
@@ -535,43 +535,6 @@
                 "distance": 14916.186755350984
             },
             {
-                "id": "y4GvGMEwpFWHL03NIurS9g",
-                "alias": "dallas-public-library-skillman-southwestern-branch-dallas",
-                "name": "Dallas Public Library - Skillman Southwestern Branch",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/D9SQ9TKmpUEexbYczhMVow/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/dallas-public-library-skillman-southwestern-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 7,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.0,
-                "coordinates": {
-                    "latitude": 32.857253,
-                    "longitude": -96.756499
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "5707 Skillman St",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Dallas",
-                    "zip_code": "75206",
-                    "country": "US",
-                    "state": "TX",
-                    "display_address": [
-                        "5707 Skillman St",
-                        "Dallas, TX 75206"
-                    ]
-                },
-                "phone": "+12146706078",
-                "display_phone": "(214) 670-6078",
-                "distance": 4585.161068330306
-            },
-            {
                 "id": "vd__P-R2OyOapINLrCLsiw",
                 "alias": "west-irving-library-irving",
                 "name": "West Irving Library",
@@ -609,13 +572,13 @@
                 "distance": 19568.104639431316
             },
             {
-                "id": "iCY1R4C6O1OXcyNtUIXRkA",
-                "alias": "dallas-public-library-preston-royal-branch-dallas",
-                "name": "Dallas Public Library - Preston Royal Branch",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5R-a8p0KMFyXqMmvyrh-Hg/o.jpg",
+                "id": "y4GvGMEwpFWHL03NIurS9g",
+                "alias": "dallas-public-library-skillman-southwestern-branch-dallas",
+                "name": "Dallas Public Library - Skillman Southwestern Branch",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/D9SQ9TKmpUEexbYczhMVow/o.jpg",
                 "is_closed": false,
-                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 6,
+                "url": "https://www.yelp.com/biz/dallas-public-library-skillman-southwestern-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 7,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -624,26 +587,26 @@
                 ],
                 "rating": 4.0,
                 "coordinates": {
-                    "latitude": 32.894669,
-                    "longitude": -96.811964
+                    "latitude": 32.857253,
+                    "longitude": -96.756499
                 },
                 "transactions": [],
                 "location": {
-                    "address1": "5626 Royal Ln",
+                    "address1": "5707 Skillman St",
                     "address2": "",
                     "address3": "",
                     "city": "Dallas",
-                    "zip_code": "75229",
+                    "zip_code": "75206",
                     "country": "US",
                     "state": "TX",
                     "display_address": [
-                        "5626 Royal Ln",
-                        "Dallas, TX 75229"
+                        "5707 Skillman St",
+                        "Dallas, TX 75206"
                     ]
                 },
-                "phone": "+12146707128",
-                "display_phone": "(214) 670-7128",
-                "distance": 6276.665053129352
+                "phone": "+12146706078",
+                "display_phone": "(214) 670-6078",
+                "distance": 4585.161068330306
             },
             {
                 "id": "yLlfcRTube9fpiZcnHF3Gw",
@@ -683,6 +646,80 @@
                 "distance": 12427.48302253392
             },
             {
+                "id": "iCY1R4C6O1OXcyNtUIXRkA",
+                "alias": "dallas-public-library-preston-royal-branch-dallas",
+                "name": "Dallas Public Library - Preston Royal Branch",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5R-a8p0KMFyXqMmvyrh-Hg/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 6,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.0,
+                "coordinates": {
+                    "latitude": 32.894669,
+                    "longitude": -96.811964
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "5626 Royal Ln",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Dallas",
+                    "zip_code": "75229",
+                    "country": "US",
+                    "state": "TX",
+                    "display_address": [
+                        "5626 Royal Ln",
+                        "Dallas, TX 75229"
+                    ]
+                },
+                "phone": "+12146707128",
+                "display_phone": "(214) 670-7128",
+                "distance": 6276.665053129352
+            },
+            {
+                "id": "LFG6rhHbFhWrDa0pJIMBpg",
+                "alias": "dallas-public-library-j-erik-jonsson-central-library-dallas",
+                "name": "Dallas Public Library - J. Erik Jonsson Central Library",
+                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/95VKWH9zO6KmvgVBqzTzKQ/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 36,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 3.5,
+                "coordinates": {
+                    "latitude": 32.77834554465291,
+                    "longitude": -96.79708034349089
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "1515 Young St",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Dallas",
+                    "zip_code": "75201",
+                    "country": "US",
+                    "state": "TX",
+                    "display_address": [
+                        "1515 Young St",
+                        "Dallas, TX 75201"
+                    ]
+                },
+                "phone": "+12146701400",
+                "display_phone": "(214) 670-1400",
+                "distance": 6757.022609708664
+            },
+            {
                 "id": "kXdq_tyzV1RbgsjRLyy_yA",
                 "alias": "dallas-public-library-lakewood-branch-dallas",
                 "name": "Dallas Public Library - Lakewood Branch",
@@ -718,46 +755,9 @@
                 "phone": "+12146701376",
                 "display_phone": "(214) 670-1376",
                 "distance": 5439.083101110257
-            },
-            {
-                "id": "LFG6rhHbFhWrDa0pJIMBpg",
-                "alias": "dallas-public-library-j-erik-jonsson-central-library-dallas",
-                "name": "Dallas Public Library - J. Erik Jonsson Central Library",
-                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/95VKWH9zO6KmvgVBqzTzKQ/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 35,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 3.5,
-                "coordinates": {
-                    "latitude": 32.77834554465291,
-                    "longitude": -96.79708034349089
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "1515 Young St",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Dallas",
-                    "zip_code": "75201",
-                    "country": "US",
-                    "state": "TX",
-                    "display_address": [
-                        "1515 Young St",
-                        "Dallas, TX 75201"
-                    ]
-                },
-                "phone": "+12146701400",
-                "display_phone": "(214) 670-1400",
-                "distance": 6757.022609708664
             }
         ],
-        "total": 123,
+        "total": 136,
         "region": {
             "center": {
                 "longitude": -96.800537109375,
@@ -808,10 +808,10 @@
                 "id": "Qt3trCxWWHmoLzbzwqGWmg",
                 "alias": "atlanta-fulton-public-library-buckhead-branch-atlanta",
                 "name": "Atlanta - Fulton Public Library - Buckhead Branch",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/a0bjYLEGXPfmdj6E_paPrw/o.jpg",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/o2ewahZ58SQ6EcDFEP9P4g/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-buckhead-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 23,
+                "review_count": 24,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -957,10 +957,10 @@
                 "id": "kyTJcn4vOkISUkU3AAiwqg",
                 "alias": "jimmy-carter-presidential-library-atlanta",
                 "name": "Jimmy Carter Presidential Library",
-                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gT6h8I1NRSFoKanZj4yaZQ/o.jpg",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/cT6ymCgpSziUcLJN2Wul_w/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/jimmy-carter-presidential-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 125,
+                "review_count": 126,
                 "categories": [
                     {
                         "alias": "museums",
@@ -1112,7 +1112,7 @@
                 "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/B_3T9eCZBXr7tiaOpf7CTg/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-ponce-de-leon-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 19,
+                "review_count": 20,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -1143,7 +1143,7 @@
                 "distance": 4659.642974796469
             }
         ],
-        "total": 146,
+        "total": 167,
         "region": {
             "center": {
                 "longitude": -84.37362670898438,
@@ -1302,43 +1302,6 @@
                 "distance": 2923.940618991624
             },
             {
-                "id": "4lA820FuOtuWHZjVtcn3Zw",
-                "alias": "brooklyn-public-library-adams-street-brooklyn",
-                "name": "Brooklyn Public Library- Adams Street",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tU2q93IgrGvcq-x9TEsyWQ/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/brooklyn-public-library-adams-street-brooklyn?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 1,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 5.0,
-                "coordinates": {
-                    "latitude": 40.70405534,
-                    "longitude": -73.98840721
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "9 Adams St",
-                    "address2": "",
-                    "address3": null,
-                    "city": "Brooklyn",
-                    "zip_code": "11201",
-                    "country": "US",
-                    "state": "NY",
-                    "display_address": [
-                        "9 Adams St",
-                        "Brooklyn, NY 11201"
-                    ]
-                },
-                "phone": "+17182302264",
-                "display_phone": "(718) 230-2264",
-                "distance": 840.7292058630409
-            },
-            {
                 "id": "NG_3NoVajWsbSPdz_ndLJg",
                 "alias": "butler-library-manhattan",
                 "name": "Butler Library",
@@ -1413,43 +1376,6 @@
                 "distance": 1621.792411199681
             },
             {
-                "id": "nGVcaCQySGR3NgtJqSFdxg",
-                "alias": "seward-park-library-new-york-public-library-new-york",
-                "name": "Seward Park Library - New York Public Library",
-                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZL5ORJ_Nuz__OB5t2ATjig/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/seward-park-library-new-york-public-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 24,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 3.5,
-                "coordinates": {
-                    "latitude": 40.71445,
-                    "longitude": -73.988543
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "192 E Broadway",
-                    "address2": "",
-                    "address3": "",
-                    "city": "New York",
-                    "zip_code": "10002",
-                    "country": "US",
-                    "state": "NY",
-                    "display_address": [
-                        "192 E Broadway",
-                        "New York, NY 10002"
-                    ]
-                },
-                "phone": "+12124776770",
-                "display_phone": "(212) 477-6770",
-                "distance": 1145.5274095049642
-            },
-            {
                 "id": "fTbSyt3K3p2vITsoIf8eZg",
                 "alias": "new-york-public-library-tompkins-square-library-new-york",
                 "name": "New York Public Library - Tompkins Square Library",
@@ -1490,10 +1416,10 @@
                 "id": "Uplh1HiI1wOc6p8DR7O3QA",
                 "alias": "the-morgan-library-and-museum-new-york-4",
                 "name": "The Morgan Library & Museum",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sT-PqhtI3vzqroVbf9WxMA/o.jpg",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/OP6avUG2tc67NzBIA3l0sw/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 326,
+                "review_count": 327,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -1526,9 +1452,83 @@
                 "phone": "+12126850008",
                 "display_phone": "(212) 685-0008",
                 "distance": 4703.257562293701
+            },
+            {
+                "id": "nGVcaCQySGR3NgtJqSFdxg",
+                "alias": "seward-park-library-new-york-public-library-new-york",
+                "name": "Seward Park Library - New York Public Library",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZL5ORJ_Nuz__OB5t2ATjig/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/seward-park-library-new-york-public-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 24,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 3.5,
+                "coordinates": {
+                    "latitude": 40.71445,
+                    "longitude": -73.988543
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "192 E Broadway",
+                    "address2": "",
+                    "address3": "",
+                    "city": "New York",
+                    "zip_code": "10002",
+                    "country": "US",
+                    "state": "NY",
+                    "display_address": [
+                        "192 E Broadway",
+                        "New York, NY 10002"
+                    ]
+                },
+                "phone": "+12124776770",
+                "display_phone": "(212) 477-6770",
+                "distance": 1145.5274095049642
+            },
+            {
+                "id": "FaCW_6keHSHF9pCSbWKJ_g",
+                "alias": "new-york-public-library-grand-central-library-new-york",
+                "name": "New York Public Library - Grand Central Library",
+                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/zv2cwCH6HQddQLhxm_GETw/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/new-york-public-library-grand-central-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 39,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.0,
+                "coordinates": {
+                    "latitude": 40.7537432057822,
+                    "longitude": -73.9732184713294
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "135 E 46th St",
+                    "address2": "",
+                    "address3": "",
+                    "city": "New York",
+                    "zip_code": "10017",
+                    "country": "US",
+                    "state": "NY",
+                    "display_address": [
+                        "135 E 46th St",
+                        "New York, NY 10017"
+                    ]
+                },
+                "phone": "+12126210670",
+                "display_phone": "(212) 621-0670",
+                "distance": 5224.343313087624
             }
         ],
-        "total": 850,
+        "total": 963,
         "region": {
             "center": {
                 "longitude": -73.97918701171875,
@@ -1582,7 +1582,7 @@
                 "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0VG9U-ioyy_HIlvGrNKEFw/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/harold-washington-library-center-chicago-public-library-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 280,
+                "review_count": 281,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -1844,6 +1844,43 @@
                 "distance": 8333.588690604909
             },
             {
+                "id": "-oN-ydPwgFGTiJNwtPz6Ow",
+                "alias": "skokie-public-library-skokie",
+                "name": "Skokie Public Library",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WUMPE3b98vxv8-bcj6oSnA/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/skokie-public-library-skokie?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 73,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.5,
+                "coordinates": {
+                    "latitude": 42.025732,
+                    "longitude": -87.757701
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "5215 Oakton St",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Skokie",
+                    "zip_code": "60077",
+                    "country": "US",
+                    "state": "IL",
+                    "display_address": [
+                        "5215 Oakton St",
+                        "Skokie, IL 60077"
+                    ]
+                },
+                "phone": "+18476737774",
+                "display_phone": "(847) 673-7774",
+                "distance": 21652.34225803035
+            },
+            {
                 "id": "sLtItItozNnyqY6l0vMycg",
                 "alias": "chicago-public-library-west-loop-chicago-2",
                 "name": "Chicago Public Library - West Loop",
@@ -1879,46 +1916,9 @@
                 "phone": "+13127442995",
                 "display_phone": "(312) 744-2995",
                 "distance": 8569.699315888773
-            },
-            {
-                "id": "yHx-IHENW-xWAuCGOAsjSw",
-                "alias": "evergreen-park-public-library-evergreen-park",
-                "name": "Evergreen Park Public Library",
-                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/3sqTLruPo3yqJm_jV9v1dQ/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/evergreen-park-public-library-evergreen-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 7,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.5,
-                "coordinates": {
-                    "latitude": 41.722164,
-                    "longitude": -87.701049
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "9400 South Troy Ave",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Evergreen Park",
-                    "zip_code": "60805",
-                    "country": "US",
-                    "state": "IL",
-                    "display_address": [
-                        "9400 South Troy Ave",
-                        "Evergreen Park, IL 60805"
-                    ]
-                },
-                "phone": "+17084228522",
-                "display_phone": "(708) 422-8522",
-                "distance": 12459.047298811289
             }
         ],
-        "total": 449,
+        "total": 492,
         "region": {
             "center": {
                 "longitude": -87.7313232421875,
@@ -1935,7 +1935,7 @@
                 "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/l_HPDvHzhknpVwi0EM4GzQ/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/boston-public-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 554,
+                "review_count": 555,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -2312,7 +2312,7 @@
                 "distance": 3971.1979392728745
             }
         ],
-        "total": 171,
+        "total": 192,
         "region": {
             "center": {
                 "longitude": -71.07124328613281,
@@ -2619,43 +2619,6 @@
                 "distance": 5735.235086107704
             },
             {
-                "id": "e3iHmMNCiCGQSZlYes8KVg",
-                "alias": "odegaard-undergraduate-library-seattle",
-                "name": "Odegaard Undergraduate Library",
-                "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qm2TMgPI6U04f4P0px7BQg/o.jpg",
-                "is_closed": false,
-                "url": "https://www.yelp.com/biz/odegaard-undergraduate-library-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 6,
-                "categories": [
-                    {
-                        "alias": "libraries",
-                        "title": "Libraries"
-                    }
-                ],
-                "rating": 4.0,
-                "coordinates": {
-                    "latitude": 47.6564641,
-                    "longitude": -122.3111466
-                },
-                "transactions": [],
-                "location": {
-                    "address1": "4060 George Washington Ln NE",
-                    "address2": "",
-                    "address3": "",
-                    "city": "Seattle",
-                    "zip_code": "98105",
-                    "country": "US",
-                    "state": "WA",
-                    "display_address": [
-                        "4060 George Washington Ln NE",
-                        "Seattle, WA 98105"
-                    ]
-                },
-                "phone": "+12065432990",
-                "display_phone": "(206) 543-2990",
-                "distance": 4914.822817395907
-            },
-            {
                 "id": "Dh_Yh9Mw4quFVEztV3qg8w",
                 "alias": "seattle-public-library-montlake-branch-seattle-2",
                 "name": "Seattle Public Library - Montlake Branch",
@@ -2691,9 +2654,46 @@
                 "phone": "+12066844720",
                 "display_phone": "(206) 684-4720",
                 "distance": 3574.3054540852863
+            },
+            {
+                "id": "senQSpiMezYXdS_9K84mhw",
+                "alias": "seattle-public-library-fremont-branch-seattle-2",
+                "name": "Seattle Public Library - Fremont Branch",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nIt5-Mn6oSpcpwuaT_gkZw/o.jpg",
+                "is_closed": false,
+                "url": "https://www.yelp.com/biz/seattle-public-library-fremont-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "review_count": 15,
+                "categories": [
+                    {
+                        "alias": "libraries",
+                        "title": "Libraries"
+                    }
+                ],
+                "rating": 4.0,
+                "coordinates": {
+                    "latitude": 47.6500597,
+                    "longitude": -122.348423
+                },
+                "transactions": [],
+                "location": {
+                    "address1": "731 N 35th St",
+                    "address2": "",
+                    "address3": "",
+                    "city": "Seattle",
+                    "zip_code": "98103",
+                    "country": "US",
+                    "state": "WA",
+                    "display_address": [
+                        "731 N 35th St",
+                        "Seattle, WA 98103"
+                    ]
+                },
+                "phone": "+12066844084",
+                "display_phone": "(206) 684-4084",
+                "distance": 4207.524788510693
             }
         ],
-        "total": 157,
+        "total": 190,
         "region": {
             "center": {
                 "longitude": -122.33001708984375,
@@ -2818,10 +2818,10 @@
                 "id": "4gQmRH1LwwHWWZ5SToRlkw",
                 "alias": "beverly-hills-public-library-beverly-hills",
                 "name": "Beverly Hills Public Library",
-                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/KHSo_4ya8F-GtvPwDK8C8g/o.jpg",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/eMVOgp0NwXiVTIpSFwyzJA/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/beverly-hills-public-library-beverly-hills?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 191,
+                "review_count": 192,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -2895,7 +2895,7 @@
                 "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kbuD-dMbrQyX3uTStBA5Pw/o.jpg",
                 "is_closed": false,
                 "url": "https://www.yelp.com/biz/la-county-library-west-hollywood-library-west-hollywood?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "review_count": 144,
+                "review_count": 143,
                 "categories": [
                     {
                         "alias": "libraries",
@@ -3074,7 +3074,7 @@
                 "distance": 1334.0720829524898
             }
         ],
-        "total": 612,
+        "total": 705,
         "region": {
             "center": {
                 "longitude": -118.32138061523438,

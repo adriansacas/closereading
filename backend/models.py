@@ -33,6 +33,7 @@ class Book(db.Model):
     image_url = db.Column(db.String(500), nullable=False)
     # pub_location = db.Column(db.String(20), nullable=False)
     description = db.Column(db.Text, nullable=False)
+    yt_review = db.Column(db.String(500), nullable=False)
 
 
 class Author(db.Model):
@@ -43,6 +44,7 @@ class Author(db.Model):
     description = db.Column(db.Text, nullable=True)
     image_url = db.Column(db.String(500), nullable=True)
     books = db.relationship('Book', backref='author')
+    twitter = db.Column(db.String(300), nullable=False)
 
 
 class Library(db.Model):
@@ -59,6 +61,7 @@ class Library(db.Model):
     latitude = db.Column(db.Float, nullable=False)
     longitude = db.Column(db.Float, nullable=False)
     phone = db.Column(db.String(20), nullable=False)
+    gmap = db.Column(db.String(500), nullable=False)
     # TODO: books, authors
     # books = db.relationship('Book', secondary=library_book, backref='libraries')
     # authors = db.relationship('Author', secondary=library_author, backref='libraries')
