@@ -29,7 +29,7 @@ def get_books():
     query = db.session.query(Book)
 
     if page is not None:
-        result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
+        # result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
         if search_terms:
             search_terms = search_terms.split()
             result, pagination_data = search_books(search_terms, book_schema, page, per_page)
@@ -189,21 +189,25 @@ def search_libraries(search_terms, schema, page, per_page):
     result, pagination_data = get_pagination_data(query, schema, page, per_page)
     return result, pagination_data
 
+
 def get_filtered_books(genre_filter_terms, book_schema, page, per_page):
-    query = db.session.query(Book).all()
+    query = db.session.query(Book)
     if genre_filter_terms:
-        query = query.filter_by(Book.genre==genre_filter_terms)
+        query = query.filter_by(genre=genre_filter_terms)
     result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
     return result, pagination_data
 
+
 # def get_filtered_authors():
 
+
 def get_filtered_libraries(library_filter_terms, library_schema, page, per_page):
-    query = db.session.query(Library).all()
+    query = db.session.query(Library)
     if library_filter_terms:
-        query = query.filter_by(Library.city==library_filter_terms)
+        query = query.filter_by(city=library_filter_terms)
     result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
     return result, pagination_data
+
 
 if __name__ == '__main__':
     app.run()
