@@ -20,6 +20,7 @@ const Books = () => {
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
+    const [ascending, setAscending] = useState(true);
 
     function handleClick(num) {
         setActivePage(num);
@@ -29,7 +30,7 @@ const Books = () => {
     useEffect(() => {
         const getBooks = async() => {
             await apiClient
-                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
+                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
@@ -38,10 +39,18 @@ const Books = () => {
             setLoaded(true);
         };
         getBooks();
-    }, [searchTerm, activePage, sort]);
+    }, [searchTerm, activePage, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
     };
 
     return (
@@ -52,7 +61,7 @@ const Books = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
-            <Sorter api_name={BookEndpointName} sortOptions={BookSortOptions}/>
+            <Sorter api_name={BookEndpointName} sortOptions={BookSortOptions} handleSort={handleSort} handleAscending={handleAscending}/>
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}

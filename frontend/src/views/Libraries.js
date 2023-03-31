@@ -21,6 +21,7 @@ const Libraries = () => {
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
+    const [ascending, setAscending] = useState(true);
 
     function handleClick(num) {
         setActivePage(num);
@@ -30,7 +31,7 @@ const Libraries = () => {
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
-                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, sortBy: sort}})
+                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
@@ -39,10 +40,18 @@ const Libraries = () => {
                 setLoaded(true);
         };
         getLibraries();
-    }, [searchTerm, activePage, sort]);
+    }, [searchTerm, activePage, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
     };
 
     return (
@@ -53,7 +62,7 @@ const Libraries = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
-            <Sorter api_name={LibraryEndpointName} sortOptions={LibrarySortOptions}/>
+            <Sorter api_name={LibraryEndpointName} sortOptions={LibrarySortOptions} handleSort={handleSort} handleAscending={handleAscending}/>
 
             <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {pagination.total_items}</Container>
 
