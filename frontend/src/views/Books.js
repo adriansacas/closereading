@@ -5,40 +5,53 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
 import apiClient from '../apiClient';
+import { splitSearchTerms } from '../tools';
 import PaginationComponent from '../components/navigation/PaginationComponent';
+import SearchComponent from "../components/navigation/SearchComponent";
+import { useLocation } from 'react-router-dom'
+
 
 
 const Books = () => {
+    const location = useLocation()
     const [books, setBooks] = useState([])
     const [pagination, setPagination] = useState([])
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
+    const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
 
     function handleClick(num) {
-        setActivePage(num)
-        setLoaded(false)
+        setActivePage(num);
+        setLoaded(false);
     }
 
-      useEffect(() => {
+    useEffect(() => {
         const getBooks = async() => {
-            if (!loaded) {
-                await apiClient
-                  .get(`books`, {params: {page: activePage}})
-                  .then((response) => {
-                      setBooks(response.data["books"]);
-                      setPagination(response.data["pagination"]);
-                  })
-                  .catch((err) => console.log(err));
-                setLoaded(true);
-            }
+            await apiClient
+                .get(`books`, {params: {page: activePage, search_term: searchTerm}})
+                .then((response) => {
+                    setBooks(response.data["books"]);
+                    setPagination(response.data["pagination"]);
+                })
+                .catch((err) => console.log(err));
+            setLoaded(true);
         };
         getBooks();
-    });
+    }, [searchTerm, activePage]);
+
+    const handleSearch = (searchTerm) => {
+        setSearchTerm(searchTerm);
+    };
 
     return (
-
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Books</h1>
+
+            {/* Search and filtering */}
+            <Container className="d-flex justify-content-center">
+                <SearchComponent handleSearch={handleSearch} />
+            </Container>
+
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}
@@ -51,7 +64,7 @@ const Books = () => {
                         books.map((bookData) => {
                             return ( 
                                 <Col key={bookData.id} className="flex-grow-0">
-                                    <BookCard bookData={bookData}/>
+                                    <BookCard bookData={bookData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )
                         })) : (<Spinner animation="grow"/>)}

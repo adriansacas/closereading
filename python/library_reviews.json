@@ -41,7 +41,7 @@
                 }
             }
         ],
-        "total": 155,
+        "total": 153,
         "possible_languages": [
             "en"
         ]
@@ -177,12 +177,12 @@
                 "user": {
                     "id": "oSN3M4_WKdlTsnpgqPDiBg",
                     "profile_url": "https://www.yelp.com/user_details?userid=oSN3M4_WKdlTsnpgqPDiBg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/QddiVGJOusUoVnG4lMdlvg/o.jpg",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/MDrym8PaIFF6_KnKX7UqpA/o.jpg",
                     "name": "Steph H."
                 }
             }
         ],
-        "total": 251,
+        "total": 253,
         "possible_languages": [
             "en"
         ]
@@ -284,53 +284,6 @@
     {
         "reviews": [
             {
-                "id": "BtP8rvy9ESXDDeLTFKB02g",
-                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=BtP8rvy9ESXDDeLTFKB02g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Was a quiet place to study and read, not anymore. Lots of crying kids and ones who speak loudly.  Not sure what happened, been coming here a few years. \nYou...",
-                "rating": 1,
-                "time_created": "2022-02-18 09:09:31",
-                "user": {
-                    "id": "W7J58vnVbtZhVMOtaW5nxQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=W7J58vnVbtZhVMOtaW5nxQ",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/bXYwu2cyMW1tNMIV4LuSNA/o.jpg",
-                    "name": "Jim B."
-                }
-            },
-            {
-                "id": "83b4cyVvEjRwsGKgsroT2w",
-                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=83b4cyVvEjRwsGKgsroT2w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This the best small library in the Austin regional area.  It is located a hill part of Austin where you can sit outside and see for miles.  There is a nice...",
-                "rating": 5,
-                "time_created": "2018-01-08 18:22:10",
-                "user": {
-                    "id": "Bu2_xqDplV-Rl0J_Mafr7g",
-                    "profile_url": "https://www.yelp.com/user_details?userid=Bu2_xqDplV-Rl0J_Mafr7g",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/7we9SXbN0de5fp4FE7HpMw/o.jpg",
-                    "name": "Paul D."
-                }
-            },
-            {
-                "id": "4ORckap02dzrc3tusHL5eg",
-                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=4ORckap02dzrc3tusHL5eg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This library has a twin... the Westbank Community Library at 1309 Westbank Drive. Alas! Neither is a public library. \"If you live in the Westbank Community...",
-                "rating": 5,
-                "time_created": "2019-02-07 14:13:01",
-                "user": {
-                    "id": "tJpyJ4uhDwmYpVFy0k-Bjg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=tJpyJ4uhDwmYpVFy0k-Bjg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/M2X0FQwWbu_xXdjf-WfQhA/o.jpg",
-                    "name": "Beverly M."
-                }
-            }
-        ],
-        "total": 15,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "5lUdjrs2Mhp_lDPjIfFjTQ",
                 "url": "https://www.yelp.com/biz/austin-public-library-windsor-park-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=5lUdjrs2Mhp_lDPjIfFjTQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "A good solid library branch. The highlight being the big, cool lion sculpture out front titled \"Reading Between the Lions.\"\n\nSelection and service were both...",
@@ -371,6 +324,53 @@
             }
         ],
         "total": 9,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "BtP8rvy9ESXDDeLTFKB02g",
+                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=BtP8rvy9ESXDDeLTFKB02g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Was a quiet place to study and read, not anymore. Lots of crying kids and ones who speak loudly.  Not sure what happened, been coming here a few years. \nYou...",
+                "rating": 1,
+                "time_created": "2022-02-18 09:09:31",
+                "user": {
+                    "id": "W7J58vnVbtZhVMOtaW5nxQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=W7J58vnVbtZhVMOtaW5nxQ",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/bXYwu2cyMW1tNMIV4LuSNA/o.jpg",
+                    "name": "Jim B."
+                }
+            },
+            {
+                "id": "83b4cyVvEjRwsGKgsroT2w",
+                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=83b4cyVvEjRwsGKgsroT2w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This the best small library in the Austin regional area.  It is located a hill part of Austin where you can sit outside and see for miles.  There is a nice...",
+                "rating": 5,
+                "time_created": "2018-01-08 18:22:10",
+                "user": {
+                    "id": "Bu2_xqDplV-Rl0J_Mafr7g",
+                    "profile_url": "https://www.yelp.com/user_details?userid=Bu2_xqDplV-Rl0J_Mafr7g",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/rVQX1jA_0oUhKH02JwANNA/o.jpg",
+                    "name": "Paul D."
+                }
+            },
+            {
+                "id": "4ORckap02dzrc3tusHL5eg",
+                "url": "https://www.yelp.com/biz/laura-bush-community-library-austin?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=4ORckap02dzrc3tusHL5eg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This library has a twin... the Westbank Community Library at 1309 Westbank Drive. Alas! Neither is a public library. \"If you live in the Westbank Community...",
+                "rating": 5,
+                "time_created": "2019-02-07 14:13:01",
+                "user": {
+                    "id": "tJpyJ4uhDwmYpVFy0k-Bjg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=tJpyJ4uhDwmYpVFy0k-Bjg",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/M2X0FQwWbu_xXdjf-WfQhA/o.jpg",
+                    "name": "Beverly M."
+                }
+            }
+        ],
+        "total": 15,
         "possible_languages": [
             "en"
         ]
@@ -473,6 +473,19 @@
     {
         "reviews": [
             {
+                "id": "X0urpTyZNM6pfTbZHLFbXg",
+                "url": "https://www.yelp.com/biz/highland-park-library-highland-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=X0urpTyZNM6pfTbZHLFbXg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "The Highland Park Library is perfectly tucked inside the HP City Hall building, located on Drexel Drive. It's architecture is that of Spanish Colonnial...",
+                "rating": 4,
+                "time_created": "2018-06-22 10:03:38",
+                "user": {
+                    "id": "lEkCHd_fA-oFjGe51Z1FCg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=lEkCHd_fA-oFjGe51Z1FCg",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/D_isN5a_hFWDEguWCnyZsg/o.jpg",
+                    "name": "Rhonda A."
+                }
+            },
+            {
                 "id": "LSrwwAk53HkWutZbZkOS_A",
                 "url": "https://www.yelp.com/biz/highland-park-library-highland-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=LSrwwAk53HkWutZbZkOS_A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "I have used this library for many years.  Apparently the librarians are not very conscientious about checking the books back in after you return them.  On...",
@@ -496,19 +509,6 @@
                     "profile_url": "https://www.yelp.com/user_details?userid=JhGN3jbMyrPfu9p3mlhucA",
                     "image_url": "https://s3-media4.fl.yelpcdn.com/photo/Se5GTo1wEPPgmd5abXgt6g/o.jpg",
                     "name": "Mai D."
-                }
-            },
-            {
-                "id": "X0urpTyZNM6pfTbZHLFbXg",
-                "url": "https://www.yelp.com/biz/highland-park-library-highland-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=X0urpTyZNM6pfTbZHLFbXg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The Highland Park Library is perfectly tucked inside the HP City Hall building, located on Drexel Drive. It's architecture is that of Spanish Colonnial...",
-                "rating": 4,
-                "time_created": "2018-06-22 10:03:38",
-                "user": {
-                    "id": "lEkCHd_fA-oFjGe51Z1FCg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=lEkCHd_fA-oFjGe51Z1FCg",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/D_isN5a_hFWDEguWCnyZsg/o.jpg",
-                    "name": "Rhonda A."
                 }
             }
         ],
@@ -653,7 +653,7 @@
                 }
             }
         ],
-        "total": 40,
+        "total": 39,
         "possible_languages": [
             "en"
         ]
@@ -755,53 +755,6 @@
     {
         "reviews": [
             {
-                "id": "asiADLbt4u9NXMK1SbokkQ",
-                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=asiADLbt4u9NXMK1SbokkQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I love this little branch. It's in a great location and the librarians are helpful and friendly. Libraries have always been a safe space for me and this is...",
-                "rating": 5,
-                "time_created": "2023-01-24 09:23:16",
-                "user": {
-                    "id": "kx724xe7p_w1re8sMDfIzw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=kx724xe7p_w1re8sMDfIzw",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/-41s0fNCakpx1YRqdRXKFw/o.jpg",
-                    "name": "Isade S."
-                }
-            },
-            {
-                "id": "UQthlwQUofxDGnxPQY7w4Q",
-                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=UQthlwQUofxDGnxPQY7w4Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Small library branch. Order books thru catalog and have them delivered. Helpful & friendly staff. Adequate parking.",
-                "rating": 4,
-                "time_created": "2022-07-05 08:03:45",
-                "user": {
-                    "id": "Y3cKCiVs_sdesOdJsek6Jw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=Y3cKCiVs_sdesOdJsek6Jw",
-                    "image_url": null,
-                    "name": "Mark M."
-                }
-            },
-            {
-                "id": "XbpY8nJhIgIsM3LJQPc9pQ",
-                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=XbpY8nJhIgIsM3LJQPc9pQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Someone needs to tell the purple haired employee that libraries are supposed to be quiet....",
-                "rating": 1,
-                "time_created": "2021-07-08 14:15:02",
-                "user": {
-                    "id": "03IsfE94UbSJurx5Rq9nuw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=03IsfE94UbSJurx5Rq9nuw",
-                    "image_url": null,
-                    "name": "T B."
-                }
-            }
-        ],
-        "total": 6,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "c4yQCFmkPv9P3H-WIr2B1A",
                 "url": "https://www.yelp.com/biz/dallas-public-library-fretz-park-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=c4yQCFmkPv9P3H-WIr2B1A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "I've actually never been to this library but it was close by and opened on weekends for voting. I waited until the 2nd weekend of early voting and it was a...",
@@ -842,6 +795,53 @@
             }
         ],
         "total": 18,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "wqu1T-CtqeP2-616697o9w",
+                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=wqu1T-CtqeP2-616697o9w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Excellent experience! Came here for the Bureau of Vital Statistics (located on the first floor) for a replacement birth certificate. First off, this was a...",
+                "rating": 5,
+                "time_created": "2019-08-07 14:31:38",
+                "user": {
+                    "id": "jwD2xOL-3O4VeGotHhw4cA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=jwD2xOL-3O4VeGotHhw4cA",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/39URB8yc1ihMiLPn5IaP-w/o.jpg",
+                    "name": "Delia D."
+                }
+            },
+            {
+                "id": "gm3Cm3mBleDG05l5VW9NMQ",
+                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=gm3Cm3mBleDG05l5VW9NMQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Service animals UNWELCOME! A large bald gentleman/security officer would not listen to anything I had to say about me having papers and proof of my dog...",
+                "rating": 1,
+                "time_created": "2023-03-14 09:44:15",
+                "user": {
+                    "id": "cqG1s5xdLHe5gbLvQT9L1Q",
+                    "profile_url": "https://www.yelp.com/user_details?userid=cqG1s5xdLHe5gbLvQT9L1Q",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/xCC_Uzb5-19YVQQwmDh6Rg/o.jpg",
+                    "name": "Nathan S."
+                }
+            },
+            {
+                "id": "qp-OIGSXPjglbHMomEmBtQ",
+                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=qp-OIGSXPjglbHMomEmBtQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Birth certificate place is unprofessional people to laugh at your face and not give us copies of what we paid for.... Never coming again",
+                "rating": 1,
+                "time_created": "2022-10-25 12:01:07",
+                "user": {
+                    "id": "-Wr_SHcdVwfz1hMXfckBAw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=-Wr_SHcdVwfz1hMXfckBAw",
+                    "image_url": null,
+                    "name": "Mario P."
+                }
+            }
+        ],
+        "total": 36,
         "possible_languages": [
             "en"
         ]
@@ -896,46 +896,46 @@
     {
         "reviews": [
             {
-                "id": "wqu1T-CtqeP2-616697o9w",
-                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=wqu1T-CtqeP2-616697o9w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Excellent experience! Came here for the Bureau of Vital Statistics (located on the first floor) for a replacement birth certificate. First off, this was a...",
+                "id": "asiADLbt4u9NXMK1SbokkQ",
+                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=asiADLbt4u9NXMK1SbokkQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I love this little branch. It's in a great location and the librarians are helpful and friendly. Libraries have always been a safe space for me and this is...",
                 "rating": 5,
-                "time_created": "2019-08-07 14:31:38",
+                "time_created": "2023-01-24 09:23:16",
                 "user": {
-                    "id": "jwD2xOL-3O4VeGotHhw4cA",
-                    "profile_url": "https://www.yelp.com/user_details?userid=jwD2xOL-3O4VeGotHhw4cA",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/39URB8yc1ihMiLPn5IaP-w/o.jpg",
-                    "name": "Delia D."
+                    "id": "kx724xe7p_w1re8sMDfIzw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=kx724xe7p_w1re8sMDfIzw",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/-41s0fNCakpx1YRqdRXKFw/o.jpg",
+                    "name": "Isade S."
                 }
             },
             {
-                "id": "qp-OIGSXPjglbHMomEmBtQ",
-                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=qp-OIGSXPjglbHMomEmBtQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Birth certificate place is unprofessional people to laugh at your face and not give us copies of what we paid for.... Never coming again",
+                "id": "UQthlwQUofxDGnxPQY7w4Q",
+                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=UQthlwQUofxDGnxPQY7w4Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Small library branch. Order books thru catalog and have them delivered. Helpful & friendly staff. Adequate parking.",
+                "rating": 4,
+                "time_created": "2022-07-05 08:03:45",
+                "user": {
+                    "id": "Y3cKCiVs_sdesOdJsek6Jw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=Y3cKCiVs_sdesOdJsek6Jw",
+                    "image_url": null,
+                    "name": "Mark M."
+                }
+            },
+            {
+                "id": "XbpY8nJhIgIsM3LJQPc9pQ",
+                "url": "https://www.yelp.com/biz/dallas-public-library-preston-royal-branch-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=XbpY8nJhIgIsM3LJQPc9pQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Someone needs to tell the purple haired employee that libraries are supposed to be quiet....",
                 "rating": 1,
-                "time_created": "2022-10-25 12:01:07",
+                "time_created": "2021-07-08 14:15:02",
                 "user": {
-                    "id": "-Wr_SHcdVwfz1hMXfckBAw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=-Wr_SHcdVwfz1hMXfckBAw",
+                    "id": "03IsfE94UbSJurx5Rq9nuw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=03IsfE94UbSJurx5Rq9nuw",
                     "image_url": null,
-                    "name": "Mario P."
-                }
-            },
-            {
-                "id": "xmZWUOuUJsLAVd21BO-PNg",
-                "url": "https://www.yelp.com/biz/dallas-public-library-j-erik-jonsson-central-library-dallas?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=xmZWUOuUJsLAVd21BO-PNg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Despite the smell this is my favorite place in all of Dallas. Has a feeling of austerity. The workers do a great job and the libraries collection and...",
-                "rating": 5,
-                "time_created": "2022-01-06 06:12:19",
-                "user": {
-                    "id": "yi6PWnEgt4KRcpjAsbmwog",
-                    "profile_url": "https://www.yelp.com/user_details?userid=yi6PWnEgt4KRcpjAsbmwog",
-                    "image_url": null,
-                    "name": "Wyndom H."
+                    "name": "T B."
                 }
             }
         ],
-        "total": 35,
+        "total": 6,
         "possible_languages": [
             "en"
         ]
@@ -990,16 +990,16 @@
     {
         "reviews": [
             {
-                "id": "jz2J5U2mjp-FVsTsKy3LkQ",
-                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-buckhead-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=jz2J5U2mjp-FVsTsKy3LkQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I put the address to the Atlanta Fulton Public Library - Buckhead Branch into my gps, and had no real idea how the place even looked or what to expect.  In...",
+                "id": "nJuggWbyDNCRSiHAxrnzBg",
+                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-buckhead-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=nJuggWbyDNCRSiHAxrnzBg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Had a pretty good experience.\n\nI went during the day during what is usually core work hours on a weekday (3-4pm on a Thursday), so parking was not difficult...",
                 "rating": 4,
-                "time_created": "2017-07-09 18:56:54",
+                "time_created": "2023-03-17 15:56:10",
                 "user": {
-                    "id": "K8VSrOOCdXS9VX5S66W4GQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=K8VSrOOCdXS9VX5S66W4GQ",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/qNXp7QsgIMXdTCxVXAvM-w/o.jpg",
-                    "name": "Jamarcus T."
+                    "id": "ijVBYhnOgq4XsnipKiPPNw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=ijVBYhnOgq4XsnipKiPPNw",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/KoNQb6pB9RY0uwf4kXFWdQ/o.jpg",
+                    "name": "Jamie L."
                 }
             },
             {
@@ -1016,20 +1016,20 @@
                 }
             },
             {
-                "id": "DPqJB5kh8FFKIicOQdL-MA",
-                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-buckhead-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=DPqJB5kh8FFKIicOQdL-MA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Just got a library card along with 5 star treatment! The gentleman who helped (thin, lightly salted short hair - I didn't get your name ugh!) is the nicest...",
-                "rating": 5,
-                "time_created": "2018-11-28 09:33:00",
+                "id": "jz2J5U2mjp-FVsTsKy3LkQ",
+                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-buckhead-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=jz2J5U2mjp-FVsTsKy3LkQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I put the address to the Atlanta Fulton Public Library - Buckhead Branch into my gps, and had no real idea how the place even looked or what to expect.  In...",
+                "rating": 4,
+                "time_created": "2017-07-09 18:56:54",
                 "user": {
-                    "id": "OEgGBGx7vAu9PPef5K_gOg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=OEgGBGx7vAu9PPef5K_gOg",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/e_xtRAdYub0Vu8lV95mf6g/o.jpg",
-                    "name": "Sharon C."
+                    "id": "K8VSrOOCdXS9VX5S66W4GQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=K8VSrOOCdXS9VX5S66W4GQ",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/qNXp7QsgIMXdTCxVXAvM-w/o.jpg",
+                    "name": "Jamarcus T."
                 }
             }
         ],
-        "total": 23,
+        "total": 24,
         "possible_languages": [
             "en"
         ]
@@ -1084,53 +1084,6 @@
     {
         "reviews": [
             {
-                "id": "5esiCymtjlmZlCTUlYwCsA",
-                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=5esiCymtjlmZlCTUlYwCsA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Open to visitors. I once stayed till 9pm. Free WiFi. Lots of seating areas. Bathrooms, Starbucks and breakfast stores available in the building. Very clean...",
-                "rating": 5,
-                "time_created": "2020-11-13 01:12:40",
-                "user": {
-                    "id": "193FMC2ILxh6UKpL8CKHuw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=193FMC2ILxh6UKpL8CKHuw",
-                    "image_url": null,
-                    "name": "Mimi A."
-                }
-            },
-            {
-                "id": "KYS0pfSKOMTdyNaRn2yNbg",
-                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KYS0pfSKOMTdyNaRn2yNbg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "*steps on soap box*\n\nHow can you be a public university and not offer free WiFi? Emory is private and they offer free WiFi. \n\nAlso, to exacerbate the...",
-                "rating": 1,
-                "time_created": "2017-03-23 03:27:33",
-                "user": {
-                    "id": "oSjwWQmXJ_YHV6DZodWmgg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=oSjwWQmXJ_YHV6DZodWmgg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/m2pKCFQ4A6TSMqDJJYYcnA/o.jpg",
-                    "name": "Simmy H."
-                }
-            },
-            {
-                "id": "OCW_MjGfpA-wLI4_J1Urcg",
-                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OCW_MjGfpA-wLI4_J1Urcg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Open 24 hours. One of the absolute best locations in all of Atlanta to study. Everything looks and feels brand new. It is extremely clean. Security guards...",
-                "rating": 5,
-                "time_created": "2015-01-18 23:29:01",
-                "user": {
-                    "id": "gT-JNF5Dxp7Sl8xj-pxIxg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=gT-JNF5Dxp7Sl8xj-pxIxg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/rRaxydMpAjjMsie06B6W4g/o.jpg",
-                    "name": "David B."
-                }
-            }
-        ],
-        "total": 7,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "sdv6l_kEwqSF6atiFP-h2g",
                 "url": "https://www.yelp.com/biz/toco-hill-avis-g-williams-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=sdv6l_kEwqSF6atiFP-h2g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Amazing. Studying for school and looked for a library space that was clean, not overcrowded; quiet and beautiful in my area. Out of 20, this one is...",
@@ -1178,6 +1131,53 @@
     {
         "reviews": [
             {
+                "id": "5esiCymtjlmZlCTUlYwCsA",
+                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=5esiCymtjlmZlCTUlYwCsA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Open to visitors. I once stayed till 9pm. Free WiFi. Lots of seating areas. Bathrooms, Starbucks and breakfast stores available in the building. Very clean...",
+                "rating": 5,
+                "time_created": "2020-11-13 01:12:40",
+                "user": {
+                    "id": "193FMC2ILxh6UKpL8CKHuw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=193FMC2ILxh6UKpL8CKHuw",
+                    "image_url": null,
+                    "name": "Mimi A."
+                }
+            },
+            {
+                "id": "KYS0pfSKOMTdyNaRn2yNbg",
+                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KYS0pfSKOMTdyNaRn2yNbg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "*steps on soap box*\n\nHow can you be a public university and not offer free WiFi? Emory is private and they offer free WiFi. \n\nAlso, to exacerbate the...",
+                "rating": 1,
+                "time_created": "2017-03-23 03:27:33",
+                "user": {
+                    "id": "oSjwWQmXJ_YHV6DZodWmgg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=oSjwWQmXJ_YHV6DZodWmgg",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/m2pKCFQ4A6TSMqDJJYYcnA/o.jpg",
+                    "name": "Simmy H."
+                }
+            },
+            {
+                "id": "OCW_MjGfpA-wLI4_J1Urcg",
+                "url": "https://www.yelp.com/biz/georgia-tech-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OCW_MjGfpA-wLI4_J1Urcg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Open 24 hours. One of the absolute best locations in all of Atlanta to study. Everything looks and feels brand new. It is extremely clean. Security guards...",
+                "rating": 5,
+                "time_created": "2015-01-18 23:29:01",
+                "user": {
+                    "id": "gT-JNF5Dxp7Sl8xj-pxIxg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=gT-JNF5Dxp7Sl8xj-pxIxg",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/rRaxydMpAjjMsie06B6W4g/o.jpg",
+                    "name": "David B."
+                }
+            }
+        ],
+        "total": 7,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
                 "id": "Sy9zLYMUlvXmvm4E2sez7g",
                 "url": "https://www.yelp.com/biz/jimmy-carter-presidential-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Sy9zLYMUlvXmvm4E2sez7g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "This museum is gorgeous, thoughtful and informative. As a person who does not follow politics, I was pleasantly surprised by how much I enjoyed my visit. I...",
@@ -1217,7 +1217,7 @@
                 }
             }
         ],
-        "total": 125,
+        "total": 126,
         "possible_languages": [
             "en"
         ]
@@ -1272,53 +1272,6 @@
     {
         "reviews": [
             {
-                "id": "LnWQJhuiYm-BFJQjN6uuZw",
-                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=LnWQJhuiYm-BFJQjN6uuZw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I can't believe I forgot about this fantastic resource! With the advent of the Libby and Hoopla apps, the library is offering free kindle and audible books....",
-                "rating": 5,
-                "time_created": "2022-11-09 11:20:02",
-                "user": {
-                    "id": "IFeKDJGd7-dX7di6T9fglg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=IFeKDJGd7-dX7di6T9fglg",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/yjuDpyE5nnEPm_t857ix_w/o.jpg",
-                    "name": "Julie R."
-                }
-            },
-            {
-                "id": "PhSY6g0zhDwsJIWvIwN6lQ",
-                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=PhSY6g0zhDwsJIWvIwN6lQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This is a very beautiful, well kept library with lots of computers and an array of books. I also like the book sculptures at the front door. I appreciate...",
-                "rating": 4,
-                "time_created": "2022-07-09 05:01:11",
-                "user": {
-                    "id": "sxFOL91OXOMDYvci0PJWZw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=sxFOL91OXOMDYvci0PJWZw",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/SCbGCfY1yG-SRNt5Hdc2cQ/o.jpg",
-                    "name": "Jacqui P."
-                }
-            },
-            {
-                "id": "30D5TWYicISWIL-e79NTrQ",
-                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=30D5TWYicISWIL-e79NTrQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I like this place for homework and for quietly playing computer games. Reasonable printing and copying prices, very quiet and the staff are very quick to...",
-                "rating": 4,
-                "time_created": "2022-12-11 06:56:45",
-                "user": {
-                    "id": "fwewzEnRY9qPOo9Upjx-Iw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=fwewzEnRY9qPOo9Upjx-Iw",
-                    "image_url": null,
-                    "name": "Django G."
-                }
-            }
-        ],
-        "total": 34,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "OJeQvkVCZ_7uWRsCwMipqA",
                 "url": "https://www.yelp.com/biz/vinings-library-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OJeQvkVCZ_7uWRsCwMipqA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "The Vinings Library is 1 of 16 in Cobb County and is located next to CVS in the Vinings Village.  It serves Cobb residents in Vinings and the surrounding...",
@@ -1366,6 +1319,66 @@
     {
         "reviews": [
             {
+                "id": "LnWQJhuiYm-BFJQjN6uuZw",
+                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=LnWQJhuiYm-BFJQjN6uuZw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I can't believe I forgot about this fantastic resource! With the advent of the Libby and Hoopla apps, the library is offering free kindle and audible books....",
+                "rating": 5,
+                "time_created": "2022-11-09 11:20:02",
+                "user": {
+                    "id": "IFeKDJGd7-dX7di6T9fglg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=IFeKDJGd7-dX7di6T9fglg",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/yjuDpyE5nnEPm_t857ix_w/o.jpg",
+                    "name": "Julie R."
+                }
+            },
+            {
+                "id": "PhSY6g0zhDwsJIWvIwN6lQ",
+                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=PhSY6g0zhDwsJIWvIwN6lQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This is a very beautiful, well kept library with lots of computers and an array of books. I also like the book sculptures at the front door. I appreciate...",
+                "rating": 4,
+                "time_created": "2022-07-09 05:01:11",
+                "user": {
+                    "id": "sxFOL91OXOMDYvci0PJWZw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=sxFOL91OXOMDYvci0PJWZw",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/SCbGCfY1yG-SRNt5Hdc2cQ/o.jpg",
+                    "name": "Jacqui P."
+                }
+            },
+            {
+                "id": "30D5TWYicISWIL-e79NTrQ",
+                "url": "https://www.yelp.com/biz/dekalb-county-public-library-decatur?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=30D5TWYicISWIL-e79NTrQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I like this place for homework and for quietly playing computer games. Reasonable printing and copying prices, very quiet and the staff are very quick to...",
+                "rating": 4,
+                "time_created": "2022-12-11 06:56:45",
+                "user": {
+                    "id": "fwewzEnRY9qPOo9Upjx-Iw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=fwewzEnRY9qPOo9Upjx-Iw",
+                    "image_url": null,
+                    "name": "Django G."
+                }
+            }
+        ],
+        "total": 34,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "MM_MSTn4E34c0uEfk2jnWw",
+                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-ponce-de-leon-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=MM_MSTn4E34c0uEfk2jnWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I'm a nanny and I bring the little boy I take care of to the library every Wednesday for story time with Joan Centra the Youth Services Librarian. It's so...",
+                "rating": 5,
+                "time_created": "2023-03-15 07:30:02",
+                "user": {
+                    "id": "6Gafyqond3UVHG-zCHTvQA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=6Gafyqond3UVHG-zCHTvQA",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/F9kFOCAsJRf9KW5A3djJKQ/o.jpg",
+                    "name": "Melissa C."
+                }
+            },
+            {
                 "id": "oo751kB6S45eogrmDswRLA",
                 "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-ponce-de-leon-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=oo751kB6S45eogrmDswRLA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "After living nearby for years and never going inside, I rediscovered my love of reading and got myself a library card. I've been thoroughly impressed- The...",
@@ -1390,22 +1403,9 @@
                     "image_url": "https://s3-media2.fl.yelpcdn.com/photo/ru70Zt4WDf9wBWd4bHyIbg/o.jpg",
                     "name": "Will P."
                 }
-            },
-            {
-                "id": "6R0a0sZtl7VV-johTcYK1A",
-                "url": "https://www.yelp.com/biz/atlanta-fulton-public-library-ponce-de-leon-branch-atlanta?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=6R0a0sZtl7VV-johTcYK1A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "After I hadn't received the *two* absentee ballots I requested to vote in today's (January 5, 2021) Georgia Senate runoff, I decided to come to this polling...",
-                "rating": 4,
-                "time_created": "2021-01-05 07:16:50",
-                "user": {
-                    "id": "j14WgRoU_-2ZE1aw1dXrJg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=j14WgRoU_-2ZE1aw1dXrJg",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/AZ91dRaJnhwWt6ARSNVc3A/o.jpg",
-                    "name": "Daniel B."
-                }
             }
         ],
-        "total": 19,
+        "total": 20,
         "possible_languages": [
             "en"
         ]
@@ -1547,121 +1547,6 @@
     {
         "reviews": [
             {
-                "id": "OsuooJFDUCjQoQGRRo8DCg",
-                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OsuooJFDUCjQoQGRRo8DCg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "A ton of memories from my time long ago as a NYU student.\n\nMany, many days/nights and overnights spent at the lower levels of Bobst especially during the...",
-                "rating": 5,
-                "time_created": "2023-01-02 07:26:44",
-                "user": {
-                    "id": "KPYdacGNQeYGIcPIb_MyJw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=KPYdacGNQeYGIcPIb_MyJw",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/UHfIMMXJzzJZml6cG8H7LA/o.jpg",
-                    "name": "Simon W."
-                }
-            },
-            {
-                "id": "Y5lkKixzISVmgncA1hUPYA",
-                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Y5lkKixzISVmgncA1hUPYA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Hands down the #1 BEST library you will ever find.  With 12 gorgeous floors with different architectural designs and study layouts, you are bound to find a...",
-                "rating": 5,
-                "time_created": "2020-12-25 17:50:44",
-                "user": {
-                    "id": "yC-m5tPUqulfrNVG2-u2yw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=yC-m5tPUqulfrNVG2-u2yw",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/sMfijevr1tuBhgHfESji5w/o.jpg",
-                    "name": "Apple H."
-                }
-            },
-            {
-                "id": "Mfi0qEwfR4wo-j69fevX3A",
-                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Mfi0qEwfR4wo-j69fevX3A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "i am writing to voice out my question : why is this kind of place on yelp and why do people actually write reviews about it??",
-                "rating": 5,
-                "time_created": "2022-08-26 15:35:18",
-                "user": {
-                    "id": "rhsN5vfvJCaUMz5osihcOg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=rhsN5vfvJCaUMz5osihcOg",
-                    "image_url": null,
-                    "name": "\u7ae5\u5b87"
-                }
-            }
-        ],
-        "total": 57,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
-                "id": "rjd9ZeBHETmUCDqgTyH2RA",
-                "url": "https://www.yelp.com/biz/brooklyn-public-library-adams-street-brooklyn?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=rjd9ZeBHETmUCDqgTyH2RA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The DUMBO branch of BPL is the newest and latest library (since 1983!) and the sheer newness and beautifully modern design of the space speaks to that. The...",
-                "rating": 5,
-                "time_created": "2022-10-14 11:33:16",
-                "user": {
-                    "id": "ZJCFTNrydVMcV4U0mZ_EAw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=ZJCFTNrydVMcV4U0mZ_EAw",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/zHXl8McXTpfeG08FC1J0bQ/o.jpg",
-                    "name": "Michelle C."
-                }
-            }
-        ],
-        "total": 1,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
-                "id": "EGDv7IhZLOZjks6J6kK6tw",
-                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=EGDv7IhZLOZjks6J6kK6tw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Overall, my experience as a first year student at Columbia University was positive. With a great support system of friends (many of them) who genuinely...",
-                "rating": 5,
-                "time_created": "2022-05-29 15:18:37",
-                "user": {
-                    "id": "LuRVBFPbBQeiMPEE2HYU1A",
-                    "profile_url": "https://www.yelp.com/user_details?userid=LuRVBFPbBQeiMPEE2HYU1A",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/A6MvvYccFkoWtuN2Zyh0ag/o.jpg",
-                    "name": "Amanda H."
-                }
-            },
-            {
-                "id": "KWVoi01X_1k7xdCj-gKyXw",
-                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KWVoi01X_1k7xdCj-gKyXw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The space is beautiful, but since I've been here last, they have started pumping some of sort \"air freshener\" through the HVAC. If you are sensitive to...",
-                "rating": 2,
-                "time_created": "2022-12-05 14:19:33",
-                "user": {
-                    "id": "_vM1HbQky74bEzBUTyKgCg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=_vM1HbQky74bEzBUTyKgCg",
-                    "image_url": null,
-                    "name": "Blaze C."
-                }
-            },
-            {
-                "id": "h4Qv3DF0mdqGG0McNemm8Q",
-                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=h4Qv3DF0mdqGG0McNemm8Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Most inane security guards I have ever had the misfortune to encounter.\n\nTold me I \"couldn't bring food into the library\" but at the same time, was allowed...",
-                "rating": 1,
-                "time_created": "2015-02-10 17:06:26",
-                "user": {
-                    "id": "eaBrGjFai1weY2QE3KQOdg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=eaBrGjFai1weY2QE3KQOdg",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/0uelPsnsA9bebX-soT6XcA/o.jpg",
-                    "name": "Aurora C."
-                }
-            }
-        ],
-        "total": 9,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "MSyNXToDccKFnUmAWmgZYg",
                 "url": "https://www.yelp.com/biz/chatham-square-library-new-york-public-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=MSyNXToDccKFnUmAWmgZYg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "This NYPL branch is hidden and small yet easily to be missed in the passage of travels or walks.  There are abundant computer terminals and host of...",
@@ -1704,6 +1589,197 @@
         "total": 23,
         "possible_languages": [
             "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "eT6H1_ArSeja0orMU_Zt1g",
+                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=eT6H1_ArSeja0orMU_Zt1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Several years ago, this library celebrated an anniversary & counted among its guests the revered director, Martin Scorcese.  While the tradition was...",
+                "rating": 4,
+                "time_created": "2021-01-13 03:19:23",
+                "user": {
+                    "id": "KsXRmRPR1s9nMZlWstsRfA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=KsXRmRPR1s9nMZlWstsRfA",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/-IaQvE5hNxK_eXHqqHPSQg/o.jpg",
+                    "name": "Shawn F."
+                }
+            },
+            {
+                "id": "Mxp-NATt6rCo_EAhq8DIhQ",
+                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Mxp-NATt6rCo_EAhq8DIhQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "It's a pity that in this building to get to the library.  The elevator for people in a wheelchair does not always work.",
+                "rating": 1,
+                "time_created": "2022-06-20 13:22:14",
+                "user": {
+                    "id": "zBrR2cZOg6obmY2j9JS3dg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=zBrR2cZOg6obmY2j9JS3dg",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/ngggko13BOxHEkSsxk4zrw/o.jpg",
+                    "name": "Natalya R."
+                }
+            },
+            {
+                "id": "b7hH4xI_cYk9lnpgX7Bw5A",
+                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=b7hH4xI_cYk9lnpgX7Bw5A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "They have a sign saying libraries are for everyone... clearly this is not true because when we are anted to go out stairs without having a kid, we were...",
+                "rating": 1,
+                "time_created": "2022-10-22 11:19:07",
+                "user": {
+                    "id": "g95EKCHj2f_ddj_S91ZnCg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=g95EKCHj2f_ddj_S91ZnCg",
+                    "image_url": null,
+                    "name": "Bob B."
+                }
+            }
+        ],
+        "total": 35,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "OsuooJFDUCjQoQGRRo8DCg",
+                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OsuooJFDUCjQoQGRRo8DCg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "A ton of memories from my time long ago as a NYU student.\n\nMany, many days/nights and overnights spent at the lower levels of Bobst especially during the...",
+                "rating": 5,
+                "time_created": "2023-01-02 07:26:44",
+                "user": {
+                    "id": "KPYdacGNQeYGIcPIb_MyJw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=KPYdacGNQeYGIcPIb_MyJw",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/UHfIMMXJzzJZml6cG8H7LA/o.jpg",
+                    "name": "Simon W."
+                }
+            },
+            {
+                "id": "Y5lkKixzISVmgncA1hUPYA",
+                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Y5lkKixzISVmgncA1hUPYA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Hands down the #1 BEST library you will ever find.  With 12 gorgeous floors with different architectural designs and study layouts, you are bound to find a...",
+                "rating": 5,
+                "time_created": "2020-12-25 17:50:44",
+                "user": {
+                    "id": "yC-m5tPUqulfrNVG2-u2yw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=yC-m5tPUqulfrNVG2-u2yw",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/sMfijevr1tuBhgHfESji5w/o.jpg",
+                    "name": "Apple H."
+                }
+            },
+            {
+                "id": "abO6wcFi185ABKhSqWAu-g",
+                "url": "https://www.yelp.com/biz/elmer-holmes-bobst-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=abO6wcFi185ABKhSqWAu-g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I needed a new place to study desperately. \n\nso i came to find a good new study spot.\n\nbut here I am on Yelp...\n\nquiet environment with lots of other fellow...",
+                "rating": 3,
+                "time_created": "2018-03-30 13:01:40",
+                "user": {
+                    "id": "yAV92vIacpYm1tboi-8MPA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=yAV92vIacpYm1tboi-8MPA",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/nEluoD9cxOzUIj5hNqrKzQ/o.jpg",
+                    "name": "Helen S."
+                }
+            }
+        ],
+        "total": 57,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "HjMwq9mmw8_f2hp6nsMrIw",
+                "url": "https://www.yelp.com/biz/new-york-public-library-grand-central-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=HjMwq9mmw8_f2hp6nsMrIw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Whatttttt!! Now that's a library! I've been by so many times and either didn't have time to stop in, or it was closed. I found myself at Bryant park with an...",
+                "rating": 5,
+                "time_created": "2023-02-28 09:43:12",
+                "user": {
+                    "id": "qRHp-sQGmCcAyTK-dPiH8A",
+                    "profile_url": "https://www.yelp.com/user_details?userid=qRHp-sQGmCcAyTK-dPiH8A",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/cM-00HSBfdyawSJWZCGTpg/o.jpg",
+                    "name": "Jen W."
+                }
+            },
+            {
+                "id": "CH9bOVeKnsAUuLkvwKEtCw",
+                "url": "https://www.yelp.com/biz/new-york-public-library-grand-central-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=CH9bOVeKnsAUuLkvwKEtCw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "It's difficult to believe that this library, or any public library for that matter, would open amid protests, but that's exactly what happened when the...",
+                "rating": 4,
+                "time_created": "2021-01-12 05:17:34",
+                "user": {
+                    "id": "KsXRmRPR1s9nMZlWstsRfA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=KsXRmRPR1s9nMZlWstsRfA",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/-IaQvE5hNxK_eXHqqHPSQg/o.jpg",
+                    "name": "Shawn F."
+                }
+            },
+            {
+                "id": "jc8Y3JgEupnXKKYocAr1Cw",
+                "url": "https://www.yelp.com/biz/new-york-public-library-grand-central-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=jc8Y3JgEupnXKKYocAr1Cw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Am loving this library/this location.  I got my first Manhattan library card just about a month ago.  Applying online was super easy, then I walked into...",
+                "rating": 5,
+                "time_created": "2018-07-27 11:37:53",
+                "user": {
+                    "id": "C_SXjo805ECOlzQNLJBmCg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=C_SXjo805ECOlzQNLJBmCg",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/slB9zSBK5DKRdYB2Pxzqyg/o.jpg",
+                    "name": "Jeannie T."
+                }
+            }
+        ],
+        "total": 39,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "6jKXoB4gHLguQpm45EqYQA",
+                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=6jKXoB4gHLguQpm45EqYQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I am just speechless Never seen a library this beautiful & breathtaking! You gotta go visit to know what I mean..! I wish I could just live there ....\n\nDo...",
+                "rating": 5,
+                "time_created": "2023-03-10 10:06:06",
+                "user": {
+                    "id": "HF5SZW3xBvRDB4oL3n-z6Q",
+                    "profile_url": "https://www.yelp.com/user_details?userid=HF5SZW3xBvRDB4oL3n-z6Q",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/EHzXrhTEgFxPSfWQ-U_q2w/o.jpg",
+                    "name": "Payel R."
+                }
+            },
+            {
+                "id": "EZedpVYA8uHYirLUWQuDWA",
+                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=EZedpVYA8uHYirLUWQuDWA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This is a great little museum to visit. The decor is just stunning, from the tiled walls to the fresco ceilings and intricate details. It was so impressive...",
+                "rating": 5,
+                "time_created": "2023-02-04 15:12:14",
+                "user": {
+                    "id": "dDfsMQpPCGgZwo-d5ztusQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=dDfsMQpPCGgZwo-d5ztusQ",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/htw7bD2U66c6XePkfmmJPw/o.jpg",
+                    "name": "Lily M."
+                }
+            },
+            {
+                "id": "KAfuU8meC3Yg_T4J1m6aYA",
+                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KAfuU8meC3Yg_T4J1m6aYA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "The Morgan was home to J. P. Morgan, financial mogul.  At a young age, Morgan had a love for collecting rare books.  \nThe library and museum were quite...",
+                "rating": 5,
+                "time_created": "2023-02-04 03:09:51",
+                "user": {
+                    "id": "-guyVbrMJxVeBcfdRQc6xw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=-guyVbrMJxVeBcfdRQc6xw",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/qgnOTXZTl-x9SdEzO5YP1w/o.jpg",
+                    "name": "HoyMay P."
+                }
+            }
+        ],
+        "total": 327,
+        "possible_languages": [
+            "en",
+            "ja",
+            "tr",
+            "de"
         ]
     },
     {
@@ -1756,98 +1832,48 @@
     {
         "reviews": [
             {
-                "id": "eT6H1_ArSeja0orMU_Zt1g",
-                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=eT6H1_ArSeja0orMU_Zt1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Several years ago, this library celebrated an anniversary & counted among its guests the revered director, Martin Scorcese.  While the tradition was...",
-                "rating": 4,
-                "time_created": "2021-01-13 03:19:23",
+                "id": "EGDv7IhZLOZjks6J6kK6tw",
+                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=EGDv7IhZLOZjks6J6kK6tw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Overall, my experience as a first year student at Columbia University was positive. With a great support system of friends (many of them) who genuinely...",
+                "rating": 5,
+                "time_created": "2022-05-29 15:18:37",
                 "user": {
-                    "id": "KsXRmRPR1s9nMZlWstsRfA",
-                    "profile_url": "https://www.yelp.com/user_details?userid=KsXRmRPR1s9nMZlWstsRfA",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/-IaQvE5hNxK_eXHqqHPSQg/o.jpg",
-                    "name": "Shawn F."
+                    "id": "LuRVBFPbBQeiMPEE2HYU1A",
+                    "profile_url": "https://www.yelp.com/user_details?userid=LuRVBFPbBQeiMPEE2HYU1A",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/A6MvvYccFkoWtuN2Zyh0ag/o.jpg",
+                    "name": "Amanda H."
                 }
             },
             {
-                "id": "b7hH4xI_cYk9lnpgX7Bw5A",
-                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=b7hH4xI_cYk9lnpgX7Bw5A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "They have a sign saying libraries are for everyone... clearly this is not true because when we are anted to go out stairs without having a kid, we were...",
-                "rating": 1,
-                "time_created": "2022-10-22 11:19:07",
+                "id": "KWVoi01X_1k7xdCj-gKyXw",
+                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KWVoi01X_1k7xdCj-gKyXw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "The space is beautiful, but since I've been here last, they have started pumping some of sort \"air freshener\" through the HVAC. If you are sensitive to...",
+                "rating": 2,
+                "time_created": "2022-12-05 14:19:33",
                 "user": {
-                    "id": "g95EKCHj2f_ddj_S91ZnCg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=g95EKCHj2f_ddj_S91ZnCg",
+                    "id": "_vM1HbQky74bEzBUTyKgCg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=_vM1HbQky74bEzBUTyKgCg",
                     "image_url": null,
-                    "name": "Bob B."
+                    "name": "Blaze C."
                 }
             },
             {
-                "id": "Mxp-NATt6rCo_EAhq8DIhQ",
-                "url": "https://www.yelp.com/biz/new-york-public-library-tompkins-square-library-new-york?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Mxp-NATt6rCo_EAhq8DIhQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "It's a pity that in this building to get to the library.  The elevator for people in a wheelchair does not always work.",
+                "id": "h4Qv3DF0mdqGG0McNemm8Q",
+                "url": "https://www.yelp.com/biz/butler-library-manhattan?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=h4Qv3DF0mdqGG0McNemm8Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Most inane security guards I have ever had the misfortune to encounter.\n\nTold me I \"couldn't bring food into the library\" but at the same time, was allowed...",
                 "rating": 1,
-                "time_created": "2022-06-20 13:22:14",
+                "time_created": "2015-02-10 17:06:26",
                 "user": {
-                    "id": "zBrR2cZOg6obmY2j9JS3dg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=zBrR2cZOg6obmY2j9JS3dg",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/ngggko13BOxHEkSsxk4zrw/o.jpg",
-                    "name": "Natalya R."
+                    "id": "eaBrGjFai1weY2QE3KQOdg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=eaBrGjFai1weY2QE3KQOdg",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/0uelPsnsA9bebX-soT6XcA/o.jpg",
+                    "name": "Aurora C."
                 }
             }
         ],
-        "total": 35,
+        "total": 9,
         "possible_languages": [
             "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
-                "id": "EZedpVYA8uHYirLUWQuDWA",
-                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=EZedpVYA8uHYirLUWQuDWA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This is a great little museum to visit. The decor is just stunning, from the tiled walls to the fresco ceilings and intricate details. It was so impressive...",
-                "rating": 5,
-                "time_created": "2023-02-04 15:12:14",
-                "user": {
-                    "id": "dDfsMQpPCGgZwo-d5ztusQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=dDfsMQpPCGgZwo-d5ztusQ",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/htw7bD2U66c6XePkfmmJPw/o.jpg",
-                    "name": "Lily M."
-                }
-            },
-            {
-                "id": "KAfuU8meC3Yg_T4J1m6aYA",
-                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=KAfuU8meC3Yg_T4J1m6aYA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The Morgan was home to J. P. Morgan, financial mogul.  At a young age, Morgan had a love for collecting rare books.  \nThe library and museum were quite...",
-                "rating": 5,
-                "time_created": "2023-02-04 03:09:51",
-                "user": {
-                    "id": "-guyVbrMJxVeBcfdRQc6xw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=-guyVbrMJxVeBcfdRQc6xw",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/qgnOTXZTl-x9SdEzO5YP1w/o.jpg",
-                    "name": "HoyMay P."
-                }
-            },
-            {
-                "id": "SmowvWJ812gOkCP26oBw7Q",
-                "url": "https://www.yelp.com/biz/the-morgan-library-and-museum-new-york-4?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=SmowvWJ812gOkCP26oBw7Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "What a hidden gem! I was vaguely aware of the existence of this museum from the book the Personal Librarian, but it isn't a museum I hear about in the...",
-                "rating": 5,
-                "time_created": "2022-11-22 18:58:07",
-                "user": {
-                    "id": "et7Ndr07Kz-4wX8bbmQjWg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=et7Ndr07Kz-4wX8bbmQjWg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/3I0Tlw-31lL48FsMXbX4uw/o.jpg",
-                    "name": "Araba N."
-                }
-            }
-        ],
-        "total": 326,
-        "possible_languages": [
-            "en",
-            "ja",
-            "tr",
-            "de"
         ]
     },
     {
@@ -1913,6 +1939,19 @@
                 }
             },
             {
+                "id": "MieXVc3rlDWK5PqogvGoEg",
+                "url": "https://www.yelp.com/biz/harold-washington-library-center-chicago-public-library-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=MieXVc3rlDWK5PqogvGoEg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Specifically went to see the Winter Garden on the 9th floor and it was a beautiful, open space with a lot of natural light!\n\nFYI there's only 7-8 tables. I...",
+                "rating": 4,
+                "time_created": "2023-03-09 21:03:28",
+                "user": {
+                    "id": "cuYDncbc2Ju3FxLkGdcuYA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=cuYDncbc2Ju3FxLkGdcuYA",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/bGdR0cpSvT32pHAWvAMALw/o.jpg",
+                    "name": "Rachel S."
+                }
+            },
+            {
                 "id": "WjDfb_VrbX1XBgXUh0G-Rg",
                 "url": "https://www.yelp.com/biz/harold-washington-library-center-chicago-public-library-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=WjDfb_VrbX1XBgXUh0G-Rg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "This is a very nice building. Make sure you get on top of it and visit a winter garden. And yes, it's free.",
@@ -1924,22 +1963,9 @@
                     "image_url": "https://s3-media2.fl.yelpcdn.com/photo/GesvCIOo4coZaD0yMCXdog/o.jpg",
                     "name": "Orest S."
                 }
-            },
-            {
-                "id": "XkuinJbldShfE8g6bSu8FA",
-                "url": "https://www.yelp.com/biz/harold-washington-library-center-chicago-public-library-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=XkuinJbldShfE8g6bSu8FA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The Harold Washington Library is a total gem in the city. It has 9 floors of books and other great resources. \n\nThe highlight is the beautiful winter garden...",
-                "rating": 5,
-                "time_created": "2022-07-31 06:18:29",
-                "user": {
-                    "id": "HtwLqbDbNFYEAJBPHZfG-g",
-                    "profile_url": "https://www.yelp.com/user_details?userid=HtwLqbDbNFYEAJBPHZfG-g",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/Ee9cE6-uP-FdWR1CM31CDA/o.jpg",
-                    "name": "Kate W."
-                }
             }
         ],
-        "total": 280,
+        "total": 281,
         "possible_languages": [
             "en"
         ]
@@ -1994,6 +2020,40 @@
     {
         "reviews": [
             {
+                "id": "qiFQRM52wiW5XxzyPAvMtQ",
+                "url": "https://www.yelp.com/biz/library-at-armour-academic-center-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=qiFQRM52wiW5XxzyPAvMtQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This is an awesome oasis if you need an uber quiet place to study. I haven't gone to the UIC library since this is closer. However, of the several times...",
+                "rating": 5,
+                "time_created": "2015-10-03 11:39:38",
+                "user": {
+                    "id": "7BiWqhSJ-h0drMp7xCZC8w",
+                    "profile_url": "https://www.yelp.com/user_details?userid=7BiWqhSJ-h0drMp7xCZC8w",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/AqR3qtjuvtTmHT2IF0AFHA/o.jpg",
+                    "name": "Lily Z."
+                }
+            }
+        ],
+        "total": 1,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "j1RNRzjBTiEBDBMJN30p6Q",
+                "url": "https://www.yelp.com/biz/chicago-public-library-chicago-8?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=j1RNRzjBTiEBDBMJN30p6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This is my favourate place in Chicago, absolutely gorgeous. Quiet, clean and very open. Free parking.\nThey have great free event at the Library, \nGood place...",
+                "rating": 5,
+                "time_created": "2019-09-27 10:51:40",
+                "user": {
+                    "id": "XMuZjdR9zQDQup0CTFEhuw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=XMuZjdR9zQDQup0CTFEhuw",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/a55RfZkFEgLyP25FCody_w/o.jpg",
+                    "name": "Barb K."
+                }
+            },
+            {
                 "id": "acWQ7kECcKvFlNs_cAHLxA",
                 "url": "https://www.yelp.com/biz/chicago-public-library-chicago-8?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=acWQ7kECcKvFlNs_cAHLxA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Convenienct as can be. Availability at a plus. Clean quiet and workers are helpful. Even was able to print my papers",
@@ -2018,43 +2078,9 @@
                     "image_url": "https://s3-media3.fl.yelpcdn.com/photo/EzXgjCkGagJhpiCXAT6egA/o.jpg",
                     "name": "Virginia G."
                 }
-            },
-            {
-                "id": "dlMMVBTlGSKX5_ByN5Ikrw",
-                "url": "https://www.yelp.com/biz/chicago-public-library-chicago-8?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=dlMMVBTlGSKX5_ByN5Ikrw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Have been coming to this library to study for med exams and it's a pretty quiet spot for it. The best feature is the study room with white board to use for...",
-                "rating": 5,
-                "time_created": "2021-09-23 13:02:24",
-                "user": {
-                    "id": "Rg7te0RaxKqqG46ghwm3gg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=Rg7te0RaxKqqG46ghwm3gg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/vpMQ2YTwS8ZCHQjQIaUdeQ/o.jpg",
-                    "name": "Danielle U."
-                }
             }
         ],
         "total": 26,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
-                "id": "qiFQRM52wiW5XxzyPAvMtQ",
-                "url": "https://www.yelp.com/biz/library-at-armour-academic-center-chicago?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=qiFQRM52wiW5XxzyPAvMtQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This is an awesome oasis if you need an uber quiet place to study. I haven't gone to the UIC library since this is closer. However, of the several times...",
-                "rating": 5,
-                "time_created": "2015-10-03 11:39:38",
-                "user": {
-                    "id": "7BiWqhSJ-h0drMp7xCZC8w",
-                    "profile_url": "https://www.yelp.com/user_details?userid=7BiWqhSJ-h0drMp7xCZC8w",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/AqR3qtjuvtTmHT2IF0AFHA/o.jpg",
-                    "name": "Lily Z."
-                }
-            }
-        ],
-        "total": 1,
         "possible_languages": [
             "en"
         ]
@@ -2203,19 +2229,6 @@
     {
         "reviews": [
             {
-                "id": "suGH36Lo5x9hPfE5hEUxIQ",
-                "url": "https://www.yelp.com/biz/chicago-public-library-west-loop-chicago-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=suGH36Lo5x9hPfE5hEUxIQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The West Loop branch of CPL gets my vote for ultra modern and posh! The team that designed this space deserves some mad recognition for the beautiful...",
-                "rating": 5,
-                "time_created": "2019-03-18 11:32:59",
-                "user": {
-                    "id": "P0Rn0GqEWpClqJiS4u6kxw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=P0Rn0GqEWpClqJiS4u6kxw",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/LR-ZflqhN0AKGzYHcxL0eQ/o.jpg",
-                    "name": "Jenny Y."
-                }
-            },
-            {
                 "id": "IXA0Do3pHq9ApuK5GQkFZA",
                 "url": "https://www.yelp.com/biz/chicago-public-library-west-loop-chicago-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=IXA0Do3pHq9ApuK5GQkFZA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "It is exciting to have a local library so near by.\nHowever, it would be even nicer if they have people bit friendly and bit more knowledgeable working...",
@@ -2240,6 +2253,19 @@
                     "image_url": "https://s3-media3.fl.yelpcdn.com/photo/NOb1PL48jNKyKzd2GQW3Vw/o.jpg",
                     "name": "Jennifer B."
                 }
+            },
+            {
+                "id": "Xf3V594Dlpgc2HX6kx5hPg",
+                "url": "https://www.yelp.com/biz/chicago-public-library-west-loop-chicago-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Xf3V594Dlpgc2HX6kx5hPg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Some library. The starting and closing hours are not consistent each weekday and no one speaks softly when they talk. The library unnecessarily closed off...",
+                "rating": 2,
+                "time_created": "2020-10-21 11:03:20",
+                "user": {
+                    "id": "7_gGS49EXskGs7foi3JxbQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=7_gGS49EXskGs7foi3JxbQ",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/ZjHI4LQNV5GUU_V690Lvvg/o.jpg",
+                    "name": "Rajiv B."
+                }
             }
         ],
         "total": 8,
@@ -2250,46 +2276,46 @@
     {
         "reviews": [
             {
-                "id": "wtNRBqX0eVyQnZF8BzrPrw",
-                "url": "https://www.yelp.com/biz/evergreen-park-public-library-evergreen-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=wtNRBqX0eVyQnZF8BzrPrw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I love this little Library\nI am a resident of Chicago but they have an articulation where you can be a Chicago Library holder and still rent out books...",
+                "id": "Vvy6jw8e_eY-eHrvhEfaeQ",
+                "url": "https://www.yelp.com/biz/brighton-park-public-library-chicago-chicago-3?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Vvy6jw8e_eY-eHrvhEfaeQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Brighton Park Library is located on the north side of Archer Avenue between 43rd Street and Kedzie Avenue.  (closer to 43rd St  : ) \n\nPARKING \nSome parking...",
                 "rating": 4,
-                "time_created": "2017-08-30 13:24:49",
+                "time_created": "2019-04-28 10:26:32",
                 "user": {
-                    "id": "1s3te7TeVRFdLVPB8pqfWQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=1s3te7TeVRFdLVPB8pqfWQ",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/cx07A7BAjlLmu4dBlzllHQ/o.jpg",
-                    "name": "Latrice A."
+                    "id": "L0W7qlHEg0-y0byeJFuN5w",
+                    "profile_url": "https://www.yelp.com/user_details?userid=L0W7qlHEg0-y0byeJFuN5w",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/tPdB3cQjSbAKfhqBkthpUQ/o.jpg",
+                    "name": "Christine B."
                 }
             },
             {
-                "id": "MD-qn05eRS9_WkeM-gP3Gw",
-                "url": "https://www.yelp.com/biz/evergreen-park-public-library-evergreen-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=MD-qn05eRS9_WkeM-gP3Gw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I love this library.  It's small but there are plenty of tables, study rooms, and a nice reading room with study a fireplace and tables which is always...",
-                "rating": 5,
-                "time_created": "2017-04-27 18:55:36",
+                "id": "Vl1w9m4BuxgQP-Rs3yIq0g",
+                "url": "https://www.yelp.com/biz/brighton-park-public-library-chicago-chicago-3?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Vl1w9m4BuxgQP-Rs3yIq0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I'm on a quest to visit every branch of the Chicago Public Library system.\n\nThis is  the very first branch of the library I ever visited back when I...",
+                "rating": 3,
+                "time_created": "2011-07-02 08:39:07",
                 "user": {
-                    "id": "IGxgHIVPMPZsQzUCpVPkjg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=IGxgHIVPMPZsQzUCpVPkjg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/YoUl_PyUKxQbusSaWk8lew/o.jpg",
-                    "name": "Monica O."
+                    "id": "YZvoxngyXm1E2-R-tkqiWg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=YZvoxngyXm1E2-R-tkqiWg",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/qWVWOjeelMpIi8feswyzyw/o.jpg",
+                    "name": "Diana R."
                 }
             },
             {
-                "id": "fVT9yBEC7Ne_fN8AzvhbtQ",
-                "url": "https://www.yelp.com/biz/evergreen-park-public-library-evergreen-park?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=fVT9yBEC7Ne_fN8AzvhbtQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Great library with amazing staff! During the covid pandemic they started a curbside pickup or delivery (to older patrons) so that people could stay well...",
-                "rating": 5,
-                "time_created": "2020-06-23 09:12:13",
+                "id": "DXk5h0CkJSHYcAlqpE8_Bg",
+                "url": "https://www.yelp.com/biz/brighton-park-public-library-chicago-chicago-3?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=DXk5h0CkJSHYcAlqpE8_Bg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Great library with great staff! Parking is in the back. Check the library times before going because sometimes they open late to stay open later.",
+                "rating": 4,
+                "time_created": "2019-08-06 23:09:11",
                 "user": {
-                    "id": "PBnEwGVCBL0N-bET6ZI6kQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=PBnEwGVCBL0N-bET6ZI6kQ",
+                    "id": "gpYDzjb7tWrUUqeEG3WrHw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=gpYDzjb7tWrUUqeEG3WrHw",
                     "image_url": null,
-                    "name": "monica k."
+                    "name": "Liz A."
                 }
             }
         ],
-        "total": 7,
+        "total": 5,
         "possible_languages": [
             "en"
         ]
@@ -2297,16 +2323,16 @@
     {
         "reviews": [
             {
-                "id": "2Ziwlhn7lHRdVgWtyjF3Dg",
-                "url": "https://www.yelp.com/biz/boston-public-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=2Ziwlhn7lHRdVgWtyjF3Dg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "If you're a local or just visiting, check out this Library. There are numerous artworks, marvelous decor, and history to soak in! \n\nPro Tip: There are tours...",
+                "id": "MROufBj4sb_0aLkT_MQwPA",
+                "url": "https://www.yelp.com/biz/boston-public-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=MROufBj4sb_0aLkT_MQwPA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Beautiful and serene place! \n\nI went to turn my library e-card into a physical one and the front desk was incredibly helpful. I loved being able to choose...",
                 "rating": 5,
-                "time_created": "2022-12-06 20:53:25",
+                "time_created": "2023-03-13 13:14:50",
                 "user": {
-                    "id": "t4RpD_VWBbsB6U7ve_U53A",
-                    "profile_url": "https://www.yelp.com/user_details?userid=t4RpD_VWBbsB6U7ve_U53A",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/G4sjOY2lEqzcU5CGkVA89w/o.jpg",
-                    "name": "Amber S."
+                    "id": "O1uydAwRBcExNvw4zDsgYg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=O1uydAwRBcExNvw4zDsgYg",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/pwpZ35DYaY58bpdAf3DZcg/o.jpg",
+                    "name": "Hallie L."
                 }
             },
             {
@@ -2323,20 +2349,20 @@
                 }
             },
             {
-                "id": "RChZOWqJt3rxhut3PQqPyQ",
-                "url": "https://www.yelp.com/biz/boston-public-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=RChZOWqJt3rxhut3PQqPyQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I am totally and enthusiastically stoked.  High tea at their Tea lounge was fully booked for 3 pm.  I said we came from Hawaii.  He said speak to the lady...",
+                "id": "2Ziwlhn7lHRdVgWtyjF3Dg",
+                "url": "https://www.yelp.com/biz/boston-public-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=2Ziwlhn7lHRdVgWtyjF3Dg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "If you're a local or just visiting, check out this Library. There are numerous artworks, marvelous decor, and history to soak in! \n\nPro Tip: There are tours...",
                 "rating": 5,
-                "time_created": "2022-11-25 11:14:55",
+                "time_created": "2022-12-06 20:53:25",
                 "user": {
-                    "id": "PveUBxKSwXrNQwFiCo7AuA",
-                    "profile_url": "https://www.yelp.com/user_details?userid=PveUBxKSwXrNQwFiCo7AuA",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/Y30YVLZA5M7ZRNBkHsTpUA/o.jpg",
-                    "name": "Gail U."
+                    "id": "t4RpD_VWBbsB6U7ve_U53A",
+                    "profile_url": "https://www.yelp.com/user_details?userid=t4RpD_VWBbsB6U7ve_U53A",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/G4sjOY2lEqzcU5CGkVA89w/o.jpg",
+                    "name": "Amber S."
                 }
             }
         ],
-        "total": 554,
+        "total": 555,
         "possible_languages": [
             "en",
             "fr",
@@ -2394,19 +2420,6 @@
     {
         "reviews": [
             {
-                "id": "vAcwGwdILy3VtA8LQGxFNQ",
-                "url": "https://www.yelp.com/biz/snell-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=vAcwGwdILy3VtA8LQGxFNQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Love snell. Pretty much my second home throughout college. Simple enough: \n\n4th floor: absolutely no sound is allowed\n3rd floor: you may talk a little\n2nd:...",
-                "rating": 5,
-                "time_created": "2015-08-17 19:09:58",
-                "user": {
-                    "id": "-k5lSLbA6LUcbjYtseqN8Q",
-                    "profile_url": "https://www.yelp.com/user_details?userid=-k5lSLbA6LUcbjYtseqN8Q",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/pVUmR9t3ADPo_XlwcsENDw/o.jpg",
-                    "name": "Le T."
-                }
-            },
-            {
                 "id": "s5fHO3wmQzbXio4arRNY1g",
                 "url": "https://www.yelp.com/biz/snell-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=s5fHO3wmQzbXio4arRNY1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "My call has been answered! We are getting more bathrooms on the upper levels of Snell Library. The bathroom gods are smiling upon the Huskies in Snell Library.",
@@ -2417,6 +2430,19 @@
                     "profile_url": "https://www.yelp.com/user_details?userid=FXu28KKWK1lOqWuBgd0ASQ",
                     "image_url": "https://s3-media4.fl.yelpcdn.com/photo/wMQSGaBGODSuT2tLKwe67w/o.jpg",
                     "name": "Jason K."
+                }
+            },
+            {
+                "id": "vAcwGwdILy3VtA8LQGxFNQ",
+                "url": "https://www.yelp.com/biz/snell-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=vAcwGwdILy3VtA8LQGxFNQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Love snell. Pretty much my second home throughout college. Simple enough: \n\n4th floor: absolutely no sound is allowed\n3rd floor: you may talk a little\n2nd:...",
+                "rating": 5,
+                "time_created": "2015-08-17 19:09:58",
+                "user": {
+                    "id": "-k5lSLbA6LUcbjYtseqN8Q",
+                    "profile_url": "https://www.yelp.com/user_details?userid=-k5lSLbA6LUcbjYtseqN8Q",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/pVUmR9t3ADPo_XlwcsENDw/o.jpg",
+                    "name": "Le T."
                 }
             },
             {
@@ -2616,53 +2642,6 @@
     {
         "reviews": [
             {
-                "id": "CTtKwEI4FxpEz20x7bM9MQ",
-                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=CTtKwEI4FxpEz20x7bM9MQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "No lie I may be a little biased bc I love all things Kennedy but literally loved this museum. If I hadnt gone with such a debbie downer I would have been in...",
-                "rating": 5,
-                "time_created": "2023-02-24 12:42:20",
-                "user": {
-                    "id": "L1eAJ0x1Kb1D5-D-twIWqw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=L1eAJ0x1Kb1D5-D-twIWqw",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/DcGIY41qj2Amv3gyVRHMFA/o.jpg",
-                    "name": "Maria A."
-                }
-            },
-            {
-                "id": "thgDmkw1lCeT8c5JTpoOvw",
-                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=thgDmkw1lCeT8c5JTpoOvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This was a worthy stop, for a very interesting President and historical figure. But I thought it was nowhere near as well done as other Presidential...",
-                "rating": 4,
-                "time_created": "2022-09-11 19:07:40",
-                "user": {
-                    "id": "GLi-mDPvGF5QbfQ7UQp3mg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=GLi-mDPvGF5QbfQ7UQp3mg",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/YNAK0uhusDLgqQ2Wjeimyw/o.jpg",
-                    "name": "Brian M."
-                }
-            },
-            {
-                "id": "22E6cf9xlmWIxaRqn95QWw",
-                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=22E6cf9xlmWIxaRqn95QWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "It's a great museum to visit if you're a fan of JFK or just presidential history in general. The JFK Library is housed in a nice, modern building with an...",
-                "rating": 4,
-                "time_created": "2023-02-24 14:13:11",
-                "user": {
-                    "id": "x9Tu88OtnHpD4jZivjQH2w",
-                    "profile_url": "https://www.yelp.com/user_details?userid=x9Tu88OtnHpD4jZivjQH2w",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/YUhs9WPyv700j1O_ANBiwQ/o.jpg",
-                    "name": "Matt D."
-                }
-            }
-        ],
-        "total": 266,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "FPnD6sUv0cbn1wHgSWfocw",
                 "url": "https://www.yelp.com/biz/the-mary-baker-eddy-library-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=FPnD6sUv0cbn1wHgSWfocw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Amazing piece of architecture, beautiful inside and out.\nIt is a quick visit inside the room. Check out the reflecting pool outside.  Unfortunately no...",
@@ -2703,6 +2682,53 @@
             }
         ],
         "total": 131,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "CTtKwEI4FxpEz20x7bM9MQ",
+                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=CTtKwEI4FxpEz20x7bM9MQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "No lie I may be a little biased bc I love all things Kennedy but literally loved this museum. If I hadnt gone with such a debbie downer I would have been in...",
+                "rating": 5,
+                "time_created": "2023-02-24 12:42:20",
+                "user": {
+                    "id": "L1eAJ0x1Kb1D5-D-twIWqw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=L1eAJ0x1Kb1D5-D-twIWqw",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/DcGIY41qj2Amv3gyVRHMFA/o.jpg",
+                    "name": "Maria A."
+                }
+            },
+            {
+                "id": "thgDmkw1lCeT8c5JTpoOvw",
+                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=thgDmkw1lCeT8c5JTpoOvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "This was a worthy stop, for a very interesting President and historical figure. But I thought it was nowhere near as well done as other Presidential...",
+                "rating": 4,
+                "time_created": "2022-09-11 19:07:40",
+                "user": {
+                    "id": "GLi-mDPvGF5QbfQ7UQp3mg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=GLi-mDPvGF5QbfQ7UQp3mg",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/YNAK0uhusDLgqQ2Wjeimyw/o.jpg",
+                    "name": "Brian M."
+                }
+            },
+            {
+                "id": "22E6cf9xlmWIxaRqn95QWw",
+                "url": "https://www.yelp.com/biz/john-f-kennedy-presidential-library-and-museum-boston?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=22E6cf9xlmWIxaRqn95QWw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "It's a great museum to visit if you're a fan of JFK or just presidential history in general. The JFK Library is housed in a nice, modern building with an...",
+                "rating": 4,
+                "time_created": "2023-02-24 14:13:11",
+                "user": {
+                    "id": "x9Tu88OtnHpD4jZivjQH2w",
+                    "profile_url": "https://www.yelp.com/user_details?userid=x9Tu88OtnHpD4jZivjQH2w",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/YUhs9WPyv700j1O_ANBiwQ/o.jpg",
+                    "name": "Matt D."
+                }
+            }
+        ],
+        "total": 266,
         "possible_languages": [
             "en"
         ]
@@ -2770,19 +2796,6 @@
                 }
             },
             {
-                "id": "Z0nHQTv-A0WVzRoJ_o2Fng",
-                "url": "https://www.yelp.com/biz/seattle-public-library-central-library-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Z0nHQTv-A0WVzRoJ_o2Fng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This was a super cool library. I was in town with a couple friends and someone suggested we stop by. I hadn't heard much about it before so I didn't have...",
-                "rating": 4,
-                "time_created": "2023-02-28 05:49:31",
-                "user": {
-                    "id": "1Mt_8wqfka1dg0orYAkV7A",
-                    "profile_url": "https://www.yelp.com/user_details?userid=1Mt_8wqfka1dg0orYAkV7A",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/QJRSHgf8-hLd12W7UzU96Q/o.jpg",
-                    "name": "Claire C."
-                }
-            },
-            {
                 "id": "K9Vs9BHfn4ju4sfGFL3Sng",
                 "url": "https://www.yelp.com/biz/seattle-public-library-central-library-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=K9Vs9BHfn4ju4sfGFL3Sng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Probably one of the most unique libraries I have been to ever! The Seattle Public Library have a huge collection of books, and various levels for you to...",
@@ -2793,6 +2806,19 @@
                     "profile_url": "https://www.yelp.com/user_details?userid=mnrDsvKj1LfyNr5pxzzUmg",
                     "image_url": "https://s3-media2.fl.yelpcdn.com/photo/2Qx78tl12zWOUztnlJY29A/o.jpg",
                     "name": "Jenny C."
+                }
+            },
+            {
+                "id": "XfJVBzlqvzq1dBesEKbTzA",
+                "url": "https://www.yelp.com/biz/seattle-public-library-central-library-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=XfJVBzlqvzq1dBesEKbTzA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "There are plenty of photos of this iconic and impressive public library so I'll post no more. This place is awe-inspiring, and that's simply from an...",
+                "rating": 5,
+                "time_created": "2022-12-16 11:40:50",
+                "user": {
+                    "id": "mXREH4sQw8J6X-5e_IKxHw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=mXREH4sQw8J6X-5e_IKxHw",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/o5X-bcCirFWQ_lZzaalJhA/o.jpg",
+                    "name": "Gene W."
                 }
             }
         ],
@@ -2872,54 +2898,6 @@
     {
         "reviews": [
             {
-                "id": "Mu_81htVuvxkKjLbQbCK8A",
-                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Mu_81htVuvxkKjLbQbCK8A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I really appreciated how mindful the spaces were set up to be spacious and easy to focus. The library itself is fairly new and has a wonderful interior. I...",
-                "rating": 5,
-                "time_created": "2022-09-19 00:10:21",
-                "user": {
-                    "id": "fj55nIyK0NusOu2yjSogGQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=fj55nIyK0NusOu2yjSogGQ",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/oG-vgAz8rIKnrJh59ruXhw/o.jpg",
-                    "name": "Damkee .."
-                }
-            },
-            {
-                "id": "uCMh0dm2Ydgy7SmGP3rjdg",
-                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=uCMh0dm2Ydgy7SmGP3rjdg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Beautiful library with lots of study rooms and computers. The book selection was great and the librarians were very helpful. Love that theres so much...",
-                "rating": 5,
-                "time_created": "2023-02-09 15:23:37",
-                "user": {
-                    "id": "tdnlSP_vwTWYFcgRiA00GQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=tdnlSP_vwTWYFcgRiA00GQ",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/-nza4iFY7XdqInSsJX12Xg/o.jpg",
-                    "name": "Vanessa B."
-                }
-            },
-            {
-                "id": "B_QddcdV62zVT8zbtKUOuA",
-                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=B_QddcdV62zVT8zbtKUOuA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "6 stars world class library! Certainly beautiful and interesting architecture the upper level of the parking lot has awesome and incredible views of the...",
-                "rating": 5,
-                "time_created": "2023-02-07 14:08:02",
-                "user": {
-                    "id": "fRy4alAL8tcP6J6PlweBOg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=fRy4alAL8tcP6J6PlweBOg",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/62VVqnxlK5jbycC-IH4Lng/o.jpg",
-                    "name": "Richard P."
-                }
-            }
-        ],
-        "total": 113,
-        "possible_languages": [
-            "en",
-            "ja"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "a627L2imSfNkTlOZfsOwhg",
                 "url": "https://www.yelp.com/biz/seattle-public-library-capitol-hill-branch-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=a627L2imSfNkTlOZfsOwhg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Awesome cozy library branch! I was in town to visit and needed some place to work for a few hours. The quiet room on the second floor is great for this,...",
@@ -2962,6 +2940,54 @@
         "total": 41,
         "possible_languages": [
             "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "Mu_81htVuvxkKjLbQbCK8A",
+                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=Mu_81htVuvxkKjLbQbCK8A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I really appreciated how mindful the spaces were set up to be spacious and easy to focus. The library itself is fairly new and has a wonderful interior. I...",
+                "rating": 5,
+                "time_created": "2022-09-19 00:10:21",
+                "user": {
+                    "id": "fj55nIyK0NusOu2yjSogGQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=fj55nIyK0NusOu2yjSogGQ",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/oG-vgAz8rIKnrJh59ruXhw/o.jpg",
+                    "name": "Damkee .."
+                }
+            },
+            {
+                "id": "uCMh0dm2Ydgy7SmGP3rjdg",
+                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=uCMh0dm2Ydgy7SmGP3rjdg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Beautiful library with lots of study rooms and computers. The book selection was great and the librarians were very helpful. Love that theres so much...",
+                "rating": 5,
+                "time_created": "2023-02-09 15:23:37",
+                "user": {
+                    "id": "tdnlSP_vwTWYFcgRiA00GQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=tdnlSP_vwTWYFcgRiA00GQ",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/-nza4iFY7XdqInSsJX12Xg/o.jpg",
+                    "name": "Vanessa B."
+                }
+            },
+            {
+                "id": "B_QddcdV62zVT8zbtKUOuA",
+                "url": "https://www.yelp.com/biz/bellevue-library-bellevue-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=B_QddcdV62zVT8zbtKUOuA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "6 stars world class library! Certainly beautiful and interesting architecture the upper level of the parking lot has awesome and incredible views of the...",
+                "rating": 5,
+                "time_created": "2023-02-07 14:08:02",
+                "user": {
+                    "id": "fRy4alAL8tcP6J6PlweBOg",
+                    "profile_url": "https://www.yelp.com/user_details?userid=fRy4alAL8tcP6J6PlweBOg",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/kPk_QzNvBTZzEd9Q5Om-6Q/o.jpg",
+                    "name": "Richard P."
+                }
+            }
+        ],
+        "total": 113,
+        "possible_languages": [
+            "en",
+            "ja"
         ]
     },
     {
@@ -3108,53 +3134,6 @@
     {
         "reviews": [
             {
-                "id": "0U4sK91HJUzQAx8gbgdO0w",
-                "url": "https://www.yelp.com/biz/odegaard-undergraduate-library-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=0U4sK91HJUzQAx8gbgdO0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Honestly Ode needs no review. If you go there you know, if you don't you probably still know. Good place to study but can fill up during the daytime. I find...",
-                "rating": 4,
-                "time_created": "2019-06-04 02:36:52",
-                "user": {
-                    "id": "dDVfyZcgPAxLNoDCDDvJMQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=dDVfyZcgPAxLNoDCDDvJMQ",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/CWVVMTnBW_TZjEkRjTUrKg/o.jpg",
-                    "name": "Matt C."
-                }
-            },
-            {
-                "id": "NJ5nCMnpwX6_KFun5_3ESQ",
-                "url": "https://www.yelp.com/biz/odegaard-undergraduate-library-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=NJ5nCMnpwX6_KFun5_3ESQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Odegaard is a very popular Library at the University Of Washington because it's open 24/5 (not open 14 hours on Fridays or Saturdays) this makes it very...",
-                "rating": 5,
-                "time_created": "2019-06-08 18:34:17",
-                "user": {
-                    "id": "FZjLVgP3dFtGNrTwKALWfQ",
-                    "profile_url": "https://www.yelp.com/user_details?userid=FZjLVgP3dFtGNrTwKALWfQ",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/fhKLtYfEkDOmn3AoZ0PyfQ/o.jpg",
-                    "name": "Jason L."
-                }
-            },
-            {
-                "id": "cPhb9ODbRYN0-uslGfjmuA",
-                "url": "https://www.yelp.com/biz/odegaard-undergraduate-library-seattle?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=cPhb9ODbRYN0-uslGfjmuA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "The hubby and I have come here many a late night to get some work/research done because it's open super late and has a lot of very large screen or dual...",
-                "rating": 3,
-                "time_created": "2016-02-17 21:52:41",
-                "user": {
-                    "id": "AYfLivHENNbM7H1ClP0d4A",
-                    "profile_url": "https://www.yelp.com/user_details?userid=AYfLivHENNbM7H1ClP0d4A",
-                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/YcuZRTXmBycm6hrxtHahGA/o.jpg",
-                    "name": "Jen K."
-                }
-            }
-        ],
-        "total": 6,
-        "possible_languages": [
-            "en"
-        ]
-    },
-    {
-        "reviews": [
-            {
                 "id": "5kGKWo1FWqWxHz7VPN3_VQ",
                 "url": "https://www.yelp.com/biz/seattle-public-library-montlake-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=5kGKWo1FWqWxHz7VPN3_VQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "The Seattle Public Library - Montlake Branch is truly a neighborhood library.  Though its small in size and the collection isn't extensive, I love that...",
@@ -3202,16 +3181,63 @@
     {
         "reviews": [
             {
-                "id": "vnPttD0TLtriBD_QGXX4jQ",
-                "url": "https://www.yelp.com/biz/los-angeles-public-library-central-library-los-angeles-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=vnPttD0TLtriBD_QGXX4jQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "I love our library system. I placed a HOLD on the new book Spare when I was near 500 waiting for the e-book.  I cannot believe that I just received a...",
-                "rating": 5,
-                "time_created": "2023-01-11 10:12:26",
+                "id": "RCDz4IrelDEhD9i_Y45Tfw",
+                "url": "https://www.yelp.com/biz/seattle-public-library-fremont-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=RCDz4IrelDEhD9i_Y45Tfw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "The Fremont branch of the Seattle Public Library has that old library smell and feel to it. It is located in an older building on N 35th, just off Fremont...",
+                "rating": 3,
+                "time_created": "2012-12-29 14:29:43",
                 "user": {
-                    "id": "zQx8eofz4u0J3cmc5C5P8g",
-                    "profile_url": "https://www.yelp.com/user_details?userid=zQx8eofz4u0J3cmc5C5P8g",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/7XvFKui50w6eLCmpp8zAnw/o.jpg",
-                    "name": "Ms. B."
+                    "id": "mlXIzLHZ2RAw3MMzpBsFlA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=mlXIzLHZ2RAw3MMzpBsFlA",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/ColOu2gjwEsymlUouxO4sA/o.jpg",
+                    "name": "Jon L."
+                }
+            },
+            {
+                "id": "2r8TupeZFBj65uAb9bdaIw",
+                "url": "https://www.yelp.com/biz/seattle-public-library-fremont-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=2r8TupeZFBj65uAb9bdaIw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I love the library system and the design of cute neighborhood libraries (like this one).\n\nThis particular branch is super tiny, however, so there are very...",
+                "rating": 4,
+                "time_created": "2009-09-30 20:32:46",
+                "user": {
+                    "id": "KzMgL2E49onbwB3g4prnVA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=KzMgL2E49onbwB3g4prnVA",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/0XOMi082L5ZUotYrP32zFQ/o.jpg",
+                    "name": "Inna B."
+                }
+            },
+            {
+                "id": "bP_jmK7y951ONlPUC53szw",
+                "url": "https://www.yelp.com/biz/seattle-public-library-fremont-branch-seattle-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=bP_jmK7y951ONlPUC53szw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I like the architecture, dark wooden frames and tall shelves here. I would visit here on purpose to enjoy the calm atmosphere. \n\nThey host some different...",
+                "rating": 4,
+                "time_created": "2014-02-25 16:11:46",
+                "user": {
+                    "id": "aCmvYvdPzeXcWfY4I3Ho2A",
+                    "profile_url": "https://www.yelp.com/user_details?userid=aCmvYvdPzeXcWfY4I3Ho2A",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/I-9ARQVpRw1PXy25MJqAAQ/o.jpg",
+                    "name": "Chessie S."
+                }
+            }
+        ],
+        "total": 15,
+        "possible_languages": [
+            "en"
+        ]
+    },
+    {
+        "reviews": [
+            {
+                "id": "OQ7KBuU0KfE7ihhtwXSBkg",
+                "url": "https://www.yelp.com/biz/los-angeles-public-library-central-library-los-angeles-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=OQ7KBuU0KfE7ihhtwXSBkg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Los Angeles Central Library truly is a bibliophile's idea of bliss. No ordinary book repository, the extensive collection is housed within a gorgeous 1926...",
+                "rating": 5,
+                "time_created": "2022-10-25 21:49:45",
+                "user": {
+                    "id": "BWu278mluDCuuB1UzVXz0w",
+                    "profile_url": "https://www.yelp.com/user_details?userid=BWu278mluDCuuB1UzVXz0w",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/WhrEXUYDJYuiFxkvmfPVew/o.jpg",
+                    "name": "Melanie D."
                 }
             },
             {
@@ -3228,16 +3254,16 @@
                 }
             },
             {
-                "id": "kQiro3ss9f10UM_k2GOaPg",
-                "url": "https://www.yelp.com/biz/los-angeles-public-library-central-library-los-angeles-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=kQiro3ss9f10UM_k2GOaPg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Security guards everywhere to babysit homeless but disgusting dirty bathroom doors ancient whole library needs a renovation. Library staff love to fight u...",
-                "rating": 1,
-                "time_created": "2022-12-24 13:05:50",
+                "id": "bWeImuF2b-ltzYWRQPpwww",
+                "url": "https://www.yelp.com/biz/los-angeles-public-library-central-library-los-angeles-2?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=bWeImuF2b-ltzYWRQPpwww&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Are we seriously going to charge $3.50 every 10min after 3 hours? Most people have more than 3 hours worth of studying to do, and for those still in...",
+                "rating": 2,
+                "time_created": "2022-08-25 17:20:43",
                 "user": {
-                    "id": "IDfj2Z3Sp7VcpRFjIo6-7w",
-                    "profile_url": "https://www.yelp.com/user_details?userid=IDfj2Z3Sp7VcpRFjIo6-7w",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/mphzuebEdt9n_liNkEewKw/o.jpg",
-                    "name": "Bobby O."
+                    "id": "BoeLM3YxFxmDGJgheaXScA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=BoeLM3YxFxmDGJgheaXScA",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/s2PTXJkt3HC9_gkno_GByQ/o.jpg",
+                    "name": "Jose L."
                 }
             }
         ],
@@ -3344,6 +3370,19 @@
     {
         "reviews": [
             {
+                "id": "FGvFlO-W8viJ35cgT8ok3w",
+                "url": "https://www.yelp.com/biz/beverly-hills-public-library-beverly-hills?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=FGvFlO-W8viJ35cgT8ok3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Outstanding library! One of the nicest I've been to.  Magazine area has lots of comfy armchairs with outlets. Plenty of tables and computers available for...",
+                "rating": 5,
+                "time_created": "2023-03-08 09:05:57",
+                "user": {
+                    "id": "T_yVS42kJ3iP3Pn424yCLQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=T_yVS42kJ3iP3Pn424yCLQ",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/photo/j_KVgfOfmMwKxz4DpHL_NA/o.jpg",
+                    "name": "Cynthia P."
+                }
+            },
+            {
                 "id": "V_Y7C5b11aDzJwF7vBseGw",
                 "url": "https://www.yelp.com/biz/beverly-hills-public-library-beverly-hills?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=V_Y7C5b11aDzJwF7vBseGw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "Excellent library. Very pretty architecture. A nice size structure. Lots of long tables and chairs for reading/studying. There is a Kelly's coffee shop in...",
@@ -3352,7 +3391,7 @@
                 "user": {
                     "id": "Pb8Pz3klS5g1TVLC2W95XQ",
                     "profile_url": "https://www.yelp.com/user_details?userid=Pb8Pz3klS5g1TVLC2W95XQ",
-                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/A-zOPNyluTQHQ_xn7A6T3Q/o.jpg",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/photo/_MrFXOEIQVisVSO7qYqE3Q/o.jpg",
                     "name": "Sam B."
                 }
             },
@@ -3368,22 +3407,9 @@
                     "image_url": "https://s3-media1.fl.yelpcdn.com/photo/vwGA8W65E5OfKFtnO95fJw/o.jpg",
                     "name": "Steph C."
                 }
-            },
-            {
-                "id": "_K1EKcw991VyFsIOak2OQg",
-                "url": "https://www.yelp.com/biz/beverly-hills-public-library-beverly-hills?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=_K1EKcw991VyFsIOak2OQg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "Gorgeous public library. I came here for the first time to tutor a child. The free, covered parking was a huge asset (note: it is only free for two hours.)...",
-                "rating": 5,
-                "time_created": "2022-09-24 11:23:46",
-                "user": {
-                    "id": "-OxpHIN8FZsNhlu8LInAZg",
-                    "profile_url": "https://www.yelp.com/user_details?userid=-OxpHIN8FZsNhlu8LInAZg",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/mVzc2eH1JKhgviNh48YhAw/o.jpg",
-                    "name": "Christine C."
-                }
             }
         ],
-        "total": 191,
+        "total": 192,
         "possible_languages": [
             "en"
         ]
@@ -3451,19 +3477,6 @@
                 }
             },
             {
-                "id": "XIQtYrCrlUD5ImHdr4P3vA",
-                "url": "https://www.yelp.com/biz/la-county-library-west-hollywood-library-west-hollywood?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=XIQtYrCrlUD5ImHdr4P3vA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "One of the best libraries in LA and LA county. \n\nThe building is beautiful and the facilities are high end and immaculate. There are several comfy chairs so...",
-                "rating": 5,
-                "time_created": "2022-11-03 11:30:10",
-                "user": {
-                    "id": "dwh49U_kKw6Xb1EwqZGlsw",
-                    "profile_url": "https://www.yelp.com/user_details?userid=dwh49U_kKw6Xb1EwqZGlsw",
-                    "image_url": "https://s3-media3.fl.yelpcdn.com/photo/t4w2UfZM9Wtys_CpnhlEEg/o.jpg",
-                    "name": "Vanessa I."
-                }
-            },
-            {
                 "id": "g9NP7fdW8seW2qT6lz6KzA",
                 "url": "https://www.yelp.com/biz/la-county-library-west-hollywood-library-west-hollywood?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=g9NP7fdW8seW2qT6lz6KzA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
                 "text": "I came here to register for a library card since this will be a new go-to library for me to work and read in. Although I saw another reviewer saying that...",
@@ -3474,6 +3487,19 @@
                     "profile_url": "https://www.yelp.com/user_details?userid=hWG39BWULpKXB_EOJWMjrQ",
                     "image_url": "https://s3-media3.fl.yelpcdn.com/photo/0id6ACKVdsTiGYoAKaDcHw/o.jpg",
                     "name": "Olivia H."
+                }
+            },
+            {
+                "id": "YJrlDKdaomji43sHDVTMDw",
+                "url": "https://www.yelp.com/biz/la-county-library-west-hollywood-library-west-hollywood?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=YJrlDKdaomji43sHDVTMDw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I used to love going to this library and just recently it's become a nightmare to deal with. Rude people are now at the front desk when you walk in, no...",
+                "rating": 1,
+                "time_created": "2023-02-09 18:13:35",
+                "user": {
+                    "id": "UUYAjOKOrSx-GLbnJXahBQ",
+                    "profile_url": "https://www.yelp.com/user_details?userid=UUYAjOKOrSx-GLbnJXahBQ",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/DnGP_9NSJHnHkkzDddXCsw/o.jpg",
+                    "name": "Audrey K."
                 }
             }
         ],
@@ -3627,20 +3653,46 @@
     {
         "reviews": [
             {
-                "id": "x3Q7_iaHZ0Y0bQuBmQVhzg",
-                "url": "https://www.yelp.com/biz/pio-pico-koreatown-branch-library-los-angeles?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=x3Q7_iaHZ0Y0bQuBmQVhzg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
-                "text": "This library isn't the same and the changes just make the library worse. Also there isn't enough plug in outlets for laptop users.",
-                "rating": 1,
-                "time_created": "2022-12-07 14:59:09",
+                "id": "7kRt9dlyrMVg40Cd8NRCLQ",
+                "url": "https://www.yelp.com/biz/los-feliz-branch-library-los-angeles?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=7kRt9dlyrMVg40Cd8NRCLQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "Great little spot - \n\nThe biggest issue is that the info desk is very loud and distracting - and sometimes the clerk seems unaware of how loud and echoey...",
+                "rating": 4,
+                "time_created": "2023-02-21 14:01:29",
                 "user": {
-                    "id": "RJ5D2ZazHTQKQio7sK3o8A",
-                    "profile_url": "https://www.yelp.com/user_details?userid=RJ5D2ZazHTQKQio7sK3o8A",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/UK7p9hK11U2YbBv0j7ixow/o.jpg",
-                    "name": "Joseph B."
+                    "id": "kI9pv3UTiWkye2s6CW-9CA",
+                    "profile_url": "https://www.yelp.com/user_details?userid=kI9pv3UTiWkye2s6CW-9CA",
+                    "image_url": null,
+                    "name": "O M."
+                }
+            },
+            {
+                "id": "sHqOUghEm52LGqUA704hmg",
+                "url": "https://www.yelp.com/biz/los-feliz-branch-library-los-angeles?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=sHqOUghEm52LGqUA704hmg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I stop here every once in a while to get some work done on my laptop outside. Which I'll never do again. Inside is okay. But, the back area seems okay with...",
+                "rating": 1,
+                "time_created": "2022-09-18 10:34:09",
+                "user": {
+                    "id": "UcpG7nhYYo-1U0wcwH3QUw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=UcpG7nhYYo-1U0wcwH3QUw",
+                    "image_url": null,
+                    "name": "Nick H."
+                }
+            },
+            {
+                "id": "wEs18dot1bjlCIGYlvmD4A",
+                "url": "https://www.yelp.com/biz/los-feliz-branch-library-los-angeles?adjust_creative=I1I-7MRnbEK1a9p_T-K6dA&hrid=wEs18dot1bjlCIGYlvmD4A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=I1I-7MRnbEK1a9p_T-K6dA",
+                "text": "I use to enjoy coming to this library when we lived in LA and my kids were young.  The children's area has an adorable sitting area.\n\nComing back to this...",
+                "rating": 3,
+                "time_created": "2019-08-16 05:54:37",
+                "user": {
+                    "id": "97lATxIaJwCHbs4sewBnAw",
+                    "profile_url": "https://www.yelp.com/user_details?userid=97lATxIaJwCHbs4sewBnAw",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/photo/FnVId9uMnBBguibQkb03Cg/o.jpg",
+                    "name": "Joyce G."
                 }
             }
         ],
-        "total": 1,
+        "total": 77,
         "possible_languages": [
             "en"
         ]
