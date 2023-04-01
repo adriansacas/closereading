@@ -24,7 +24,7 @@ https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 |------|-----------|
 | 1 | Adrian Sanchez |
 | 2 | Sumaya Al-Bedaiwi |
-| 3 | --- |
+| 3 | Niyati Prabhu |
 | 4 | --- |
 
 ## Phase I
@@ -54,6 +54,20 @@ a4ce4c58f3ec943d7642b62f09ed8c71bee4891f
 | Peter Hwang    | 8 | 12 |
 | Niyati Prabhu  | 10 | 15 |
 | Adrian Sanchez | 10 | 20 |
+
+## Phase III
+
+### Git SHA
+-
+
+### Completion Time
+| Name           | Est Completion Time | Actual Completion Time |
+|----------------|-----------|--------|
+| Sumaya Al-Bedaiwi | 15 | 23 |
+| Peyton Ausburn | 12 | 20 |
+| Peter Hwang    | 15 | 20 |
+| Niyati Prabhu  | 20 | 22 |
+| Adrian Sanchez | 20 | 40 |
 
 ### Comments
 Some structure and code was based on https://gitlab.com/sarthaksirotiya/cs373-idb/-/blob/822cd9f6a70d2084c31439a4aae2fd78fc3a7dd7/
