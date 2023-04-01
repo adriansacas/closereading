@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from models import app, db, Book, Author, Library
 from schema import book_schema, author_schema, library_schema
-from sqlalchemy import or_
+from sqlalchemy import or_, and_
 
 
 @app.route("/")
@@ -14,6 +14,9 @@ def get_books():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    genre_filter_term = request.args.get("genre_filter_term")
+    numpages_filter_term = request.args.get("numpages_filter_term")
+    alpha_filter_term = request.args.get("alpha_filter_term")
     title = request.args.get("title")
     genre = request.args.get("genre")
     pub_year = request.args.get("pub_year")
@@ -22,15 +25,25 @@ def get_books():
     image_url = request.args.get("image_url")
     pub_location = request.args.get("pub_location")
     description = request.args.get("description")
+    sort_terms = request.args.get("sortBy")
+    ascending = request.args.get("asc")
 
     query = db.session.query(Book)
 
+    if sort_terms:
+        if ascending == 'true':
+            query = query.order_by(getattr(Book, sort_terms))
+        else:
+            query = query.order_by(getattr(Book, sort_terms).desc())    
+
     if page is not None:
+        # result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
         if search_terms:
             search_terms = search_terms.split()
             result, pagination_data = search_books(search_terms, book_schema, page, per_page)
         else:
-            result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
+            result, pagination_data = get_filtered_books(query, genre_filter_term, numpages_filter_term, alpha_filter_term, book_schema, page, per_page)
+
         return jsonify({'books': result, 'pagination': pagination_data})
     else:
         result = book_schema.dump(query.all(), many=True)
@@ -42,20 +55,29 @@ def get_authors():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    initial_filter_term = request.args.get("initial_filter_term")
     name = request.args.get("name")
     bio = request.args.get("bio")
     description = request.args.get("description")
     image_url = request.args.get("image_url")
     books = request.args.get("books")
+    sort_terms = request.args.get("sortBy")
+    ascending = request.args.get("asc")
 
     query = db.session.query(Author)
+
+    if sort_terms:
+        if ascending == 'true':
+            query = query.order_by(getattr(Author, sort_terms))
+        else:
+            query = query.order_by(getattr(Author, sort_terms).desc())
 
     if page is not None:
         if search_terms:
             search_terms = search_terms.split()
             result, pagination_data = search_authors(search_terms, author_schema, page, per_page)
         else:
-            result, pagination_data = get_pagination_data(query, author_schema, page, per_page)
+            result, pagination_data = get_filtered_authors(query, initial_filter_term, author_schema, page, per_page)
         return jsonify({'authors': result, 'pagination': pagination_data})
     else:
         result = author_schema.dump(query.all(), many=True)
@@ -67,6 +89,9 @@ def get_libraries():
     page = request.args.get("page", type=int)
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
+    city_filter_term = request.args.get("city_filter_term")
+    alpha_filter_term = request.args.get("alpha_filter_term")
+    rating_filter_term = request.args.get("rating_filter_term")
     name = request.args.get("name")
     image_url = request.args.get("image_url")
     rating = request.args.get("rating")
@@ -79,15 +104,23 @@ def get_libraries():
     latitude = request.args.get("latitude")
     longitude = request.args.get("longitude")
     phone = request.args.get("phone")
+    sort_terms = request.args.get("sortBy")
+    ascending = request.args.get("asc")
 
     query = db.session.query(Library)
+
+    if sort_terms:
+        if ascending == 'true':
+            query = query.order_by(getattr(Library, sort_terms))
+        else:
+            query = query.order_by(getattr(Library, sort_terms).desc())        
 
     if page is not None:
         if search_terms:
             search_terms = search_terms.split()
             result, pagination_data = search_libraries(search_terms, library_schema, page, per_page)
         else:
-            result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
+            result, pagination_data = get_filtered_libraries(query, city_filter_term, alpha_filter_term, rating_filter_term, library_schema, page, per_page)
         return jsonify({'libraries': result, 'pagination': pagination_data})
     else:
         result = library_schema.dump(query.all(), many=True)
@@ -180,6 +213,58 @@ def search_libraries(search_terms, schema, page, per_page):
         )
     )
     result, pagination_data = get_pagination_data(query, schema, page, per_page)
+    return result, pagination_data
+
+
+def get_filtered_books(query, genre_filter_term, numpages_filter_term, alpha_filter_term, book_schema, page, per_page):
+    if genre_filter_term:
+        query = query.filter_by(genre=genre_filter_term)
+
+    if numpages_filter_term:
+        if numpages_filter_term == "< 100 pg":
+            query = query.filter(Book.page_count < 100)
+        elif numpages_filter_term == "100 - 199 pg":
+            query = query.filter(and_(Book.page_count >= 100, Book.page_count < 200))
+        elif numpages_filter_term == "200 - 299 pg":
+            query = query.filter(and_(Book.page_count >= 200, Book.page_count < 300))
+        elif numpages_filter_term == "300 - 399 pg":
+            query = query.filter(and_(Book.page_count >= 300, Book.page_count < 400))
+        else: #400 + pages
+            query = query.filter(Book.page_count >= 400)
+
+    if alpha_filter_term:
+        query = query.filter(Book.title.startswith(alpha_filter_term))
+
+    result, pagination_data = get_pagination_data(query, book_schema, page, per_page)
+    return result, pagination_data
+
+
+def get_filtered_authors(query, initial_filter_term, author_schema, page, per_page):
+    if initial_filter_term:
+        query = query.filter(Author.name.startswith(initial_filter_term))
+    result, pagination_data = get_pagination_data(query, author_schema, page, per_page)
+    return result, pagination_data
+
+
+def get_filtered_libraries(query, city_filter_term, alpha_filter_term, rating_filter_term, library_schema, page, per_page):
+    if city_filter_term:
+        query = query.filter_by(city=city_filter_term)
+    
+    if alpha_filter_term:
+        query = query.filter(Library.name.startswith(alpha_filter_term))
+
+    if rating_filter_term:
+        if rating_filter_term == "< 1 star":
+            query = query.filter(Library.rating < 1)
+        elif rating_filter_term == "1 - 2 stars":
+            query = query.filter(and_(Library.rating >= 1, Library.rating < 2))
+        elif rating_filter_term == "2 - 3 stars":
+            query = query.filter(and_(Library.rating >= 2, Library.rating < 3))
+        elif rating_filter_term == "3 - 4 stars":
+            query = query.filter(and_(Library.rating >= 3, Library.rating < 4))
+        else: # 4 - 5 star 
+            query = query.filter(Library.rating >= 4)
+    result, pagination_data = get_pagination_data(query, library_schema, page, per_page)
     return result, pagination_data
 
 
