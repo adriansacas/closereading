@@ -89,8 +89,8 @@ const Libraries = () => {
                 <Col>
                 <FilterDropdown
                 title="Rating"
-                items={["< 1 star", "1 - 2 stars", "2 - 3 stars", "3 -4 stars", "4 - 5 stars"]}
-                onChange={handleAlphaFilter}/></Col>
+                items={["< 1 star", "1 - 2 stars", "2 - 3 stars", "3 - 4 stars", "4 - 5 stars"]}
+                onChange={handleRatingFilter}/></Col>
                 
             </Row></Container>
 

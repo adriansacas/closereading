@@ -235,11 +235,11 @@ def get_filtered_libraries(city_filter_term, alpha_filter_term, rating_filter_te
     if rating_filter_term:
         if rating_filter_term == "< 1 star":
             query = query.filter(Library.rating < 1)
-        elif numpages_filter_term == "1 - 2 stars":
+        elif rating_filter_term == "1 - 2 stars":
             query = query.filter(and_(Library.rating >= 1, Library.rating < 2))
-        elif numpages_filter_term == "2 - 3 stars":
+        elif rating_filter_term == "2 - 3 stars":
             query = query.filter(and_(Library.rating >= 2, Library.rating < 3))
-        elif numpages_filter_term == "3 - 4 stars":
+        elif rating_filter_term == "3 - 4 stars":
             query = query.filter(and_(Library.rating >= 3, Library.rating < 4))
         else: # 4 - 5 star 
             query = query.filter(Library.rating >= 4)
