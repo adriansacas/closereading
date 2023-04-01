@@ -8,9 +8,9 @@ import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from '../components/navigation/PaginationComponent';
 import SearchComponent from "../components/navigation/SearchComponent";
-import { useLocation } from 'react-router-dom'
-
-
+import { useLocation } from 'react-router-dom';
+import Sorter from "./sort/Sort";
+import { BookEndpointName, BookSortOptions } from './sort/BookOptions';
 
 const Books = () => {
     const location = useLocation()
@@ -19,6 +19,8 @@ const Books = () => {
     const [loaded, setLoaded] = useState(false)
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
+    const [sort, setSort] = useState("");
+    const [ascending, setAscending] = useState(true);
 
     function handleClick(num) {
         setActivePage(num);
@@ -28,7 +30,7 @@ const Books = () => {
     useEffect(() => {
         const getBooks = async() => {
             await apiClient
-                .get(`books`, {params: {page: activePage, search_term: searchTerm}})
+                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
@@ -37,10 +39,18 @@ const Books = () => {
             setLoaded(true);
         };
         getBooks();
-    }, [searchTerm, activePage]);
+    }, [searchTerm, activePage, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
     };
 
     return (
@@ -51,7 +61,7 @@ const Books = () => {
             <Container className="d-flex justify-content-center">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
-
+            <Sorter api_name={BookEndpointName} sortOptions={BookSortOptions} handleSort={handleSort} handleAscending={handleAscending}/>
             <Container className="d-flex justify-content-center p-2">Displaying {books.length} out of {pagination.total_items}</Container>
 
             {/* Pagination */}
