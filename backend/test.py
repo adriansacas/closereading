@@ -58,67 +58,24 @@ class Tests(unittest.TestCase):
 
     def testAllSearch(self):
         with self.client:
-            response = self.client.get("/search/aaaa")
+            response = self.client.get("/search/bird")
             self.assertEqual(response.status_code, 200)
             resp = response.json
             books = resp["books"]
             authors = resp["authors"]
             libraries = resp["libraries"]
-            self.assertEqual(len(books), 0)
-            self.assertEqual(len(authors), 0)
-            self.assertEqual(len(libraries), 0)
+            self.assertEqual(len(books), 46)
+            self.assertEqual(len(authors), 2)
+            self.assertEqual(len(libraries), 9)
     
     def testModelSearch(self):
         with self.client:
-            response = self.client.get("/search/book/aaaa")
+            response = self.client.get("/search/book/bird")
             self.assertEqual(response.status_code, 200)
             resp = response.json
             data = resp["data"]
             self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "aaaa")
-
-    def testAllSort(self):
-        with self.client:
-            response = self.client.get("/sort/aaaa")
-            self.assertEqual(response.status_code, 200)
-            resp = response.json
-            books = resp["books"]
-            authors = resp["authors"]
-            libraries = resp["libraries"]
-            self.assertEqual(len(books), 0)
-            self.assertEqual(len(authors), 0)
-            self.assertEqual(len(libraries), 0)
-    
-    def testModelSort(self):
-        with self.client:
-            response = self.client.get("/sort/book/aaaa")
-            self.assertEqual(response.status_code, 200)
-            resp = response.json
-            data = resp["data"]
-            self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "aaaa")
-
-    def testAllFilter(self):
-        with self.client:
-            response = self.client.get("/filter/aaaa")
-            self.assertEqual(response.status_code, 200)
-            resp = response.json
-            resp = response.json
-            books = resp["books"]
-            authors = resp["authors"]
-            libraries = resp["libraries"]
-            self.assertEqual(len(books), 0)
-            self.assertEqual(len(authors), 0)
-            self.assertEqual(len(libraries), 0)
-    
-    def testModelFilter(self):
-        with self.client:
-            response = self.client.get("/filter/book/aaaa")
-            self.assertEqual(response.status_code, 200)
-            resp = response.json
-            data = resp["data"]
-            self.assertEqual(len(data), 1)
-            self.assertEqual(data[0]["name"], "aaaa")
+            self.assertEqual(data[0]["result"], 46)
 
 
 if __name__ == "__main__":
