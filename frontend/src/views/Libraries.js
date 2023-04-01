@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
+import FilterDropdown from "../components/navigation/FilterDropdown";
 import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
@@ -22,16 +23,34 @@ const Libraries = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
+    const [city, setCity] = useState("")
+    const [alpha, setAlpha] = useState("")
+    const [rating, setRating] = useState("")
 
     function handleClick(num) {
         setActivePage(num);
         setLoaded(false);
     }
 
+    function handleCityFilter(value) {
+        value = value === 'City' ? '' : value;
+        setCity(value);
+    }
+
+    function handleAlphaFilter(value) {
+        value = value === 'Name Begins With' ? '' : value;
+        setAlpha(value);
+    }
+
+    function handleRatingFilter(value) {
+        value = value === 'Rating' ? '' : value;
+        setRating(value);
+    }
+
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
-                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
+                    .get(`libraries`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, city_filter_term: city, alpha_filter_term: alpha, rating_filter_term: rating}})
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
@@ -40,7 +59,7 @@ const Libraries = () => {
                 setLoaded(true);
         };
         getLibraries();
-    }, [searchTerm, activePage, sort, ascending]);
+    }, [searchTerm, activePage, city, alpha, rating, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
@@ -59,10 +78,35 @@ const Libraries = () => {
             <h1 className="d-flex justify-content-center p-4">Libraries</h1>
 
             {/* Search and filtering */}
-            <Container className="d-flex justify-content-center">
+            <Container className="d-flex justify-content-center p-4">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
             <Sorter api_name={LibraryEndpointName} sortOptions={LibrarySortOptions} handleSort={handleSort} handleAscending={handleAscending}/>
+
+            <Container className="d-flex justify-content-center">
+            <Row>
+                <Col>
+                <FilterDropdown
+                title="City"
+                items={["Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan",
+                "Chicago", "Brookline", "Boston", "Cambridge", "Seattle","Los Angeles"]}
+                onChange={handleCityFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Name Begins With"
+                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                onChange={handleAlphaFilter}/></Col>
+
+                <Col>
+                <FilterDropdown
+                title="Rating"
+                items={["< 1 star", "1 - 2 stars", "2 - 3 stars", "3 - 4 stars", "4 - 5 stars"]}
+                onChange={handleRatingFilter}/></Col>
+
+            </Row></Container>
+
 
             <Container className="d-flex justify-content-center p-2">Displaying {libraries.length} out of {pagination.total_items}</Container>
 

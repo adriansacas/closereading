@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Spinner from "react-bootstrap/Spinner";
+import FilterDropdown from "../components/navigation/FilterDropdown";
 import apiClient from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
@@ -21,28 +22,31 @@ const Authors = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
+    const [initial, setInitial] = useState("")
 
     function handleClick(num) {
         setActivePage(num);
         setLoaded(false);
     }
 
+    function handleInitialFilter(value) {
+        value = value === 'Initial' ? '' : value;
+        setInitial(value);
+    }
+
     useEffect(() => {
         const getAuthors = async() => {
             await apiClient
-                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending}})
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, initial_filter_term: initial}})
                 .then((response) => {
                     setAuthors(response.data["authors"]);
                     setPagination(response.data['pagination']);
-                    console.log(response.data);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
         };
         getAuthors();
-        console.log(sort);
-        console.log(ascending);
-    }, [searchTerm, activePage, sort, ascending]);
+    }, [searchTerm, activePage, initial, sort, ascending]);
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
@@ -61,10 +65,17 @@ const Authors = () => {
             <h1 className="d-flex justify-content-center p-4">Authors</h1>
 
             {/* Search and filtering */}
-            <Container className="d-flex justify-content-center">
+            <Container className="d-flex justify-content-center p-4">
                 <SearchComponent handleSearch={handleSearch} />
             </Container>
             <Sorter api_name={AuthorEndpointName} sortOptions={AuthorSortOptions} handleSort={handleSort} handleAscending={handleAscending} />
+
+            <Container className="d-flex justify-content-center">
+                <FilterDropdown
+                title="First Initial"
+                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                        "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                onChange={handleInitialFilter}/></Container>
 
             <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 

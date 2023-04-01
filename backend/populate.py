@@ -61,13 +61,13 @@ def populate_authors():
             else:
                 description = None
             # Add author to database
-            
             db.session.add(Author(
                 name=author['title'],
                 bio=author['extract'],
                 description=description,
                 image_url=image_url,
-                twitter=twitters[author['title']]
+                twitter=twitters[author['title']],
+                gender=author['gender']
             ))
             i += 1
         db.session.commit()
