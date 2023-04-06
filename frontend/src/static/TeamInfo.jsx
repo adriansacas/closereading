@@ -44,7 +44,7 @@ const teamInfo = [
   {
     name: "Niyati Prabhu",
     gitlab_username: "niyatiprabhu",
-    email: "email",
+    email: "niyatiprabhu@utexas.edu",
     image: NiyatiAvatar,
     role: "Fullstack",
     bio: "I'm a third-year computer science major and art history minor. I love traveling, weight-lifting, drawing, playing French horn.",
