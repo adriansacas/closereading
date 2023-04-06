@@ -31,7 +31,7 @@ const fetchGitLabData = async () => {
     });
 
     await client
-        .get("projects/43357786/repository/contributors")
+        .get("projects/43357786/repository/contributors", {params: {per_page: 100}})
         .then((response) => {
             response.data.forEach((element) => {
                 const { name, email, commits } = element;
