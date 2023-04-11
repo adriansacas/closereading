@@ -67,9 +67,7 @@ def populate_authors():
                 description=description,
                 image_url=image_url,
                 twitter=twitters[author['title']],
-                gender=author['gender'],
-                birth_year=author['birth_year'],
-                death_year=author['death_year']
+                gender=author['gender']
             ))
             i += 1
         db.session.commit()
