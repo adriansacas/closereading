@@ -1,6 +1,7 @@
 from models import Book, Author, Library
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 from marshmallow import fields, post_dump
+import datetime
 
 
 class AuthorSchema(SQLAlchemyAutoSchema):
@@ -9,6 +10,16 @@ class AuthorSchema(SQLAlchemyAutoSchema):
 
     # Fetches the data from the one-to-many relationship and nests it within
     books = fields.List(fields.Nested('BookSchema', exclude=('author',)))
+
+    # Custom field to calculate author's age
+    age = fields.Method('calculate_age')
+
+    def calculate_age(self, author):
+        if author.death_year:
+            age = author.death_year - author.birth_year
+        else:
+            age = datetime.date.today().year - author.birth_year
+        return age
 
 
 class BookSchema(SQLAlchemyAutoSchema):
