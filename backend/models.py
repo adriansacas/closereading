@@ -46,6 +46,8 @@ class Author(db.Model):
     books = db.relationship('Book', backref='author')
     twitter = db.Column(db.String(300), nullable=False)
     gender = db.Column(db.String(6), nullable=False)
+    birth_year = db.Column(db.Integer, nullable=True)
+    death_year = db.Column(db.Integer, nullable=True)
 
 
 class Library(db.Model):
