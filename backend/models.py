@@ -90,7 +90,7 @@ class Author(db.Model):
         return cls.query.distinct(cls.gender).order_by(cls.gender).all()
 
     @classmethod
-    def get_unique_title_initials(cls):
+    def get_unique_name_initials(cls):
         return db.session.query(db.func.substr(cls.name, 1, 1)).distinct().order_by(
             db.func.substr(cls.name, 1, 1)).all()
 
@@ -123,6 +123,15 @@ class Library(db.Model):
     # TODO: books, authors
     # books = db.relationship('Book', secondary=library_book, backref='libraries')
     # authors = db.relationship('Author', secondary=library_author, backref='libraries')
+
+    @classmethod
+    def get_unique_cities(cls):
+        return cls.query.distinct(cls.city).order_by(cls.city).all()
+
+    @classmethod
+    def get_unique_name_initials(cls):
+        return db.session.query(db.func.substr(cls.name, 1, 1)).distinct().order_by(
+            db.func.substr(cls.name, 1, 1)).all()
 
 
 class Review(db.Model):

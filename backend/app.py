@@ -107,6 +107,7 @@ def get_libraries():
         pagination_data = get_pagination_data(query, page, per_page)
         result = library_schema.dump(query, many=True)
         result['pagination'] = pagination_data
+        result['filters'] = get_library_filters()
         return jsonify(result)
     else:
         result = library_schema.dump(query.all(), many=True)
@@ -188,7 +189,14 @@ def get_author_filters():
     return {
         'countries': [author.country for author in Author.get_unique_countries()],
         'genders': [author.gender for author in Author.get_unique_genders()],
-        'initials': [initial[0] for initial in Author.get_unique_title_initials()]
+        'initials': [initial[0] for initial in Author.get_unique_name_initials()]
+    }
+
+
+def get_library_filters():
+    return {
+        'cities': [library.city for library in Library.get_unique_cities()],
+        'initials': [initial[0] for initial in Author.get_unique_name_initials()]
     }
 
 
