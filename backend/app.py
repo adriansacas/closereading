@@ -31,11 +31,9 @@ def get_books():
     if page is not None:
         if search_terms:
             search_terms = search_terms.split()
-            app.logger.error(('Search: ', search_terms))
             query = search_books(query, search_terms)
         query = get_filtered_books(query, genre_filter_term, numpages_filter_term, alpha_filter_term)
         query = query.paginate(page=page, per_page=per_page, error_out=False)
-        app.logger.error(('Genre: ', genre_filter_term, 'Numpages: ', numpages_filter_term, 'Title: ', alpha_filter_term, 'Page: ', page, 'Per page: ', per_page))
         pagination_data = get_pagination_data(query, page, per_page)
         result = book_schema.dump(query, many=True)
         return jsonify({'books': result, 'pagination': pagination_data})
