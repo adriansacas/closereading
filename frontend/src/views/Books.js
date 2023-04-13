@@ -46,6 +46,18 @@ const Books = () => {
         setAlpha(value);
     }
 
+    const handleSearch = (searchTerm) => {
+        setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
+    };
+
     useEffect(() => {
         const getBooks = async() => {
             await apiClient
@@ -59,18 +71,6 @@ const Books = () => {
         };
         getBooks();
     }, [searchTerm, activePage, sort, ascending, genre, numpages, alpha]);
-
-    const handleSearch = (searchTerm) => {
-        setSearchTerm(searchTerm);
-    };
-
-    const handleSort = (sortBy) => {
-        setSort(sortBy);
-    };
-
-    const handleAscending = (ascending) => {
-        setAscending(ascending);
-    };
 
     return (
         <Container className="p-4">

@@ -47,6 +47,18 @@ const Libraries = () => {
         setRating(value);
     }
 
+    const handleSearch = (searchTerm) => {
+        setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
+    };
+
     useEffect(() => {
         const getLibraries = async() => {
                 await apiClient
@@ -60,18 +72,6 @@ const Libraries = () => {
         };
         getLibraries();
     }, [searchTerm, activePage, city, alpha, rating, sort, ascending]);
-
-    const handleSearch = (searchTerm) => {
-        setSearchTerm(searchTerm);
-    };
-
-    const handleSort = (sortBy) => {
-        setSort(sortBy);
-    };
-
-    const handleAscending = (ascending) => {
-        setAscending(ascending);
-    };
 
     return (
         <Container className="p-4">
