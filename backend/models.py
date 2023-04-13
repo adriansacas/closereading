@@ -52,7 +52,8 @@ class Book(db.Model):
 
     @classmethod
     def get_unique_title_initials(cls):
-        return db.session.query(db.func.substr(cls.title, 1, 1)).distinct().order_by(db.func.substr(cls.title, 1, 1)).all()
+        return db.session.query(db.func.substr(cls.title, 1, 1)).distinct().order_by(
+            db.func.substr(cls.title, 1, 1)).all()
 
 
 class Author(db.Model):
@@ -79,6 +80,19 @@ class Author(db.Model):
     death_year = db.Column(db.Integer, nullable=True)
     country = db.Column(db.String(20), nullable=False)
     deceased = db.Column(db.Boolean, default=False)
+
+    @classmethod
+    def get_unique_countries(cls):
+        return cls.query.distinct(cls.country).order_by(cls.country).all()
+
+    @classmethod
+    def get_unique_genders(cls):
+        return cls.query.distinct(cls.gender).order_by(cls.gender).all()
+
+    @classmethod
+    def get_unique_title_initials(cls):
+        return db.session.query(db.func.substr(cls.name, 1, 1)).distinct().order_by(
+            db.func.substr(cls.name, 1, 1)).all()
 
 
 class Library(db.Model):

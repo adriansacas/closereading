@@ -72,6 +72,7 @@ def get_authors():
         pagination_data = get_pagination_data(query, page, per_page)
         result = author_schema.dump(query, many=True)
         result['pagination'] = pagination_data
+        result['filters'] = get_author_filters()
         return jsonify(result)
     else:
         result = author_schema.dump(query.all(), many=True)
@@ -180,6 +181,14 @@ def get_book_filters():
     return {
         'genres': [book.genre for book in Book.get_unique_genres()],
         'initials': [initial[0] for initial in Book.get_unique_title_initials()]
+    }
+
+
+def get_author_filters():
+    return {
+        'countries': [author.country for author in Author.get_unique_countries()],
+        'genders': [author.gender for author in Author.get_unique_genders()],
+        'initials': [initial[0] for initial in Author.get_unique_title_initials()]
     }
 
 

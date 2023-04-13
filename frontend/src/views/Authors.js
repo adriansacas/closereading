@@ -23,6 +23,7 @@ const Authors = () => {
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
     const [initial, setInitial] = useState("");
+    const [initials, setInitials] = useState([]);
     const [countries, setCountries] = useState([])
     const [country, setCountry] = useState("");
     const [gender, setGender] = useState("");
@@ -67,8 +68,9 @@ const Authors = () => {
                 .then((response) => {
                     setAuthors(response.data["authors"]);
                     setPagination(response.data['pagination']);
-                    setCountries(response.data['countries']);
-                    setGenders(response.data['genders']);
+                    setCountries(response.data['filters']['countries']);
+                    setGenders(response.data['filters']['genders']);
+                    setInitials(response.data['filters']['initials']);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
@@ -91,8 +93,7 @@ const Authors = () => {
                     <Col>
                         <FilterDropdown
                             title="First Initial"
-                            items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                                "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                            items={initials}
                             onChange={handleInitialFilter}/>
                     </Col>
                     <Col>
