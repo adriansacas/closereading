@@ -22,9 +22,12 @@ const Books = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
-    const [genre, setGenre] = useState("")
-    const [numpages, setNumpages] = useState("")
-    const [alpha, setAlpha] = useState("")
+    const [genre, setGenre] = useState("");
+    const [numpages, setNumpages] = useState("");
+    const [alpha, setAlpha] = useState("");
+    const [genres, setGenres] = useState([]);
+    const [initials, setInitials] = useState([]);
+
 
     function handleClick(num) {
         setActivePage(num);
@@ -65,6 +68,8 @@ const Books = () => {
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
+                    setGenres(response.data['filters']['genres']);
+                    setInitials(response.data['filters']['initials']);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
@@ -85,10 +90,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Genre"
-                    items={["Biography & Autobiography", "Literary Collections", "Literary Criticism",
-                    "Poetry", "Comics & Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
-                    "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
-                    "Philosophy", "Education", "Science", "Fiction"]}
+                    items={genres}
                     onChange={handleGenreFilter}/></Col>
 
                     <Col>
@@ -100,8 +102,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Title"
-                    items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                    "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                    items={initials}
                     onChange={handleAlphaFilter}/></Col>
                 </Row>
             </Container>

@@ -36,10 +36,12 @@ def get_books():
         query = query.paginate(page=page, per_page=per_page, error_out=False)
         pagination_data = get_pagination_data(query, page, per_page)
         result = book_schema.dump(query, many=True)
-        return jsonify({'books': result, 'pagination': pagination_data})
+        result['pagination'] = pagination_data
+        result['filters'] = get_book_filters()
+        return jsonify(result)
     else:
         result = book_schema.dump(query.all(), many=True)
-        return jsonify({'books': result})
+        return jsonify(result)
 
 
 @app.route("/authors")
@@ -48,6 +50,8 @@ def get_authors():
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
     initial_filter_term = request.args.get("initial_filter_term")
+    country_filter_term = request.args.get("country_filter_term")
+    gender_filter_term = request.args.get("gender_filter_term")
     sort_terms = request.args.get("sortBy")
     ascending = request.args.get("asc")
 
@@ -63,14 +67,16 @@ def get_authors():
         if search_terms:
             search_terms = search_terms.split()
             query = search_authors(query, search_terms)
-        query = get_filtered_authors(query, initial_filter_term)
+        query = get_filtered_authors(query, initial_filter_term, country_filter_term, gender_filter_term)
         query = query.paginate(page=page, per_page=per_page, error_out=False)
         pagination_data = get_pagination_data(query, page, per_page)
         result = author_schema.dump(query, many=True)
-        return jsonify({'authors': result, 'pagination': pagination_data})
+        result['pagination'] = pagination_data
+        result['filters'] = get_author_filters()
+        return jsonify(result)
     else:
         result = author_schema.dump(query.all(), many=True)
-        return jsonify({'authors': result})
+        return jsonify(result)
 
 
 @app.route("/libraries")
@@ -100,10 +106,12 @@ def get_libraries():
         query = query.paginate(page=page, per_page=per_page, error_out=False)
         pagination_data = get_pagination_data(query, page, per_page)
         result = library_schema.dump(query, many=True)
-        return jsonify({'libraries': result, 'pagination': pagination_data})
+        result['pagination'] = pagination_data
+        result['filters'] = get_library_filters()
+        return jsonify(result)
     else:
         result = library_schema.dump(query.all(), many=True)
-        return jsonify({'libraries': result})
+        return jsonify(result)
 
 
 @app.route("/books/<id>")
@@ -149,10 +157,14 @@ def get_search_results():
     libraries_pagination = get_pagination_data(libraries_query, page, per_page)
 
     result = {
-        "books_data": {"books": book_schema.dump(books_query, many=True), "pagination": books_pagination},
-        "authors_data": {"authors": author_schema.dump(authors_query, many=True), "pagination": authors_pagination},
-        "libraries_data": {"libraries": library_schema.dump(libraries_query, many=True), "pagination": libraries_pagination}
+        "books_data": {"pagination": books_pagination},
+        "authors_data": {"pagination": authors_pagination},
+        "libraries_data": {"pagination": libraries_pagination}
     }
+    result['books_data'].update(book_schema.dump(books_query, many=True))
+    result['authors_data'].update(author_schema.dump(authors_query, many=True))
+    result['libraries_data'].update(library_schema.dump(libraries_query, many=True))
+
     return jsonify(result)
 
 
@@ -164,6 +176,28 @@ def get_pagination_data(query, page, per_page):
         'total_items': query.total
     }
     return pagination_data
+
+
+def get_book_filters():
+    return {
+        'genres': [book.genre for book in Book.get_unique_genres()],
+        'initials': [initial[0] for initial in Book.get_unique_title_initials()]
+    }
+
+
+def get_author_filters():
+    return {
+        'countries': [author.country for author in Author.get_unique_countries()],
+        'genders': [author.gender for author in Author.get_unique_genders()],
+        'initials': [initial[0] for initial in Author.get_unique_name_initials()]
+    }
+
+
+def get_library_filters():
+    return {
+        'cities': [library.city for library in Library.get_unique_cities()],
+        'initials': [initial[0] for initial in Author.get_unique_name_initials()]
+    }
 
 
 def search_books(query, search_terms):
@@ -224,9 +258,13 @@ def get_filtered_books(query, genre_filter_term, numpages_filter_term, alpha_fil
     return query
 
 
-def get_filtered_authors(query, initial_filter_term):
+def get_filtered_authors(query, initial_filter_term, country_filter_term, gender_filter_term):
     if initial_filter_term:
         query = query.filter(Author.name.startswith(initial_filter_term))
+    if country_filter_term:
+        query = query.filter_by(country=country_filter_term)
+    if gender_filter_term:
+        query = query.filter_by(gender=gender_filter_term)
     return query
 
 

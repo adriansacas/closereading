@@ -25,6 +25,16 @@ db = SQLAlchemy(app)
 
 
 class Book(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - title
+        - pub_year
+        - page_count
+    Filtering Fields:
+        - genre
+        - page_count (range)
+        - title (first initial)
+    """
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
     genre = db.Column(db.String(30), nullable=True)
@@ -36,8 +46,27 @@ class Book(db.Model):
     description = db.Column(db.Text, nullable=False)
     yt_review = db.Column(db.String(500), nullable=False)
 
+    @classmethod
+    def get_unique_genres(cls):
+        return cls.query.distinct(cls.genre).order_by(cls.genre).all()
+
+    @classmethod
+    def get_unique_title_initials(cls):
+        return db.session.query(db.func.substr(cls.title, 1, 1)).distinct().order_by(
+            db.func.substr(cls.title, 1, 1)).all()
+
 
 class Author(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - name
+        - birth_year
+    Filtering Fields:
+        - name (first initial)
+        - country
+        - gender
+        - TODO: deceased
+    """
     id = db.Column(db.Integer, primary_key=True)
     # TODO: Do a data exploration to see if all our authors have a unique name, if so make name indexable and unique
     name = db.Column(db.String(100), nullable=False)
@@ -52,8 +81,31 @@ class Author(db.Model):
     country = db.Column(db.String(20), nullable=False)
     deceased = db.Column(db.Boolean, default=False)
 
+    @classmethod
+    def get_unique_countries(cls):
+        return cls.query.distinct(cls.country).order_by(cls.country).all()
+
+    @classmethod
+    def get_unique_genders(cls):
+        return cls.query.distinct(cls.gender).order_by(cls.gender).all()
+
+    @classmethod
+    def get_unique_name_initials(cls):
+        return db.session.query(db.func.substr(cls.name, 1, 1)).distinct().order_by(
+            db.func.substr(cls.name, 1, 1)).all()
+
 
 class Library(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - rating
+        - city
+        - name
+    Filtering Fields:
+        - city
+        - name (first initial)
+        - rating (range)
+    """
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     image_url = db.Column(db.String(500), nullable=False)
@@ -71,6 +123,15 @@ class Library(db.Model):
     # TODO: books, authors
     # books = db.relationship('Book', secondary=library_book, backref='libraries')
     # authors = db.relationship('Author', secondary=library_author, backref='libraries')
+
+    @classmethod
+    def get_unique_cities(cls):
+        return cls.query.distinct(cls.city).order_by(cls.city).all()
+
+    @classmethod
+    def get_unique_name_initials(cls):
+        return db.session.query(db.func.substr(cls.name, 1, 1)).distinct().order_by(
+            db.func.substr(cls.name, 1, 1)).all()
 
 
 class Review(db.Model):

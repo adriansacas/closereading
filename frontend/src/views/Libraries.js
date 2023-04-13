@@ -16,16 +16,18 @@ import { LibraryEndpointName, LibrarySortOptions } from './sort/LibraryOptions';
 
 const Libraries = () => {
     const location = useLocation()
-    const [libraries, setLibraries] = useState([])
-    const [pagination, setPagination] = useState([])
-    const [loaded, setLoaded] = useState(false)
+    const [libraries, setLibraries] = useState([]);
+    const [pagination, setPagination] = useState([]);
+    const [loaded, setLoaded] = useState(false);
     const [activePage, setActivePage] = useState(1);
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
-    const [city, setCity] = useState("")
-    const [alpha, setAlpha] = useState("")
-    const [rating, setRating] = useState("")
+    const [city, setCity] = useState("");
+    const [alpha, setAlpha] = useState("");
+    const [rating, setRating] = useState("");
+    const [cities, setCities] = useState([]);
+    const [initials, setInitials] = useState([]);
 
     function handleClick(num) {
         setActivePage(num);
@@ -66,6 +68,8 @@ const Libraries = () => {
                     .then((response) => {
                         setLibraries(response.data["libraries"]);
                         setPagination(response.data["pagination"]);
+                        setCities(response.data['filters']['cities']);
+                        setInitials(response.data['filters']['initials']);
                     })
                     .catch((err) => console.log(err));
                 setLoaded(true);
@@ -86,17 +90,16 @@ const Libraries = () => {
             <Container className="d-flex justify-content-center">
             <Row>
                 <Col>
-                <FilterDropdown
-                title="City"
-                items={["Austin", "Dallas", "Atlanta", "New York", "Brooklyn", "Manhattan",
-                "Chicago", "Brookline", "Boston", "Cambridge", "Seattle","Los Angeles"]}
-                onChange={handleCityFilter}/></Col>
+                    <FilterDropdown
+                    title="City"
+                    items={cities}
+                    onChange={handleCityFilter}/>
+                </Col>
 
                 <Col>
                 <FilterDropdown
                 title="Name Begins With"
-                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                items={initials}
                 onChange={handleAlphaFilter}/></Col>
 
                 <Col>
