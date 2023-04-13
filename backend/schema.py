@@ -32,11 +32,23 @@ class AuthorSchema(SQLAlchemyAutoSchema):
         result['countries'] = AuthorSchema.get_countries()
         return result
 
+    @staticmethod
+    def get_genders():
+        genders = db.session.query(Author.gender.distinct()).order_by(Author.gender).all()
+        return [gender[0] for gender in genders]
+
+    @staticmethod
+    def add_genders_to_result(result):
+        result['genders'] = AuthorSchema.get_genders()
+        return result
+
     @post_dump(pass_many=True)
     def filters(self, data, many, **kwargs):
         if many:
             result = {'authors': data}
-            return AuthorSchema.add_countries_to_result(result)
+            result = AuthorSchema.add_genders_to_result(result)
+            result = AuthorSchema.add_countries_to_result(result)
+            return result
         return data
 
 

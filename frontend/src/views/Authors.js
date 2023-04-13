@@ -25,6 +25,8 @@ const Authors = () => {
     const [initial, setInitial] = useState("");
     const [countries, setCountries] = useState([])
     const [country, setCountry] = useState("");
+    const [gender, setGender] = useState("");
+    const [genders, setGenders] = useState([]);
 
     function handleClick(num) {
         setActivePage(num);
@@ -37,8 +39,13 @@ const Authors = () => {
     }
 
     function handleCountryFilter(value) {
-        value = value === 'Initial' ? '' : value;
+        value = value === 'Country' ? '' : value;
         setCountry(value);
+    }
+
+    function handleGenderFilter(value) {
+        value = value === 'Gender' ? '' : value;
+        setGender(value);
     }
 
     const handleSearch = (searchTerm) => {
@@ -56,17 +63,18 @@ const Authors = () => {
     useEffect(() => {
         const getAuthors = async() => {
             await apiClient
-                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, initial_filter_term: initial, country_filter_term: country}})
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, initial_filter_term: initial, country_filter_term: country, gender_filter_term: gender}})
                 .then((response) => {
                     setAuthors(response.data["authors"]);
                     setPagination(response.data['pagination']);
-                    setCountries((response.data['countries']))
+                    setCountries(response.data['countries']);
+                    setGenders(response.data['genders']);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
         };
         getAuthors();
-    }, [searchTerm, activePage, initial, country, sort, ascending]);
+    }, [searchTerm, activePage, initial, country, gender, sort, ascending]);
 
     return (
         <Container className="p-4">
@@ -92,6 +100,12 @@ const Authors = () => {
                             title="Country"
                             items={countries}
                             onChange={handleCountryFilter}/>
+                    </Col>
+                    <Col>
+                        <FilterDropdown
+                            title="Gender"
+                            items={genders}
+                            onChange={handleGenderFilter}/>
                     </Col>
                 </Row>
             </Container>
