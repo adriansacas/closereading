@@ -153,10 +153,14 @@ def get_search_results():
     libraries_pagination = get_pagination_data(libraries_query, page, per_page)
 
     result = {
-        "books_data": {"books": book_schema.dump(books_query, many=True), "pagination": books_pagination},
-        "authors_data": {"authors": author_schema.dump(authors_query, many=True), "pagination": authors_pagination},
-        "libraries_data": {"libraries": library_schema.dump(libraries_query, many=True), "pagination": libraries_pagination}
+        "books_data": {"pagination": books_pagination},
+        "authors_data": {"pagination": authors_pagination},
+        "libraries_data": {"pagination": libraries_pagination}
     }
+    result['books_data'].update(book_schema.dump(books_query, many=True))
+    result['authors_data'].update(author_schema.dump(authors_query, many=True))
+    result['libraries_data'].update(library_schema.dump(libraries_query, many=True))
+
     return jsonify(result)
 
 
