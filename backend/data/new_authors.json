@@ -33,7 +33,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1926,
-                    "death_year": 2016
+                    "death_year": 2016,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -73,7 +75,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1896,
-                    "death_year": 1940
+                    "death_year": 1940,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -114,7 +118,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1835,
-                    "death_year": 1910
+                    "death_year": 1910,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -157,7 +163,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1902,
-                    "death_year": 1968
+                    "death_year": 1968,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -198,7 +206,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1804,
-                    "death_year": 1864
+                    "death_year": 1864,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -237,7 +247,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1900,
-                    "death_year": 1949
+                    "death_year": 1949,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -302,7 +314,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1832,
-                    "death_year": 1888
+                    "death_year": 1888,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -343,7 +357,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1944,
-                    "death_year": 1982
+                    "death_year": 1982,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -400,7 +416,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1923,
-                    "death_year": 1999
+                    "death_year": 1999,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -439,7 +457,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1915,
-                    "death_year": 2005
+                    "death_year": 2005,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -478,7 +498,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1874,
-                    "death_year": 1963
+                    "death_year": 1963,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -517,7 +539,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1830,
-                    "death_year": 1886
+                    "death_year": 1886,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -558,7 +582,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1947,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -597,7 +623,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1819,
-                    "death_year": 1892
+                    "death_year": 1892,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -648,7 +676,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1856,
-                    "death_year": 1919
+                    "death_year": 1919,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -727,7 +757,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1935,
-                    "death_year": 2001
+                    "death_year": 2001,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -769,7 +801,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1931,
-                    "death_year": 2018
+                    "death_year": 2018,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -811,7 +845,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1928,
-                    "death_year": 2014
+                    "death_year": 2014,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -851,7 +887,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1932,
-                    "death_year": 1963
+                    "death_year": 1963,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -882,7 +920,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1937,
-                    "death_year": 1969
+                    "death_year": 1969,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -923,7 +963,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1911,
-                    "death_year": 1983
+                    "death_year": 1983,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -965,7 +1007,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1922,
-                    "death_year": 1969
+                    "death_year": 1969,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1004,7 +1048,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1942,
-                    "death_year": 1978
+                    "death_year": 1978,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1046,7 +1092,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1876,
-                    "death_year": 1916
+                    "death_year": 1916,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1086,7 +1134,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1936,
-                    "death_year": 2021
+                    "death_year": 2021,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1122,7 +1172,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1969,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -1161,7 +1213,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1905,
-                    "death_year": 1982
+                    "death_year": 1982,
+                    "country": "Russia",
+                    "deceased": true
                 }
             ]
         }
@@ -1200,7 +1254,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1933,
-                    "death_year": 1951
+                    "death_year": 1951,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1234,7 +1290,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1961,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -1286,7 +1344,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1888,
-                    "death_year": 1959
+                    "death_year": 1959,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1327,7 +1387,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1897,
-                    "death_year": 1962
+                    "death_year": 1962,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1366,7 +1428,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1932,
-                    "death_year": 2009
+                    "death_year": 2009,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1402,7 +1466,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1789,
-                    "death_year": 1851
+                    "death_year": 1851,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1441,7 +1507,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1962,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -1522,7 +1590,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1843,
-                    "death_year": 1916
+                    "death_year": 1916,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1562,7 +1632,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1917,
-                    "death_year": 1967
+                    "death_year": 1967,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1603,7 +1675,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1817,
-                    "death_year": 1862
+                    "death_year": 1862,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1642,7 +1716,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1873,
-                    "death_year": 1947
+                    "death_year": 1947,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1688,7 +1764,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1899,
-                    "death_year": 1961
+                    "death_year": 1961,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1761,7 +1839,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1819,
-                    "death_year": 1891
+                    "death_year": 1891,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1800,7 +1880,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1876,
-                    "death_year": 1941
+                    "death_year": 1941,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1840,7 +1922,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1924,
-                    "death_year": 1984
+                    "death_year": 1984,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1876,7 +1960,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1905,
-                    "death_year": 1989
+                    "death_year": 1989,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1920,7 +2006,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1939,
-                    "death_year": 1995
+                    "death_year": 1995,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1959,7 +2047,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1913,
-                    "death_year": 1994
+                    "death_year": 1994,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -1998,7 +2088,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1871,
-                    "death_year": 1945
+                    "death_year": 1945,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2038,7 +2130,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1862,
-                    "death_year": 1937
+                    "death_year": 1937,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2069,7 +2163,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1950,
-                    "death_year": 1997
+                    "death_year": 1997,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2108,7 +2204,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1964,
-                    "death_year": 2000
+                    "death_year": 2000,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2147,7 +2245,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1885,
-                    "death_year": 1951
+                    "death_year": 1951,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2186,7 +2286,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1891,
-                    "death_year": 1960
+                    "death_year": 1960,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2225,7 +2327,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1977,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -2261,7 +2365,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1963,
-                    "death_year": 2010
+                    "death_year": 2010,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2301,7 +2407,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1937,
-                    "death_year": 1973
+                    "death_year": 1973,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2345,7 +2453,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1899,
-                    "death_year": 1977
+                    "death_year": 1977,
+                    "country": "Russia",
+                    "deceased": true
                 }
             ]
         }
@@ -2384,7 +2494,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1933,
-                    "death_year": 1951
+                    "death_year": 1951,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2423,7 +2535,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1962,
-                    "death_year": 2008
+                    "death_year": 2008,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2462,7 +2576,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1894,
-                    "death_year": 1961
+                    "death_year": 1961,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2501,7 +2617,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1924,
-                    "death_year": 1987
+                    "death_year": 1987,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2541,7 +2659,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1921,
-                    "death_year": 1992
+                    "death_year": 1992,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2581,7 +2701,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1964,
-                    "death_year": null
+                    "death_year": null,
+                    "country": "United States",
+                    "deceased": false
                 }
             ]
         }
@@ -2612,7 +2734,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1930,
-                    "death_year": 2002
+                    "death_year": 2002,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2651,7 +2775,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1952,
-                    "death_year": 2014
+                    "death_year": 2014,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2691,7 +2817,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1937,
-                    "death_year": 1973
+                    "death_year": 1973,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2730,7 +2858,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1937,
-                    "death_year": 2005
+                    "death_year": 2005,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2761,7 +2891,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1928,
-                    "death_year": 1988
+                    "death_year": 1988,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2800,7 +2932,9 @@
                     },
                     "gender": "Female",
                     "birth_year": 1850,
-                    "death_year": 1904
+                    "death_year": 1904,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
@@ -2839,7 +2973,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1915,
-                    "death_year": 2005
+                    "death_year": 2005,
+                    "country": "Canada",
+                    "deceased": true
                 }
             ]
         }
@@ -2879,7 +3015,9 @@
                     },
                     "gender": "Male",
                     "birth_year": 1920,
-                    "death_year": 2012
+                    "death_year": 2012,
+                    "country": "United States",
+                    "deceased": true
                 }
             ]
         }
