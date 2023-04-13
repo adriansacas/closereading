@@ -25,6 +25,16 @@ db = SQLAlchemy(app)
 
 
 class Book(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - title
+        - pub_year
+        - page_count
+    Filtering Fields:
+        - genre
+        - page_count (range)
+        - title (first initial)
+    """
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
     genre = db.Column(db.String(30), nullable=True)
@@ -38,6 +48,16 @@ class Book(db.Model):
 
 
 class Author(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - name
+        - birth_year
+    Filtering Fields:
+        - name (first initial)
+        - country
+        - TODO: gender
+        - TODO: deceased
+    """
     id = db.Column(db.Integer, primary_key=True)
     # TODO: Do a data exploration to see if all our authors have a unique name, if so make name indexable and unique
     name = db.Column(db.String(100), nullable=False)
@@ -54,6 +74,16 @@ class Author(db.Model):
 
 
 class Library(db.Model):
+    """
+    Sorting Fields (ascending, descending):
+        - rating
+        - city
+        - name
+    Filtering Fields:
+        - city
+        - name (first initial)
+        - rating (range)
+    """
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     image_url = db.Column(db.String(500), nullable=False)

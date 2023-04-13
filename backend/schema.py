@@ -69,6 +69,23 @@ class LibrarySchema(SQLAlchemyAutoSchema):
     class Meta:
         model = Library
 
+    @staticmethod
+    def get_cities():
+        cities = db.session.query(Library.city.distinct()).order_by(Library.city).all()
+        return [city[0] for city in cities]
+
+    @staticmethod
+    def add_cities_to_result(result):
+        result['cities'] = LibrarySchema.get_cities()
+        return result
+
+    @post_dump(pass_many=True)
+    def filters(self, data, many, **kwargs):
+        if many:
+            result = {'libraries': data}
+            return LibrarySchema.add_cities_to_result(result)
+        return data
+
 
 book_schema = BookSchema()
 author_schema = AuthorSchema()
