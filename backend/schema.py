@@ -14,12 +14,30 @@ class AuthorSchema(SQLAlchemyAutoSchema):
     # Custom field to calculate author's age
     age = fields.Method('calculate_age')
 
-    def calculate_age(self, author):
+    @staticmethod
+    def calculate_age(author):
         if author.death_year:
             age = author.death_year - author.birth_year
         else:
             age = datetime.date.today().year - author.birth_year
         return age
+
+    @staticmethod
+    def get_countries():
+        countries = db.session.query(Author.country.distinct()).order_by(Author.country).all()
+        return [country[0] for country in countries]
+
+    @staticmethod
+    def add_countries_to_result(result):
+        result['countries'] = AuthorSchema.get_countries()
+        return result
+
+    @post_dump(pass_many=True)
+    def filters(self, data, many, **kwargs):
+        if many:
+            result = {'authors': data}
+            return AuthorSchema.add_countries_to_result(result)
+        return data
 
 
 class BookSchema(SQLAlchemyAutoSchema):

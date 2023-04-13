@@ -49,6 +49,7 @@ def get_authors():
     per_page = request.args.get("perPage", 20, type=int)
     search_terms = request.args.get("search_term")
     initial_filter_term = request.args.get("initial_filter_term")
+    country_filter_term = request.args.get("country_filter_term")
     sort_terms = request.args.get("sortBy")
     ascending = request.args.get("asc")
 
@@ -64,14 +65,15 @@ def get_authors():
         if search_terms:
             search_terms = search_terms.split()
             query = search_authors(query, search_terms)
-        query = get_filtered_authors(query, initial_filter_term)
+        query = get_filtered_authors(query, initial_filter_term, country_filter_term)
         query = query.paginate(page=page, per_page=per_page, error_out=False)
         pagination_data = get_pagination_data(query, page, per_page)
         result = author_schema.dump(query, many=True)
-        return jsonify({'authors': result, 'pagination': pagination_data})
+        result['pagination'] = pagination_data
+        return jsonify(result)
     else:
         result = author_schema.dump(query.all(), many=True)
-        return jsonify({'authors': result})
+        return jsonify(result)
 
 
 @app.route("/libraries")
@@ -225,9 +227,11 @@ def get_filtered_books(query, genre_filter_term, numpages_filter_term, alpha_fil
     return query
 
 
-def get_filtered_authors(query, initial_filter_term):
+def get_filtered_authors(query, initial_filter_term, country_filter_term):
     if initial_filter_term:
         query = query.filter(Author.name.startswith(initial_filter_term))
+    if country_filter_term:
+        query = query.filter_by(country=country_filter_term)
     return query
 
 
