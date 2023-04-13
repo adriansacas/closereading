@@ -34,6 +34,18 @@ const Authors = () => {
         setInitial(value);
     }
 
+    const handleSearch = (searchTerm) => {
+        setSearchTerm(searchTerm);
+    };
+
+    const handleSort = (sortBy) => {
+        setSort(sortBy);
+    };
+
+    const handleAscending = (ascending) => {
+        setAscending(ascending);
+    };
+
     useEffect(() => {
         const getAuthors = async() => {
             await apiClient
@@ -47,18 +59,6 @@ const Authors = () => {
         };
         getAuthors();
     }, [searchTerm, activePage, initial, sort, ascending]);
-
-    const handleSearch = (searchTerm) => {
-        setSearchTerm(searchTerm);
-    };
-
-    const handleSort = (sortBy) => {
-        setSort(sortBy);
-    };
-
-    const handleAscending = (ascending) => {
-        setAscending(ascending);
-    };
 
     return (
         <Container className="p-4">
