@@ -26,6 +26,8 @@ const Books = () => {
     const [numpages, setNumpages] = useState("");
     const [alpha, setAlpha] = useState("");
     const [genres, setGenres] = useState([]);
+    const [initials, setInitials] = useState([]);
+
 
     function handleClick(num) {
         setActivePage(num);
@@ -66,7 +68,8 @@ const Books = () => {
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
-                    setGenres(response.data["genres"]);
+                    setGenres(response.data['filters']['genres']);
+                    setInitials(response.data['filters']['initials']);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
@@ -99,8 +102,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Title"
-                    items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                    "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                    items={initials}
                     onChange={handleAlphaFilter}/></Col>
                 </Row>
             </Container>

@@ -46,6 +46,14 @@ class Book(db.Model):
     description = db.Column(db.Text, nullable=False)
     yt_review = db.Column(db.String(500), nullable=False)
 
+    @classmethod
+    def get_unique_genres(cls):
+        return cls.query.distinct(cls.genre).order_by(cls.genre).all()
+
+    @classmethod
+    def get_unique_title_initials(cls):
+        return db.session.query(db.func.substr(cls.title, 1, 1)).distinct().order_by(db.func.substr(cls.title, 1, 1)).all()
+
 
 class Author(db.Model):
     """
@@ -55,7 +63,7 @@ class Author(db.Model):
     Filtering Fields:
         - name (first initial)
         - country
-        - TODO: gender
+        - gender
         - TODO: deceased
     """
     id = db.Column(db.Integer, primary_key=True)
