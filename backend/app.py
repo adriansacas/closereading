@@ -36,10 +36,11 @@ def get_books():
         query = query.paginate(page=page, per_page=per_page, error_out=False)
         pagination_data = get_pagination_data(query, page, per_page)
         result = book_schema.dump(query, many=True)
-        return jsonify({'books': result, 'pagination': pagination_data})
+        result['pagination'] = pagination_data
+        return jsonify(result)
     else:
         result = book_schema.dump(query.all(), many=True)
-        return jsonify({'books': result})
+        return jsonify(result)
 
 
 @app.route("/authors")

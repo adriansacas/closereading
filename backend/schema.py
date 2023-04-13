@@ -1,4 +1,4 @@
-from models import Book, Author, Library
+from models import Book, Author, Library, db
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 from marshmallow import fields, post_dump
 import datetime
@@ -28,6 +28,23 @@ class BookSchema(SQLAlchemyAutoSchema):
 
     # Fetches the data from the relationship and nests it within
     author = fields.Nested('AuthorSchema', only=('id', 'name'))
+
+    @staticmethod
+    def get_genres():
+        genres = db.session.query(Book.genre.distinct()).order_by(Book.genre).all()
+        return [genre[0] for genre in genres]
+
+    @staticmethod
+    def add_genres_to_result(result):
+        result['genres'] = BookSchema.get_genres()
+        return result
+
+    @post_dump(pass_many=True)
+    def filters(self, data, many, **kwargs):
+        if many:
+            result = {'books': data}
+            return BookSchema.add_genres_to_result(result)
+        return data
 
 
 class LibrarySchema(SQLAlchemyAutoSchema):

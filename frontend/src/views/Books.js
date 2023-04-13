@@ -22,9 +22,10 @@ const Books = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
-    const [genre, setGenre] = useState("")
-    const [numpages, setNumpages] = useState("")
-    const [alpha, setAlpha] = useState("")
+    const [genre, setGenre] = useState("");
+    const [numpages, setNumpages] = useState("");
+    const [alpha, setAlpha] = useState("");
+    const [genres, setGenres] = useState([]);
 
     function handleClick(num) {
         setActivePage(num);
@@ -65,6 +66,7 @@ const Books = () => {
                 .then((response) => {
                     setBooks(response.data["books"]);
                     setPagination(response.data["pagination"]);
+                    setGenres(response.data["genres"]);
                 })
                 .catch((err) => console.log(err));
             setLoaded(true);
@@ -85,10 +87,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Genre"
-                    items={["Biography & Autobiography", "Literary Collections", "Literary Criticism",
-                    "Poetry", "Comics & Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
-                    "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
-                    "Philosophy", "Education", "Science", "Fiction"]}
+                    items={genres}
                     onChange={handleGenreFilter}/></Col>
 
                     <Col>
