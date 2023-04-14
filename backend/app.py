@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from models import app, db, Book, Author, Library
 from schema import book_schema, author_schema, library_schema
-from sqlalchemy import or_, and_
+from sqlalchemy import or_, and_, func
 
 
 @app.route("/")
@@ -167,6 +167,17 @@ def get_search_results():
 
     return jsonify(result)
 
+@app.route("/visualizations")
+def get_visualization_data():
+    kind = request.args.get('kind')
+
+    result = {}
+    if kind == 'genre':
+        genre_count = db.session.query(Book.genre, func.count(Book.id)).group_by(Book.genre).order_by(func.count(Book.id).desc()).limit(10).all()
+        result['genre'] = []
+        for count in genre_count:
+            result['genre'].append({'name': count[0], 'value': count[1]})
+    return result
 
 def get_pagination_data(query, page, per_page):
     pagination_data = {
