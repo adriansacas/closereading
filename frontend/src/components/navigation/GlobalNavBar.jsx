@@ -24,6 +24,8 @@ const GlobalNavBar = () => {
             <Nav.Link href="/books">Books</Nav.Link>
             <Nav.Link href="/libraries">Libraries</Nav.Link>
             <Nav.Link href="/authors">Authors</Nav.Link>
+            <Nav.Link href="/visualizations">Visualizations</Nav.Link>
+            <Nav.Link href="/provider-visualizations" className="text-nowrap">Provider Visualizations</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <Container className="d-flex justify-content-end">
