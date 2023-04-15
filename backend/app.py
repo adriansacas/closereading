@@ -172,12 +172,12 @@ def get_visualization_data():
     kind = request.args.get('kind')
 
     result = {}
-    if kind == 'genre':
+    if kind == 'genres':
         genre_count = db.session.query(Book.genre, func.count(Book.id)).group_by(Book.genre).order_by(func.count(Book.id).desc()).limit(10).all()
-        result['genre'] = []
+        result['genres'] = []
         for count in genre_count:
-            result['genre'].append({'name': count[0], 'value': count[1]})
-    return result
+            result['genres'].append({'name': count[0], 'value': count[1]})
+    return jsonify(result)
 
 def get_pagination_data(query, page, per_page):
     pagination_data = {
