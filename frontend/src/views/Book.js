@@ -7,7 +7,7 @@ import LibraryCard from "../components/Cards/LibraryCard";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
 import {Image} from "react-bootstrap";
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 import { YouTubeEmbed } from 'react-social-media-embed'
 import Dropdown from 'react-bootstrap/Dropdown';
 

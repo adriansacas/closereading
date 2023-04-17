@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { API_URL } from './config';
+import { API_URL, PROVIDER_API_URL } from './config';
 
 const apiClient = axios.create({
     baseURL: API_URL,
@@ -8,4 +8,11 @@ const apiClient = axios.create({
     }
 });
 
-export default apiClient;
+const apiClientProvider = axios.create({
+    baseURL: PROVIDER_API_URL,
+    headers: {
+        'Content-Type': 'application/json'
+    }
+});
+
+export {apiClient, apiClientProvider};

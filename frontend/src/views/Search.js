@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 import { Col, Container, Row, Spinner, Tab, Tabs, Button } from "react-bootstrap";
 import BookCard from "../components/Cards/BookCard";
 import AuthorCard from "../components/Cards/AuthorCard";

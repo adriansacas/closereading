@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
 import FilterDropdown from "../components/navigation/FilterDropdown";
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
