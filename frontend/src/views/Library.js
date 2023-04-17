@@ -8,7 +8,7 @@ import AuthorCard from "../components/Cards/AuthorCard";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
 import {Image} from "react-bootstrap";
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 
 
 const Library = () => {
