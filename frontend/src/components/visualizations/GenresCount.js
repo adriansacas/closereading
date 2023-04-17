@@ -5,11 +5,11 @@ import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
 import PagesVsYear from "./PagesVsYear";
 
-const GenresVisualizationComponent = () => {
-    const [genres, setGenres] = useState(1);
+const GenresCount = () => {
+    const [genres, setGenres] = useState([]);
 
     useEffect(() => {
-        const getBooks = async() => {
+        const getData = async() => {
             await apiClient
                 .get(`visualizations`, {params: {kind: 'genres'}})
                 .then((response) => {
@@ -17,7 +17,7 @@ const GenresVisualizationComponent = () => {
                 })
                 .catch((err) => console.log(err));
         };
-        getBooks();
+        getData();
     }, []);
 
     return (
@@ -29,7 +29,7 @@ const GenresVisualizationComponent = () => {
                     <XAxis dataKey="name" angle={-45} textAnchor="end" interval={0}  />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="value" fill="#66797A" />
+                    <Bar dataKey="value" name="Count" fill="#66797A" />
                 </BarChart>
             </Container>
             <PagesVsYear></PagesVsYear>
@@ -37,4 +37,4 @@ const GenresVisualizationComponent = () => {
     );
 };
 
-export default GenresVisualizationComponent;
+export default GenresCount;
