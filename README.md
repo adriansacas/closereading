@@ -10,6 +10,10 @@ https://www.closereading.me
 ### GitLab Pipelines
 https://gitlab.com/salbedaiwi/cs373-idb-13/-/pipelines
 
+### API
+https://api.closereading.me"
+https://documenter.getpostman.com/view/25779056/2s93CExciw
+
 ## Group Info
 | Name | GitLab ID | UT EID |
 |------|-----------|--------|
