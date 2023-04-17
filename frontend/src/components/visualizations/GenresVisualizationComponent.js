@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart } from 'recharts';
 import apiClient from "../../apiClient";
 import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
+import PagesVsYear from "./PagesVsYear";
 
 const GenresVisualizationComponent = () => {
     const [genres, setGenres] = useState(1);
@@ -31,6 +32,7 @@ const GenresVisualizationComponent = () => {
                     <Bar dataKey="value" fill="#66797A" />
                 </BarChart>
             </Container>
+            <PagesVsYear></PagesVsYear>
         </Stack>
     );
 };
