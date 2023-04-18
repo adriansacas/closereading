@@ -19,8 +19,10 @@ const BookCard = (props) => {
     return (
         <Card border="light" className={"custom-card"} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <Row>
-                <Col>
-                    <Link to={`/books/${id}`}><Card.Img variant="top" src={image_url} className={`card-img${hovered ? ' card-img-hovered' : ''}`} /></Link>
+                <Col sm={5}>
+                    <Link to={`/books/${id}`}>
+                        <Card.Img variant="top" src={image_url} className={`card-img${hovered ? ' card-img-hovered' : ''}`} />
+                    </Link>
                 </Col>
                 <Col>
                     <Card.Body>
