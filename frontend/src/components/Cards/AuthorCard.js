@@ -5,7 +5,7 @@ import { highlightText } from "../../tools"
 import {Col, Row} from "react-bootstrap";
 
 const AuthorCard = (props) => {
-  const { name, description, id, image_url } = props.authorData;
+    const { name, description, id, image_url } = props.authorData;
     const [hovered, setHovered] = React.useState(false);
 
     const handleMouseEnter = () => {
