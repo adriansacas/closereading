@@ -2,24 +2,39 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import { highlightText } from "../../tools"
+import {Col, Row} from "react-bootstrap";
 
 const AuthorCard = (props) => {
-  const { name, description, id } = props.authorData;
+  const { name, description, id, image_url } = props.authorData;
+    const [hovered, setHovered] = React.useState(false);
+
+    const handleMouseEnter = () => {
+        setHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setHovered(false);
+    };
 
   return (
-      <Card border="dark">
-        <Card.Body>
-          <Card.Title>{highlightText(name, props.searchTerm)}</Card.Title>
-          <Card.Text>{description}</Card.Text>
-          {/*<Card.Text>Nationality: {nationality}</Card.Text>*/}
-          {/*<Card.Text>Gender: {gender}</Card.Text>*/}
-          {/*<Card.Text>Publications: {number_of_publications}</Card.Text>*/}
-        </Card.Body>
-        <Card.Footer className="text-muted">
-          <li>
-            <Link to={`/authors/`+id}>More info</Link>
-          </li>
-        </Card.Footer>
+      <Card border="light" className={"custom-card"} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <Row>
+              <Col sm={5}>
+                  <Link to={`/authors/${id}`}>
+                      <Card.Img variant="top" src={image_url} className={`card-img${hovered ? ' card-img-hovered' : ''}`} />
+                  </Link>
+              </Col>
+              <Col>
+                  <Card.Body>
+                      <Card.Title>
+                          <Link to={`/authors/${id}`} className={"text-link"}>
+                              {highlightText(name, props.searchTerm)}
+                          </Link>
+                      </Card.Title>
+                      <Card.Subtitle className="mb-3 text-muted">{description}</Card.Subtitle>
+                  </Card.Body>
+              </Col>
+          </Row>
       </Card>
   );
 };
