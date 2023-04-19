@@ -29,7 +29,7 @@ const GenresCount = () => {
                     <XAxis dataKey="name" angle={-45} textAnchor="end" interval={0}  />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="value" name="Count" fill="#66797A" />
+                    <Bar dataKey="value" name="Count" fill="#006595" />
                 </BarChart>
             </Container>
             <PagesVsYear></PagesVsYear>

@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { PieChart, Pie, Legend, Tooltip} from 'recharts';
+import {PieChart, Pie, Tooltip, Cell} from 'recharts';
+import Stack from "react-bootstrap/Stack";
+import React from "react";
 
 const data = [
     {
@@ -22,29 +22,28 @@ const data = [
     }
 ];
 
+const COLORS = ['#840032', '#006595', '#E59500', '#48A9A6', '#D88C9A'];
+
 const ProviderSymptomsPerRarity = () => {
     return (
-        <Container fluid="md">
-            <Row style={{width: "100%", height: 600}}>
-                <h3 className="p-5 text-center">Number of Symptoms in Each Rarity Level</h3>
-                <Col>
-                    <Container className="d-flex justify-content-center p-4">
-                        <PieChart width={400} height={400}>
-                            <Pie
-                                dataKey="count"
-                                isAnimationActive={false}
-                                data={data}
-                                cx="50%"
-                                cy="50%"
-                                outerRadius={200}
-                                fill="#8884d8"
-                            />
-                            <Tooltip />
-                        </PieChart>
-                    </Container>
-                </Col>
-            </Row>
-        </Container>
+        <Stack className="d-flex justify-content-center p-4">
+            <h3 className="p-5 text-center">Number of Symptoms in Each Rarity Level</h3>
+            <Container className="d-flex justify-content-center p-4">
+                <PieChart width={800} height={500}>
+                    <Pie
+                        dataKey="count"
+                        data={data}
+                        outerRadius={200}
+                        label={(entry) => entry.name}
+                    >
+                        {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie>
+                    <Tooltip />
+                </PieChart>
+            </Container>
+        </Stack>
     );
 }
 

@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
-//import {apiClient} from "../../apiClient";
+import React from 'react';
+import { PieChart, Pie, Cell, Tooltip } from "recharts";
 import Row from 'react-bootstrap/Row';
 import Container from "react-bootstrap/Container";
 
@@ -15,7 +14,7 @@ const data = [
     }
 ]
 
-const COLORS = ["#66797A", "#8884d8"];
+const COLORS = ['#840032', '#006595', '#E59500', '#48A9A6', '#D88C9A'];
 
 
 const AuthorsByGender = () => {
@@ -30,10 +29,9 @@ const AuthorsByGender = () => {
                             <Pie
                                 dataKey="count"
                                 nameKey="gender"
-                                isAnimationActive={false}
                                 data={data}
-                                cx="50%"
-                                cy="50%"
+                                outerRadius={200}
+                                label={(entry) => entry.name}
                             >
                                 {data.map((entry, index) => (
                                     <Cell

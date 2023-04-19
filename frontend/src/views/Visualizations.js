@@ -11,7 +11,7 @@ const Visualizations = () => {
         <Container>
             <h1 className="d-flex justify-content-center p-4">Visualizations</h1>
             <GenresCount></GenresCount>
-            <Row>
+            <Row lg={2} sm={1}>
                 <Col>
                 <AuthorsByGender></AuthorsByGender>
                 </Col>

@@ -60,7 +60,7 @@ const RatingsByState = () => {
                     <XAxis dataKey="state" interval={0}  />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="avg_rating" name="Average Rating" fill="#66797A" />
+                    <Bar dataKey="avg_rating" name="Average Rating" fill="#006595" />
                 </BarChart>
             </Container>
         </Stack>

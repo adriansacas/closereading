@@ -1,26 +1,22 @@
 import React, {useEffect, useState} from 'react';
-// import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+import {PieChart, Pie, Tooltip, Cell} from 'recharts';
 import {apiClientProvider} from "../../apiClient";
 import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
+
+const COLORS = ['#840032', '#006595', '#E59500', '#48A9A6', '#D88C9A'];
 
 const MedicationsVsRoute = () => {
     const [data, setData] = useState([]);
     const [routeCounts, setRouteCounts] = useState([]);
 
     function processData() {
-        // const stateRegex = /([A-Z]{2})\s+\d{5}/;
-
         const groupedData = data.reduce((acc, curr) => {
-            // const match = curr.address.match(stateRegex);
             const t_route = curr.route;
             if (!acc[t_route]) {
                 acc[t_route] = { count: 0 };
             }
-            // acc[t_route].totalRating += curr.rating;
             acc[t_route].count += 1;
-            // console.log(acc);
             return acc;
         }, {});
 
@@ -28,11 +24,8 @@ const MedicationsVsRoute = () => {
         const ratings = Object.keys(groupedData)
             .map(t_route => {
                 const { count } = groupedData[t_route];
-                // const avgRating = totalRating / count;
-                // console.log({t_route, count});
                 return { t_route, count };
             });
-        //     // .sort((a, b) => b.avg_rating - a.avg_rating);
         setRouteCounts(ratings);
     }
 
@@ -54,46 +47,25 @@ const MedicationsVsRoute = () => {
         processData();
     }, [data]);
 
-    console.log(routeCounts);
-    const RADIAN = Math.PI / 180;
-    const renderCustomizedLabel = ({ name, percent }) => {
-        // const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-        // const x = cx + radius * Math.cos(-midAngle * RADIAN);
-        // const y = cy + radius * Math.sin(-midAngle * RADIAN);
-        const value = `${(percent * 100).toFixed(0)}%`
-        const med_name = name;
-
-        return ({value}, {med_name});
-      };
-
 
     return (
         <Stack className="d-flex justify-content-center p-4">
             <h3 className="d-flex justify-content-center p-4">Counts of Treatment Application Route</h3>
             <Container className="d-flex justify-content-center p-4">
-                <PieChart width={800} height={400}>
+                <PieChart width={900} height={400}>
                     <Pie
                         dataKey="count"
                         nameKey="t_route"
-                        isAnimationActive={false}
                         data={routeCounts}
-                        labelLine={false}
-                        // cx="50%"
-                        // cy="50%"
-                        // outerRadius={80}
-                        // fill="#8884d8"
-                        // label={renderCustomizedLabel}
-                    />
+                        outerRadius={200}
+                        label={(entry) => entry.name}
+                    >
+                        {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie>
                     <Tooltip />
                 </PieChart>
-
-                {/* <BarChart width={800} height={400} data={routeCounts}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="state" interval={0}  />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="avg_rating" name="Average Rating" fill="#66797A" />
-                </BarChart> */}
             </Container>
         </Stack>
     );
