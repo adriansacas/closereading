@@ -38,7 +38,6 @@ const ProviderSymptomsPerRarity = () => {
                                 cy="50%"
                                 outerRadius={200}
                                 fill="#8884d8"
-                                label
                             />
                             <Tooltip />
                         </PieChart>

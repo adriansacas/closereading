@@ -179,11 +179,11 @@ def get_visualization_data():
         for count in genre_count:
             result['genres'].append({'name': count[0], 'value': count[1]})
     
-    if kind == "initials":
-        initials_distribution = db.session.query(func.substr(Author.name, 1, 1), func.count(Author.name)).group_by(func.substr(Author.name, 1, 1)).all()
-        result['initals'] = []
-        for count in initials_distribution:
-            result['initials'].append({'letter': count[0], 'count':count[1]})
+    # if kind == "initials":
+    #     initials_distribution = db.session.query(func.substr(Author.name, 1, 1), func.count(Author.name)).group_by(func.substr(Author.name, 1, 1)).all()
+    #     result['initals'] = []
+    #     for count in initials_distribution:
+    #         result['initials'].append({'letter': count[0], 'count':count[1]})
         
     return jsonify(result)
 

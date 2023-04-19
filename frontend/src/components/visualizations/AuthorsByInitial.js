@@ -145,10 +145,6 @@ const AuthorsByInitial = () => {
                                 data={data}
                                 cx="50%"
                                 cy="50%"
-                                // outerRadius={200}
-                                // fill="#8884d8"
-                                //labelLine={false}
-                                //label={"letter"}
                             >
                                 {data.map((entry, index) => (
                                     <Cell
