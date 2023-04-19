@@ -118,7 +118,7 @@ const Authors = () => {
 
             {/* Card Grid */}
             <Container fluid>
-                <Row xl={5} lg={4} md={3} sm={2} xs={1}>
+                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
                     { loaded ? (
                         authors.map((authorData) => {
                             return (

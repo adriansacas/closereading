@@ -7,7 +7,7 @@ import BookCard from "../components/Cards/BookCard";
 import AuthorCard from "../components/Cards/AuthorCard";
 import Spinner from "react-bootstrap/Spinner";
 import {getPage} from "../tools"
-import {Image} from "react-bootstrap";
+import {Image, ListGroup} from "react-bootstrap";
 import {apiClient} from '../apiClient';
 
 
@@ -51,65 +51,74 @@ const Library = () => {
     });
 
     return (
-        <Container fluid>
+        <Container>
             {loaded ? (
-                <Row>
-                    <Col md={7} className="p-4">
-                        <h1 className="text-center mb-4">{library.name}</h1>
-                        <div className="mb-3">
-                            <i className="fas fa-map-marker-alt me-2"></i>
-                            {library.address}, {library.zip_code} {library.city}, {library.state}, {library.country}
-                        </div>
-                        <div className="mb-3">
-                            <i className="fas fa-phone-alt me-2"></i>
-                            {library.phone}
-                        </div>
-                        {/*<div>Collection Size: {libraryData[0].collection_size}</div>*/}
-                        {/*<div>Facility: {libraryData[0].facility}</div>*/}
-                        <div className="mb-3">
-                            <i className="fas fa-star me-2"></i>
-                            Rating: {library.rating}
-                        </div>
-                        {/*<h5>Description:</h5>*/}
-                        {/*<div>{libraryData[0].description}</div>*/}
-                        <h5 className="mb-3">Books</h5>
-                        <Row md={3} className="p-4 g-4 justify-content-center">
-                            {books.map((book) => {
-                                return (
-                                    <Col key={book.id} className="mb-4">
-                                        <BookCard bookData={book} />
-                                    </Col>
-                                );
-                            })}
-                        </Row>
-                        <h5 className="mb-3">Authors</h5>
-                        <Row md={3} className="p-4 g-4 justify-content-center">
-                            {authors.map((author) => {
-                                return (
-                                    <Col key={author.id} className="mb-4">
-                                        <AuthorCard authorData={author} />
-                                    </Col>
-                                );
-                            })}
-                        </Row>
-                    </Col>
-                    <Col md={5} className="p-4">
-                        <Image fluid src={library.image_url} alt="User submitted picture" className="mb-4" />
-                        {/* <h5>Map</h5> */}
-                        <iframe
-                            height="450"
-                            title="Library Google Map"
-                            src={library.gmap}
-                            allow="fullscreen"
-                            className="mb-4"
-                        />
-                    </Col>
-                </Row>
+                <Col>
+                    <Row className={"p-4"} md={2} sm={1} xs={1}>
+                        <Col>
+                            <Image src={library.image_url} alt="User submitted picture" className={"instance-img"} />
+                        </Col>
+                        <Col>
+                            <Row>
+                                <h1>{library.name}</h1>
+                            </Row>
+                            <Row>
+                                <ListGroup className="list-group-flush">
+                                    <ListGroup.Item>{library.address}, {library.zip_code} {library.city}, {library.state}, {library.country}</ListGroup.Item>
+                                    <ListGroup.Item>{library.phone}</ListGroup.Item>
+                                    <ListGroup.Item>Rating: {library.rating}</ListGroup.Item>
+                                </ListGroup>
+                            </Row>
+                            <Row className={"pt-2"}>
+                                <iframe
+                                    height="450"
+                                    title="Library Google Map"
+                                    src={library.gmap}
+                                    allow="fullscreen"
+                                />
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row className={"p-4"}>
+                        <Col>
+                            <Row>
+                                <h2>Books</h2>
+                            </Row>
+                            <Row xl={3} lg={3} md={2} sm={2} xs={1} className="p-4 g-4 justify-content-center">
+                                {books.map((book) => {
+                                    return (
+                                        <Col>
+                                            <BookCard bookData={book} />
+                                        </Col>
+                                    );
+                                })}
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row className={"p-4"}>
+                        <Col>
+                            <Row>
+                                <h2>Libraries</h2>
+                            </Row>
+                            <Row xl={3} lg={3} md={2} sm={2} xs={1} className="p-4 g-4 justify-content-center">
+                                {authors.map((author) => {
+                                    return (
+                                        <Col>
+                                            <AuthorCard authorData={author} />
+                                        </Col>
+                                    );
+                                })}
+                            </Row>
+                        </Col>
+                    </Row>
+                </Col>
             ) : (
-                <Spinner animation="grow" />
+                <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+                    <Spinner animation="grow" />
+                </div>
             )}
         </Container>
-    );  
+    );
 };
 
 export default Library;
