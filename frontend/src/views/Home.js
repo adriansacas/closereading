@@ -50,19 +50,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// import React from "react";
-// import Stack from "react-bootstrap/Stack";
-// import Container from "react-bootstrap/Container";
-
-// const Home = () => {
-//     return (
-//         <Stack>
-//             <Container className="p-4"></Container>
-//                 <h1> Explore books, research authors, and discover more at your local library. </h1>
-//         </Stack>
-        
-//     );
-// };
-
-// export default Home;
