@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { PieChar, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Legend, Tooltip} from 'recharts';
 
 const data = [
     {
@@ -28,7 +28,7 @@ const ProviderSymptomsPerRarity = () => {
             <Row style={{width: "100%", height: 600}}>
                 <h3 className="p-5 text-center">Number of Symptoms in Each Rarity Level</h3>
                 <Col>
-                    <ResponsiveContainer width={400} height={400}>
+                    <Container className="d-flex justify-content-center p-4">
                         <PieChart width={400} height={400}>
                             <Pie
                                 dataKey="count"
@@ -42,7 +42,7 @@ const ProviderSymptomsPerRarity = () => {
                             />
                             <Tooltip />
                         </PieChart>
-                    </ResponsiveContainer>
+                    </Container>
                 </Col>
             </Row>
         </Container>
