@@ -8,6 +8,13 @@ import GitLabLogo from "../assets/logos/gitlab-logo.png";
 import ZoomLogo from "../assets/logos/zoom-logo.png";
 import NamecheapLogo from "../assets/logos/namecheap-logo.png";
 import WebstormLogo from "../assets/logos/webstorm-logo.png";
+import AmazonLogo from "../assets/logos/amazon_logo.png";
+import GoogleMapsLogo from "../assets/logos/gmaps_logo.png";
+import GoogleBooksLogo from "../assets/logos/googlebooks_logo.png";
+import OpenLibraryLogo from "../assets/logos/openlibrary_logo.png";
+import WikipediaLogo from "../assets/logos/wiki_logo.png";
+import YelpLogo from "../assets/logos/yelp_logo.png";
+import YoutubeLogo from "../assets/logos/youtube_logo.png";
 // import GoogleMapsLogo from "../assets/logos/googlemaps-logo.png";
 
 const toolInfo = [
@@ -80,6 +87,48 @@ const apiInfo = [
     image: GitLabLogo,
     description: "GitLab API was used for fetching repository statistics.",
     link: "https://docs.gitlab.com/ee/api/",
+  },
+  {
+    title: "Yelp API",
+    image: YelpLogo,
+    description: "Yelp API was used to retrieve data and reviews on popular libraries in major US cities.",
+    link: "https://docs.developer.yelp.com/",
+  },
+  {
+    title: "OpenLibrary API",
+    image: OpenLibraryLogo,
+    description: "OpenLibrary API was used to retrieve additional data on books, such as publish location.",
+    link: "https://openlibrary.org/developers/api",
+  },
+  {
+    title: "Google Books API",
+    image: GoogleBooksLogo,
+    description: "Google Books API was used to retrieve data and reviews on popular and recent books.",
+    link: "https://developers.google.com/books",
+  },
+  {
+    title: "Amazon API",
+    image: AmazonLogo,
+    description: "Amazon API was used to retrieve a link to purchase a particular book on Amazon.",
+    link: "https://webservices.amazon.com/paapi5/documentation/search-items.html",
+  },
+  {
+    title: "Wikipedia API",
+    image: WikipediaLogo,
+    description: "Wikipedia API was used to retrieve popular authors and  information on a particular author.",
+    link: "https://www.mediawiki.org/wiki/API:Main_page",
+  },
+  {
+    title: "Google Maps API",
+    image: GoogleMapsLogo,
+    description: "Google Maps API was used to display a Google map view for a particular library.",
+    link: "https://developers.google.com/maps",
+  },
+  {
+    title: "Youtube API",
+    image: YoutubeLogo,
+    description: "Youtube API was used to search and display YouTube reviews for books",
+    link: "https://developers.google.com/youtube/v3"
   },
 ];
 

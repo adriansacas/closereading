@@ -4,6 +4,7 @@ from schema import book_schema, author_schema, library_schema
 from sqlalchemy import or_, and_, func
 
 
+
 @app.route("/")
 def hello_world():
     return "<p>This is our API route!</p>"
@@ -177,6 +178,13 @@ def get_visualization_data():
         result['genres'] = []
         for count in genre_count:
             result['genres'].append({'name': count[0], 'value': count[1]})
+    
+    # if kind == "initials":
+    #     initials_distribution = db.session.query(func.substr(Author.name, 1, 1), func.count(Author.name)).group_by(func.substr(Author.name, 1, 1)).all()
+    #     result['initals'] = []
+    #     for count in initials_distribution:
+    #         result['initials'].append({'letter': count[0], 'count':count[1]})
+        
     return jsonify(result)
 
 def get_pagination_data(query, page, per_page):

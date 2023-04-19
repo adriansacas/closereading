@@ -1561,7 +1561,7 @@ const PagesVsYear = () => {
                             <YAxis type="number" dataKey="page_count" name="Page Count" domain={[0, 7000]} />
                             <ZAxis dataKey="title" name="Title"/>
                             <Tooltip cursor={{ strokeDasharray: '3 3' }} />
-                            <Scatter name="Books" data={data} fill="#8884d8" />
+                            <Scatter name="Books" data={data} fill="#006595" />
                         </ScatterChart>
                     </ResponsiveContainer>
                 </Col>
