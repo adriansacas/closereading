@@ -161,7 +161,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <h3 className="d-flex justify-content-center p-4">
-                    <Link to={"https://documenter.getpostman.com/view/25779056/2s93CExciw"}>Postman Documentation</Link>
+                    <Link to={"https://documenter.getpostman.com/view/25779056/2s93CExciw"} className={"text-link"}>Postman Documentation</Link>
                 </h3>
             </Container>
             <Container className="p-4">

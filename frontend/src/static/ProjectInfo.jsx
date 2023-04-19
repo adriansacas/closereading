@@ -10,7 +10,7 @@ import NamecheapLogo from "../assets/logos/namecheap-logo.png";
 import WebstormLogo from "../assets/logos/webstorm-logo.png";
 import AmazonLogo from "../assets/logos/amazon_logo.png";
 import GoogleMapsLogo from "../assets/logos/gmaps_logo.png";
-import GoogleBooksLogo from "../assets/logos/googlebooks_logo.png";
+import GoogleBooksLogo from "../assets/logos/googleplaybooks-logo.png";
 import OpenLibraryLogo from "../assets/logos/openlibrary_logo.png";
 import WikipediaLogo from "../assets/logos/wiki_logo.png";
 import YelpLogo from "../assets/logos/yelp_logo.png";
