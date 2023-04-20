@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Spinner from "react-bootstrap/Spinner";
 import FilterDropdown from "../components/navigation/FilterDropdown";
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from "../components/navigation/PaginationComponent";
 import SearchComponent from "../components/navigation/SearchComponent";
@@ -22,7 +22,12 @@ const Authors = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
-    const [initial, setInitial] = useState("")
+    const [initial, setInitial] = useState("");
+    const [initials, setInitials] = useState([]);
+    const [countries, setCountries] = useState([])
+    const [country, setCountry] = useState("");
+    const [gender, setGender] = useState("");
+    const [genders, setGenders] = useState([]);
 
     function handleClick(num) {
         setActivePage(num);
@@ -34,19 +39,15 @@ const Authors = () => {
         setInitial(value);
     }
 
-    useEffect(() => {
-        const getAuthors = async() => {
-            await apiClient
-                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, initial_filter_term: initial}})
-                .then((response) => {
-                    setAuthors(response.data["authors"]);
-                    setPagination(response.data['pagination']);
-                })
-                .catch((err) => console.log(err));
-            setLoaded(true);
-        };
-        getAuthors();
-    }, [searchTerm, activePage, initial, sort, ascending]);
+    function handleCountryFilter(value) {
+        value = value === 'Country' ? '' : value;
+        setCountry(value);
+    }
+
+    function handleGenderFilter(value) {
+        value = value === 'Gender' ? '' : value;
+        setGender(value);
+    }
 
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
@@ -60,6 +61,23 @@ const Authors = () => {
         setAscending(ascending);
     };
 
+    useEffect(() => {
+        const getAuthors = async() => {
+            await apiClient
+                .get(`authors`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, initial_filter_term: initial, country_filter_term: country, gender_filter_term: gender}})
+                .then((response) => {
+                    setAuthors(response.data["authors"]);
+                    setPagination(response.data['pagination']);
+                    setCountries(response.data['filters']['countries']);
+                    setGenders(response.data['filters']['genders']);
+                    setInitials(response.data['filters']['initials']);
+                })
+                .catch((err) => console.log(err));
+            setLoaded(true);
+        };
+        getAuthors();
+    }, [searchTerm, activePage, initial, country, gender, sort, ascending]);
+
     return (
         <Container className="p-4">
             <h1 className="d-flex justify-content-center p-4">Authors</h1>
@@ -71,11 +89,27 @@ const Authors = () => {
             <Sorter api_name={AuthorEndpointName} sortOptions={AuthorSortOptions} handleSort={handleSort} handleAscending={handleAscending} />
 
             <Container className="d-flex justify-content-center">
-                <FilterDropdown
-                title="First Initial"
-                items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                        "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
-                onChange={handleInitialFilter}/></Container>
+                <Row>
+                    <Col>
+                        <FilterDropdown
+                            title="First Initial"
+                            items={initials}
+                            onChange={handleInitialFilter}/>
+                    </Col>
+                    <Col>
+                        <FilterDropdown
+                            title="Country"
+                            items={countries}
+                            onChange={handleCountryFilter}/>
+                    </Col>
+                    <Col>
+                        <FilterDropdown
+                            title="Gender"
+                            items={genders}
+                            onChange={handleGenderFilter}/>
+                    </Col>
+                </Row>
+            </Container>
 
             <Container className="d-flex justify-content-center p-2">Displaying {authors.length} out of {pagination.total_items}</Container>
 
@@ -84,7 +118,7 @@ const Authors = () => {
 
             {/* Card Grid */}
             <Container fluid>
-                <Row xl={5} lg={4} md={3} sm={2} xs={1}>
+                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
                     { loaded ? (
                         authors.map((authorData) => {
                             return (

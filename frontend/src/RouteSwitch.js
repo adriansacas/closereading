@@ -14,6 +14,8 @@ import Library from "./views/Library";
 import Authors from "./views/Authors";
 import Author from "./views/Author";
 import Search from "./views/Search";
+import Visualizations from "./views/Visualizations";
+import ProviderVisualizations from "./views/ProviderVisualizations";
 import GlobalNavBar from "./components/navigation/GlobalNavBar";
 
 const RouteSwitch = () => {
@@ -31,6 +33,8 @@ const RouteSwitch = () => {
           <Route path = '/authors' element={<Authors />} />
           <Route path = '/authors/:id' element={<Author />} />
           <Route path = '/search' element={<Search />} />
+          <Route path = '/visualizations' element={<Visualizations />} />
+          <Route path = '/provider-visualizations' element={<ProviderVisualizations />} />
         </Routes>
       </Router>
   );

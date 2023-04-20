@@ -106,16 +106,17 @@ const About = () => {
         <Stack>
             <Container className="p-4">
                 <h1 className="d-flex justify-content-center p-4 ">What is CloseReading?</h1>
-                <p className="mx-auto">
-                    CloseReading is a website that aims to boost people’s utilization of local libraries by connecting them with libraries which contain the books they seek. People of all ages and walks of life can benefit from this resource - lending books from libraries is a sustainable, affordable practice that should be encouraged.
+                <p className="d-flex justify-content-center">
+                    CloseReading is a website that aims to boost people’s knowledge of literary history of large cities across the United States. 
+                    It convenys information in a way that is intuitve and accessible for those new to reading and avid readers, alike. 
                 </p>
             </Container>
             <Container className="p-4 bg-dark text-light">
                 <h1 className="d-flex justify-content-center p-4 ">
                     How It Works
                 </h1>
-                <p className="mx-auto">
-                    CloseReading integrates data from pubic libraries, bookstores, and wikipedia to present avid readers with information on where to find their favorite books.
+                <p className="d-flex justify-content-center">
+                    CloseReading integrates data about American libraries, popular English books, and popular authors to present readers with information on the locational literary history corresponding to an author, library, or book.
                 </p>
             </Container>
             <Container className="p-4">
@@ -160,7 +161,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <h3 className="d-flex justify-content-center p-4">
-                    <Link to={"https://documenter.getpostman.com/view/25779056/2s93CExciw"}>Postman Documentation</Link>
+                    <Link to={"https://documenter.getpostman.com/view/25779056/2s93CExciw"} className={"text-link"}>Postman Documentation</Link>
                 </h3>
             </Container>
             <Container className="p-4">

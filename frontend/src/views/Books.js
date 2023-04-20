@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
 import FilterDropdown from "../components/navigation/FilterDropdown";
-import apiClient from '../apiClient';
+import {apiClient} from '../apiClient';
 import { splitSearchTerms } from '../tools';
 import PaginationComponent from '../components/navigation/PaginationComponent';
 import SearchComponent from "../components/navigation/SearchComponent";
@@ -22,9 +22,12 @@ const Books = () => {
     const [searchTerm, setSearchTerm] = useState(location.state?.searchTerm || '');
     const [sort, setSort] = useState("");
     const [ascending, setAscending] = useState(true);
-    const [genre, setGenre] = useState("")
-    const [numpages, setNumpages] = useState("")
-    const [alpha, setAlpha] = useState("")
+    const [genre, setGenre] = useState("");
+    const [numpages, setNumpages] = useState("");
+    const [alpha, setAlpha] = useState("");
+    const [genres, setGenres] = useState([]);
+    const [initials, setInitials] = useState([]);
+
 
     function handleClick(num) {
         setActivePage(num);
@@ -46,20 +49,6 @@ const Books = () => {
         setAlpha(value);
     }
 
-    useEffect(() => {
-        const getBooks = async() => {
-            await apiClient
-                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, genre_filter_term: genre, numpages_filter_term: numpages, alpha_filter_term: alpha}})
-                .then((response) => {
-                    setBooks(response.data["books"]);
-                    setPagination(response.data["pagination"]);
-                })
-                .catch((err) => console.log(err));
-            setLoaded(true);
-        };
-        getBooks();
-    }, [searchTerm, activePage, sort, ascending, genre, numpages, alpha]);
-
     const handleSearch = (searchTerm) => {
         setSearchTerm(searchTerm);
     };
@@ -71,6 +60,22 @@ const Books = () => {
     const handleAscending = (ascending) => {
         setAscending(ascending);
     };
+
+    useEffect(() => {
+        const getBooks = async() => {
+            await apiClient
+                .get(`books`, {params: {page: activePage, search_term: searchTerm, sortBy: sort, asc: ascending, genre_filter_term: genre, numpages_filter_term: numpages, alpha_filter_term: alpha}})
+                .then((response) => {
+                    setBooks(response.data["books"]);
+                    setPagination(response.data["pagination"]);
+                    setGenres(response.data['filters']['genres']);
+                    setInitials(response.data['filters']['initials']);
+                })
+                .catch((err) => console.log(err));
+            setLoaded(true);
+        };
+        getBooks();
+    }, [searchTerm, activePage, sort, ascending, genre, numpages, alpha]);
 
     return (
         <Container className="p-4">
@@ -85,10 +90,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Genre"
-                    items={["Biography & Autobiography", "Literary Collections", "Literary Criticism",
-                    "Poetry", "Comics & Graphic Novels", "Social Science", "Criticism", "Drama", "History", "Juveline Nonfiction",
-                    "Reference", "Juvenile Fiction", "Young Adult Fiction", "Travel", "Language Arts/Disciplines",
-                    "Philosophy", "Education", "Science", "Fiction"]}
+                    items={genres}
                     onChange={handleGenreFilter}/></Col>
 
                     <Col>
@@ -100,8 +102,7 @@ const Books = () => {
                     <Col>
                     <FilterDropdown
                     title="Title"
-                    items={["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
-                    "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]}
+                    items={initials}
                     onChange={handleAlphaFilter}/></Col>
                 </Row>
             </Container>
@@ -114,7 +115,7 @@ const Books = () => {
 
             {/* Card Grid */}
             <Container fluid>
-                <Row xl={5} lg={4} md={3} sm={2} xs={1}>
+                <Row xl={3} lg={3} md={2} sm={2} xs={1}>
                     { loaded ? (
                         books.map((bookData) => {
                             return ( 
