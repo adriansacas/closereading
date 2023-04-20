@@ -10,25 +10,6 @@ const MedicationsVsRoute = () => {
     const [data, setData] = useState([]);
     const [routeCounts, setRouteCounts] = useState([]);
 
-    function processData() {
-        const groupedData = data.reduce((acc, curr) => {
-            const t_route = curr.route;
-            if (!acc[t_route]) {
-                acc[t_route] = { count: 0 };
-            }
-            acc[t_route].count += 1;
-            return acc;
-        }, {});
-
-
-        const ratings = Object.keys(groupedData)
-            .map(t_route => {
-                const { count } = groupedData[t_route];
-                return { t_route, count };
-            });
-        setRouteCounts(ratings);
-    }
-
 
     useEffect(() => {
         const getData = async() => {
@@ -44,8 +25,26 @@ const MedicationsVsRoute = () => {
 
 
     useEffect(() => {
+        const processData = () => {
+            const groupedData = data.reduce((acc, curr) => {
+                const t_route = curr.route;
+                if (!acc[t_route]) {
+                    acc[t_route] = { count: 0 };
+                }
+                acc[t_route].count += 1;
+                return acc;
+            }, {});
+
+
+            const ratings = Object.keys(groupedData)
+                .map(t_route => {
+                    const { count } = groupedData[t_route];
+                    return { t_route, count };
+                });
+            setRouteCounts(ratings);
+        }
         processData();
-    }, [data, processData]);
+    }, [data]);
 
 
     return (
