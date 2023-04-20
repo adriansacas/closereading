@@ -122,7 +122,7 @@ const Libraries = () => {
                     { loaded ? (
                         libraries.map((libraryData) => {
                             return (
-                                <Col key={libraryData.id} className="flex-grow-0">
+                                <Col key={libraryData.id} className="d-flex align-self-stretch">
                                     <LibraryCard libraryData={libraryData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )

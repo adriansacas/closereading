@@ -119,7 +119,7 @@ const Books = () => {
                     { loaded ? (
                         books.map((bookData) => {
                             return ( 
-                                <Col key={bookData.id} className="flex-grow-0">
+                                <Col key={bookData.id} className="d-flex align-self-stretch">
                                     <BookCard bookData={bookData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )

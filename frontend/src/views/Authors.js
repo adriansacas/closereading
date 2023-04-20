@@ -122,7 +122,7 @@ const Authors = () => {
                     { loaded ? (
                         authors.map((authorData) => {
                             return (
-                                <Col key={authorData.id} className="flex-grow-0">
+                                <Col key={authorData.id} className="d-flex align-self-stretch">
                                     <AuthorCard authorData={authorData} searchTerm={splitSearchTerms(searchTerm)} />
                                 </Col>
                             )
