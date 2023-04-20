@@ -48,7 +48,7 @@ const RatingsByState = () => {
 
     useEffect(() => {
         processData();
-    }, [data]);
+    }, [data, processData]);
 
 
     return (

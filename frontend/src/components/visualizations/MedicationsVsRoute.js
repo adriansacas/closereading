@@ -45,7 +45,7 @@ const MedicationsVsRoute = () => {
 
     useEffect(() => {
         processData();
-    }, [data]);
+    }, [data, processData]);
 
 
     return (
