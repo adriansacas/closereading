@@ -8,30 +8,6 @@ const RatingsByState = () => {
     const [data, setData] = useState([]);
     const [avgRatingsByState, setAvgRatingsByState] = useState([]);
 
-    function processData() {
-        const stateRegex = /([A-Z]{2})\s+\d{5}/;
-    //     group the locations by state and compute the avg rating
-        const groupedData = data.reduce((acc, curr) => {
-            const match = curr.address.match(stateRegex);
-            const state = match ? match[1] : 'unknown';
-            if (!acc[state]) {
-                acc[state] = { totalRating: 0, count: 0 };
-            }
-            acc[state].totalRating += curr.rating;
-            acc[state].count += 1;
-            return acc;
-        }, {});
-
-        const ratings = Object.keys(groupedData)
-            .map(state => {
-                const { totalRating, count } = groupedData[state];
-                const avgRating = totalRating / count;
-                return { state, avg_rating: Math.round(avgRating * 100) / 100 };
-            })
-            .sort((a, b) => b.avg_rating - a.avg_rating);
-        setAvgRatingsByState(ratings);
-    }
-
 
     useEffect(() => {
         const getData = async() => {
@@ -47,6 +23,29 @@ const RatingsByState = () => {
 
 
     useEffect(() => {
+        const processData = () => {
+            const stateRegex = /([A-Z]{2})\s+\d{5}/;
+            //     group the locations by state and compute the avg rating
+            const groupedData = data.reduce((acc, curr) => {
+                const match = curr.address.match(stateRegex);
+                const state = match ? match[1] : 'unknown';
+                if (!acc[state]) {
+                    acc[state] = { totalRating: 0, count: 0 };
+                }
+                acc[state].totalRating += curr.rating;
+                acc[state].count += 1;
+                return acc;
+            }, {});
+
+            const ratings = Object.keys(groupedData)
+                .map(state => {
+                    const { totalRating, count } = groupedData[state];
+                    const avgRating = totalRating / count;
+                    return { state, avg_rating: Math.round(avgRating * 100) / 100 };
+                })
+                .sort((a, b) => b.avg_rating - a.avg_rating);
+            setAvgRatingsByState(ratings);
+        }
         processData();
     }, [data]);
 
