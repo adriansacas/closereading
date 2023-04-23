@@ -98,7 +98,7 @@ const Library = () => {
                     <Row className={"p-4"}>
                         <Col>
                             <Row>
-                                <h2>Libraries</h2>
+                                <h2>Authors</h2>
                             </Row>
                             <Row xl={3} lg={3} md={2} sm={2} xs={1} className="p-4 g-4 justify-content-center">
                                 {authors.map((author) => {
